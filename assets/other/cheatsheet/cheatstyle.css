@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  display: inline-block;
+  width: 100%;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+@media screen and (max-width: 1000px){
+  .cheat-sheet{
+    width: 100%;
+    margin: 0.5em 0em! important;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px){
+  .cheat-sheet{
+    flex: 45%;
+    border-radius: 1em;
+  }
+}
+
+@media screen and (min-width: 1500px)  {
+  .cheat-sheet{
+    flex: 30%;
+    border-radius: 1em;
+  }
+}
+
+
+.cheat-sheet{
+  background: #f2f2ff;
+  padding: 1em;
+  margin: 0.5em;
+  float: left;
+  border: 1px solid #000000;
+  
+  word-wrap: break-word;
+
+}
+
+.sheets {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 0 0 0 0;
+    padding: 0 25px;
+    display: block;
+    clear: both;
+    border: 1px solid #E4E6E9;
+    background: #F3F4F5;
+    line-height: 150%;
+}
+
+code.lua {
+  color: #000000;
+  font-family: 'courier new';
+  border: 0px;
+  word-wrap: break-word;
+  padding: 0px 0px 0px 0px;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 0 0 24px 0;
+    padding: 0 25px;
+    display: block;
+    clear: both;
+    border: 1px solid #E4E6E9;
+    background: #F3F4F5;
+}

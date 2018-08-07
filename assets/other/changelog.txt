@@ -1,0 +1,427 @@
+---------------------------------
+IceSL version 2.2-beta11 - 2018-06-11
+---------------------------------
+- added set_setting_value for per layer settings
+- fixed issue with shield producing large GCode with polygonal slicer
+- font geometry creation support for unicode text
+	* unicode support also extended to lua 'print' function.
+
+---------------------------------
+IceSL version 2.2-beta10 - 2018-06-07
+---------------------------------
+- Users can now set printing settings directly from the lua script:
+	* set_setting_value('printer_setting', value)
+	* the above supports integer, float, boolean, combo boxes, and fields (i.e., painting) settings
+- Added the possibility to choose the slicing algorithm:
+	* Auto: let IceSL decide
+	* Discrete: robust method, performs well on highly detailed shapes, can slice anything (STLs, implicits, voxels), performance depends heavily on GPU specs and object XY extent. Method of choice for complex models.
+	* Polygonal: limited to meshes with no defects, does not depend on GPU specs, performs well regardless of object XY extent, demanding on high polygon counts. Method of choice when slicing a single STL.
+- Improved ttf font geometry generation
+- Minor bugs fixed
+
+---------------------------------
+IceSL version 2.2-beta8 - 2018-05-30
+---------------------------------
+- fixed major bug related to path orientation on filament slicing
+- deprecated set_tesselation_factor (currently a UI option)
+- custom printer settings can now be added to IceSL's UI from a printer profile:
+	* use the following functions in file 'features.lua':
+		- add_setting('internal_name', 'display name', min_value, max_value)
+		- add_checkbox_setting('internal_name', 'display name')
+	* these added custom settings can be queried in file 'printer.lua'
+	* Example:
+		- add_checkbox_setting('auto_leveling', 'Auto Leveling')	[features.lua]
+		- auto_leveling = false # default value				[features.lua]
+		- if auto_leveling == true then ... end				[printer.lua]
+- smooth_voxels bug fixed
+- font geometry improved
+- added function 'load_image' (see documentation)
+- fixed bug with support pillar anchors
+- improved g-code previewer visualization
+
+---------------------------------
+IceSL version 2.2-beta7 - 2018-05-25
+---------------------------------
+- improved path calculation in new infill methods
+
+---------------------------------
+IceSL version 2.2-beta6 - 2018-05-24
+---------------------------------
+- new infill methods; progressive, cubic, polyfoam. Polyfoam infills are usefull for certain physical properties.
+- lua script error lines now correctly reported and marked up on Forge editor
+- implicit error reporting greatly improved
+- fixed cylinder creation bug when not strictly Z oriented 
+- Slicer:
+	* printing settings can now be loaded from command line
+- Linux:
+	* cursor hidden when sizing widget present
+
+---------------------------------
+IceSL version 2.2-beta4 - 2018-05-02
+---------------------------------
+- fixed bad visualizaton when painting and over the g-code previewer
+- fixed timestamp fetch bug in linux
+- Linux:
+	* improved core-profile complaince with INTEL and NOUVEAU drivers
+
+---------------------------------
+IceSL version 2.2-beta3 - 2018-04-19
+---------------------------------
+- improved opengl context intialization
+- added printer TEVO Tarantula
+
+---------------------------------
+IceSL version 2.2-beta2 - 2018-04-16
+---------------------------------
+- rotate(xd,yd,zd) bug fixed
+- view centering after loading script fixed
+- imgui key_pressed signal bug fixed
+Forge:
+	- Comment/uncomment section bug fix
+
+---------------------------------
+IceSL version 2.2-beta1 - 2018-04-13
+---------------------------------
+- icesl is now OpenGL core-profile compliant
+- added icesl-standard and icesl-deprecated lua libraries
+	* some lua functionality has been deprecated
+- added missing tooltips
+
+---------------------------------
+IceSL version 2.1.13 - 2018-04-12
+---------------------------------
+- added 'sections_extrude' lua function
+- added support for printers:
+	* MP Select Mini 3D Printer V2
+	* Snapmaker 3-in-1
+	* Creality3D CR - 10
+
+---------------------------------
+IceSL version 2.1.13-beta9 - 2018-03-16
+---------------------------------
+- improved infilling using single paths to fill thin gaps
+  (this is controlled by the ‘enable_fit_single_path’ parameter, enabled by default)
+
+---------------------------------
+IceSL version 2.1.13-beta8 - 2018-03-12
+---------------------------------
+- fixed a bug where empty brims would lead to a crash
+- added folder 'events' to IceSL-models examples
+- added scalar printers:
+	* Scalar S model
+	* Scalar L model
+	* Scalar XL premium model
+
+---------------------------------
+IceSL version 2.1.13-beta7 - 2018-03-05
+---------------------------------
+- fixed icesl-slicer crash on minimized window
+
+---------------------------------
+IceSL version 2.1.13-beta6 - 2018-03-04
+---------------------------------
+- fixed a bug where fan speed would be set before writing header ; resulting in issues with some profiles
+
+---------------------------------
+IceSL version 2.1.13-beta5 - 2018-03-02
+---------------------------------
+- renamed “hierarchical” infill to “cubic”, added a “default” choice which selects what we consider the best current infill techniques (depending on constant, per-layer or field density)
+- fixed cursor size not being restored after painting a field
+- fixed cubic infill only taking into account field density (ignoring constant or per layer settings)
+- fixed cubic infill not being disabled on special cases of density = 0% or 100%
+- numerous internal minor improvements
+
+---------------------------------
+IceSL version 2.1.13-beta4 - 2018-02-23
+---------------------------------
+- fixed bug where a ‘array’ difference with single primitive would crash (introduced in beta3)
+- disabled 3D progressive infills for now (introduced in beta3)
+
+---------------------------------
+IceSL version 2.1.13-beta3 - 2018-02-21
+---------------------------------
+- 3d progressive infill (infill_type_*) and option to select extruder for infills
+- added interface to measure distance between points (ctrl + mouse_click)
+- added camera positioning and rotation shortcuts (num_keypad)
+- improved array versions of union, difference and intersection
+- added printing parameter to control fan speed (fan_speed_percent)
+- fixed a bug that crashed IceSL when resizing the window while opening a file
+- fixed minor bugs
+
+---------------------------------
+IceSL version 2.1.13-beta2 - 2018-02-16
+---------------------------------
+- added 'Export to mesh' service
+- services 'Slice to mesh' and 'Slice to ribbon' are now included within 'Export to mesh' serviced
+- added missing supports translations
+- minor fixes
+
+---------------------------------
+IceSL version 2.1.13-beta1 - 2018-02-03
+---------------------------------
+- added settings for supports (ground anchor diameter, pillar width)
+- fixed features.lua overriding profile and material variables
+- smoother trackball behavior
+- bind_tex3d_to_setting (experimental, binds a tex3d from script to a setting, tex3d has to be 64x64x64)
+- to_mesh_dual (experimental, dual contouring mesh extraction)
+
+---------------------------------
+IceSL version 2.1.12 - 2018-02-02
+---------------------------------
+- fixed tooltips disappearing when discarding per-layer/field edits
+- corrected chinese layout
+- fixed crash when script file was rename or moved while loaded in IceSL
+- fixed ui_scalar bug (slider would jump back to default value when selecting sliding all the way right value)
+- fixed random ImGui crash
+- B9Creater and Ember services are no longer supported
+Forge:
+	- updated syntax highlighting rules
+
+---------------------------------
+IceSL version 2.1.11 - 2018-01-24
+---------------------------------
+- paint tweaks (ui_field, ui_field_value_at)
+- chinese localization added
+- save/load tweaks in file specified from script with ui_file
+- scene navigation no longer performs a camera 'roll' (press 'r' in IceSL-slicer to restore roll)
+- added ‘script_file’ built-in variable
+- added ‘enable_variable_cache’ built-in variable
+- cellular_paint model (lua)
+- added brush opacity in paint
+- added 'synthesize' function
+- fixed multiple color mixing bugs
+- fixed cursor disappearing during paint
+- fixed profiles, removing G28 (homing) at the end
+- missing tooltips
+- unified button style across interfaces
+Slicer:
+	- added 'sculpt' and 'paint spikes' effects
+	- user can now enter precise values in mesh scale (icesl-slicer)
+Forge:
+	- fixed editing warning state on first edit
+	- fixed crash when slicing non-saved scripts
+	- fixed bug preventing language change
+	- fixed sizing widget size bug when entering a specific value on non-english windows distributions
+
+---------------------------------
+IceSL version 2.1.10 - 2017-12-13
+---------------------------------
+- 'distribute' centroids are now sorted, this avoids centroids order changing upon different calls, due to distribute's parallel implementation.
+Windows:
+	- Installing with 'all users' option is enabled.
+Slicer:
+	- slicer.lua temporary file is deleted upon exit.
+
+--------------------------------
+IceSL version 2.1.9 - 2017-12-11
+--------------------------------
+- Fixed a case where bottom covers would not appear
+- Small brush sizes are clamped to ensure something is always painted
+
+--------------------------------
+IceSL version 2.1.8 - 2017-12-08
+--------------------------------
+- Fixed and improved several UI and interaction aspects when painting.
+- Parameter 'Number of Covers' is now replaced with 'Cover thickness (mm)'.
+- Fixed painting rendering bug with ATI cards.
+- Improved error reporting from dilate/erode funtions.
+- Fixed minor bugs.
+Forge:
+	- 'Open File' now defaults to IceSL's example folder.
+
+--------------------------------
+IceSL version 2.1.7 - 2017-11-27
+--------------------------------
+(In addition to all features described in beta releases below:)
+
+- Update notifications are now presented as an update icon on the top right corner of the slicer.
+- Further improvements to the SVG slicer (tailored to laser cutting).
+- Improvements to tower generation for multi-material printers.
+- Fixed minor rendering issues.
+- Added French and Spanish missing translations.
+- Added profile for Prusa MK2 Multi-material
+Forge:
+- Fixed minor file management IceSL-forge issues.
+- Backup files are now deleted when the user confirms closing a script without saving.
+Windows:
+- Effects, models and printer profiles have been moved to the User's Application Data folder
+  under the folders 'icesl-effects', 'icesl-models' and 'icesl-printers' respectively.
+Linux:  
+- version is now distributed as a zipped universal binary. See the file 'dependencies.txt' to know the dependencies before running IceSL.
+Scripting:
+- svg_ex: corrected interfaces 'fillColor' and 'strokeColor', they now return a table of three elements containing the normalized (i.e. 0.0 - 1.0) rgb components.
+- svg_ex: added 'hasFill', 'hasStroke' and 'strokeWidth' interfaces.
+- svg_ex: fixed a loading bug, multiple-shape paths are now loaded correctly.
+
+[Important]
+
+We are making some changes to our release policy to allow for faster updates:
+* Linux and Windows versions will no longer be released synchronously: update notifications are now platform-dependent.
+* We have dropped 32bits installers from future releases. Write to us if you really need them.
+* Effects, models and printer profiles are now available as public github repositories (BSD license). We welcome contributions! 
+
+--------------------------------
+IceSL version 2.1.7-beta6 - 2017-11-12
+--------------------------------
+
+- Fixed issue with brim not being generated.
+
+--------------------------------
+IceSL version 2.1.7-beta5 - 2017-11-11
+--------------------------------
+
+- Added option to use a thicker first layer.
+  (variables use_different_thickness_first_layer and z_layer_height_first_layer)
+- New profile for QIDI printer, contributed by user Maze Mietner.
+
+--------------------------------
+IceSL version 2.1.7-beta4 - 2017-11-10
+--------------------------------
+
+- Added option to use a thicker first layer
+  (variables use_different_thickness_first_layer 
+   and z_layer_height_first_layer).
+- Improved tower for switching extruders (purge).
+- Shield no longer used for priming after extruder swap
+  (simpler approach: use tower for priming, shield for protection).
+- Minor GUI improvements.
+- Fixed cases where tower brim overlapped part brim.
+- Fixed rare issue where brim would have incorrect geometry.
+- Added possibility to allow io and os packages in scripts.
+  (GUI menus and command line options --os,--io in icesl-slicer).
+- Printers can now be defined in %appdata%\IceSL 
+  (usually folder C:\Users\YOUR_LOGIN\AppData\Roaming\IceSL\).
+
+--------------------------------
+IceSL version 2.1.7-beta3 - 2017-11-06
+--------------------------------
+
+- Added clipping tool during painting.
+- Added reset button for profiles.
+
+--------------------------------
+IceSL version 2.1.7-beta2 - 2017-11-05
+--------------------------------
+
+- Fixed a bug with painting cursors moving erratically.
+
+--------------------------------
+IceSL version 2.1.7-beta1 - 2017-11-04
+--------------------------------
+
+- Painting possible
+ * Paint where z-seams should go.
+ * Paint interdiction regions for supports.
+ * Paint variable infill densities!!
+- Ability to save / load setting files.
+- Display of z-seams locations on gcode preview.
+- SVG slicer has been thoroughly improved to allow more and better output for laser cutters.
+- Supports no longer produce zero-length pillars.
+- Brim paths are now sorted like all other paths.
+- Revisited thickening of thin features, exposed additional parameters.
+- Fixed shield exiting on assert on multi-material prints.
+- Fixed exit on assert when no paths are produced.
+- Fixed some printer profiles that would not properly prime the filament.
+  after a retract, resulting in holes.
+- Improved slicing robustness.
+- Fixed several rendering issues.
+- Fixed several minor UI issues.
+
+--------------------------------
+IceSL version 2.1.6 - 2017-09-25
+--------------------------------
+
+- Fixed rendering and slicing issues on very small specific objects.
+- Handled cases of primitive creation with NaN or INF parameters.
+- Repositioned g-code window to accommodate to service panel show status.
+- Added missing update text translations.
+- Implemented a timeout (5 seconds) for retrieving update notifications.
+- Improved installer.
+
+--------------------------------
+IceSL version 2.1.5 - 2017-09-20
+--------------------------------
+
+- Added effects for easy customization of models directly in IceSL-slicer!
+- Added multi-material support, with ooze shields, prime towers, and active temperature control.
+- Added Ultimaker 3 support!
+- Exposed many additional settings, for travels in particular.
+- IceSL-slicer can now load models in different brushes, for multi-material printing.
+- Introduced single path fills for shells in thin areas.
+- Improved performance for cursor and tweaks interaction.
+- Novel rendering engine for implicit volumes.
+- Improved path geometry in gcode generation.
+- Added option to disable script auto-execution in IceSL-forge.
+- Service panel status (shown/hidden) is now saved between executions.
+- IceSL can now recover unsaved scripts (i.e. after closing unexpectedly.).
+- Capped cache memory on lua scripts to prevent slow behavior.
+- Fixed filament length calculation issue.
+- Fixed crash while exporting to mesh very small objects.
+- Reworked the advanced settings layout to avoid clogging up the service panel.
+- Increased precision on 3D rotations.
+- Improved GUI interaction and fixed minor GUI issues.
+- Installer no longer requires uninstallation of previous IceSL version.
+
+[Important]
+ * To ease keeping IceSL up to date to the latest 3d specifications, printer profiles are now versioned.
+ * Any user-created printed profile that does not specify a version will be ignored.
+
+--------------------------------
+IceSL version 2.1.3 - 2017-07-27
+--------------------------------
+
+- Improved GUI
+ * Fully translated (en,sp,fr).
+ * Display filament length .
+ * Display estimated print time.
+ * Display model extents in side bar.
+ * Improved per-layer interface.
+ * Fixed issue with numpad input.
+ 
+- Rendering
+ * Added bed display for B9 / Ember.
+ * Fixed bug with bed rendering (incorrect size).
+
+- Slicing
+ * Reduced G-code file size (less comments).
+
+--------------------------------
+IceSL version 2.1.0 - 2017-07-07
+--------------------------------
+
+- Per-layer settings!
+ * Simple UI for specifying smooth, per layer parameter variations.
+ * Smooth adaptive slicing (+ optimizer for automatic selection).
+ * Progressive 3D infills.
+ * Per-layer temperature and speeds.
+
+- Complete overhaul of the user interface:
+ * New Icesl-slicer application for slicing 3D models without having to write scripts.
+ * New setting panel for a simplified slicing experience.
+ * Unified interface for Icesl-forge, Icesl-slicer and SliceCrafter.
+ * Multiple language support (around 90% of the on-screen text), English, Spanish and French are supported.
+ * Profiles for printers and materials (can be customized).
+ 
+- Major improvements to the slicing engine:
+ * Support for per-layer settings across all algorithms.
+ * Support structures now give much better results.
+ * More parameters are exposed for support structures generation.
+ * Fixed bug in preserve thin features, which now works as expected.
+ * Added an optional raft.
+ * Improved retraction strategy and infilling of thin areas.
+ * Slicing now can repair small topological errors.
+
+--------------------------------
+IceSL version 2.0.8 - 2017-06-16
+--------------------------------
+
+- added 64bits version for Windows.
+- added example lattice.lua.
+- added progress bar during slicing in icesl-vanilla.
+- added cancellation of current processing in both icesl-forge and icesl-vanilla.
+- added G-code generation for laser cutters.
+- added possibility to skip releases until next one.
+- improved support for 'distribute' functionality on AMD, Intel and NVidia.
+- improved error reporting.
+- improved UI to show only active brushes and tools.
+- several minor fixes.
