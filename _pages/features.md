@@ -35,7 +35,7 @@ ___
 
 ### Key Features
 
-{% assign sorted_features = (site.pages | where:'categories', 'feature') | sort:'order' %}
+{% assign sorted_features = site.pages | where:'categories', 'feature' | sort:'order' %}
 {% for feature in sorted_features %}
 
 <details  markdown="1"><summary> <b>{{ feature.title }}</b> </summary>
