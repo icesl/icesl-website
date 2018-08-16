@@ -22,3 +22,4 @@ IceSL is a state of the art slicer (STL &rarr; G-code) with advanced modeling ca
 </div>
 
 [banner]:         ../assets/img/banner2.jpeg
+[slicecrafter]:   ../assets/other/slicecrafter/
