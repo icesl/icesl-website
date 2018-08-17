@@ -14,7 +14,7 @@ The packages bellow contain both IceSL-forge and IceSL-slicer for Windows:
 
 - [IceSL 2.2.1 Windows 32 bits][icesl-win32-stable]
 
-{:.text-justify}
+{:.text-left}
 We have had reports of Windows Defender rejecting the download of the above installers. We have contacted Microsoft and this has been fixed. If you encounter any problem with downloading the file, please let us know.
 
 The packages below contain IceSL-slicer for Linux<sup>*</sup>:
@@ -33,7 +33,7 @@ ___
 
 Experiment with the latest features!
 
-{:.text-justify}
+{:.text-left}
 Beta versions are intended to experiment new features prior to release. Everything in beta is subject to change and new features may be unstable. Beta versions are released for 64 bits only.
 
 - No beta version yet for next release.
@@ -46,7 +46,7 @@ ___
 <br>
 #### **IceSL 32 bits versions:**
 
-{:.text-justify}
+{:.text-left}
 In order to speed up updates to IceSL, we are officially discontinuing 32 bits installers from minor versions of IceSL. If you _really_ need a 32 bits build of the current version to run IceSL on your computer, we ask you to contact us (click contact on menu).
 
 **IceSL older versions:**
