@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid $brand-color;
+    border-bottom: 1px solid $brand-color-light ;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -11,7 +11,7 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
@@ -34,13 +34,21 @@
 
     .page-link {
         color: $text-color;
+		transition-property: color;
+		transition-property: border-bottom;
+		transition-duration: 0.2s;
         line-height: $base-line-height;
+		font-weight: bold;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
         }
     }
+	.page-link:hover{
+	color: $brand-color;
+	border-bottom: 2px solid $brand-color;
+	}
 
     @include media-query($on-palm) {
         position: absolute;
