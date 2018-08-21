@@ -16,3 +16,4 @@ sass:
 include: ['_pages']
 
 markdown: kramdown
+remote_theme: andrewbanchich/forty-jekyll-theme
