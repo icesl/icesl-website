@@ -1,0 +1,39 @@
+- title: Software
+  url: /software/
+  sublinks:
+    - title: IceSL
+      url: /install-quick-start/
+    - title: IceSL Forge
+      url: /team/
+    - title: SliceCrafter Online
+      url: http://shapeforge.loria.fr/slicecrafter/
+    - title: License
+      url: /license/
+    - title: Scripting
+      url: /scripting/
+    - title: Cheatsheet
+      url: /cheatsheet/
+- title: Features
+  url: /features/
+- title: Download
+  url: /download/
+- title: Community
+  url: /community/
+  sublinks:
+    - title: Install & quick start
+      url: /install-quick-start/
+    - title: Tutorials
+      url: /team/
+    - title: Forum
+      url: https://groups.google.com/forum/#!forum/icesl
+    - title: FAQ
+      url: /faq/
+- title: Gallery
+  url: /gallery/
+- title: Contact
+  url: /contact/
+  sublinks:
+    - title: About IceSL
+      url: /about-icesl/
+    - title: Team
+      url: /team/
