@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 3
 layout: default
 title: Features
 permalink: /features/

@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 4
 layout: default
 title: Download
 permalink: /download/

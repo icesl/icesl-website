@@ -6,6 +6,7 @@ title: Per-layer settings
 ---
 
 IceSL gives you unprecedented control over your prints by allowing most settings to be specified per-layer, with smooth variations. This is done through a simple interface specifying parameter values at different heights.
+{: class="feature_paragraph"}
 
 [![][per-layer]{:.img-small}][per-layer]
 
