@@ -7,21 +7,18 @@ sitemap:
     lastmod: 2017-11-02
     changefreq: weekly
 ---
-## About our Site
 
-<span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
+{:.text-justify}
+Our aim is to make our latest research in modeling and slicing available as quickly as possible, in powerful yet accessible software. It integrates several ground breaking ideas that our team developed over the years, such as cubic/tetrahedral infills, bridge support structures, optimal adaptive layer thickness optimization, progressive infills, efficient offsetting, tight protective shields, maximal self-supporting cavities, and advanced path planning for dual-color printing<sup>1</sup>. Several of these features have inspired other slicers. Why wait? You can benefit from latest advances right now in IceSL! (and it is free, see our license).
 
-Making steady content and conveying it well takes a great deal of research and, hence, time and exertion. Building a profound established comprehension of your target customer needs is critical as your principle objective ought to be to fulfill their requirements as awesome content. You should need to enhance their lives. Having significant content like this may not be simple by any methods. Be that as it may, in any case, it's a fundamental apparatus in the event that you expect to grow a fruitful and supportable business in the present web focused world.
+IceSL core technology is exposed through three different software:
 
-Receiving the benefits of content is a certain something. Be that as it may, it's so substantially less demanding once you begin conveying all the more successfully. The profitable content thought isn't just about bragging your item's capacities and general worth or your organization's achievements. You should concentrate less on advertising how awesome your item is and rather concentrate on indicating how valuable it is. This is a client focused approach as it concentrates on their issues and your answer for them. Making yourself fundamental is critical.
+{:.text-justify}
+<a href="{{ page.url | prepend: site.baseurl }}" class="button">IceSL-forge</a> &nbsp; is the most complete and powerful software. It combines modeling and slicing and gives unprecedented flexibility for modeling and fabricating complex, customizable shapes. Modeling is done through scripting with a Lua-based language that allows to describe boolean combinations of shapes (triangle meshes, voxels, implicit surfaces, shaders). Thanks to state of the art rendering technology, all operations are performed interactively with real-time feedback , allowing interactive customization of model parameters. The same technology enables efficient slicing and generation of printer instructions (e.g. G-code), avoiding the expensive step of producing a mesh. Nothing stands between your model and your printer!
 
-### Content is Imortant
-<div class="box">
-  <p>
-  In saying that, a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
-  </p>
-</div>
+{:.text-justify}
+<a href="{{ page.url | prepend: site.baseurl }}" class="button">IceSL-slicer</a> 
+&nbsp; focuses on slicing. Given a 3D model (e.g. STL), it will use our slicing technology to generate instructions for your printer (G-code, but also images for DLP printers and cutting paths for laser cutters).
 
-<span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
-
-On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
+{:.text-justify}
+<a href="{{ page.url | prepend: site.baseurl }}" class="button">Slicecrafter</a> &nbsp; is an online version of our slicing technology. It is less powerful than IceSL-slicer, but runs entirely from within a web browser.
