@@ -1,6 +1,6 @@
 ---
 order: 3
-layout: default
+layout: feature
 title: SliceCrafter
 permalink: /slicecrafter/
 exclude: false

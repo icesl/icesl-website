@@ -1,7 +1,7 @@
 ---
 order: 5
-layout: default
-title: Cheat-sheet
+layout: feature
+title: Cheatsheet
 permalink: /cheatsheet/
 exclude: false
 ---

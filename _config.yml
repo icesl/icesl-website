@@ -1,10 +1,10 @@
 # Site
 title:              IceSL
 bio:                'IceSL'
-description:        "IceSL"
+description:        "A modeler/slicer for 3D printing"
 locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "" #"http://icesl.loria.fr" # the subpath of your site, e.g. /blog
+url: "http://icesl.loria.fr" # the base hostname & protocol for your site
 
 defaults:
 - scope:
@@ -35,15 +35,14 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+twitter:            iceslapp
+github:             shapeforge
+google:             icesl
 
 # personal
 location:           Nancy, France
 phone:              
-email:               sylvain.lefebvre@inria.fr
+email:              sylvain.lefebvre@inria.fr
 
 # Gems
 gems:
@@ -60,4 +59,4 @@ jekyll-mentions:
     base_url: https://github.com
 
 # Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE.md, Rakefile, old]

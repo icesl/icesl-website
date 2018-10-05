@@ -1,6 +1,6 @@
 ---
 order: 4
-layout: default
+layout: feature
 title: Documentation
 permalink: /documentation/
 exclude: false
@@ -18,7 +18,7 @@ We welcome community questions, corrections, suggestions and submissions for new
 
 ### Tutorials
 
-{% assign sorted_tutorials = site.pages | where:'categories', 'tutorial' | sort:'order' %}
+{% assign sorted_tutorials = (site.pages | where:'categories', 'tutorial') | sort:'order' %}
 {% for tutorial in sorted_tutorials %}
 
 <details  markdown="1"><summary> <b>{{ tutorial.title }}</b> </summary>
@@ -31,7 +31,7 @@ ___
 <br>
 ### Guides
 
-{% assign sorted_guides = site.pages | where:'categories', 'guide' | sort:'order' %}
+{% assign sorted_guides = (site.pages | where:'categories', 'guide') | sort:'order' %}
 {% for guide in sorted_guides %}
 
 <details  markdown="1"><summary> <b>{{ guide.title }}</b> </summary>

@@ -1,7 +1,8 @@
 <ul class="links">
-  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Theme Home</a></li>
-  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About</a></li>
-  <li class="{% if page.url contains '/features/' %} active {% endif %}"><a href="{{ "/features/" | absolute_url }}">Features</a></li>
-  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Blog</a></li>
-  <li class="{% if page.url contains '/cheatsheet/' %} active {% endif %}"><a href="{{ "/cheatsheet/" | absolute_url }}">Cheatsheet</a></li>
+  {% assign sorted_pages = site.pages | sort:'order' %}
+  {% for page in sorted_pages %}
+    {% if page.exclude == false %}
+     <li><a href={{page.permalink}}>{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>

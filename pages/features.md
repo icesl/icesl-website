@@ -1,6 +1,6 @@
 ---
-order: 3
-layout: default
+order: 1
+layout: feature
 title: Features
 permalink: /features/
 exclude: false
@@ -31,14 +31,13 @@ IceSL core technology is exposed through three different software:
 {% endfor %}
 
 ___
-<br>
 
 ### Key Features
 
-{% assign sorted_features = site.pages | where:'categories', 'feature' | sort:'order' %}
+{% assign sorted_features = (site.pages | where:'categories', 'feature') | sort:'order' %}
 {% for feature in sorted_features %}
 
-<details  markdown="1"><summary> <b>{{ feature.title }}</b> </summary>
+<details markdown="1"><summary> <b>{{ feature.title }}</b> </summary>
 <br>
   {{ feature.content }}
 </details>

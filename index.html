@@ -4,7 +4,7 @@ title: IceSL
 description: Welcome to IceSL!
 sitemap:
     priority: 1.0
-    lastmod: 2017-11-02
+    lastmod: 2018-10-05
     changefreq: weekly
 ---
 <!DOCTYPE HTML>
@@ -29,8 +29,6 @@ sitemap:
 					<div id="intro">
             <h1>{{site.title}}</h1>
 						<h2>Advanced modeling and slicing for 3D printing</h2>
-						<!-- <p>Massively is an HTML5 website theme designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>. Jekyll integration by <a href="https://somiibo.com">Somiibo</a></p> -->
 						<ul class="actions">
 							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -48,15 +46,24 @@ sitemap:
 
 						<ul class="icons">
               <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+              <li><a href="https://groups.google.com/forum/#!forum/{{site.github}}" class="icon fa-google" rel="nofollow"><span class="label">Google</span></a></li>
               <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
+
+  				<article class="post featured">
+          {% for page in site.pages %}
+            {% if page.categories contains 'home' %}
+              {{ page.content }}
+            {% endif %}
+          {% endfor %}
+					</article>
+
 						<!-- Featured Post -->
+              <!--
 							<article class="post featured">
 								<header class="major">
 									<h2><a href="#">Massively is a versatile Jekyll theme</a></h2>
@@ -75,8 +82,10 @@ sitemap:
 								 </p>
 
 							</article>
+              -->
 
 						<!-- Posts -->
+            <!--
 							<section class="posts">
                 {% for post in site.posts limit:3 %}
                 {% assign mod3 = forloop.index | modulo: 3 %}
@@ -102,18 +111,21 @@ sitemap:
                 {% endfor %}
 
 							</section>
+            -->
 
 						<!-- Footer -->
 							<footer>
                 <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
+                  <li><a href="https://groups.google.com/forum/#!forum/{{site.github}}" class="button">Our Forum</a></li>
                 </ul>
 							</footer>
 
 					</div>
 
 				<!-- Footer -->
+        <!--
         {% include foot.html %}
+        -->
 
 			</div>
 

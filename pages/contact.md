@@ -1,6 +1,6 @@
 ---
-order: 7
-layout: default
+order: 6
+layout: feature
 title: Contact
 permalink: /contact/
 exclude: false
@@ -30,7 +30,6 @@ Questions? Look here first.
 <br>
 
 ____
-<br>
 
 ### License
 <sup>_Free for research purposes_</sup>
@@ -43,7 +42,6 @@ We kindly as you to cite our work and IceSL in your publications (e.g., paper, w
 <br>
 
 ____
-<br>
 
 ### System Requirements
 
@@ -63,7 +61,6 @@ And in the following OS's:
 <br>
 
 ____
-<br>
 
 
 **Contact information:**
