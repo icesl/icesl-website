@@ -5,7 +5,6 @@ categories: home
 # IceSL
 ## Welcome to the official site of IceSL
 
-{:.text-justify}
 IceSL is a state of the art slicer (STL &rarr; G-code) with advanced modeling capabilities. You can [download it now][download] , or try its [online version][slicecrafter]. Head to the [features page][features] to know all about IceSL's cutting edge technology. For documentation, guides, tutorials and references about using IceSL, go to the [documentation section][documentation] as well as the handy [cheatsheet][cheatsheet] we've created. If you want to ask a question about IceSL or inquire about licensing, please reach us through our [forum][forum] or go to the [contact page][contact] where there is a F.A.Q section.
 
 ![][banner]{:.img-banner}
