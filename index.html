@@ -27,7 +27,7 @@ sitemap:
 
 				<!-- Intro -->
 					<div id="intro">
-            <img src="{{ "/assets/img/logo.png" | absolute_url }}"/>
+            <img src="{{ "/assets/img/logo.png" | prepend: site.baseurl }}"/>
             <hr>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
@@ -39,7 +39,7 @@ sitemap:
 <!--
 						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
 -->
-						<a href="{{ "/" | absolute_url }}" class="logo" style="border-style:none"><img height="50px" src="{{ "/assets/img/name-cropped2.png" | absolute_url }}"/></a>
+						<a href="{{ "/" | absolute_url }}" class="logo" style="border-style:none"><img height="50px" src="{{ "/assets/img/name-cropped2.png" | prepend: site.baseurl }}"/></a>
 					</header>
 
 				<!-- Nav -->

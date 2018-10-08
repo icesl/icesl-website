@@ -2,7 +2,7 @@
   {% assign sorted_pages = site.pages | sort:'order' %}
   {% for page in sorted_pages %}
     {% if page.exclude == false %}
-     <li><a href={{page.permalink}}>{{ page.title }}</a></li>
+     <li><a href={{ page.permalink | prepend: site.baseurl }}>{{ page.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
