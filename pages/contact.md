@@ -6,18 +6,20 @@ permalink: /contact/
 exclude: false
 ---
 
+The best and most straightforward way to reach us is through [our forum][forum].
+
 ### F.A.Q.
 
 Questions? Look here first.
 
 - I found a bug, have a feature request, or a model that does not print well. Who should I contact?
-  + The best is to join our [forum][forum] or to contact _sylvain . lefebvre at inria.fr_ **or** _yamil - salim . perchy at inria.fr_
+  + Join our [forum][forum] or contact _sylvain . lefebvre at inria.fr_ **or** _yamil - salim . perchy at inria.fr_
 - Do you provide examples?
   + Yes! IceSL comes with many examples, located in the 'icesl-models' folder. On a default install, this folder should be accessible by clicking _File_ &rarr; _Open assets folder_.
 - Can I output an STL?
   + Yes. Select a mesh export in the top right 'Service' menu (see tooltips for details). Keep in mind though that IceSL is best used slicing directly.
 - How about MacOS?
-  + Unfortunately, and as far as we know, there is no support for OpenGL 4.2 under MacOS and we need this to port IceSL. If OpenGL 4.2 becomes available we will work hard to port IceSL to Mac!
+  + Unfortunately, and as far as we know, there is no support for OpenGL 4.2 under MacOS and this is required to build IceSL. Whenever OpenGL 4.2 becomes available we will work hard to release IceSL on MacOS! In the meanwhile, please use the [web version][slicecrafter].
 - Could the produced G-Code break my printer?
   + Despite all the care we take to avoid it, bad things could happen. So yes, be careful, monitor the print, especially the start. We've never broken a printer, but we are extra careful.
 - Text editor?
@@ -37,7 +39,7 @@ ____
 IceSL is free for research purposes (contact us for all other cases). The full license text is [here][license].
 
 {:.text-justify}
-We kindly as you to cite our work and IceSL in your publications (e.g., paper, web page, blog, source code, etc.). If you implement features similar to those introduced in IceSL to your slicer, please also acknowledge IceSL (or the corresponding publication) as the source of inspiration. This is very important for us to get support and continue our research. 
+We kindly as you to cite our work and IceSL in your publications (e.g., paper, web page, blog, source code, etc.). If you implement features similar to those introduced in IceSL to your slicer, please also acknowledge IceSL (or the corresponding publication) as the source of inspiration. This is very important for us to get funding and/or support and continue our research. 
 
 <br>
 
@@ -133,8 +135,8 @@ ____
   <td>Charles Helbing</td>
 </tr>
 </table>
-<sup>1. Creator, lead.</sup><br>
-<sup>2. Support, testing, localization.</sup>
+<sup>1. Creator, lead, coding.</sup><br>
+<sup>2. Coding, support, testing, documenation, localization.</sup>
 
 **Acknowledgements:**
 
@@ -142,8 +144,9 @@ This work is supported by ERC grant ShapeForge (StG-2012-307877)
 
 
 
-[forum]:    https://groups.google.com/forum/#!forum/icesl
-[license]:  ../assets/pdf/EULA_IceSL_binary.pdf
+[forum]:          https://groups.google.com/forum/#!forum/icesl
+[license]:        ../assets/pdf/EULA_IceSL_binary.pdf
+[slicecrafter]:   ../assets/other/slicecrafter/
 
 [sylvain]:      http://www.antexel.com/research
 [salim]:        https://members.loria.fr/sperchy

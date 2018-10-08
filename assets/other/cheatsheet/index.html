@@ -27,7 +27,7 @@
 		<div class="cheat-sheet">
 			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Vectors">Vectors</a> and <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Matrices">Matrices</a> </h3>
 			<p>
-			<pre><code class="lua">v (x, y [,z]) | v {x, y [,z]}<br>m (n11, n12, ..., n44) | m {n11, n12, ..., n44}</code></pre>
+			<pre><code class="lua">v (x, y [,z]) | v {x, y [,z]}<br>v.x|y|z<br>m (n11, n12, ..., n44) | m {n11, n12, ..., n44}<br>m:at(c,r)</code></pre>
 			</p>
 		</div>
 		
@@ -63,7 +63,7 @@
 		<div class="cheat-sheet">
 			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Non-primitive_Shapes">Non-primitive Shapes</a> </h3>
 			<p>
-			<pre><code class="lua">linear_extrude (dir, {points})<br>linear_extrude_from_oriented (dir, {points})<br>rotate_extrude ({points}, nsteps)</code></pre>
+			<pre><code class="lua">linear_extrude (dir, {points})<br>linear_extrude_from_oriented (dir, {points})<br>rotate_extrude ({points}, nsteps)<br>sections_extrude (contours)</code></pre>
 			</p>
 		</div>
 		

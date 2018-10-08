@@ -16,7 +16,10 @@
 
 				<!-- Header -->
         <header id="header">
-          <a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+<!--
+						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+-->
+						<a href="{{ "/" | absolute_url }}" class="logo" style="border-style:none"><img height="50px" src="{{ "/assets/img/name-cropped2.png" | absolute_url }}"/></a>
         </header>
 
 				<!-- Nav -->
@@ -35,11 +38,15 @@
 				<div id="main">
           <section class="post">
     				<header class="major">
+<!--
+            <img class="smallest" src="{{ "/assets/img/logo-cropped1.png" | absolute_url }}"/>
+-->
       				<h1>{{page.title}}</h1>
       				<p>{{page.excerpt}}</p>
       			</header>
       			<p>{{content}}</p>
       			<div class="image main"><img src="{{page.image}}" alt=""></div>
+            <center><img class="smallest" src="{{ "/assets/img/logo-cropped1.png" | absolute_url }}"/></center>
       		</section>
 
 				</div>

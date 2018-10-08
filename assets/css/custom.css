@@ -35,6 +35,10 @@
   height: 200px;
 }
 
+.smallest {
+  height: 100px;
+}
+
 .table-center {
   margin: auto;
 }

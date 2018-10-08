@@ -8,7 +8,7 @@ exclude: false
 
 ## Language Documention
 
-[Scripting][script-doc]
+[Scripting specification][script-doc]
 
 ## Tutorials, Guides & Videos
 
