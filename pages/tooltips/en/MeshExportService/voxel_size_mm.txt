@@ -1,0 +1,6 @@
+﻿Voxel size (mm)
+Smaller values increase precision on meshing, but 
+require more GPU memory and longer processing times.
+Typical values are between 0.01mm and 1.0mm. 
+Increase processing voxel size if IceSL reports an 
+out-of-GPU-memory error.

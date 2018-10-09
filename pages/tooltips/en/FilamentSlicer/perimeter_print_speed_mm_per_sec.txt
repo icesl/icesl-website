@@ -1,0 +1,5 @@
+﻿Print speed on perimeters (mm/sec)
+Printing speed (millimeters per second) for the 
+perimeters. As the perimeters are the most visible
+part of a print, this typically uses a lower speed
+for a smoother surface finish.

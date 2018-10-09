@@ -1,0 +1,7 @@
+﻿Avoid traveling within top (visible) covers
+When enabled, the travel optimizer will avoid 
+traveling within the top (visible) covers. 
+Enable if the extruder leaves a visible mark on 
+flat top surfaces. Leave disabled for faster 
+processing if the print has few top flat surfaces,
+or if aesthetics are not a concern.

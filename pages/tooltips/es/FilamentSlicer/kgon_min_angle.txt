@@ -1,0 +1,3 @@
+Ángulo de soporte
+Ángulo mínimo, en grados, de inclinación de las paredes de relleno
+con respecto a plano xy.

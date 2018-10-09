@@ -1,0 +1,8 @@
+﻿Processing
+正在处理
+Settings
+设置
+Slicing
+正在切片
+Printer
+打印机

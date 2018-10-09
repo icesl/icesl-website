@@ -1,0 +1,18 @@
+﻿Meshing method to use
+The following methods are available:
+
+-Marching cubes: Constructs a mesh from the scene
+using the marching cubes method (SIGGRAPH, 1987).
+
+-Dual Contouring: Constructs a mesh from the scene
+using the dual contouring method (SIGGRAPH, 2002).
+
+-Mesh ribbons: Produces a mesh by only producing
+vertical sides from the slice contours. While
+completely open, the mesh can be processed success-
+fully by most external slicers. 
+
+-Mesh slices: Produces a watertight mesh from the
+slices. The mesh is assembled from the slice contours.
+This process is somewhat slow and not guaranteed 
+to succeed, so prefer ribbons whenever possible.

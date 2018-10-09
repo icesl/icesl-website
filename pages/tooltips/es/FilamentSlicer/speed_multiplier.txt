@@ -1,0 +1,5 @@
+﻿Multiplicador de velocidad
+Multiplicador de velocidad usado en esta brocha.
+Puede ser ajustado para cambiar localmente la velo-
+cidad de impresión. Para este efecto, use diferentes
+brochas en diferentes partes del modelo.

@@ -1,0 +1,3 @@
+﻿Porcentaje de velocidad ventilador
+Velocidad del ventilador de filamento, dado en
+porcentaje de su poder máximo.

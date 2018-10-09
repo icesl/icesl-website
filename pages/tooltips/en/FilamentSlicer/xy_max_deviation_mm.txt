@@ -1,0 +1,3 @@
+Contour deviation in xy plane.
+Maximum deviation (mm) of simplified contours in
+the xy plane.

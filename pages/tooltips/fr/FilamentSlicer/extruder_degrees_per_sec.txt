@@ -1,0 +1,12 @@
+﻿Taux de refroidissement/réchauffement (C/sec)
+Ce paramètre est requis lorsque le contrôle actif
+de température est utilisé. Il permet à IceSL de 
+prédire l'évolution de la température de l'extrudeur.
+La plupart du temps le taux de refroidissement est
+supérieur au taux de réchauffement. Sélectionnez
+le plus lent des deux. Le réchauffement dépend 
+souvent de la température ambiante: il peut être
+nécessaire de réduire la valeur dans des environnements
+froids. Si l'impression s'interrompt momentanément
+après chaque changement d'extrudeur, réduisez cette
+valeur.

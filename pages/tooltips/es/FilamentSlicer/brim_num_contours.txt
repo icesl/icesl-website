@@ -1,0 +1,3 @@
+﻿Número de contornos en el borde
+Número de contornos que forman el borde que
+rodea la base del objeto a imprimir.

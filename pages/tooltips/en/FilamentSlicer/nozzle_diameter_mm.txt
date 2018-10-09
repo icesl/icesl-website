@@ -1,0 +1,3 @@
+﻿Nozzle diameter (mm)
+Diameter of the exit hole of the nozzle installed 
+on the printer.

@@ -1,0 +1,3 @@
+﻿Trancher pour une Ember
+Tranche le modèle pour une Ember [.tar.gz]
+L'archive contient une liste de fichiers image png.

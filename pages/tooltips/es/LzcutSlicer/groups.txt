@@ -1,0 +1,8 @@
+﻿Brush
+Brocha
+Cutter
+Cortadora
+Processing
+Procesamiento
+Slicing
+Seccionamiento

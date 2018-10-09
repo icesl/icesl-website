@@ -1,0 +1,3 @@
+Nombre de côté de la base du cône
+Nombre de côté du polygone régulier définissant la base 
+du cône de distance (impacte la régularité des cellules).

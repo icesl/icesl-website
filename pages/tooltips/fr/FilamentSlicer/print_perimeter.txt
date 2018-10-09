@@ -1,0 +1,7 @@
+﻿Impression du périmètre
+Active ou désactive l'impression du périmètre pour
+cette brush. Désactiver les périmètres et utiliser
+zéro shells permet de ne garder que le motif de 
+remplissage. Désactive les périmètres permet aussi
+de ne pas produire de paroi lorsque des brushs sont
+incluses les unes dans les autres.

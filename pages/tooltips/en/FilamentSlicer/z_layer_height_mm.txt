@@ -1,0 +1,6 @@
+﻿Layer thickness (mm)
+Layer thickness in millimeters (mm). Using smaller
+values makes the part more precise and smooth, but
+requires longer print times as the number of layers
+increases. This parameter can be set per-layer 
+to smoothly vary the thickness.

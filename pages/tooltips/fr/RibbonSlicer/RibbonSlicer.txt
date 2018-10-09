@@ -1,0 +1,7 @@
+﻿Trancher vers des rubans
+Produit un maillage 'ruban' à partir des tranches [.stl]
+Le maillage est généré en formant des rubans verticaux
+le long des contours des tranches. Bien que le 
+maillage soit complètement ouvert de nombreux 
+logiciels de tranchage externes acceptent ce type 
+de modèle en entrée. 

@@ -1,0 +1,6 @@
+﻿Number of shells (integer)
+Number of internal contours parallel to the perimeter. 
+Increase to thicken the print hull. Setting the number 
+of shells to a large value produces only parallel 
+contours, while a value of 0 removes all contours 
+but the perimeter.

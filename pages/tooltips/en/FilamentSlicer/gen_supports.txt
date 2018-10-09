@@ -1,0 +1,3 @@
+﻿Supports
+Generates a support structure in overhanging areas. 
+This is often necessary on complex geometries.

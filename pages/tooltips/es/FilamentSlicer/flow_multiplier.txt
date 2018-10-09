@@ -1,0 +1,5 @@
+﻿Multiplicador de flujo
+Multiplicador del flujo de material mientras se impri-
+me con esta brocha. Aumentar o reducir para forzar
+o reducir la salida plástico. Puede ser usado para
+imprimir partes frágiles (e.g. partes solubles).

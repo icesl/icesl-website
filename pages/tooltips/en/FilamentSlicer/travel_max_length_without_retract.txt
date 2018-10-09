@@ -1,0 +1,11 @@
+﻿Max. travel length w/out retracting
+Maximum travel length in millimiteres (mm) without
+performing a retraction. In many cases IceSL can avoid
+retraction, for instance when traveling within
+a solid layer. This setting controls the maximum
+allowed length without any retraction. It will force
+retraction to occur on any travel longer than the
+selected value. This takes priority over any other
+criterion. Setting a value of 0.0 will force to
+always retract, while a large value will minimize
+retraction. It is recommended to use large values.

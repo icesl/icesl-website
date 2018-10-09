@@ -1,0 +1,8 @@
+﻿Preservar características delgadas
+Habilitar la preservación de características delgadas.
+Por defecto, características delgadas (i.e., más
+pequeñas que el diámetro de la boquilla de impresión)
+serán omitidas en la impresión. Esta opción usa un
+algoritmo experimental que conserva estas caracterís-
+ticas haciéndolas más gruesas y así habilitando su
+impresión.

@@ -1,0 +1,2 @@
+﻿Pixel size (mm)
+Adjust to match the DLP printer setup.

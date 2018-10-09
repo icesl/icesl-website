@@ -1,0 +1,2 @@
+﻿Velocida de desplazamiento (mm/sec)
+Velocidad de desplazamiento (sin cortar) en milímetros por segundo (mm/sec).

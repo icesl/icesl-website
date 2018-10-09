@@ -1,0 +1,3 @@
+Direction d'anisotropie
+Orientation dans le plan xy (en degré) des cellules étirées résultant 
+du niveau d'anisotropie.

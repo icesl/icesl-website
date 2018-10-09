@@ -1,0 +1,6 @@
+﻿Ancho de trazo (px)
+Ancho del trazo de polígonos en pixeles.
+Un ancho de 0.0 genera polígonos rellenos
+por cada figura. En caso contrario (i.e.
+diferente de 0.0), se genera sólamente
+contornos.

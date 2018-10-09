@@ -1,0 +1,9 @@
+﻿Sin desplazamiento en cubiertas superiores
+Si esta opción está activada, el optimizador de
+desplazamiento evitará pasar por las cubiertas
+superiores visibles. Activar si el extrusor deja
+marcas visibles en las superficienes planas
+superiores. Para un procesamiento más rápido,
+desactivar esta opción si la impresión tiene
+pocas superficies planas superiores o si la
+estética de la impresión no es importante.

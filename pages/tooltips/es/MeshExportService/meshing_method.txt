@@ -1,0 +1,19 @@
+﻿Método a usar
+Los siguientes métodos están disponibles:
+
+-Marching cubes: Construye la malla a partir de la
+escena usando el método 'marching cubes' (SIGGRAPH, 1987).
+
+-Dual contouring: Construye la malla a partir de la
+escene usando el método 'dual contouring' (SIGGRAPH, 2002).
+
+-Mesh ribbons: Produce una malla por medio de contornos
+de capas verticales del seccionamiento. Aunque la malla
+resultante es abierta, puede ser procesada con éxito por
+la mayoría de slicers externos.
+
+-Mesh slices: Produce una malla cerrada a partis del
+seccionamiento. La malla es construida a partir de los
+contornos de las capas. Este proceso puede ser lento y
+no está garantizado que termine correctamente, por lo
+tanto use otro método si encuentra algún problema.

@@ -1,0 +1,2 @@
+﻿Power multiplier
+Power multiplier when cutting with this brush.

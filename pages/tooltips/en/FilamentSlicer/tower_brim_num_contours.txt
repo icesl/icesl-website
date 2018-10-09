@@ -1,0 +1,5 @@
+﻿Number of contours in tower brim
+Number of contours on the brim of the prime/wipe tower
+(first layer). As the tower is usually thin and has to resist
+wipe motions from the extruder, it is best to use multiple 
+contours on its brim (e.g. 10).

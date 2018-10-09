@@ -1,0 +1,3 @@
+﻿Habilitar ventilador en primera capa
+Habilitar el ventilador de filamento únicamente
+para la primera capa.

@@ -1,0 +1,5 @@
+﻿Largeur du trait (px)
+Largeur du trait du polygon en px. Une largeur de 0.0
+génère des polygones remplis pour chaque forme.
+Dans le cas opposé (c-à-d différent de 0.0),
+il génère uniquement les contours.

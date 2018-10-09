@@ -1,0 +1,3 @@
+﻿Seccionar para Ember
+Secciona el modelo para impresion en Ember [.tar.gz]
+El archivo producido contiene una lista de imágenes png.

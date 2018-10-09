@@ -1,0 +1,5 @@
+﻿Tower size along Y (mm)
+Size of the tower along Y direction. Increase if the 
+extruder is not properly primed (holes when the 
+extruder resumes printing after a swap), or if the 
+tower is not stable enough when it becomes tall.

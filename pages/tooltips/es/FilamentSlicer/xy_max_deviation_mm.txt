@@ -1,0 +1,3 @@
+Desviación de contornos en plano xy
+Máxima desviación (mm) de los contornos simplificados
+en el plano xy.

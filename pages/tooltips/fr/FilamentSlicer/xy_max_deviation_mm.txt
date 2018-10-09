@@ -1,0 +1,2 @@
+Déviation du contours dans le plan xy.
+Déviation maximum (mm) du contours dans le plan xy.

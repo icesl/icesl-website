@@ -1,0 +1,5 @@
+﻿Target temperature when idle (C)
+This parameter is needed when using active temperature
+control. This is the target temperature of the idle extruder.
+Select the highest value that does not produce oozing
+and ensures the material will not degrade in the nozzle.

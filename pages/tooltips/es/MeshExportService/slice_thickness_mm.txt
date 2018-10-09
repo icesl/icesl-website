@@ -1,0 +1,2 @@
+﻿Espesor de capa (mm)
+Espesor de capa en la dirección Z.

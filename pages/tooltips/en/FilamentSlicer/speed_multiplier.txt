@@ -1,0 +1,5 @@
+﻿Speed multiplier
+Printing speed multiplier for this brush. This can
+be used to change the printing speed locally,
+using different brushes in different parts of the
+object.

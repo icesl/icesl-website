@@ -1,0 +1,4 @@
+Base cell size
+A cell in a sponge-like structure can be thought as
+an 'empty bubble'. This value changes the size of
+'bubbles' and directly affects the infill density.

@@ -1,0 +1,6 @@
+﻿Eviter de voyager sur les surfaces visibles.
+Lorsque activée, cette option permet d'optimiser les
+mouvements de voyage pour éviter de passer au dessus
+des surfaces visibles. Activez cette option si la buse 
+laisse des marques visibles sur les surfaces de dessus.
+Désactiver l'option permet de trancher plus rapidement.

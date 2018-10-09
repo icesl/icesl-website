@@ -1,0 +1,5 @@
+﻿Imprimante
+Sélectionnez votre imprimante. Il est possible 
+d'ajouter de nouvelles imprimantes à IceSL, voir
+le sous-répertoire gcode/ du répertoire d'installation
+ainsi que le Wiki d'IceSL.

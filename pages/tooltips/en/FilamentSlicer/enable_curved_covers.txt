@@ -1,0 +1,3 @@
+﻿Enable curved covers
+Enable the generation of covers that are curved
+with respect to the shape.

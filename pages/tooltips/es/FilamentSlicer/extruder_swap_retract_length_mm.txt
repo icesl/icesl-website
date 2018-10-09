@@ -1,0 +1,4 @@
+﻿Retractación tras intercambio (mm)
+Especifica la longuitud de retractación del filamento
+después de un intercambio de extrusores. Longitudes
+largas previenen exudación de los extrusores inactivos.

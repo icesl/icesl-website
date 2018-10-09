@@ -1,0 +1,6 @@
+﻿Thicken thin features
+Enable to thicken and preserve thin features. 
+By default, thin features, smaller that the nozzle 
+diameter, will be removed. This option uses an 
+experimental algorithm to preserve such features, 
+thickening them so that they can be printed.

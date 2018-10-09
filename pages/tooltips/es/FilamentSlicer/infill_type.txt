@@ -1,0 +1,19 @@
+Tipo de relleno
+Tipo de relleno para esta brocha. IceSL viene con
+cuatro opciones de relleno descritas abajo. Es
+posible agregar rellenos personalizados escribiendo
+su especificación (leer por favor el archivo
+'README.md' en la carpeta 'icesl-infillers'):
+
+-Default(Por defecto): Relleno tetraédricos (óptimos para
+la mayoría de situaciones).
+
+-Progressive(Progresivo): Cambios al porcentaje de
+relleno produce una variación suavizada en el resultado.
+
+-Cubic(Cúbico): Rellenos cúbicos sin variación
+suavizada en el porcentaje de relleno.
+
+-Polyfoam(Esponja): Relleno con estructura esponjosa.
+Ver las opciones más abajo para tener más control en
+el resultado.

@@ -1,0 +1,10 @@
+﻿Voyager seulement en ligne droite
+Par défaut IceSL tente de voyager à l'intérieur des 
+surfaces pleines. Ceci permet de limiter l'apparition
+de fines fibres de plastique (stringing), et permet de 
+réduire le nombre de rétractions. Cependant, les 
+voyages prennent plus de temps car ils suivent les 
+contours des formes. Activer cette option force tous 
+les voyages à se faire en ligne droite. Ceci peut être 
+utile sur des formes très complexes avec de nombreux 
+trous, mais n'est pas recommandé en général.

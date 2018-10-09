@@ -1,0 +1,6 @@
+﻿Grado de discretización en xy (mm)
+Valores menores incrementan la precisión, pero
+requieren más memoria de video y tiempo de proce-
+samiento. Valores comunes están entre 0.01mm y 0.1mm.
+Disminuir el tamaño de losa si se reporta un error
+de falta de memoria de video.

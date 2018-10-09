@@ -1,0 +1,4 @@
+﻿Vitesse de découpe (mm/sec)
+Vitesse de découpe (millimètres par seconde). Utilisez
+une valeur plus faible pour couper plus profondément
+avec une même puissance laser.

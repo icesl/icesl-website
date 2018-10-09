@@ -1,0 +1,2 @@
+﻿Altura de corte de contorno (mm)
+Altura de corte en milímetros (mm) relativo a la parte inferior del objeto.

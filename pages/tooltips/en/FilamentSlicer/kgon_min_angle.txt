@@ -1,0 +1,3 @@
+Overhang angle
+Minimum angle (degrees) between an infill wall and
+the xy plane.

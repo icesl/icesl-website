@@ -1,0 +1,3 @@
+﻿Cutting speed (mm/sec)
+Laser cutting speed (millimeters per second). Reduce
+to cut deeper at the same power level.

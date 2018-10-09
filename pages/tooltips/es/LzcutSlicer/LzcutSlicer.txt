@@ -1,0 +1,2 @@
+﻿Trazado para cortadora láser
+Produce instrucciones para cortadoras láser [.gcode]

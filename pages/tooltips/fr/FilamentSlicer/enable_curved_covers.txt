@@ -1,0 +1,3 @@
+﻿Autoriser les planchers courbes
+Autoriser la génération de planchers incurvés
+en fonction de la forme.

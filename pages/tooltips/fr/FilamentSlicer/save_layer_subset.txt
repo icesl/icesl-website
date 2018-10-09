@@ -1,0 +1,2 @@
+﻿Sauvegarder une partie des tranches
+Sauvegarder uniquement une partie des tranches produites.

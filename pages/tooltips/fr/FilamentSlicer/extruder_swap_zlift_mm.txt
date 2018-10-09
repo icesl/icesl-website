@@ -1,0 +1,7 @@
+﻿Voyage en Z après changement (mm)
+Voyage en Z après changement d'extrudeur.
+Après avoir changé d'extrudeur, lors du voyage vers
+la pièce depuis la zone de changement ou depuis la
+tour, un mouvement haut/bas en Z peut être utile
+pour éviter que l'extrudeur ne s'essuie sur la pièce.
+Une petite valeur est suffisante, e.g. 1 millimètre.

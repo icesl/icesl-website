@@ -1,0 +1,3 @@
+Niveau d'anisotropie
+Lorsque cette valeur décroit, les cellules deviennent plus étirées
+dans la direction d'anisotropie.

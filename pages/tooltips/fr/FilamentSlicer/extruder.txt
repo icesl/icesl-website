@@ -1,0 +1,6 @@
+﻿Extrudeur
+Extrudeur à utiliser pour cette brush. Les brushs 
+permettent d'utiliser un extrudeur différent sur
+différentes parties de l'objet. Depuis un script lua,
+utilisez 'emit(s,b)' avec s une forme et b le numéro
+de la brush.

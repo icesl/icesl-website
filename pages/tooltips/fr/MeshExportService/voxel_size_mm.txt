@@ -1,0 +1,7 @@
+﻿Taille des voxels (mm)
+Des petites valeurs augmentent la précision du
+maillage, mais nécéssite plus de mémoire graphique
+et un plus long temps de calcul. Les valeurs
+traditionnelles sont entre 0.01mm et 1.0mm.
+Augmenter la taille des voxels si IceSL vous indique
+un manque mémoire graphique.

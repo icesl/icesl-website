@@ -1,0 +1,6 @@
+﻿Nb. de contours de la tour
+Nombre de contours de la tour 'prime/wipe'. Utilisez
+plus de contours si l'extrudeur n'est pas prêt lorsqu'il 
+recommence à imprimer (manque de plastique).
+Une autre manière de mieux préparer l'extrudeur est
+d'augmenter la taille de la tour.

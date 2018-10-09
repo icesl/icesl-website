@@ -1,0 +1,4 @@
+﻿Velocidad de la primera capa (mm/sec)
+Velocidad de impresión (milímetros por segundo) de
+la primera capa. Generalmente, se ajusta a una velo-
+cidad baja para aumentar la adhesión.

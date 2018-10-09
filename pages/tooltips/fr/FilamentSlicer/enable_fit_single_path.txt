@@ -1,0 +1,4 @@
+Remplissage avec un seul chemin
+Autorise le trancheur à remplir les espaces fins
+avec un seul chemin (épaisseur variable), à la 
+place du motif de zigzag.

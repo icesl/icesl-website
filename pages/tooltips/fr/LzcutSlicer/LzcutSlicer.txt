@@ -1,0 +1,2 @@
+﻿Contour pour la découpe laser
+Génère des instructions pour une découpeuse laser [.gcode]

@@ -1,0 +1,6 @@
+﻿Discretization step in xy (mm)
+Smaller values increase precision on paths, but 
+require more GPU memory and longer processing times.
+Typical values are between 0.01mm and 0.1mm. 
+Decrease processing tile size if the slicer reports 
+on out of GPU memory error.

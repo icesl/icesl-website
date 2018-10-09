@@ -1,0 +1,6 @@
+﻿Vitesse d'impression supports (mm/sec)
+Vitesse d'impression (millimètres par seconde) 
+pour les supports. Les supports doivent s'imprimer
+correctement pour être rigide, mais n'ont pas de 
+valeur esthétique puisqu'ils sont détruits après
+impression.

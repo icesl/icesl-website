@@ -1,0 +1,6 @@
+﻿Núm. contornos del borde de la torre
+Número de contornos creados en el borde de la torre
+(primera capa). Debido a que la torre es delgada y
+debe resitir movimientos para limpiar el extrusor,
+es recomendado usar multiples contornos en su borde
+(e.g. 10).

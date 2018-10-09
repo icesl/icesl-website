@@ -1,0 +1,7 @@
+﻿Seccionar a cintas
+Produce una malla a partir de capas [.stl]
+La malla es generada a partir de la producción
+exclusiva de costados verticales a partir de los
+contornos de las capas. La malla producida no es
+cerrada, aunque puede ser procesada satisfactoria-
+mente por software externo.

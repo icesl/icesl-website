@@ -1,0 +1,5 @@
+﻿Print speed for supports (mm/sec)
+Printing speed (millimeters per second) for supports.
+Supports must be structurally sound but need not be
+aesthetically pleasing since they are disposed of
+after printing.

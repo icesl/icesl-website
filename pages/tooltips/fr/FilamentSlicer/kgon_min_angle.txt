@@ -1,0 +1,2 @@
+Angle de surplomb
+Angle minimum (en degré) entre une parois de cellule et le plan xy.

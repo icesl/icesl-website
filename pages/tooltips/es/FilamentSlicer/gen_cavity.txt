@@ -1,0 +1,6 @@
+﻿Cavidad
+Ahueca la impresión. Habilitar esta opción para
+reducir considerablemente el material usado y el 
+tiempo de impresión. Para evitar que la impresión
+sea estructuralmente débil, recomendamos usar al
+menos una cavidad.

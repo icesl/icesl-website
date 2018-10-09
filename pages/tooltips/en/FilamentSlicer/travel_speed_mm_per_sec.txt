@@ -1,0 +1,3 @@
+﻿Travel speed (mm/sec)
+Travel speed (millimeters per second) when not
+printing. High travel speeds reduce print time.

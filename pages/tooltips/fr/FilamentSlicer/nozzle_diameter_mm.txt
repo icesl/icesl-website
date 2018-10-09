@@ -1,0 +1,2 @@
+﻿Diamètre de la buse (mm)
+Diamètre de sortie de la buse installée sur l'imprimante.

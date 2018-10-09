@@ -1,0 +1,2 @@
+﻿Bed size x (mm)
+Size (in millimeters) of printing bed, left to right.

@@ -1,0 +1,3 @@
+﻿Volume nécessaire pour purger l'extrudeur (mm3)
+Le volume de matière nécessaire pour purger l'extrudeur 
+avant l'impression

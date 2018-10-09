@@ -1,0 +1,3 @@
+﻿Llenar las brechas minúsculas
+Rellenar las brechas pequeñas generadas por las
+cubiertas y las cavidades.

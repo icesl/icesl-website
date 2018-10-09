@@ -1,0 +1,18 @@
+﻿Méthode de maillage à utiliser
+Les méthodes suivantes sont disponibles
+
+-Marching cubes: Construit un maillage depuis la scène
+en utilisant la méthode des marching cubes (SIGGRAPH, 1987).
+
+-Dual Contouring: Construit un maillage depuis la scène
+en utilisant la méthode dual contouring (SIGGRAPH, 2002).
+
+-Mesh ribbons: Créer un maillage en produisant seulement
+les pans verticaux depuis les contours tranchés. Bien que
+complètement ouvert, le maillage obtenu peut être utilisé
+par la plupart des trancheurs.
+
+-Mesh slices: Créer un maillage fermé depuis les
+tranches. Le aillage est fait à partir du contour des tranches.
+Ce procédé est toutefois lent et n'a aucune garantie de réussir,
+ribbons est préférable quand c'est possible.

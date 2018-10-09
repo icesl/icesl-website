@@ -1,0 +1,7 @@
+﻿Despl. Z tras intercambio (mm)
+Después de un intercambio de extrusores, mientras
+se devuleve de la posición del intercambio o de una
+torre, un movimiento vertical en z puede ser usado
+para prevenir que el extrusor limpie el injector con
+el perímetro. Un valor bajo es a menudo suficiente,
+e.g. 1 milímetro.

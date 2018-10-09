@@ -1,0 +1,6 @@
+﻿Temp. extrusor estado inactivo (C)
+Este parámetro es usado cuando el control activo de
+temperatura está activo e indica la temperatura
+deseada de los extrusores sin actividad. Seleccionar
+el valor más alto que no produzca exudación y no
+degrade el material en el inyector.

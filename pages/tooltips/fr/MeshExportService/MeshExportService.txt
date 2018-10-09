@@ -1,0 +1,8 @@
+﻿Exporter un maillage
+Produit un maillage [.stl]
+Le maillage peut être exporté en utilisant différentes méthodes.
+Actuellement, il y a deux approches principales; (1) mailler
+directement la sortie visuelle depuis IceSL ou (2) assembler les
+contours des tranches et produire un maillage depuis ceux-ci.
+La dernière est utile pour exporter un maillage destiné à être
+trancher dans un autre logiciel qui nécéssiterait un maillage fermé.

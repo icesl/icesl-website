@@ -1,0 +1,3 @@
+Remplir les trous de faible taille 
+Remplir les trous de faible taille laissés par
+les planchers et shells.

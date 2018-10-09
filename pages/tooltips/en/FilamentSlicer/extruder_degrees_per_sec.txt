@@ -1,0 +1,9 @@
+﻿Heating/cooling rate (C/sec)
+This parameter is needed when using active temperature
+control. It tells IceSL how fast an extruder is able to
+cool down and heat. Most often, cooling is faster than
+heating so use the slower of both. Heating is often
+impacted by room temperature: you may want to
+lower this value in cool environments.
+If you notice a pause after an extruder swap, lower
+this value.

@@ -1,0 +1,2 @@
+﻿Cutting outline height (mm)
+Cutting height in millimeters (mm) relative to object's bottom side

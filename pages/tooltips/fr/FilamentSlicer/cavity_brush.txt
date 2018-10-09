@@ -1,0 +1,4 @@
+Brush sur lequel cavité est appliqué
+Sélectionner ici le brush ayant été utilisé pour
+la forme devant être creusé. Laisser inchangé
+en cas de doute. 
