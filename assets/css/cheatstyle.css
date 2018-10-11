@@ -39,11 +39,11 @@ body {
 
 
 .cheat-sheet{
-  background: #f2f2ff;
+  background: rgba(73, 73, 73, 0.1);
   padding: 1em;
   margin: 0.5em;
   float: left;
-  border: 1px solid #000000;
+  border: 1px solid black;
   
   word-wrap: break-word;
 
@@ -62,7 +62,7 @@ code {
     display: block;
     clear: both;
     border: 1px solid #E4E6E9;
-    background: #F3F4F5;
+    background: /*rgba(51, 61, 100, 0);*/#F3F4F5;
     line-height: 150%;
 }
 
@@ -82,5 +82,5 @@ pre {
     display: block;
     clear: both;
     border: 1px solid #E4E6E9;
-    background: #F3F4F5;
+    background: /*rgba(51, 61, 100, 0.1);*/#F3F4F5;
 }

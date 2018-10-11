@@ -1,15 +1,144 @@
 ---
 order: 5
 layout: feature
-title: Cheatsheet
+title: IceSL cheatsheet
 permalink: /cheatsheet/
 exclude: true
 ---
 
-<!--
-<iframe width="100%" height="1000" src="../assets/other/cheatsheet/"></iframe>
--->
+<head>
+<link rel="stylesheet" href="{{ "/assets/css/cheatstyle.css" | prepend: site.baseurl }}" />
+</head>
 
-<script language="javascript">
-window.location.href = "../assets/other/cheatsheet/"
-</script>
+<div class="sheets">
+    <div class="cheat-sheet">
+			<h3> <a href="https://www.lua.org/">Lua</a></h3>
+			<p>
+			<code class="lua"><a href="http://thomaslauer.com/download/luarefv51.pdf">Cheat sheet 1</a></code>
+			<code class="lua"><a href="https://pastebin.com/AU4JGHqC">Cheat sheet 2</a></code>
+			</p>
+		</div>
+
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Vectors">Vectors</a> and <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Matrices">Matrices</a> </h3>
+			<p>
+			<pre><code class="lua">v (x, y [,z]) | v {x, y [,z]}<br>v.x|y|z<br>m (n11, n12, ..., n44) | m {n11, n12, ..., n44}<br>m:at(c,r)</code></pre>
+			</p>
+		</div>
+		
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Vectors.2C_Matrices.2C_Constants_and_Trigonometric_Functions">Operations</a> </h3>
+			<p>
+			let v, m and n be a vector, a matrix and a number respectively:
+			<pre><code class="lua">v + v ; v - v ; v * v ; v / v ; v * n ; v / n ; -v<br>m * m ; m * v<br>dot (v, v)<br>cross (v, v)<br>normalize (v)<br>length (v)<br>inverse (m)</code></pre>
+			</p>
+		</div>
+		
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Constants.2C_Trigonometric_Functions_and_Angles">Constants and trig functions</a> </h3>
+			<p>
+			<pre><code class="lua">Pi ; X ; Y ; Z<br>sin | cos | tan | asin | acos | atan | atan2 (degrees)</code></pre>
+			</p>
+		</div>
+		
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Drawing_and_Scale">Emiting</a> </h3>
+			<p>
+			<pre><code class="lua">emit (shape [, brush])<br>set_brush_color (brush, r, g, b)</code></pre>
+			</p>
+		</div>
+
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Primitive_Shapes">Primitives Shapes</a> </h3>
+			<p>
+			<pre><code class="lua">load | loadmesh | load_centered | load_centered_on_plate (path)<br>sphere(radius [, center])<br>cube | ccube | box (d | dx, dy, dz | v )<br>cone | ccone (r0, r1, h | r0, r1, c0, c1)<br>cylinder | ccylinder (r, h | r, c0, c1])<br>polyhedron ({points}, {indices})<br>Void</code></pre>
+			</p>
+		</div>
+		
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Non-primitive_Shapes">Non-primitive Shapes</a> </h3>
+			<p>
+			<pre><code class="lua">linear_extrude (dir, {points})<br>linear_extrude_from_oriented (dir, {points})<br>rotate_extrude ({points}, nsteps)<br>sections_extrude (contours)</code></pre>
+			</p>
+		</div>
+		
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Implicits">Implicits</a> </h3>
+			<p>
+			<pre><code class="lua">implicit_distance_field (boxMin, boxMax, fragment)<br>implicit_distance_field_from_file (boxMin, boxMax, fileName)<br>implicit_solid (boxMin, boxMax, voxSize, fragment)<br>implicit_solid_from_file (boxMin, boxMax, voxSize, fileName)<br>set_uniform_boolean|scalar|vector|matrix|texture3d (implicit, var_name, var_value)<br>enable_progressive_rendering (implicit, bool)<br><a href="http://mew.cx/glsl_quickref.pdf">GLSL cheat sheet</a></code></pre>
+			</p>
+		</div>
+
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#3D_Textures">3D textures</a> </h3>
+			<p>
+			<pre><code class="lua">tex3d_rgb32f|r32f|rgb8f|r8f (w, h, d)<br>  :set(u, v, w, value)</code></pre>
+			</p>
+		</div>
+    
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Transformations">Transformations</a> </h3>
+			<p>
+			<pre><code class="lua">translate (dx, dy, dz | v)<br>rotate (angle, axis | rx, ry, rz | v)<br>scale (scale | sx, sy, sz | v)<br>mirror (direction)<br>frame (direction)</code></pre>
+			let T and s be a transformation and a shape respectively;
+			<pre><code class="lua">s' = T * s</code></pre>
+			</p>
+		</div>
+		
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Magnets">Magnets</a> </h3>
+			<p>
+			<pre><code class="lua">magnet (name)<br>snap (shape0, magnet0, shape1, magnet1)</code></pre>
+			</p>
+		</div>
+		
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#CSG_Operations">CSG Operations</a> </h3>
+			<p>
+			<pre><code class="lua">union | U (shape0, shape1)<br>union | U {shape0, ..., shapeN}<br>intersection | I (shape0, shape1)<br>intersection | I {shape0, ..., shapeN}<br>difference | D (shape0, shape1)<br>difference | D {shape0, ..., shapeN}</code></pre>
+			</p>
+		</div>
+
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Other_Operations">Other Operations</a> </h3>
+			<p>
+			<pre><code class="lua">merge (s0, s1) | merge {s0, ..., sn}<br>flip (mesh)<br>convex_hull (shape)<br>dilate (mesh, factor)<br>erode (mesh, factor)<br>linear_offset (mesh, direction, offset)<br>linear_offsets (mesh, {directions}, {offsets})</code></pre>
+			</p>
+		</div>
+		
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Shape_Representation">Shape Representation</a> </h3>
+			<p>
+			<pre><code class="lua">to_voxel_solid (shape, voxSize)<br>to_voxel_distance_field (shape, voxSize)
+set_distance_field_iso (voxels, threshold)<br>smooth_voxels | smooth_voxels_preserve_volume (voxels, windowSize)<br>to_mesh (shape, voxSize)<br>voxelize_to_file (shape, voxSize, fileName)<br>distribute (shape, density)</code></pre>
+			</p>
+		</div>
+		
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#From_Asset">Shapes from asset</a> </h3>
+			<p>
+			<pre><code class="lua">load_raw_voxels (fileName, thicken)<br>svg_ex (svg_file, dpi)<br>  :outline() :fill() :stroke() :strokeWidth() :hasFill() :hasStroke()<br>font (ttf_file)<br>  :str(string, tracking)</code></pre>
+			</p>
+		</div>
+
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Tweaks">Tweaks</a> and <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting_-_IceSL-Next#Fields">Fields</a></h3>
+			<p>
+			<pre><code class="lua">ui_scalar (name, default, min, max)<br>ui_field (name, boxMin, boxMax)<br>ui_field_value_at (name, p)<br>ui_file (fileName)<br></code></pre>
+			</p>
+		</div>
+		
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Mesh_Information">Mesh Information</a> </h3>
+			<p>
+			<pre><code class="lua">bbox (shape)<br>  :min_corner() :max_corner() :center() :extent() :empty() :enlarge()<br>mesh_vertices (mesh)<br>mesh_normals (mesh)<br>mesh_local_edge_size (mesh)</code></pre>
+			</p>
+		</div>
+		
+		<div class="cheat-sheet">
+			<h3> <a href="https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting#Miscellaneous_Functions">Misc</a> </h3>
+			<p>
+			<pre><code class="lua">enable_variable_cache = true | false<br>screenshot ()<br>set_tesselation_factor (factor)<br>sleep (ms)<br>dump (shape, filename)</code></pre>
+			</p>
+		</div>
+</div>
