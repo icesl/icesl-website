@@ -3,7 +3,7 @@ order: 5
 layout: feature
 title: Cheatsheet
 permalink: /cheatsheet/
-exclude: false
+exclude: true
 ---
 
 <!--

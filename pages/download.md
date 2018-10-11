@@ -58,7 +58,27 @@ Older versions are available from our archives:
 
 - [Older releases][icesl-releases]
 
+____
 
+### System Requirements
+
+{:.text-justify}
+Please make sure to install the latest drivers for your GPUs. This solves 90% of the cases where IceSL does not run or crashes. IceSL requires a GPU with full OpenGL 4.3 support.
+
+It has been tested on the following hardware:
+- GeForce GTX 480 / 580 / 680 / 970 / Titan / GTX 1080
+- GeForce GT 555M / 610M (nouveau driver)
+- Intel HD Graphics 4400, 4600
+- AMD Radeon 290X
+
+And in the following OS's:
+- Windows 7/10 64 bits
+- Debian stable/testing 64 bits
+
+In case you don't meet the system requirements you can opt to use the [online version][slicecrafter] of IceSL.
+
+
+[slicecrafter]:         ../assets/other/slicecrafter/
 [changelog]:            ../assets/other/changelog.txt
 [icesl-win64-stable]:   https://gforge.inria.fr/frs/download.php/file/37335/IceSL_win64.exe
 [icesl-win32-stable]:   https://gforge.inria.fr/frs/download.php/file/37337/IceSL_win32.exe

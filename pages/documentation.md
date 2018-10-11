@@ -10,6 +10,8 @@ exclude: false
 
 [Scripting specification][script-doc]
 
+[Cheatsheet][cheatsheet]
+
 ## Printing Options
 
 {% include_relative parameters.md %}
@@ -138,3 +140,5 @@ The following is a video introducing IceSL-slicer as an individual component of 
 - [français] [Introduction générale](http://cao.ensa-nancy.net/icesl)
 - [français] [DECOUVERTE, PRESENTATION IceSL [slicer]](https://www.youtube.com/watch?v=IZaYimplBmA)
 - [français] [SLICER IceSL Beta [optimiser, remplissage à l'aide de l'outil brosse]](https://www.youtube.com/watch?v=eNEZHqeN-xc)
+
+[cheatsheet]:     /cheatsheet/

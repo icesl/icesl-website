@@ -8,6 +8,7 @@
   text-align: center;
   //border: 1px solid black
 }
+
 .rightLineCell {
   border-right: 1px solid black
 }
@@ -17,6 +18,32 @@
 
 .text-justify {
   text-align: justify;
+}
+
+.text-color1 {
+  color: rgb(47, 95, 93); /* C64 M0 J27 N0 */
+}
+
+.text-color2 {
+  color: rgb(48, 61, 94); /* C0 M0 J0 N85 */
+}
+
+.text-color3 {
+  color: rgb(51, 61, 100); /* C0 M0 J0 N50 */
+}
+
+.text-color4 {
+  color: rgb(99, 59, 49); /* C23 M50 J49 N12 */
+}
+
+.text-big {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.noBorderNoBackground table tbody tr:nth-child(2n + 1) {
+  border-color: transparent;
+  background-color: transparent
 }
 
 .img-banner {

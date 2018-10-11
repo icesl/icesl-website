@@ -7,7 +7,15 @@ categories: home
 ## Advanced modeling and slicing for 3D printing
 
 <br>
-IceSL is a state of the art slicer (STL &rarr; G-code) with advanced modeling capabilities. You can [download it now][download] , or try its [online version][slicecrafter]. Head to the [features page][features] to know all about IceSL's cutting edge technology. For documentation, guides, tutorials and references about using IceSL, go to the [documentation section][documentation] as well as the handy [cheatsheet][cheatsheet] we've created. If you want to ask a question about IceSL or inquire about licensing, please reach us through our [forum][forum] or go to the [contact page][contact] where there is also a F.A.Q section.
+<div markdown="1" class="noBorderNoBackground">
+|[Download now][download]{:.button}{:.big}|[Online version][slicecrafter]{:.button}{:.big}|
+
+</div>
+<br>
+
+___
+
+IceSL is a state of the art slicer (STL &rarr; G-code) with advanced modeling capabilities. Head to the &nbsp;[features page][features]{:.text-big}{:.text-color1}&nbsp; to know all about IceSL's cutting edge technology. For documentation, guides, tutorials and references about using IceSL, go to the &nbsp;[documentation section][documentation]{:.text-big}{:.text-color2}&nbsp; as well as the handy &nbsp;[cheatsheet][cheatsheet]{:.text-big}{:.text-color4}&nbsp; we've created. If you want to ask a question about IceSL or inquire about licensing, please reach us through our &nbsp;[forum][forum]{:.text-big}{:.text-color3}&nbsp; or go to the &nbsp;[about page][about]{:.text-big}{:.text-color1}&nbsp; where there is also a F.A.Q section.
 
 [![][banner]{:.img-banner}][banner]{:.image}
 
@@ -25,6 +33,6 @@ Follow us on [twitter][twitter] to stay tuned about updates, new features, prese
 [features]:       /features/
 [documentation]:  /documentation/
 [cheatsheet]:     /cheatsheet/
-[contact]:        /contact/
+[about]:          /about/
 [forum]:          https://groups.google.com/forum/#!forum/{{site.github}}
 [twitter]:        https://twitter.com/iceslapp
