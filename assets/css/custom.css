@@ -43,7 +43,7 @@
 
 .noBorderNoBackground table tbody tr:nth-child(2n + 1) {
   border-color: transparent;
-  background-color: transparent
+  background-color: transparent;
 }
 
 .img-banner {
