@@ -21,7 +21,7 @@ exclude: false
         background-color: #ffffff;
       }
 
-      .emscripten { padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
+      .emscripten { position: relative; left: -90px; padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
       div.emscripten { text-align: center; }
       div.emscripten_border { border: 1px solid black; }
       /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
@@ -51,10 +51,12 @@ ul li {
   </style>
 </head>
 
+<!--
 <label for="name">Enter url of STL:</label>
 <input style="width: 100%" type="text" name="url" id="url" value="http://">
 <a style="float: right;" class="button small" id="createLink" onclick="createLink()">Create link</a><br>
 <a style="float: right;" id="link"></a>
+-->
 
 <div markdown="1" class="noBorderNoBackground">
 <table style="table-layout: fixed;"><tr>
@@ -69,7 +71,6 @@ ul li {
 </tr></table>
 </div>
 
-<br>
 <body onload="initialize()">
 
   <script>
@@ -208,6 +209,11 @@ function saveFileFromMemoryFSToDisk(name) {
    }
    saveAs(blob, name);
 }
+
+Module['locateFile'] = function(path, prefix) {
+  return "{{ "/assets/slicecrafter/" | prepend: site.baseurl }}" + path;
+}
+
 </script>
   
 <script async type="text/javascript" src="{{ "/assets/slicecrafter/files.js" | prepend: site.baseurl }}"></script>

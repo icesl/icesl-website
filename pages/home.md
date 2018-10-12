@@ -32,17 +32,17 @@ Follow us on [twitter][twitter] to stay tuned about updates, new features, prese
 </div>
 
 [logo]:           ../assets/img/logo-cropped1.png
-[banner1]:         ../assets/img/banner1.jpeg
-[banner2]:         ../assets/img/banner2.jpeg
-[banner3]:         ../assets/img/banner3.jpeg
-[banner4]:         ../assets/img/banner4.jpeg
-[banner5]:         ../assets/img/banner5.jpeg
-[banner6]:         ../assets/img/banner6.jpeg
-[slicecrafter]:   ../assets/other/slicecrafter/
-[download]:       /download/
-[features]:       /features/
-[documentation]:  /documentation/
-[cheatsheet]:     /cheatsheet/
-[about]:          /about/
+[banner1]:        ../assets/img/banner1.jpeg
+[banner2]:        ../assets/img/banner2.jpeg
+[banner3]:        ../assets/img/banner3.jpeg
+[banner4]:        ../assets/img/banner4.jpeg
+[banner5]:        ../assets/img/banner5.jpeg
+[banner6]:        ../assets/img/banner6.jpeg
+[slicecrafter]:   ../slicecrafter/
+[download]:       ./download/
+[features]:       ./features/
+[documentation]:  ./documentation/
+[cheatsheet]:     ./cheatsheet/
+[about]:          ./about/
 [forum]:          https://groups.google.com/forum/#!forum/{{site.github}}
 [twitter]:        https://twitter.com/iceslapp

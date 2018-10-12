@@ -130,7 +130,7 @@ This work is supported by ERC grant ShapeForge (StG-2012-307877)
 
 [forum]:          https://groups.google.com/forum/#!forum/icesl
 [license]:        ../assets/pdf/EULA_IceSL_binary.pdf
-[slicecrafter]:   ../assets/other/slicecrafter/
+[slicecrafter]:   ../slicecrafter/
 
 [sylvain]:      http://www.antexel.com/research
 [salim]:        https://members.loria.fr/sperchy

@@ -78,7 +78,7 @@ And in the following OS's:
 In case you don't meet the system requirements you can opt to use the [online version][slicecrafter] of IceSL.
 
 
-[slicecrafter]:         ../assets/other/slicecrafter/
+[slicecrafter]:         ../slicecrafter/
 [changelog]:            ../assets/other/changelog.txt
 [icesl-win64-stable]:   https://gforge.inria.fr/frs/download.php/file/37335/IceSL_win64.exe
 [icesl-win32-stable]:   https://gforge.inria.fr/frs/download.php/file/37337/IceSL_win32.exe
@@ -87,4 +87,4 @@ In case you don't meet the system requirements you can opt to use the [online ve
 [icesl-win64-beta]:     https://gforge.inria.fr/frs/download.php/file/37554/IceSL_beta.exe
 [icesl-linux64-beta]:   https://gforge.inria.fr/frs/download.php/file/37757/icesl-2.3-beta1-amd64.zip
 [icesl-releases]:       https://gforge.inria.fr/frs/?group_id=4731
-[contact]:              /contact/
+[contact]:              ../contact/
