@@ -44,4 +44,4 @@ ___
 
 {% endfor %}
 
-[slicecrafter]:   ../assets/other/slicecrafter/
+[slicecrafter]:   ../slicecrafter/

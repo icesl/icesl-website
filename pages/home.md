@@ -31,14 +31,14 @@ Follow us on [twitter][twitter] to stay tuned about updates, new features, prese
 <a class="twitter-timeline" data-theme="light" data-width="50%" data-height="700px" href="https://twitter.com/iceslapp">Twitter feed</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
-[logo]:           ../assets/img/logo-cropped1.png
-[banner1]:        ../assets/img/banner1.jpeg
-[banner2]:        ../assets/img/banner2.jpeg
-[banner3]:        ../assets/img/banner3.jpeg
-[banner4]:        ../assets/img/banner4.jpeg
-[banner5]:        ../assets/img/banner5.jpeg
-[banner6]:        ../assets/img/banner6.jpeg
-[slicecrafter]:   ../slicecrafter/
+[logo]:           ./assets/img/logo-cropped1.png
+[banner1]:        ./assets/img/banner1.jpeg
+[banner2]:        ./assets/img/banner2.jpeg
+[banner3]:        ./assets/img/banner3.jpeg
+[banner4]:        ./assets/img/banner4.jpeg
+[banner5]:        ./assets/img/banner5.jpeg
+[banner6]:        ./assets/img/banner6.jpeg
+[slicecrafter]:   ./slicecrafter/
 [download]:       ./download/
 [features]:       ./features/
 [documentation]:  ./documentation/
