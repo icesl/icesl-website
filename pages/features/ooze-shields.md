@@ -1,8 +1,11 @@
 ---
+layout: feature
 order: 9
 exclude: true
 categories: feature
 title: Tight ooze shields and maximal self-supporting cavities
+image: /assets/img/cavity.jpg
+summary: Self supporting cavities and nice ooze shields that remain close to the print at all times
 ---
 
 Our tight enclosure algorithm let us create nice ooze shields that remain close to the print at all times while being easy to remove. The same algorithm can be used to create large self-supporting cavities inside parts. Print large and fast!
@@ -19,7 +22,7 @@ Publication:
  - Samuel Hornus, Sylvain Lefebvre, Jérémie Dumas and Frédéric Claux
  - GradiFab 2016
 
-[ooze-shield]:      ../assets/img/oozeshield.jpg
-[cavity]:           ../assets/img/cavity.jpg
+[ooze-shield]:      ../../../assets/img/oozeshield.jpg
+[cavity]:           ../../../assets/img/cavity.jpg
 [cat-model]:        http://www.thingiverse.com/thing:869645
 [enclosure-paper]:  https://hal.inria.fr/hal-01141706/

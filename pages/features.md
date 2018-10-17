@@ -32,16 +32,21 @@ IceSL core technology is exposed through three different software:
 
 ___
 
+
 ### Key Features
 
-{% assign sorted_features = (site.pages | where:'categories', 'feature') | sort:'order' %}
+<div id="main">
+{% assign sorted_features = site.pages | where:'categories', 'feature' | sort:'order' %}
+<section class="posts">
 {% for feature in sorted_features %}
+  <article markdown="1">
+## [{{ feature.title }}]({{ feature.url | prepend: site.baseurl }})
+[![]({{ feature.image | prepend: site.baseurl }})]({{ feature.url | prepend: site.baseurl }}){:.smaller}{:.image}{:.fit}
 
-<details markdown="1"><summary> <b>{{ feature.title }}</b> </summary>
-<br>
-  {{ feature.content }}
-</details>
-
+{{ feature.summary }}
+  </article>
 {% endfor %}
+</section>
+</div>
 
 [slicecrafter]:   ../slicecrafter/

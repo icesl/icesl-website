@@ -1,8 +1,11 @@
 ---
+layout: feature
 order: 3
 exclude: true
 categories: feature
 title: Cubic, tetrahedral and hierarchical infills
+image: /assets/img/3dinfill.jpg
+summary: Tetrahedral infills present an excellent compromise in speed, strength and weight
 ---
 
 In 2015 IceSL introduced self-supported cubic infills for FDM 3D printing, as well as their hierarchical and tetrahedral versions. The hierarchical version has been superseded by the progressive infill patterns (see below). Tetrahedral infills are now the default as they present an excellent compromise in speed, strength and weight.
@@ -18,7 +21,7 @@ Publication:
  - Sylvain Lefebvre, blog post, July 2015.
 
 
-[3dinfill]:         ../assets/img/3dinfill.jpg
-[hierarchical]:     ../assets/img/hierarchical.jpg
-[progressive]:      ../assets/img/progressive.jpg
+[3dinfill]:         ../../../assets/img/3dinfill.jpg
+[hierarchical]:     ../../../assets/img/hierarchical.jpg
+[progressive]:      ../../../assets/img/progressive.jpg
 [cubic-post]:       http://sylefeb.blogspot.fr/2015/07/3dprint-3d-infilling-faster-stronger.html

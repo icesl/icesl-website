@@ -1,8 +1,11 @@
 ---
+layout: feature
 order: 10
 exclude: true
 categories: feature
 title: Better dual color prints
+image: /assets/img/dualcolor.jpg
+summary: Clean color algorithm to improve multi-filament print quality
 ---
 
 <sup>**Note**: this feature is not yet implemented in 2.x, but is in 1.x.<sup>
@@ -21,5 +24,5 @@ Publication:
 
 
 [benchy-model]:     http://www.3dbenchy.com/
-[dual-color]:       ../assets/img/dualcolor.jpg
+[dual-color]:       ../../../assets/img/dualcolor.jpg
 [dualcolor-paper]:  http://www.texelmancy.net/jhergel/pdfs/cleanColor.pdf
