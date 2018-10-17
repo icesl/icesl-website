@@ -1,8 +1,11 @@
 ---
+layout: feature
 order: 3
 exclude: true
 categories: tutorial
 title: Using brushes
+image: /assets/img/tutorial3/06.png
+summary: Create a simple 3D model and use brushes to specify different infill percentages
 ---
 
 _Author: Salim Perchy (yamil-salim.perchy at inria dot fr)_
@@ -32,8 +35,11 @@ bottom  = scale(1,1,2/3) * sphere(w-1-t)
 vase    = translate(0,0,w-1-t) * union( inner, bottom )
 {% endhighlight %}
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial3-img1]{:.img-small.smaller}][tutorial3-img1] | [![][tutorial3-img2]{:.img-small.smaller}][tutorial3-img2]
+
+</div>
 
 <br>
 
@@ -45,8 +51,11 @@ cup = difference(shell, vase)
 
 - Sometimes we need to have a better visual feedback than the usual camera rotation can allow. One technique we can use is to render a dissection of our intended shape. In order to perform this dissection,we create a sufficiently large cube, translate it to occupy the half of the shape we want to dissect and render the shape's difference with the cube.
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial3-img3]{:.img-small.smaller}][tutorial3-img3]
+
+</div>
 
 <br>
 
@@ -62,8 +71,11 @@ difference( ring, cuts )
 emit( handle )
 {% endhighlight %}
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial3-img4]{:.img-small.smaller}][tutorial3-img4]
+
+</div>
 
 <br>
 
@@ -77,9 +89,11 @@ dissection  = translate(0,-h,0) * ccube(2*h)
 emit(difference(union(cup, handle),dissection))
 {% endhighlight %}
 
-
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial3-img5]{:.img-small.smaller}][tutorial3-img5]
+
+</div>
 
 <br>
 
@@ -90,15 +104,21 @@ emit( cup, 0 )
 emit( handle,1 )
 {% endhighlight %}
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial3-img6]{:.img-small.smaller}][tutorial3-img6]
+
+</div>
 
 <br>
 
 - We can notice now that on the printing parameters (right side of the main IceSL window) there's two sets of printing parameters, one for each brush. As mentioned above, the handle is a sensitive part because it has to support all the cup's weight when handling the mug. Subsequently, we set the infill parameter of the handle's brush to 100%, this way we ensure the handle is hard enough. Additionally we set the cup's brush infill parameter to 30% as this part does not require much density.
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial3-img8]{:.img-small.smaller}][tutorial3-img8]
+
+</div>
 
 <br>
 
@@ -108,16 +128,19 @@ Exercise!
 
 - Try to shape a more stylistic handle. You can use for example cylinders or you can model an edgy shape that can be smoothed out with the _convex\_hull_ function (see the scripting documentation). TIP: Maybe you can try modeling the handle shown bellow.
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial3-img9]{:.img-small.smaller}][tutorial3-img9]
 
-[tutorial3-img1]:     ../assets/img/tutorial3/01.png
-[tutorial3-img2]:     ../assets/img/tutorial3/02.png
-[tutorial3-img3]:     ../assets/img/tutorial3/03.png
-[tutorial3-img4]:     ../assets/img/tutorial3/04.png
-[tutorial3-img5]:     ../assets/img/tutorial3/05.png
-[tutorial3-img6]:     ../assets/img/tutorial3/06.png
-[tutorial3-img7]:     ../assets/img/tutorial3/07.png
-[tutorial3-img8]:     ../assets/img/tutorial3/08.png
-[tutorial3-img9]:     ../assets/img/tutorial3/09.png
-[mug-code]:           ../assets/lua/mug.lua
+</div>
+
+[tutorial3-img1]:     ../../../assets/img/tutorial3/01.png
+[tutorial3-img2]:     ../../../assets/img/tutorial3/02.png
+[tutorial3-img3]:     ../../../assets/img/tutorial3/03.png
+[tutorial3-img4]:     ../../../assets/img/tutorial3/04.png
+[tutorial3-img5]:     ../../../assets/img/tutorial3/05.png
+[tutorial3-img6]:     ../../../assets/img/tutorial3/06.png
+[tutorial3-img7]:     ../../../assets/img/tutorial3/07.png
+[tutorial3-img8]:     ../../../assets/img/tutorial3/08.png
+[tutorial3-img9]:     ../../../assets/img/tutorial3/09.png
+[mug-code]:           ../../../assets/lua/mug.lua

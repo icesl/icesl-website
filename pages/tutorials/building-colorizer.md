@@ -1,8 +1,11 @@
 ---
+layout: feature
 order: 1
 exclude: true
 categories: guide
 title: Building the colorizer
+image: /assets/img/banner1.jpeg
+summary: Unprecedented control over your prints with settings specified per-layer
 ---
 
 _Author: Haichuan Song (haichuansong at gmail dot com)_

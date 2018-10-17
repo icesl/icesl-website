@@ -10,8 +10,11 @@ summary: Powerful support technique optimizing a reliable and disposable bridge 
 
 IceSL features a powerful support technique that optimizes a small but reliable disposable bridge structure. While many other software rely on triangles to detect overhangs, in IceSL the supports are created after analyzing the deposition paths. This allows for a more precise positioning of the supports, as well as an orientation of the support connectors optimized for easy removal.
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][supports1]{:.img-small.smaller}][supports1] | [![][supports2]{:.img-small.smaller}][supports2]
+
+</div>
 
 {:.caption2}
 <sup>**Left**: print with supports. **Right**: after cleanup. [Female knight by sotckto][knight-model]<sup>

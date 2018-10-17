@@ -24,30 +24,36 @@ We welcome community questions, corrections, suggestions and submissions for new
 
 ### Tutorials
 
-{% assign sorted_tutorials = (site.pages | where:'categories', 'tutorial') | sort:'order' %}
+<div id="main">
+{% assign sorted_tutorials = site.pages | where:'categories', 'tutorial' | sort:'order' %}
+<section class="posts">
 {% for tutorial in sorted_tutorials %}
+  <article markdown="1">
+## [{{ tutorial.title }}]({{ tutorial.url | prepend: site.baseurl }})
+[![]({{ tutorial.image | prepend: site.baseurl }})]({{ tutorial.url | prepend: site.baseurl }}){:.smaller}{:.image}{:.fit}
 
-<details  markdown="1"><summary> <b>{{ tutorial.title }}</b> </summary>
-  {{ tutorial.content }}
-___
-</details>
-
+{{ tutorial.summary }}
+  </article>
 {% endfor %}
+</section>
+</div>
 
 <br>
 ### Guides
 
-{% assign sorted_guides = (site.pages | where:'categories', 'guide') | sort:'order' %}
+<div id="main">
+{% assign sorted_guides = site.pages | where:'categories', 'guide' | sort:'order' %}
+<section class="posts">
 {% for guide in sorted_guides %}
+  <article markdown="1">
+## [{{ guide.title }}]({{ guide.url | prepend: site.baseurl }})
+[![]({{ guide.image | prepend: site.baseurl }})]({{ guide.url | prepend: site.baseurl }}){:.smaller}{:.image}{:.fit}
 
-<details  markdown="1"><summary> <b>{{ guide.title }}</b> </summary>
-  {{ guide.content }}
-___
-</details>
-
+{{ guide.summary }}
+  </article>
 {% endfor %}
-
-[script-doc]:   https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Main_Page
+</section>
+</div>
 
 <br>
 ### Videos
@@ -141,4 +147,5 @@ The following is a video introducing IceSL-slicer as an individual component of 
 - [français] [DECOUVERTE, PRESENTATION IceSL [slicer]](https://www.youtube.com/watch?v=IZaYimplBmA)
 - [français] [SLICER IceSL Beta [optimiser, remplissage à l'aide de l'outil brosse]](https://www.youtube.com/watch?v=eNEZHqeN-xc)
 
-[cheatsheet]:     ../cheatsheet/
+[cheatsheet]:   ../cheatsheet/
+[script-doc]:   https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Main_Page

@@ -1,8 +1,11 @@
 ---
+layout: feature
 order: 2
 exclude: true
 categories: tutorial
 title: Modeling in IceSL with the Lua editor
+image: /assets/img/tutorial2/10.png
+summary: Introduction the basics of modeling shapes in IceSL using Lua
 ---
 
 _Author: Salim Perchy (yamil-salim.perchy at inria dot fr)_
@@ -11,8 +14,11 @@ Welcome to the 2nd tutorial of IceSL. This tutorial is aimed at introducing the 
 
 - We're going to model a six-sided die<sup>1</sup> using [CSG][csg] (Constructive Solid Geometry) with the Lua editor of IceSL. Start IceSL and create a new file (File &rarr; New), answer no when prompted to save. Throughout this tutorial we will be writing code on the Lua editor (left area of the main window).
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial2-img1]{:.img-small.smaller}][tutorial2-img1] | [![][tutorial2-img2]{:.img-small.smaller}][tutorial2-img2]
+
+</div>
 
 <br>
 
@@ -29,8 +35,11 @@ dcube   = ccube( dwidth )
 emit( dcube )
 {% endhighlight %}
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial2-img3]{:.img-small.smaller}][tutorial2-img3]
+
+</div>
 
 <br>
 
@@ -43,8 +52,11 @@ inscription = sphere( iradius )
 
 - Just as we did with dcube, we can emit the sphere through the variable _inscription_ to visually check the shape we're modeling. Again, discard the line that emits the sphere before continuing onto the next step of the tutorial.
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial2-img4]{:.img-small.smaller}][tutorial2-img4]
+
+</div>
 
 <br>
 
@@ -56,8 +68,11 @@ emit( dcube )
 emit( side1 )
 {% endhighlight %}
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial2-img5]{:.img-small.smaller}][tutorial2-img5]
+
+</div>
 
 <br>
 
@@ -67,8 +82,11 @@ emit( side1 )
 emit( difference( dcube, side1 ) )
 {% endhighlight %}
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial2-img6]{:.img-small.smaller}][tutorial2-img6]
+
+</div>
 
 <br>
 
@@ -84,8 +102,11 @@ side2 = union(
 
 - Pay close attention how we translated each inscription to the upper right corner and lower left corner on the upper side of the die. As usual, we could have some visual feedback by emitting the difference between the _dcube_ and _side2_ variables.
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial2-img7]{:.img-small.smaller}][tutorial2-img7]
+
+</div>
 
 <br>
 
@@ -148,8 +169,11 @@ sides = union{        side1,
                       side6 }
 {% endhighlight %}
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial2-img8]{:.img-small.smaller}][tutorial2-img8]
+
+</div>
 
 <br>
 
@@ -160,8 +184,11 @@ die = difference( dcube, sides )
 emit( die )
 {% endhighlight %}
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial2-img9]{:.img-small.smaller}][tutorial2-img9]
+
+</div>
 
 <br>
 
@@ -174,8 +201,11 @@ dscale      = 2.0
 emit( round_die * scale( dscale ) )
 {% endhighlight %}
 
+<div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial2-img10]{:.img-small.smaller}][tutorial2-img10]
+
+</div>
 
 <br>
 
@@ -189,18 +219,18 @@ Using the Lua editor of IceSL, try to model the figure of a 4-sided die. Some ti
 
 <sup>1. Six-sided colored dice image made by user Diacritica from [Wikimedia Commons][wiki-commons] licensed under [CC BY-SA 3.0][cc30-license]</sup>
 
-[tutorial2-img1]:     ../assets/img/tutorial2/01.jpg
-[tutorial2-img2]:     ../assets/img/tutorial2/02.png
-[tutorial2-img3]:     ../assets/img/tutorial2/03.png
-[tutorial2-img4]:     ../assets/img/tutorial2/04.png
-[tutorial2-img5]:     ../assets/img/tutorial2/05.png
-[tutorial2-img6]:     ../assets/img/tutorial2/06.png
-[tutorial2-img7]:     ../assets/img/tutorial2/07.png
-[tutorial2-img8]:     ../assets/img/tutorial2/08.png
-[tutorial2-img9]:     ../assets/img/tutorial2/09.png
-[tutorial2-img10]:    ../assets/img/tutorial2/10.png
-[tutorial2-img11]:    ../assets/img/tutorial2/11.jpg
+[tutorial2-img1]:     ../../../assets/img/tutorial2/01.jpg
+[tutorial2-img2]:     ../../../assets/img/tutorial2/02.png
+[tutorial2-img3]:     ../../../assets/img/tutorial2/03.png
+[tutorial2-img4]:     ../../../assets/img/tutorial2/04.png
+[tutorial2-img5]:     ../../../assets/img/tutorial2/05.png
+[tutorial2-img6]:     ../../../assets/img/tutorial2/06.png
+[tutorial2-img7]:     ../../../assets/img/tutorial2/07.png
+[tutorial2-img8]:     ../../../assets/img/tutorial2/08.png
+[tutorial2-img9]:     ../../../assets/img/tutorial2/09.png
+[tutorial2-img10]:    ../../../assets/img/tutorial2/10.png
+[tutorial2-img11]:    ../../../assets/img/tutorial2/11.jpg
 [csg]:                https://en.wikipedia.org/wiki/Constructive_solid_geometry
-[die-code]:           ../assets/lua/d6.lua
+[die-code]:           ../../../assets/lua/d6.lua
 [cc30-license]:       https://creativecommons.org/licenses/by-sa/3.0/
 [wiki-commons]:       https://commons.wikimedia.org/wiki/File:6sided_dice.jpg
