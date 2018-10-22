@@ -4,9 +4,9 @@ bio:                'IceSL'
 description:        "A modeler/slicer for 3D printing"
 locale:             en_US
 baseurl: # the subpath of your site, e.g. /blog
-# ""
+ ""
 # "/home/yperchy/Sites/icesl/_site"
- "https://icesl.loria.fr" 
+# "https://icesl.loria.fr" 
 url: "http://icesl.loria.fr" # the base hostname & protocol for your site
 
 defaults:

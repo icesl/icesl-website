@@ -4,7 +4,7 @@ order: 1
 exclude: true
 categories: guide
 title: Building the colorizer
-image: /assets/img/banner1.jpeg
+image: /assets/img/colorizer.jpg
 summary: Unprecedented control over your prints with settings specified per-layer
 ---
 
@@ -50,6 +50,9 @@ The following is a bulleted guide on the assembly of a colorizer printer for col
         - [[Link]](https://www.reprap.me/raps128.html) We need to print the parts contained in the zip file from the preceeding link. (Note: we do not need to print the parts related to the nozzle, since we use the Diamond nozzle from above. For assembling the printer, refer to the instruction document inside the zip file)
 2.  Setting up the Marlin firmware.
     - The Diamond nozzle is supported by the Marlin firmware version 1. (There exists other firmware supporting this nozzle. Please refer to: [[Link]](http://reprap.org/wiki/Diamond_Hotend#Firmware_for_Diamond_Hotend_printers))
+[![][colorizer]{:.img-small.smaller}][colorizer]
 3. Using the Diamond nozzle.
     - Controlling mixing ratios: You can directly specify the mixing ratios of the three extruders. For example: <code class="gcode">G10 X100 Y100 A0.2 B0.3 C0.5 E20</code> moves the nozzle to coordinate (100, 100) while extruding with 20%, 30% and 50% of the filaments in the three extruders, respectively.
     - Connecting the nozzle to the Prusa i3: we need an adaptor to mount the Diamond nozzle to the Prusa i3. You can print it with IceSL using the following LUA model file [Link]. You may need to modify this model if you are using a different printer than the Prusa i3.
+
+[colorizer]:    ../../../assets/img/colorizer.jpg
