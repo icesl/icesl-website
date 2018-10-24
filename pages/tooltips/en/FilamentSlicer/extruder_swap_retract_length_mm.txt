@@ -1,4 +1,4 @@
-﻿Retraction length after swap (mm)
+Retraction length after swap (mm)
 Specfies filament retraction length after swapping 
 beteewn extruders.
 Greater lengths prevent oozing from the idle extruders.

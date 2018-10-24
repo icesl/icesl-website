@@ -1,4 +1,4 @@
-﻿Vitesse première couche (mm/sec)
+Vitesse première couche (mm/sec)
 Vitesse d'impression (millimètres par seconde) 
 pour la première couche. Sélectionner une faible
 vitesse permet une meilleure adhésion.

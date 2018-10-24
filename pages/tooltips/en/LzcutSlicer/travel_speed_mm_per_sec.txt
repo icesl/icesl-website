@@ -1,2 +1,2 @@
-﻿Travel speed (mm/sec)
+Travel speed (mm/sec)
 Laser travel speed (when not cutting) in millimeters per second (mm/sec)

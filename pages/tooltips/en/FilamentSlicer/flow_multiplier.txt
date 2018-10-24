@@ -1,4 +1,4 @@
-﻿Flow multiplier
+Flow multiplier
 Material flow multiplier when printing with this 
 brush. Reduce or increase to artificially push more
 or less plastic. Can be used to produce fragile

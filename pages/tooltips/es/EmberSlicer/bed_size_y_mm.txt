@@ -1,2 +1,0 @@
-﻿Tamaño de la plataforma en y (mm)
-Tamaño (en milímetros) de la plataforma de impresión, del frente al fondo.

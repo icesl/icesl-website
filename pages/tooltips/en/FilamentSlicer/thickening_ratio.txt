@@ -1,1 +1,1 @@
-﻿Thickening ratio for thin features
+Thickening ratio for thin features

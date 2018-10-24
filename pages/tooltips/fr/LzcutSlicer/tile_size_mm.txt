@@ -1,4 +1,4 @@
-﻿Taille des cases de calcul (mm)
+Taille des cases de calcul (mm)
 Taille des cases utilisées pendant les calculs. 
 Diminuer cette valeur réduit la consommation mémoire
 GPU mais accroit le temps de tranchage. 

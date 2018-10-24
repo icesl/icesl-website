@@ -1,2 +1,0 @@
-﻿Slice for B9Creator
-Slices the model for the B9Creator printer [.b9j]

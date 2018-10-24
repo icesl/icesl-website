@@ -121,7 +121,7 @@ ____
 </tr>
 </table>
 <sup>1. Creator, lead, coding.</sup><br>
-<sup>2. Coding, support, testing, documenation, localization.</sup>
+<sup>2. Coding, support, testing, documentation, localization.</sup>
 
 **Acknowledgements:**
 
@@ -140,7 +140,7 @@ This work is supported by ERC grant ShapeForge (StG-2012-307877)
 [jean]:         http://webloria.loria.fr/~jhergel
 [jeremy]:       http://www.loria.fr/~jdumas
 [jonas]:        https://sites.google.com/site/jonasmartinezbayona
-[samuel]:       http://www.loria.fr/~shornus
+[samuel]:       https://members.loria.fr/samuel.hornus/
 [haichuan]:     http://shapeforge.loria.fr/icesl
 [denis]:        http://shapeforge.loria.fr/icesl
 [guillaume]:    http://shapeforge.loria.fr/icesl

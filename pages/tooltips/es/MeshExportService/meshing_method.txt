@@ -1,4 +1,4 @@
-﻿Método a usar
+Método a usar
 Los siguientes métodos están disponibles:
 
 -Marching cubes: Construye la malla a partir de la

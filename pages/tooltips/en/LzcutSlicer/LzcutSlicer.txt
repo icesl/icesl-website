@@ -1,2 +1,2 @@
-﻿Contouring for laser cutting
+Contouring for laser cutting
 Produces instructions for a laser cutter [.gcode]

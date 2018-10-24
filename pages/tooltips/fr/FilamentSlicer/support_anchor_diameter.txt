@@ -1,4 +1,4 @@
-﻿Diamètre du point d'ancrage au sol (mm)
+Diamètre du point d'ancrage au sol (mm)
 Contrôle la taille des 'pieds' des piliers (au
 niveau de la connexion au lit d’impression).
 À augmenter si les piliers se détachent du lit

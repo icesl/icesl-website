@@ -1,3 +1,3 @@
-﻿Porcentaje vel. de vent. en puentes
+Porcentaje vel. de vent. en puentes
 Velocidad del ventilador de filamento para la impresión
 de puentes. Dado en porcentaje de su poder máximo.

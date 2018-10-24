@@ -1,4 +1,4 @@
-﻿Sin desplazamiento en cubiertas superiores
+Sin desplazamiento en cubiertas superiores
 Si esta opción está activada, el optimizador de
 desplazamiento evitará pasar por las cubiertas
 superiores visibles. Activar si el extrusor deja

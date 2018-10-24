@@ -1,4 +1,4 @@
-﻿Velocidad de impresión (mm/sec)
+Velocidad de impresión (mm/sec)
 Velocidad de impresión por defecto (milímetros por
 segundo) para todos los caminos que no son perímetros
 (i.e. cavidades, relenos, bases, borders, soportes).

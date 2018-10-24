@@ -1,4 +1,4 @@
-﻿Taille des voxels (mm)
+Taille des voxels (mm)
 Des petites valeurs augmentent la précision du
 maillage, mais nécéssite plus de mémoire graphique
 et un plus long temps de calcul. Les valeurs

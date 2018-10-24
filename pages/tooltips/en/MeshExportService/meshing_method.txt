@@ -1,4 +1,4 @@
-﻿Meshing method to use
+Meshing method to use
 The following methods are available:
 
 -Marching cubes: Constructs a mesh from the scene

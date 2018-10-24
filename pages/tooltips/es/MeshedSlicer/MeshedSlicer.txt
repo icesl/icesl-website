@@ -1,8 +1,0 @@
-﻿Seccionar a malla
-Produce una malla cerrada a partir de capas [.stl]
-La malla se construye a partir del contorno de las capas.
-Esto es útil para exportar la malla a un software externo
-de impresión 3D que requiera una malla cerrada. El seccio-
-namiento puede ser lento y no se garantiza su finalización,
-por lo tanto se aconseja seleccionar el seccionamiento en 
-cintas cuando sea posible.

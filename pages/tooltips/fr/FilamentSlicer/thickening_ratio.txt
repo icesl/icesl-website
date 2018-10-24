@@ -1,2 +1,2 @@
-﻿Ratio d'épaississement
+Ratio d'épaississement
 Ratio d'épaississement pour les parois fines.

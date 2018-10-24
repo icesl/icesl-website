@@ -1,4 +1,4 @@
-﻿Pas de discrétisation (mm)
+Pas de discrétisation (mm)
 Réduire pour accroitre la précision géométrique 
 des chemins de dépôt, au prix d'une plus forte
 utilisation de la mémoire GPU et d'un plus long temps

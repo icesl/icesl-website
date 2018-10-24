@@ -1,4 +1,4 @@
-﻿Vitesse d'impression (mm/sec)
+Vitesse d'impression (mm/sec)
 Vitesse d'impression par défaut (millimètres par 
 seconde) pour les chemins non spéciaux (shells, 
 infill, raft, brim).

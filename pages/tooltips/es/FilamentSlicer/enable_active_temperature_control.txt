@@ -1,4 +1,4 @@
-﻿Activar control de temperatura activo
+Activar control de temperatura activo
 Cuando se imprime con múltiples materiales, únicamente
 un extrusor está activo en un momento dado. El control
 de temperatura activo está diseñado para evitar que

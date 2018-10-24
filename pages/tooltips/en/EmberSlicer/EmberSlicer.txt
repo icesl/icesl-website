@@ -1,3 +1,0 @@
-﻿Slice for Ember
-Slices the model for the Ember printer [.tar.gz]
-The archive contains a list of png images.

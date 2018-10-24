@@ -1,4 +1,4 @@
-﻿Tamaño del voxel (mm)
+Tamaño del voxel (mm)
 Valores bajos incrementan la precisión de la malla
 pero aumentan el tiempo de procesamiento y el uso de
 memoria de video. Valores típicos están entre 0.01mm

@@ -1,4 +1,4 @@
-﻿Infill type
+Infill type
 Infill type for a given brush. IceSL is packed
 with four options listed bellow. It is possible
 to add a custom infill by writing its specifi-

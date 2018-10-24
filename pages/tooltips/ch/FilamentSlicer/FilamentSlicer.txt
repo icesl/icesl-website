@@ -1,2 +1,2 @@
-﻿切片并生成 GCode
+切片并生成 GCode
 生成 FDM 打印机的控制命令 [.gcode]

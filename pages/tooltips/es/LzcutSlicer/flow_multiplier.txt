@@ -1,2 +1,2 @@
-﻿Multiplicador de poder
+Multiplicador de poder
 Multiplicador de poder del laser al cortar.

@@ -1,7 +1,0 @@
-﻿Pas de discrétisation (mm)
-Réduire pour accroitre la précision géométrique, 
-au prix d'une plus forte utilisation de la mémoire 
-GPU et d'un plus long temps de tranchage.  
-Valeur recommandée: entre 0.01 mm et 0.1 mm.
-Réduire la taille des cases de calcul si le 
-trancheur renvoie une erreur 'out of GPU memory'.

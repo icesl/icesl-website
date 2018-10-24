@@ -1,4 +1,4 @@
-﻿Cavidad
+Cavidad
 Ahueca la impresión. Habilitar esta opción para
 reducir considerablemente el material usado y el 
 tiempo de impresión. Para evitar que la impresión

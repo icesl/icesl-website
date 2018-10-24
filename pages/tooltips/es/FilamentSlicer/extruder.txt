@@ -1,4 +1,4 @@
-﻿Extrusor
+Extrusor
 Extrusor usado por esta brocha. Las brochas pueden
 ser empleadas para especificar el extrusor usado en
 diferentes partes de la impresión. En un script lua,

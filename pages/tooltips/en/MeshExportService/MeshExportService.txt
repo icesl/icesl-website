@@ -1,4 +1,4 @@
-﻿Export to mesh
+Export to mesh
 Produces a mesh [.stl]
 The mesh can be exported using different meshing methods.
 Currently there are two main approaches; (1) directly

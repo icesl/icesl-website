@@ -1,4 +1,4 @@
-﻿Longueur max. sans rétracter
+Longueur max. sans rétracter
 Longueur maximale d'un voyage sans rétracter le
 filament. Dans la plupart des cas, IceSL peut éviter
 de rétracter le filament, par exemple lorsque le voyage

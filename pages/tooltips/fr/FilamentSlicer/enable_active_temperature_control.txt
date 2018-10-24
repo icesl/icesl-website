@@ -1,4 +1,4 @@
-﻿Contrôle actif de température
+Contrôle actif de température
 Lors de l'impression avec plusieurs matériaux, seul
 un extrudeur imprime à la fois. Le contrôle actif de 
 température permet d'éviter les bavures et la 

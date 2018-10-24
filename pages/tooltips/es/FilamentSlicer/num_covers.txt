@@ -1,4 +1,4 @@
-﻿Número de envolturas (entero)
+Número de envolturas (entero)
 Número de capas reyenas completamente abajo y arriba
 de la parte inferior y superior de la impresion.
 Valor comun es 6.

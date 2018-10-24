@@ -1,6 +1,0 @@
-﻿Tamaño de losa (mm)
-Tamaño de losa durante el procesamiento. Disminuir
-para reducir el consumo de memoria de video,
-particularmente si el seccionamiento genera un
-mensaje de error debido a falta de memoria GPU.
-Valores comunes están entre 5mm y 100mm.

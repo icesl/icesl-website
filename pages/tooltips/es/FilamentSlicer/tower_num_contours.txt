@@ -1,4 +1,4 @@
-﻿Número de contornos en la torre
+Número de contornos en la torre
 Número de contornos usados para construir la torre.
 Es recomendado usar más contornos si se nota que el
 extrusor se limpia correctamente (se forman cavidades

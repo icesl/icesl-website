@@ -1,4 +1,4 @@
-﻿Number of contours in tower
+Number of contours in tower
 Number of contours for the prime/wipe tower. Use more
 if you notice that the extruder is not properly primed
 (holes when the extruder resumes printing after a swap).

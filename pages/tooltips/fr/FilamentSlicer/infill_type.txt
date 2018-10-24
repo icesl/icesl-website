@@ -1,4 +1,4 @@
-﻿Type de remplissage
+Type de remplissage
 Type de remplissage pour un brush donné. 
 IceSL propose quatre options décrites ci-dessous.
 Il est possible d'ajouter un remplissage personnalisé

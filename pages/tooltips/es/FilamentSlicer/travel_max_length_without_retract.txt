@@ -1,4 +1,4 @@
-﻿Desplazamiento máximo sin retracción
+Desplazamiento máximo sin retracción
 En muchos casos, IceSL puede evitar retracción (e.g,
 mientras hay desplazamiento dentro de capas sólidas).
 Esta opción controla la máxima longuitud de despla-

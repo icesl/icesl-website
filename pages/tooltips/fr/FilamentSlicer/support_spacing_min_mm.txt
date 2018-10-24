@@ -1,4 +1,4 @@
-﻿Espacement entre points portés (mm)
+Espacement entre points portés (mm)
 Espacement minimal entre les points du modèle portés
 par la structure support. Une plus faible valeur
 densifie le support. Ceci améliore la qualité des

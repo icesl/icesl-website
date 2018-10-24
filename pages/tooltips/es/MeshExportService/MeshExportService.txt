@@ -1,4 +1,4 @@
-﻿Exportar a malla
+Exportar a malla
 Produce una malla [.stl]
 La malla puede ser exportada usando diferentes métodos.
 Actualmente existen dos clases de métodos; (1) producir

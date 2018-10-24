@@ -1,2 +1,2 @@
-﻿Focused beam width (mm)
+Focused beam width (mm)
 Diameter (millimeters) of the focused laser impact.

@@ -1,3 +1,0 @@
-﻿Taille du plateau x (mm)
-Taille (millimètres) du lit d'impression, de 
-gauche à droite.

@@ -1,4 +1,4 @@
-﻿Velocidad de corte (mm/sec)
+Velocidad de corte (mm/sec)
 Velocidad de corte laser (milímetros por segundo).
 Reducir para un corte más profundo con el mismo nivel
 de poder.

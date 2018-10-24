@@ -1,4 +1,4 @@
-﻿Pintar áreas de mezcla de extrusores
+Pintar áreas de mezcla de extrusores
 Activar la interfaz de mezcla de extrusores.
 IMPORTATE: La mezcla de extrusores NO es soportada si el grosor
 de capa es editado 'por capa'.

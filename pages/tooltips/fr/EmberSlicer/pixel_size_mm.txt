@@ -1,2 +1,0 @@
-﻿Taille des pixels (mm)
-Ajuster pour votre imprimante DLP.

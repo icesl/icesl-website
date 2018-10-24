@@ -1,7 +1,0 @@
-﻿Trancher vers un maillage
-Produit un maillage fermé à partir des tranches [.stl]
-Le maillage est assemblé à partir des contours des 
-tranches. Ceci permet d'exporter un modèle vers un
-autre logiciel qui attend un maillage fermé. Cet
-export est relativement lent et peut échouer, si
-possible utilisez l'export 'rubans'.

@@ -1,2 +1,0 @@
-﻿Seccionar para B9Creator
-Secciona el modelo para impresión en B9Creator [.b9j]

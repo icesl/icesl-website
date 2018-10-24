@@ -1,4 +1,4 @@
-﻿Multiplicador de velocidad
+Multiplicador de velocidad
 Multiplicador de velocidad usado en esta brocha.
 Puede ser ajustado para cambiar locamente la velo-
 cidad de impresión. Para este efecto, use diferentes

@@ -1,2 +1,2 @@
-﻿Diámetro del haz enfocado (mm)
+Diámetro del haz enfocado (mm)
 Diámetro (en milímetros) del impacto enfocado del laser.

@@ -1,4 +1,4 @@
-﻿Raft
+Raft
 Prints a raft under the object to compensate for 
 small calibration defects and to remove the printed 
 part more easily afterwards.

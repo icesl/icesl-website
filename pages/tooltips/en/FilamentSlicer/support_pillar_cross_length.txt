@@ -1,4 +1,4 @@
-﻿Pillar size (mm)
+Pillar size (mm)
 Controls the size pillar sides. Pillars are made of
 two walls in a cross shape. Increasing this parameter
 enlarges the cross. Increase if the pillars do not

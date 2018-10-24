@@ -1,4 +1,4 @@
-﻿Tamaño de pilares (mm)
+Tamaño de pilares (mm)
 Controla el tamaño de las columnas de los pilares.
 Los soportes son hechos a partir de dos columnas 
 rectangulares en forma de cruz. Al incrementar este

@@ -1,4 +1,4 @@
-﻿Velocidad de los soportes (mm/sec)
+Velocidad de los soportes (mm/sec)
 Velocidad de impresión (milímetros por segundo) de
 los soportes. Los soportes deben ser firmes y adhe-
 rentes pero no necesitan ser estéticamente atractivos

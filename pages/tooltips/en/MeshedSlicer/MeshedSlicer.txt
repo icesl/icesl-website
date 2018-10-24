@@ -1,7 +1,0 @@
-﻿Slice to mesh
-Produces a watertight mesh from the slices [.stl]
-The mesh is assembled from the slice contours. This
-is useful to export the mesh to an external 3D
-printing software that requires a closed mesh. 
-This process is somewhat slow and not guaranteed 
-to succeed, so prefer ribbons whenever possible.

@@ -1,4 +1,4 @@
-﻿Exporter un maillage
+Exporter un maillage
 Produit un maillage [.stl]
 Le maillage peut être exporté en utilisant différentes méthodes.
 Actuellement, il y a deux approches principales; (1) mailler

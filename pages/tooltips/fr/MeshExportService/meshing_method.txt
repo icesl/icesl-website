@@ -1,4 +1,4 @@
-﻿Méthode de maillage à utiliser
+Méthode de maillage à utiliser
 Les méthodes suivantes sont disponibles
 
 -Marching cubes: Construit un maillage depuis la scène

@@ -1,4 +1,4 @@
-﻿Nombre de planchers (integer)
+Nombre de planchers (entier)
 Nombre de couches pleines avant/après les dessus/
 dessous de la pièce imprimée. 
 Valeur recommandée: 6.

@@ -1,3 +1,3 @@
-﻿Peindre où mélanger les extrudeurs
+Peindre où mélanger les extrudeurs
 Ceci ouvre l'interface de mélange de couleurs. 
 Important : Le mélange de couleurs N'EST PAS supporté si l'épaisseur des tranches est mis en "Edition par tranche.

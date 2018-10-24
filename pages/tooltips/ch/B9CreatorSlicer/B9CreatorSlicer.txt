@@ -1,2 +1,0 @@
-﻿为 B9Creator 切片
-将模型切片，目标打印机为 B9Creator [.b9j]

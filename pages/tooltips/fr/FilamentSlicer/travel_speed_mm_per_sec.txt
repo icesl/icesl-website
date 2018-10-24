@@ -1,4 +1,4 @@
-﻿Vitesse de déplacement (mm/sec)
+Vitesse de déplacement (mm/sec)
 Vitesse de déplacement (millimètres par seconde) 
 lorsque l'extrudeur se déplace sans déposer. Une
 vitesse de déplacement rapide réduit le temps 

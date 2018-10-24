@@ -1,2 +1,2 @@
-﻿Guardar rango de capas
+Guardar rango de capas
 Guardar unicamente una parte de las capas producidas.

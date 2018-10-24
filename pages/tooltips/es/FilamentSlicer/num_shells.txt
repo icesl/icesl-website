@@ -1,4 +1,4 @@
-﻿Número de cavidades (entero)
+Número de cavidades (entero)
 Número de cavidades internas paralelas al perímetro.
 Incrementar para espesar el casco (print hull) de
 impresión. Un número alto de cavidades produce únicamente

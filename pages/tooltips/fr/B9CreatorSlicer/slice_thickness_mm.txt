@@ -1,2 +1,0 @@
-﻿Epaisseur de tranche (mm)
-Epaisseur des tranches en Z.

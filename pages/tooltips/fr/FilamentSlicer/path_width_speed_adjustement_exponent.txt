@@ -1,4 +1,4 @@
-﻿Changement de vitesse
+Changement de vitesse
 Exposant de changement de vitesse pour les 
 changements d'épaisseur. Si le remplissage avec 
 un seul chemin est actif, IceSL pourra génerer 

@@ -1,4 +1,4 @@
-﻿Tamaño de losa (mm)
+Tamaño de losa (mm)
 Tamaño de losa durante el procesamiento. Disminuir
 para reducir el consumo de memoria de video,
 particularmente si el seccionamiento genera un

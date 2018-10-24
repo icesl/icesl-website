@@ -1,4 +1,4 @@
-﻿Température du plateau (C)
+Température du plateau (C)
 Température (degrés Celsius) du plateau chauffant
 durant l'impression. A ajuster selon le matériau
 pour permettre une meilleure adhésion et limiter

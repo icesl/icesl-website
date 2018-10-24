@@ -1,4 +1,4 @@
-﻿Cavity
+Cavity
 Hollows the shape to be printed. Enable this 
 option to considerably reduce the material used and
 shorten the printing time. To avoid the print being 

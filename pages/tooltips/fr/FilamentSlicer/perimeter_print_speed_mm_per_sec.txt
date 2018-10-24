@@ -1,4 +1,4 @@
-﻿Vitesse pour les périmètres (mm/sec)
+Vitesse pour les périmètres (mm/sec)
 Vitesse d'impression (millimètres par seconde) 
 pour les périmètres. Les périmètres forment la 
 paroi visible de l'objet. Une vitesse plus faible

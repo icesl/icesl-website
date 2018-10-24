@@ -1,4 +1,4 @@
-﻿Trayectoria única en rellenos
+Trayectoria única en rellenos
 Permite al seccionador (slicer) rellenar pequeños
 vacíos usando una única trayectoria de deposición
 de ancho variable en lugar de una deposición en

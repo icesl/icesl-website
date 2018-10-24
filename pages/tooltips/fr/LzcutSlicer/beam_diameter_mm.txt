@@ -1,2 +1,2 @@
-﻿Diamètre du point laser (mm)
+Diamètre du point laser (mm)
 Diamètre du point laser focalisé.
