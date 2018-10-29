@@ -1,8 +1,0 @@
-Brush
-画刷
-Cutter
-切割机
-Processing
-正在处理
-Slicing
-正在切片

@@ -77,6 +77,11 @@ ____
 <tr>
   <td class="rightLineCell"></td>
   <td class="rightLineCell"></td>
+  <td>Pierre Bedell</td>
+</tr>
+<tr>
+  <td class="rightLineCell"></td>
+  <td class="rightLineCell"></td>
   <td>Noémie Vennin</td>
 </tr>
 <tr>
