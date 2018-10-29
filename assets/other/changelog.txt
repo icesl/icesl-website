@@ -1,4 +1,75 @@
 ---------------------------------
+IceSL version 2.3-beta4 - 2018-10-25
+---------------------------------
+- fixed a minor bug with cavity when using large nozzle diameters
+- fixed bug where numeric output in gcode would use a decimal comma
+- improved 'wings' supports and made default support method
+- fixed comptability bug with Intel HD 4000 v/cards.
+- fixed minor bug in color mixing rendering
+- temporarily disables hCSG renderer
+
+---------------------------------
+IceSL version 2.3-beta3 - 2018-10-15
+---------------------------------
+- fixed 'wings' supports bugs
+
+---------------------------------
+IceSL version 2.3-beta2 - 2018-10-11
+---------------------------------
+- improved 'wings' supports
+- added mouse wheel support for zooming
+- fixed bug in cover calculation with big nozzles
+- new application icons
+
+---------------------------------
+IceSL version 2.3-beta1 - 2018-10-03
+---------------------------------
+- new support calculation method -- 'wings'
+- new rendering back end '-- HCSGRenderer'.
+- added cavity calculation as a printing parameter to significantly reduce printing time and material used.
+- greatly improved compatibility with reacursive-heavy scripts
+- introduced search bar for printing parameters
+- tooltips are now automatically updated at launch
+- support for curved covers
+- added option to fill small gaps in printing output
+- added option to only output subset of layers
+- improved support calculation
+- improved shields
+- improved placing of seams
+- new UI tweak 'pick' (see icesl-models/uitweaks/pick.lua)
+- improved slicing progress bar
+- improved g-code previewer UI
+- per-layer setting keys can now be set with keyboard input
+- 'set_setting_value' no longer prevents a script from exectuting when in error state
+- other minor fixes and improvements
+Forge:
+	- added code completion 
+	- added automatic script editor folding upon slicing
+
+---------------------------------
+IceSL version 2.2.1 - 2018-07-09
+---------------------------------
+- fixed issue where single fill paths would go outside of the object when using polygonal slicer
+- added Â‘number_of_layersÂ’ variable, accessible to printer.lua
+
+---------------------------------
+IceSL version 2.2.0 - 2018-06-29
+---------------------------------
+- auto slicing algorithm automatically switches to discrete if polygonal method fails
+- fixed bug where stl files were not being cached properly when overwritten
+- height in per-layer parameter editing can now be directly input by typing the value.
+
+---------------------------------
+IceSL version 2.2-beta12 - 2018-06-25
+---------------------------------
+- added support for custom infillers. See readme inside 'icesl-infillers' folder
+- added printers 'Big Builder Original' by Builder, 'Disco Easy 200', 'Discovery' and 'Neva' by Dagoma, 'Ender 2' by Ender, 'CR - 10S5' by Creality and 'FoldaRap Mega' (RepRap)
+- added missing tooltips
+- fixed brim/shield interactions
+- added button to open IceSL assets (e.g., icesl-models, icesl-infillers)
+- fixed minor bugs
+
+---------------------------------
 IceSL version 2.2-beta11 - 2018-06-11
 ---------------------------------
 - added set_setting_value for per layer settings
@@ -100,7 +171,7 @@ IceSL version 2.1.13 - 2018-04-12
 IceSL version 2.1.13-beta9 - 2018-03-16
 ---------------------------------
 - improved infilling using single paths to fill thin gaps
-  (this is controlled by the ‘enable_fit_single_path’ parameter, enabled by default)
+  (this is controlled by the Â‘enable_fit_single_pathÂ’ parameter, enabled by default)
 
 ---------------------------------
 IceSL version 2.1.13-beta8 - 2018-03-12
@@ -125,7 +196,7 @@ IceSL version 2.1.13-beta6 - 2018-03-04
 ---------------------------------
 IceSL version 2.1.13-beta5 - 2018-03-02
 ---------------------------------
-- renamed “hierarchical” infill to “cubic”, added a “default” choice which selects what we consider the best current infill techniques (depending on constant, per-layer or field density)
+- renamed Â“hierarchicalÂ” infill to Â“cubicÂ”, added a Â“defaultÂ” choice which selects what we consider the best current infill techniques (depending on constant, per-layer or field density)
 - fixed cursor size not being restored after painting a field
 - fixed cubic infill only taking into account field density (ignoring constant or per layer settings)
 - fixed cubic infill not being disabled on special cases of density = 0% or 100%
@@ -134,7 +205,7 @@ IceSL version 2.1.13-beta5 - 2018-03-02
 ---------------------------------
 IceSL version 2.1.13-beta4 - 2018-02-23
 ---------------------------------
-- fixed bug where a ‘array’ difference with single primitive would crash (introduced in beta3)
+- fixed bug where a Â‘arrayÂ’ difference with single primitive would crash (introduced in beta3)
 - disabled 3D progressive infills for now (introduced in beta3)
 
 ---------------------------------
@@ -184,8 +255,8 @@ IceSL version 2.1.11 - 2018-01-24
 - chinese localization added
 - save/load tweaks in file specified from script with ui_file
 - scene navigation no longer performs a camera 'roll' (press 'r' in IceSL-slicer to restore roll)
-- added ‘script_file’ built-in variable
-- added ‘enable_variable_cache’ built-in variable
+- added Â‘script_fileÂ’ built-in variable
+- added Â‘enable_variable_cacheÂ’ built-in variable
 - cellular_paint model (lua)
 - added brush opacity in paint
 - added 'synthesize' function
@@ -390,26 +461,26 @@ IceSL version 2.1.0 - 2017-07-07
 --------------------------------
 
 - Per-layer settings!
- * Simple UI for specifying smooth, per layer parameter variations.
- * Smooth adaptive slicing (+ optimizer for automatic selection).
- * Progressive 3D infills.
- * Per-layer temperature and speeds.
+Â * Simple UI for specifying smooth, per layer parameter variations.
+Â * Smooth adaptive slicing (+ optimizer for automatic selection).
+Â * Progressive 3D infills.
+Â * Per-layer temperature and speeds.
 
 - Complete overhaul of the user interface:
- * New Icesl-slicer application for slicing 3D models without having to write scripts.
- * New setting panel for a simplified slicing experience.
- * Unified interface for Icesl-forge, Icesl-slicer and SliceCrafter.
- * Multiple language support (around 90% of the on-screen text), English, Spanish and French are supported.
- * Profiles for printers and materials (can be customized).
- 
+Â * New Icesl-slicer application for slicing 3D models without having to write scripts.
+Â * New setting panel for a simplified slicing experience.
+Â * Unified interface for Icesl-forge, Icesl-slicer and SliceCrafter.
+Â * Multiple language support (around 90% of the on-screen text), English, Spanish and French are supported.
+Â * Profiles for printers and materials (can be customized).
+Â 
 - Major improvements to the slicing engine:
- * Support for per-layer settings across all algorithms.
- * Support structures now give much better results.
- * More parameters are exposed for support structures generation.
- * Fixed bug in preserve thin features, which now works as expected.
- * Added an optional raft.
- * Improved retraction strategy and infilling of thin areas.
- * Slicing now can repair small topological errors.
+Â * Support for per-layer settings across all algorithms.
+Â * Support structures now give much better results.
+Â * More parameters are exposed for support structures generation.
+Â * Fixed bug in preserve thin features, which now works as expected.
+Â * Added an optional raft.
+Â * Improved retraction strategy and infilling of thin areas.
+Â * Slicing now can repair small topological errors.
 
 --------------------------------
 IceSL version 2.0.8 - 2017-06-16

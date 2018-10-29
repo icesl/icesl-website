@@ -148,4 +148,4 @@ The following is a video introducing IceSL-slicer as an individual component of 
 - [français] [SLICER IceSL Beta [optimiser, remplissage à l'aide de l'outil brosse]](https://www.youtube.com/watch?v=eNEZHqeN-xc)
 
 [cheatsheet]:   ../cheatsheet/
-[script-doc]:   https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Main_Page
+[script-doc]:   https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting
