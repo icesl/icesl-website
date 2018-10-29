@@ -4,9 +4,9 @@ bio:                'IceSL'
 description:        "A modeler/slicer for 3D printing"
 locale:             en_US
 baseurl: # the subpath of your site, e.g. /blog
- ""                                      # for 'bundle exe jekyll serve'
+# ""                                      # for 'bundle exe jekyll serve'
 # "/home/yperchy/Sites/icesl/_site"       # for 'bundle exe jekyll build' -- testing in local machine
-# "https://icesl.loria.fr"                # for 'bundle exe jekyll build' -- deployment
+ "https://icesl.loria.fr"                # for 'bundle exe jekyll build' -- deployment
 url: "http://icesl.loria.fr" # the base hostname & protocol for your site
 
 defaults:
