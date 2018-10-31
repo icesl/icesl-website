@@ -125,8 +125,8 @@ ____
   <td>Charles Helbing</td>
 </tr>
 </table>
-<sup>1. Creator, lead, coding.</sup><br>
-<sup>2. Coding, support, testing, documentation, localization.</sup>
+<sup>1. Creator, lead, coding, support, testing.</sup><br>
+<sup>2. Coding, support, testing, documentation, localization, website.</sup>
 
 **Acknowledgements:**
 
