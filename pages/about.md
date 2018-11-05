@@ -36,7 +36,7 @@ Questions? Look here first.
 6. Text editor?
   + IceSL-forge includes a script editor while IceSL-slicer does not. Both however, monitor file changes to the Lua script file and updates the view whenever the script changes.
 7. Do I need a powerful computer?
-  + See below the system requirements.
+  + See the system requirements in the [download][download] section.
 8. So if IceSL is free, does that mean I can do whatever I want with it?
   + See the license below.
 
@@ -136,6 +136,7 @@ This work is supported by ERC grant ShapeForge (StG-2012-307877)
 [forum]:          https://groups.google.com/forum/#!forum/icesl
 [license]:        ../assets/pdf/EULA_IceSL_binary.pdf
 [slicecrafter]:   ../slicecrafter/
+[download]:       ../download/
 
 [sylvain]:      http://www.antexel.com/research
 [salim]:        https://members.loria.fr/sperchy

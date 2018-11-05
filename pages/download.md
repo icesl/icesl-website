@@ -70,8 +70,10 @@ Please make sure to install the latest drivers for your GPUs. This solves 90% of
 It has been tested on the following hardware:
 - GeForce GTX 480 / 580 / 680 / 970 / Titan / GTX 1080
 - GeForce GT 555M / 610M (nouveau driver)
-- Intel HD Graphics 4400, 4600
+- Intel HD Graphics 4400, 4600, 4000<sup>5.</sup>
 - AMD Radeon 290X
+
+<sup>5. Although Intel HD Graphics 4000 does not fully support OpenGL 4.3, it does support the features needed by IceSL through extensions.</sup>
 
 And in the following OS's:
 - Windows 7/10 64 bits
