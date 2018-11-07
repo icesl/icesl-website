@@ -1,16 +1,37 @@
+---
+layout: feature
+title: Slicing settings
+permalink: /parameters/
+exclude: true
+---
+
 <script>
 function printingParameter(parameterFile, htmlID, parameterName)
 {
-  document.getElementById(htmlID).innerHTML = "loading...";
-  var client = new XMLHttpRequest();
-  client.open('GET', parameterFile);
-  client.onloadend = function()
-  {
-    document.getElementById(htmlID).title = parameterName;
+  if(document.getElementById(htmlID + "_text") === null) {
     document.getElementById(htmlID).style.lineHeight = "100%";
-    document.getElementById(htmlID).innerHTML = "<pre>" + client.responseText + "</pre>";
-  }
+    // loading...
+    var loading = document.createElement("pre");
+    loading.setAttribute("id", htmlID + "_text");
+    loading.appendChild(document.createTextNode("loading..."));
+    document.getElementById(htmlID).appendChild(loading);
+    // get file content
+    var client = new XMLHttpRequest();
+    client.open('GET', parameterFile);
+    client.onloadend = async function()
+    {
+      if(document.getElementById(htmlID + "_text") === null) return;
+      document.getElementById(htmlID).removeChild(document.getElementById(htmlID + "_text"));
+      var text = document.createElement("pre");
+      text.setAttribute("id", htmlID + "_text");
+      text.appendChild(document.createTextNode(client.responseText));
+      document.getElementById(htmlID).appendChild(text);
+    }
   client.send();
+  } else {
+    document.getElementById(htmlID).style.lineHeight = "0%";
+    document.getElementById(htmlID).removeChild(document.getElementById(htmlID + "_text"));
+  }
 }
 </script>
 
@@ -67,7 +88,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
-<a  ="#" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
+<a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
   {% endif %}
 {% endfor %}

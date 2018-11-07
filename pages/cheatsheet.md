@@ -1,5 +1,4 @@
 ---
-order: 5
 layout: feature
 title: IceSL cheatsheet
 permalink: /cheatsheet/

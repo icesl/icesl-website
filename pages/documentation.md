@@ -6,15 +6,13 @@ permalink: /documentation/
 exclude: false
 ---
 
-## Language Documention
+## Scripting & Slicing Documention
 
-[Scripting specification][script-doc]
+[Scripting language][script-doc]
 
 [Cheatsheet][cheatsheet]
 
-## Printing Options
-
-{% include_relative parameters.md %}
+[Slicing settings][parameters]
 
 ## Tutorials, Guides & Videos
 
@@ -148,4 +146,5 @@ The following is a video introducing IceSL-slicer as an individual component of 
 - [français] [SLICER IceSL Beta [optimiser, remplissage à l'aide de l'outil brosse]](https://www.youtube.com/watch?v=eNEZHqeN-xc)
 
 [cheatsheet]:   ../cheatsheet/
+[parameters]:   ../parameters/
 [script-doc]:   https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting
