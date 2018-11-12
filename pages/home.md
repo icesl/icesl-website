@@ -44,5 +44,5 @@ Follow us on [twitter][twitter] to stay tuned about updates, new features, prese
 [documentation]:  ./documentation/
 [cheatsheet]:     ./cheatsheet/
 [about]:          ./about/
-[forum]:          https://groups.google.com/forum/#!forum/{{site.github}}
+[forum]:          https://groups.google.com/forum/#!forum/{{site.google}}
 [twitter]:        https://twitter.com/iceslapp

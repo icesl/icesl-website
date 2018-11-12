@@ -18,7 +18,7 @@ exclude: false
 
 Here you will find a number of tutorials and videos on the use of IceSL. Their presentation order is based on difficulty and familiarity with the tool, hence we recommend to follow them in an orderly fashion.
 
-We welcome community questions, corrections, suggestions and submissions for new tutorials! Please drop us a note on the forum with your contributions.
+We welcome community questions, corrections, suggestions and submissions for new tutorials! Please drop us a note on the [forum][forum] with your contributions.
 
 ### Tutorials
 
@@ -148,3 +148,4 @@ The following is a video introducing IceSL-slicer as an individual component of 
 [cheatsheet]:   ../cheatsheet/
 [parameters]:   ../parameters/
 [script-doc]:   https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting
+[forum]:        https://groups.google.com/forum/#!forum/{{site.google}}

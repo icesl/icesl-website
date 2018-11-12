@@ -100,7 +100,7 @@ Older versions are available from our archives:
 
 
 [icesl-win64-beta]:     https://gforge.inria.fr/frs/download.php/file/37776/IceSL_beta.exe
-[icesl-linux64-beta]:   https://gforge.inria.fr/frs/download.php/file/37791/icesl-2.3-beta5-amd64.zip
+[icesl-linux64-beta]:   https://gforge.inria.fr/frs/download.php/file/37792/icesl-2.3-beta5-amd64.zip
 
 [icesl-win64-stable]:   https://gforge.inria.fr/frs/download.php/file/37606/IceSL_win64.exe
 [icesl-win32-stable]:   https://gforge.inria.fr/frs/download.php/file/37607/IceSL_win32.exe

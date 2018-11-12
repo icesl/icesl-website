@@ -133,7 +133,7 @@ ____
 This work is supported by ERC grant ShapeForge (StG-2012-307877)
 
 
-[forum]:          https://groups.google.com/forum/#!forum/icesl
+[forum]:          https://groups.google.com/forum/#!forum/{{site.google}}
 [license]:        ../assets/pdf/EULA_IceSL_binary.pdf
 [slicecrafter]:   ../slicecrafter/
 [download]:       ../download/
