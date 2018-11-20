@@ -3,3 +3,6 @@ Valores cerca de cero significian que 'la mayoría de paredes
 de relleno tienen una inclicación cercana a la especificada
 en el ángulo de inclinación'. Valores cercanos a uno quieren
 decir que 'la mayor parte de paredes son verticales'.
+
+ADVERTENCIA: El ajuste automático de densidad no tienen en cuenta
+este parámetro.

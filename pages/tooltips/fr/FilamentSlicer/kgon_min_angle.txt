@@ -1,2 +1,5 @@
 Angle de surplomb
 Angle minimum (en degré) entre une parois de cellule et le plan xy.
+
+AVERTISSEMENT: Le réglage automatique de la densité ne prend pas
+ce paramètre en compte.

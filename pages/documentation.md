@@ -147,5 +147,5 @@ The following is a video introducing IceSL-slicer as an individual component of 
 
 [cheatsheet]:   ../cheatsheet/
 [parameters]:   ../parameters/
-[script-doc]:   https://gforge.inria.fr/plugins/mediawiki/wiki/icesl/index.php/Scripting
+[script-doc]:   https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Scripting-language
 [forum]:        https://groups.google.com/forum/#!forum/{{site.google}}
