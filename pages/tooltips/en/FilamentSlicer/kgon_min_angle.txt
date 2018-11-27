@@ -1,6 +1,0 @@
-Overhang angle
-Minimum angle (degrees) between an infill wall and
-the xy plane.
-
-WARNING: Automatic density adjustment does not take this
-parameter into account.

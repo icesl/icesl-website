@@ -1,7 +1,0 @@
-﻿Distribution of slopes
-Values closer to zero mean 'most infill walls have their slopes
-close to the overhang angle' while values closer to 1 mean 'most
-walls are vertical'.
-
-WARNING: Automatic density adjustment does not take this
-parameter into account.

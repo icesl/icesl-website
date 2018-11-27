@@ -1,0 +1,7 @@
+Répartition des pentes
+Les valeurs proches de zéro signifient 'la pluspart des parois ont 
+une pente proche de l'angle de surplomb' alors que les valeurs proche
+de 1 signifient 'la pluspart des parois sont verticales'.
+
+AVERTISSEMENT: Le réglage automatique de la densité ne prend pas
+ce paramètre en compte.

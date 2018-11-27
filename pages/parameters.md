@@ -44,7 +44,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/en/FilamentSlicer/' %}
+  {% assign path = '/assets/tooltips/en/FilamentSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -63,7 +63,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/en/MeshExportService/' %}
+  {% assign path = '/assets/tooltips/en/MeshExportService/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -82,7 +82,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/en/SVGSlicer/' %}
+  {% assign path = '/assets/tooltips/en/SVGSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -101,7 +101,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/en/LzcutSlicer/' %}
+  {% assign path = '/assets/tooltips/en/LzcutSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -126,7 +126,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/es/FilamentSlicer/' %}
+  {% assign path = '/assets/tooltips/es/FilamentSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -145,7 +145,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/es/MeshExportService/' %}
+  {% assign path = '/assets/tooltips/es/MeshExportService/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -164,7 +164,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/es/SVGSlicer/' %}
+  {% assign path = '/assets/tooltips/es/SVGSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -183,7 +183,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/es/LzcutSlicer/' %}
+  {% assign path = '/assets/tooltips/es/LzcutSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -208,7 +208,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/fr/FilamentSlicer/' %}
+  {% assign path = '/assets/tooltips/fr/FilamentSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -227,7 +227,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/fr/MeshExportService/' %}
+  {% assign path = '/assets/tooltips/fr/MeshExportService/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -246,7 +246,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/fr/SVGSlicer/' %}
+  {% assign path = '/assets/tooltips/fr/SVGSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -265,7 +265,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/fr/LzcutSlicer/' %}
+  {% assign path = '/assets/tooltips/fr/LzcutSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -290,7 +290,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/ch/FilamentSlicer/' %}
+  {% assign path = '/assets/tooltips/ch/FilamentSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -310,7 +310,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/ch/MeshExportService/' %}
+  {% assign path = '/assets/tooltips/ch/MeshExportService/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -329,7 +329,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/ch/SVGSlicer/' %}
+  {% assign path = '/assets/tooltips/ch/SVGSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
@@ -348,7 +348,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 <p />
 <ul>
 {% for parameter in site.static_files %}
-  {% assign path = '/pages/tooltips/ch/LzcutSlicer/' %}
+  {% assign path = '/assets/tooltips/ch/LzcutSlicer/' %}
   {% if parameter.path contains path %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
