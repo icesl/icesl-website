@@ -33,7 +33,9 @@ function handleSTLFile(file) {
 }
 
 function createEmscriptenFile(name,data) {
-  FS.unlink("/" + name);
+  try {
+    FS.unlink("/" + name);
+  } catch {}
   FS.createDataFile("/", name, data, true, true, true);
 }
 

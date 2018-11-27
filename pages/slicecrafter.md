@@ -65,7 +65,7 @@ ul li {
 <input type="file" id="fileElem" accept=".stl" style="display:none" onchange="handleSTLFile(this.files[0])">
 </td>
 <td>
-<a class="button fit" id="fileSelect2">Load settings</a>
+<a class="button fit" id="fileSelect2" title="Click the 'Load' button after selecting file!">Load settings</a>
 <input type="file" id="fileElem2" accept=".xml" style="display:none" onchange="handleSettingsFile(this.files[0])">
 </td>
 </tr></table>
