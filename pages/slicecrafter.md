@@ -65,7 +65,7 @@ ul li {
 <input type="file" id="fileElem" accept=".stl" style="display:none" onchange="handleSTLFile(this.files[0])">
 </td>
 <td>
-<a class="button fit" id="fileSelect2" title="Click the 'Load' button after selecting file!">Load settings</a>
+<a class="button fit" id="fileSelect2">Load settings</a>
 <input type="file" id="fileElem2" accept=".xml" style="display:none" onchange="handleSettingsFile(this.files[0])">
 </td>
 </tr></table>
@@ -96,9 +96,9 @@ ul li {
     var Module = {
       preRun: [],
       postRun: [],
-      print: (function(text) {
+      print: function(text) {
         console.error(text);       
-      })(),
+      },
       printErr: function(text) {
         if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
         console.error(text);
@@ -140,7 +140,25 @@ ul li {
         if (text) Module.printErr('[post-exception status] ' + text);
       };
     };
+
+    var xhr = new XMLHttpRequest()
+    xhr.open('GET', "{{ "/assets/slicecrafter/IceSL-slicer.wasm" | prepend: site.baseurl }}", true)
+    xhr.responseType = 'arraybuffer'
+    xhr.onload = function()
+    {
+      Module.wasmBinary = xhr.response
+      var script = document.createElement('script')
+      script.src = "{{ "/assets/slicecrafter/IceSL-slicer.js" | prepend: site.baseurl }}"
+      script.onload = function()
+      {
+      console.log("Emscripten boilerplate loaded.")
+      }
+      document.body.appendChild(script)
+    }
+    xhr.send(null)
   </script>
+
+  <script async type="text/javascript" src="{{ "/assets/slicecrafter/files.js" | prepend: site.baseurl }}"></script>
  
   <script>
   function parseCommandLine()
@@ -213,11 +231,7 @@ function saveFileFromMemoryFSToDisk(name) {
 Module['locateFile'] = function(path, prefix) {
   return "{{ "/assets/slicecrafter/" | prepend: site.baseurl }}" + path;
 }
-
 </script>
-  
-<script async type="text/javascript" src="{{ "/assets/slicecrafter/files.js" | prepend: site.baseurl }}"></script>
-<script async type="text/javascript" src="{{ "/assets/slicecrafter/IceSL-slicer.js" | prepend: site.baseurl }}"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80490047-1"></script>
