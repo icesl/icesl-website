@@ -6,50 +6,47 @@ permalink: /slicecrafter/
 exclude: false
 ---
 
-<head>
-    
-    <script src="{{ "/assets/slicecrafter/jquery-3.3.1.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
-		<script src="{{ "/assets/slicecrafter/bootstrap.js" | prepend: site.baseurl }}" charset="utf-8"></script>
- 		<script src="{{ "/assets/slicecrafter/fileselect.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+<script src="{{ "/assets/slicecrafter/jquery-3.3.1.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+<script src="{{ "/assets/slicecrafter/bootstrap.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+<script src="{{ "/assets/slicecrafter/fileselect.js" | prepend: site.baseurl }}" charset="utf-8"></script>
 		
     
-    <style>
-      body {
-        font-family: arial;
-        margin: 0;
-        padding: none;
-        background-color: #ffffff;
-      }
+<style>
+  body {
+    font-family: arial;
+    margin: 0;
+    padding: none;
+    background-color: #ffffff;
+  }
 
-      .emscripten { position: relative; left: -90px; padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
-      div.emscripten { text-align: center; }
-      div.emscripten_border { border: 1px solid black; }
-      /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
-      canvas.emscripten { border: 0px none; }
+  .emscripten { position: relative; left: -90px; padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
+   div.emscripten { text-align: center; }
+   div.emscripten_border { border: 1px solid black; }
+   /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
+   canvas.emscripten { border: 0px none; }
 
-ul {
+  ul {
     margin-top: 15px;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-}
+  }
 
-ul li {
+  ul li {
     margin-top: -15px;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-}
+  }
 
-#warning {
+  #warning {
     position: relative;
     top:    -20px;
     height: 0px;
     margin-top: -16px;
-}
+  }
 
-  </style>
-</head>
+</style>
 
 <!--
 <label for="name">Enter url of STL:</label>
@@ -71,9 +68,11 @@ ul li {
 </tr></table>
 </div>
 
-<body onload="initialize()">
+<script>
+initialize();
+</script>
 
-  <script>
+<script>
   function createLink()
   {
     var url = document.getElementsByName('url')[0].value;
@@ -87,80 +86,79 @@ ul li {
     a.innerHTML=lnk;
     a.href=lnk;
   }
-  </script>
-  
-  <canvas class="emscripten" id="canvas" tabindex="1" oncontextmenu="event.preventDefault()"></canvas>
+</script>
 
-  <script type='text/javascript'>
+<canvas class="emscripten" id="canvas" tabindex="1" oncontextmenu="event.preventDefault()"></canvas>
 
-    var Module = {
-      preRun: [],
-      postRun: [],
-      print: function(text) {
-        console.error(text);       
-      },
-      printErr: function(text) {
-        if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
-        console.error(text);
-      },
-      canvas: (function() {
-        var canvas = document.getElementById('canvas');
+<script type='text/javascript'>
+  var Module = {
+    preRun: [],
+    postRun: [],
+    print: function(text) {
+      console.error(text);       
+    },
+    printErr: function(text) {
+      if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
+      console.error(text);
+    },
+    canvas: (function() {
+      var canvas = document.getElementById('canvas');
 
-        // As a default initial behavior, pop up an alert when webgl context is lost. To make your
-        // application robust, you may want to override this behavior before shipping!
-        // See http://www.khronos.org/registry/webgl/specs/latest/1.0/#5.15.2
-        canvas.addEventListener("webglcontextlost", function(e) { alert('WebGL context lost. You will need to reload the page.'); e.preventDefault(); }, false);
+      // As a default initial behavior, pop up an alert when webgl context is lost. To make your
+      // application robust, you may want to override this behavior before shipping!
+      // See http://www.khronos.org/registry/webgl/specs/latest/1.0/#5.15.2
+      canvas.addEventListener("webglcontextlost", function(e) { alert('WebGL context lost. You will need to reload the page.'); e.preventDefault(); }, false);
 
-        return canvas;
-      })(),
-      setStatus: function(text) {
-        if (!Module.setStatus.last) Module.setStatus.last = { time: Date.now(), text: '' };
-        if (text === Module.setStatus.text) return;
-        var m = text.match(/([^(]+)\((\d+(\.\d+)?)\/(\d+)\)/);
-        var now = Date.now();
-        if (m && now - Date.now() < 30) return; // if this is a progress update, skip it if too soon
-        if (m) {
-          text = m[1];
-        } else {
-        }
-      },
-      totalDependencies: 0,
-      monitorRunDependencies: function(left) {
-        this.totalDependencies = Math.max(this.totalDependencies, left);
-        Module.setStatus(left ? 'Preparing... (' + (this.totalDependencies-left) + '/' + this.totalDependencies + ')' : 'All downloads complete.');
+      return canvas;
+    })(),
+    setStatus: function(text) {
+      if (!Module.setStatus.last) Module.setStatus.last = { time: Date.now(), text: '' };
+      if (text === Module.setStatus.text) return;
+      var m = text.match(/([^(]+)\((\d+(\.\d+)?)\/(\d+)\)/);
+      var now = Date.now();
+      if (m && now - Date.now() < 30) return; // if this is a progress update, skip it if too soon
+      if (m) {
+        text = m[1];
+      } else {
       }
-    };
-    
-    Module.setStatus('Downloading...');
-    
-    window.onerror = function(event) {
-      // TODO: do not warn on ok events like simulating an infinite loop or exitStatus
-      Module.setStatus('Exception thrown, see JavaScript console');
-      Module.setStatus = function(text) {
-        if (text) Module.printErr('[post-exception status] ' + text);
-      };
-    };
-
-    var xhr = new XMLHttpRequest()
-    xhr.open('GET', "{{ "/assets/slicecrafter/IceSL-slicer.wasm" | prepend: site.baseurl }}", true)
-    xhr.responseType = 'arraybuffer'
-    xhr.onload = function()
-    {
-      Module.wasmBinary = xhr.response
-      var script = document.createElement('script')
-      script.src = "{{ "/assets/slicecrafter/IceSL-slicer.js" | prepend: site.baseurl }}"
-      script.onload = function()
-      {
-      console.log("Emscripten boilerplate loaded.")
-      }
-      document.body.appendChild(script)
+    },
+    totalDependencies: 0,
+    monitorRunDependencies: function(left) {
+      this.totalDependencies = Math.max(this.totalDependencies, left);
+      Module.setStatus(left ? 'Preparing... (' + (this.totalDependencies-left) + '/' + this.totalDependencies + ')' : 'All downloads complete.');
     }
-    xhr.send(null)
-  </script>
+  };
+  
+  Module.setStatus('Downloading...');
+  
+  window.onerror = function(event) {
+    // TODO: do not warn on ok events like simulating an infinite loop or exitStatus
+    Module.setStatus('Exception thrown, see JavaScript console');
+    Module.setStatus = function(text) {
+      if (text) Module.printErr('[post-exception status] ' + text);
+    };
+  };
 
-  <script async type="text/javascript" src="{{ "/assets/slicecrafter/files.js" | prepend: site.baseurl }}"></script>
- 
-  <script>
+  var xhr = new XMLHttpRequest()
+  xhr.open('GET', "{{ "/assets/slicecrafter/IceSL-slicer.wasm" | prepend: site.baseurl }}", true)
+  xhr.responseType = 'arraybuffer'
+  xhr.onload = function()
+  {
+    Module.wasmBinary = xhr.response
+    var script = document.createElement('script')
+    script.src = "{{ "/assets/slicecrafter/IceSL-slicer.js" | prepend: site.baseurl }}"
+    script.onload = function()
+    {
+    console.log("Emscripten boilerplate loaded.")
+    }
+    document.body.appendChild(script)
+  }
+  xhr.send(null)
+</script>
+
+<script async type="text/javascript" src="{{ "/assets/slicecrafter/files.js" | prepend: site.baseurl }}"></script>
+
+<script>
   function parseCommandLine()
   {
     /// get 'command line' parameters      
@@ -209,14 +207,14 @@ ul li {
       xhr.send();
     }
   }
-  </script>
+</script>
 
 
 <script src="{{ "/assets/slicecrafter/Blob.js" | prepend: site.baseurl }}"> </script>
 <script src="{{ "/assets/slicecrafter/FileSaver.js" | prepend: site.baseurl }}"> </script>
 
 <script>
-function saveFileFromMemoryFSToDisk(name) {
+  function saveFileFromMemoryFSToDisk(name) {
    var data=FS.readFile(name);
    var blob;
    var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
@@ -226,11 +224,11 @@ function saveFileFromMemoryFSToDisk(name) {
       blob = new Blob([data.buffer], {type: "application/octet-binary"});
    }
    saveAs(blob, name);
-}
+  }
 
-Module['locateFile'] = function(path, prefix) {
+  Module['locateFile'] = function(path, prefix) {
   return "{{ "/assets/slicecrafter/" | prepend: site.baseurl }}" + path;
-}
+  }
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
