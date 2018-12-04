@@ -19,6 +19,7 @@ The best and most straightforward way to reach us is through [our forum][forum].
 
 ____
 
+<a id="faq"></a>
 ### F.A.Q.
 
 Questions? Look here first.
@@ -128,15 +129,28 @@ ____
 <sup>1. Creator, lead, coding, support, testing.</sup><br>
 <sup>2. Coding, support, testing, documentation, localization, website.</sup>
 
-**Acknowledgements:**
+**Acknowledgements:**<a id="acknowledgements"></a>
 
 This work is supported by ERC grant ShapeForge (StG-2012-307877)
+
+[Slicecrafter][slicecrafter] is powered by [Emscripten][emscripten].
+
+IceSL uses [ImGUI][imgui] for UI elements, [Clipper][clipper] for 2D geometry processing, [Asio][asio] for update notifications, [Eigen][eigen] for some math calulations as well as [TinyXML][tinyxml] for xml parsing, [NanoSVG][nano-svg] for svg parsing and [STBtruetype][stb-truetype] for ttf manipulation.
 
 
 [forum]:          https://groups.google.com/forum/#!forum/{{site.google}}
 [license]:        ../assets/pdf/EULA_IceSL_binary.pdf
 [slicecrafter]:   ../slicecrafter/
 [download]:       ../download/
+
+[emscripten]:     http://kripken.github.io/emscripten-site/
+[imgui]:          https://github.com/ocornut/imgui
+[clipper]:        http://www.angusj.com/delphi/clipper.php
+[eigen]:          http://manao.inria.fr/eigen/
+[asio]:           https://think-async.com/
+[tinyxml]:        http://www.grinninglizard.com/tinyxml/
+[stb-truetype]:   https://github.com/nothings/stb
+[nano-svg]:       https://github.com/memononen/nanosvg
 
 [sylvain]:      http://www.antexel.com/research
 [salim]:        https://members.loria.fr/sperchy

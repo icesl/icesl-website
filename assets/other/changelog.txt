@@ -1,4 +1,42 @@
 ---------------------------------
+IceSL version 2.3-beta7 - 2018-12-04
+---------------------------------
+- added ability to create custom infillers based on images
+- added 'image_contouring'; extacts contours from images
+- added effect 'paint brushes'; paints models with different brushes
+- introduced highlighting of printing parameters defined by script
+- custom parameters in printer profiles now sorted in order of creation
+- added optional parameter to custom printing parameters to define default value
+- added color picker in parameter panel
+- added color legend to g-code previewer
+- fixed save/load printing parameters bugs in slicecrafter
+- improved color mixing
+- fixed bug where bbox(Void) was giving a [inf,-inf] bounding box
+- locale bug fixed
+
+---------------------------------
+IceSL version 2.3-beta6 - 2018-11-16
+---------------------------------
+- Volume used output on console
+- Better control of polyfoam density
+- Bug fixed in material mixing
+- Boolean printing parameters can now be set per-layer through scripts
+- New mapping of values when setting boolean parameters per-layer/field:
+	* 0.0 <= v < 0.5	False
+	* 0.5 <= v <= 1	True
+		where v is the value at a given layer/point
+Slicer:
+	- Fixed bug of relative paths on first loading of scripts
+
+---------------------------------
+IceSL version 2.3-beta5 - 2018-10-31
+---------------------------------
+- fixed bug with tooltips on custom printing settings
+- removed depecrated settings on polyfoam infill
+- fixed numerous bugs with 'wings' supports
+- fixed xy_mm_per_pix changing upon user cancel
+
+---------------------------------
 IceSL version 2.3-beta4 - 2018-10-25
 ---------------------------------
 - fixed a minor bug with cavity when using large nozzle diameters
