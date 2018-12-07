@@ -1,4 +1,17 @@
 ---------------------------------
+IceSL version 2.3-beta8 - 2018-12-07
+---------------------------------
+- improved color mixing
+- improved 'wings' supports
+- fixed bug when slicing some particular heavy-CSG scripts
+- removed debug info output from remote fetching of tooltips
+- improved memory usage on scripts with a big number of 'emit' instructions
+- improved brim interaction with shields
+- added a tooltip warning when a printing profile produces an error
+Forge:
+	* flushed undo buffer upon 'new', 'load' or 'drag' actions on the UI.
+
+---------------------------------
 IceSL version 2.3-beta7 - 2018-12-04
 ---------------------------------
 - added ability to create custom infillers based on images
