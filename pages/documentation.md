@@ -61,9 +61,10 @@ _Author: DIY3DTech -- [http://diy3dtech.com/](http://diy3dtech.com/)_
 
 Video duration: 18 minutes.
 
+<div markdown="1" class="video-container">
 {:.video-center}
-<iframe src="https://www.youtube.com/embed/nCDEOsgAt3g" allowfullscreen="" height="300px" frameborder="0" width="560"></iframe>
-<br>
+<iframe src="https://www.youtube.com/embed/nCDEOsgAt3g" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
 </details>
 
 <details  markdown="1"><summary> <b>IceSL SLicer - Example Using Adaptive Layer Slicing!</b> </summary>
@@ -71,9 +72,10 @@ _Author: DIY3DTech -- [http://diy3dtech.com/](http://diy3dtech.com/)_
 
 Video duration: 12 minutes.
 
+<div markdown="1" class="video-container">
 {:.video-center}
-<iframe src="https://www.youtube.com/embed/F8oHVk1EYes" allowfullscreen="" height="300px" frameborder="0" width="560"></iframe>
-<br>
+<iframe src="https://www.youtube.com/embed/F8oHVk1EYes" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
 </details>
 
 <details  markdown="1"><summary> <b>IceSL Slicer - How to do Basic Scripting in iceSL Forge!</b> </summary>
@@ -81,9 +83,10 @@ _Author: DIY3DTech -- [http://diy3dtech.com/](http://diy3dtech.com/)_
 
 Video duration: 17 minutes.
 
+<div markdown="1" class="video-container">
 {:.video-center}
-<iframe src="https://www.youtube.com/embed/SLqUB6krQB8" allowfullscreen="" height="300px" frameborder="0" width="560"></iframe>
-<br>
+<iframe src="https://www.youtube.com/embed/SLqUB6krQB8" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
 </details>
 
 <details  markdown="1"><summary> <b>IceSL Slicer - Creating Custom Printers in Windows!</b> </summary>
@@ -91,9 +94,10 @@ _Author: DIY3DTech -- [http://diy3dtech.com/](http://diy3dtech.com/)_
 
 Video duration: 13 minutes.
 
+<div markdown="1" class="video-container">
 {:.video-center}
-<iframe src="https://www.youtube.com/embed/9TZzXn_o6zs" allowfullscreen="" height="300px" frameborder="0" width="560"></iframe>
-<br>
+<iframe src="https://www.youtube.com/embed/9TZzXn_o6zs" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
 </details>
 
 <details  markdown="1"><summary> <b>IceSL Slicer - How To Add Printer and Material Profiles!</b> </summary>
@@ -101,9 +105,10 @@ _Author: DIY3DTech -- [http://diy3dtech.com/](http://diy3dtech.com/)_
 
 Video duration: 10 minutes.
 
+<div markdown="1" class="video-container">
 {:.video-center}
-<iframe src="https://www.youtube.com/embed/1GPA2BL4MX4" allowfullscreen="" height="300px" frameborder="0" width="560"></iframe> 
-<br>
+<iframe src="https://www.youtube.com/embed/1GPA2BL4MX4" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
 </details>
 
 <details  markdown="1"><summary> <b>IceSL Slicer - Converting an STL to SVG for a Laser or CNC Workflows!</b> </summary>
@@ -111,9 +116,10 @@ _Author: DIY3DTech -- [http://diy3dtech.com/](http://diy3dtech.com/)_
 
 Video duration: 6 minutes. 
 
+<div markdown="1" class="video-container">
 {:.video-center}
-<iframe src="https://www.youtube.com/embed/5O9Kt09ymiI" allowfullscreen="" height="300px" frameborder="0" width="560"></iframe> 
-<br>
+<iframe src="https://www.youtube.com/embed/5O9Kt09ymiI" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
 </details>
 
 <details  markdown="1"><summary> <b>Parameter Painting Infill</b> </summary>
@@ -121,9 +127,10 @@ _Author: Sylvain Lefebvre (sylvain.lefebvre at inria dot fr)_
 
 The video below demonstrates the ability of painting introduced in version **2.1.7.** It is very concise and lasts only for 1 minute. 
 
+<div markdown="1" class="video-container">
 {:.video-center}
-<iframe src="https://www.youtube.com/embed/oZ2TGFBkLMI" allowfullscreen="" height="300px" frameborder="0" width="560"></iframe>
-<br>
+<iframe src="https://www.youtube.com/embed/oZ2TGFBkLMI" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
 </details>
 
 <details  markdown="1"><summary> <b>Introduction to IceSL version 2.1.0</b> </summary>
@@ -131,9 +138,10 @@ _Author: Sylvain Lefebvre (sylvain.lefebvre at inria dot fr)_
 
 The following is a video introducing IceSL-slicer as an individual component of IceSL. It is intended to be a quick tour on some important features introduced in version **2.1.0.** It lasts around 5 minutes. 
 
+<div markdown="1" class="video-container">
 {:.video-center}
-<iframe src="https://www.youtube.com/embed/pMFDI5PzRMU" allowfullscreen="" height="300px" frameborder="0" width="560"></iframe>
-<br>
+<iframe src="https://www.youtube.com/embed/pMFDI5PzRMU" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
 </details>
 
 <br>

@@ -7,10 +7,9 @@ categories: home
 ## Advanced modeling and slicing for 3D printing
 
 <br>
-<div markdown="1" class="noBorderNoBackground">
-|[Download now][download]{:.button}{:.big}|[Online version][slicecrafter]{:.button}{:.big}|
 
-</div>
+[Download now][download]{:.button.big}{:.button-half} [Online version][slicecrafter]{:.button.big}{:.button-half}
+
 <br>
 
 IceSL is a state of the art slicer (STL &rarr; G-code) with advanced modeling capabilities. Head to the &nbsp;[features page][features]{:.text-big}{:.text-color1}&nbsp; to know all about IceSL's cutting edge technology. For documentation, guides, tutorials and references about using IceSL, go to the &nbsp;[documentation section][documentation]{:.text-big}{:.text-color2}&nbsp; as well as the handy &nbsp;[cheatsheet][cheatsheet]{:.text-big}{:.text-color4}&nbsp; we've created. If you want to ask a question about IceSL or inquire about licensing, please reach us through our &nbsp;[forum][forum]{:.text-big}&nbsp; or go to the &nbsp;[about page][about]{:.text-big}{:.text-color3}&nbsp; where there is also a [F.A.Q section][faq]{:.text-color4}.

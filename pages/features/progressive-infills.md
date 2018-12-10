@@ -10,9 +10,10 @@ summary: Unique progressive infill pattern that can smoothly vary in density alo
 
 IceSL features a unique progressive infill pattern that can smoothly vary in density along height. This is a perfect companion to per-layer settings. Besides saving time and material in large parts, it allows to vary elasticity when printing with flexible filament!
 
+<div markdown="1" class="video-container">
 {:.video-center}
-<iframe src="https://www.youtube.com/embed/ZRiaFvumLCQ" allowfullscreen="" height="300px" frameborder="0" width="560"></iframe>
-<br>
+<iframe src="https://www.youtube.com/embed/ZRiaFvumLCQ" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Publication:
  - Not yet published.

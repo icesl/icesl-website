@@ -1893,13 +1893,13 @@
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
-		height: 3rem;
+    height: 3rem;
 		line-height: 3rem;
 		padding: 0 2rem;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
-		white-space: nowrap;
+		/*white-space: nowrap;*/
 	}
 
 		input[type="submit"].icon:before,
@@ -1994,7 +1994,7 @@
 				button.big,
 				.button.big {
 					font-size: 1rem;
-					height: 3.75rem;
+					height: 100%;
 					line-height: 3.75rem;
 				}
 

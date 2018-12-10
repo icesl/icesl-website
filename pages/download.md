@@ -22,11 +22,8 @@ categories: download
 
 The packages bellow contain both IceSL-forge and IceSL-slicer for Windows <sup>1,2</sup>:
 
-<div markdown="1" class="noBorderNoBackground">
-|[IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button}{:.big}{:.fit}|[IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button}{:.big}{:.fit}|
-
-</div>
-
+<br>
+[IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.big}{:.button-half} [IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.big}{:.button-half}
 
 <sup>1. Before you install: During its installation the Visual Studio redistributable package sometimes asks Windows to reboot the computer without warning. This may only happen the first time you install, and only if the redistribuable package is necessary.</sup>
 
@@ -34,10 +31,8 @@ The packages bellow contain both IceSL-forge and IceSL-slicer for Windows <sup>1
 
 The packages below contain IceSL-slicer for Linux<sup>3</sup>:
 
-<div markdown="1" class="noBorderNoBackground">
-|[IceSL {{linux64stable}} Linux 64 bits][icesl-linux64-stable]{:.button}{:.big}{:.fit}|[IceSL {{linux32stable}} Linux 32 bits][icesl-linux32-stable]{:.button}{:.big}{:.fit}|
-
-</div>
+<br>
+[IceSL {{linux64stable}} Linux 64 bits][icesl-linux64-stable]{:.button.big}{:.button-half} [IceSL {{linux32stable}} Linux 32 bits][icesl-linux32-stable]{:.button.big}{:.button-half}
 
 <sup>3. Modeling on Linux: IceSL-slicer can load lua scripts as well, and constantly monitors changes to the script. Therefore, you can use your favorite editor to edit a script opened in IceSL-slicer; the view will be immediately updated whenever the file is saved.</sup>
 
@@ -50,10 +45,8 @@ ___
 Experiment with the latest features! <sup>4.</sup>
 
 {% if beta_available %}
-<div markdown="1" class="noBorderNoBackground">
-|[IceSL {{win64beta}} Windows 64 bits][icesl-win64-beta]{:.button}{:.big}{:.fit}|[IceSL {{linux64beta}} Linux 64 bits][icesl-linux64-beta]{:.button}{:.big}{:.fit}|
-
-</div>
+<br>
+ [IceSL {{win64beta}} Windows 64 bits][icesl-win64-beta]{:.button.big}{:.button-half} [IceSL {{linux64beta}} Linux 64 bits][icesl-linux64-beta]{:.button.big}{:.button-half}
 {% else %}
 **No beta version yet for next release.**
 {% endif %}
@@ -65,7 +58,7 @@ ____
 ### System Requirements:
 
 {:.text-justify}
-Please make sure to install the latest drivers for your GPUs. This solves 90% of the cases where IceSL does not run or crashes. IceSL requires a GPU with full OpenGL 4.3 support.
+Please make sure to install the latest drivers for your GPUs. This solves most of the cases where IceSL does not run or crashes. IceSL requires a GPU with full OpenGL 4.3 support.
 
 It has been tested on the following hardware:
 - GeForce GTX 480 / 580 / 680 / 970 / Titan / GTX 1080

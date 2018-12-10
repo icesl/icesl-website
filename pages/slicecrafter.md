@@ -19,7 +19,7 @@ exclude: false
     background-color: #ffffff;
   }
 
-  .emscripten { position: relative; left: -90px; padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
+  .emscripten { position: relative; left: -7.5%; padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
    div.emscripten { text-align: center; }
    div.emscripten_border { border: 1px solid black; }
    /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
@@ -55,18 +55,10 @@ exclude: false
 <a style="float: right;" id="link"></a>
 -->
 
-<div markdown="1" class="noBorderNoBackground">
-<table style="table-layout: fixed;"><tr>
-<td>
-<a class="button fit" id="fileSelect">Load STL</a>
-<input type="file" id="fileElem" accept=".stl" style="display:none" onchange="handleSTLFile(this.files[0])">
-</td>
-<td>
-<a class="button fit" id="fileSelect2">Load settings</a>
-<input type="file" id="fileElem2" accept=".xml" style="display:none" onchange="handleSettingsFile(this.files[0])">
-</td>
-</tr></table>
-</div>
+<a class="button big button-half" id="fileSelect">Load STL</a>
+<input type="file" id="fileElem" accept=".stl" style="display:none;" onchange="handleSTLFile(this.files[0])">
+<a class="button big button-half" id="fileSelect2">Load settings</a>
+<input type="file" id="fileElem2" accept=".xml" style="display:none;" onchange="handleSettingsFile(this.files[0])">
 
 <script>
 initialize();
