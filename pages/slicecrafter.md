@@ -6,9 +6,17 @@ permalink: /slicecrafter/
 exclude: false
 ---
 
-<script src="{{ "/assets/slicecrafter/jquery-3.3.1.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
-<script src="{{ "/assets/slicecrafter/bootstrap.js" | prepend: site.baseurl }}" charset="utf-8"></script>
-<script src="{{ "/assets/slicecrafter/fileselect.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+{% assign relative_assets_dir = true %}
+
+{% if relative_assets_dir %}
+  {% assign assets_dir = "" %}
+{% else %}
+  {% assign assets_dir = "/assets/slicecrafter/" | prepend: site.baseurl %}
+{% endif %}
+
+<script src="{{ "jquery-3.3.1.min.js" | prepend: assets_dir }}" charset="utf-8"></script>
+<script src="{{ "bootstrap.js" | prepend: assets_dir }}" charset="utf-8"></script>
+<script src="{{ "fileselect.js" | prepend: assets_dir }}" charset="utf-8"></script>
 		
     
 <style>
@@ -73,7 +81,7 @@ initialize();
       mod = url.replace('www.dropbox.com','dl.dropboxusercontent.com');
       mod = mod.replace('?dl=0','?dl=1');
     }
-    var lnk = 'http://shapeforge.loria.fr/slicecrafter/index.html?url=' + encodeURIComponent(mod);
+    var lnk = 'http://icesl.loria.fr/slicecrafter/index.html?url=' + encodeURIComponent(mod);
     var a = document.getElementById('link');
     a.innerHTML=lnk;
     a.href=lnk;
@@ -87,7 +95,7 @@ initialize();
     preRun: [],
     postRun: [],
     print: function(text) {
-      console.error(text);       
+      console.error(text);
     },
     printErr: function(text) {
       if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
@@ -132,13 +140,13 @@ initialize();
   };
 
   var xhr = new XMLHttpRequest()
-  xhr.open('GET', "{{ "/assets/slicecrafter/IceSL-slicer.wasm" | prepend: site.baseurl }}", true)
+  xhr.open('GET', "{{ "IceSL-slicer.wasm" | prepend: assets_dir }}", true)
   xhr.responseType = 'arraybuffer'
   xhr.onload = function()
   {
     Module.wasmBinary = xhr.response
     var script = document.createElement('script')
-    script.src = "{{ "/assets/slicecrafter/IceSL-slicer.js" | prepend: site.baseurl }}"
+    script.src = "{{ "IceSL-slicer.js" | prepend: assets_dir }}"
     script.onload = function()
     {
     console.log("Emscripten boilerplate loaded.")
@@ -148,7 +156,7 @@ initialize();
   xhr.send(null)
 </script>
 
-<script async type="text/javascript" src="{{ "/assets/slicecrafter/files.js" | prepend: site.baseurl }}"></script>
+<script async type="text/javascript" src="{{ "files.js" | prepend: assets_dir }}"></script>
 
 <script>
   function parseCommandLine()
@@ -202,8 +210,8 @@ initialize();
 </script>
 
 
-<script src="{{ "/assets/slicecrafter/Blob.js" | prepend: site.baseurl }}"> </script>
-<script src="{{ "/assets/slicecrafter/FileSaver.js" | prepend: site.baseurl }}"> </script>
+<script src="{{ "Blob.js" | prepend: assets_dir }}"> </script>
+<script src="{{ "FileSaver.js" | prepend: assets_dir }}"> </script>
 
 <script>
   function saveFileFromMemoryFSToDisk(name) {
@@ -219,7 +227,7 @@ initialize();
   }
 
   Module['locateFile'] = function(path, prefix) {
-  return "{{ "/assets/slicecrafter/" | prepend: site.baseurl }}" + path;
+  return "{{ assets_dir }}" + path;
   }
 </script>
 

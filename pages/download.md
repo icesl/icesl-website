@@ -7,16 +7,16 @@ exclude: false
 categories: download
 ---
 
-{% assign beta_available = true %}
+{% assign beta_available = false %}
 
 {% assign win64beta = "2.3-beta8" %}
 {% assign linux64beta = "2.3-beta8" %}
 
-{% assign win64stable = "2.2.1" %}
-{% assign win32stable = "2.2.1" %}
+{% assign win64stable = "2.3.1" %}
+{% assign win32stable = "2.3.1" %}
 
-{% assign linux64stable = "2.2.1" %}
-{% assign linux32stable = "2.2.0" %}
+{% assign linux64stable = "2.3.1" %}
+{% assign linux32stable = "2.3.0" %}
 
 ### IceSL stable versions:
 
@@ -25,7 +25,7 @@ The packages bellow contain both IceSL-forge and IceSL-slicer for Windows <sup>1
 <br>
 [IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.big}{:.button-half} [IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.big}{:.button-half}
 
-<sup>1. Before you install: During its installation the Visual Studio redistributable package sometimes asks Windows to reboot the computer without warning. This may only happen the first time you install, and only if the redistribuable package is necessary.</sup>
+<sup>1. During installation, the Visual Studio redistributable installation sometimes reboots the computer without a warning prompt or message. This only happens the first time you install IceSL, and only if the Visual Studio redistributable is necessary.</sup>
 
 <sup>2. We have had reports of Windows Defender rejecting the download of the above installers. We have contacted Microsoft and this has been fixed. If you encounter any problem with downloading the file, please [let us know][contact].</sup>
 
@@ -95,9 +95,9 @@ Older versions are available from our archives:
 [icesl-win64-beta]:     https://gforge.inria.fr/frs/download.php/file/37776/IceSL_beta.exe
 [icesl-linux64-beta]:   https://gforge.inria.fr/frs/download.php/file/37830/icesl-2.3-beta8-amd64.zip
 
-[icesl-win64-stable]:   https://gforge.inria.fr/frs/download.php/file/37606/IceSL_win64.exe
-[icesl-win32-stable]:   https://gforge.inria.fr/frs/download.php/file/37607/IceSL_win32.exe
+[icesl-win64-stable]:   https://gforge.inria.fr/frs/download.php/file/37839/IceSL_win64.exe
+[icesl-win32-stable]:   https://gforge.inria.fr/frs/download.php/file/37840/IceSL_win32.exe
 [icesl-releases]:       https://gforge.inria.fr/frs/?group_id=4731
 
-[icesl-linux64-stable]: https://gforge.inria.fr/frs/download.php/file/37649/icesl-2.2.1-amd64.zip
-[icesl-linux32-stable]: https://gforge.inria.fr/frs/download.php/file/37610/icesl-2.2.0-i386.zip
+[icesl-linux64-stable]: https://gforge.inria.fr/frs/download.php/file/37841/icesl-2.3.1-amd64.zip
+[icesl-linux32-stable]: https://gforge.inria.fr/frs/download.php/file/37837/icesl-2.3.0-i386.zip

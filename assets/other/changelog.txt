@@ -1,4 +1,16 @@
 ---------------------------------
+IceSL version 2.3.1 2018-12-15
+---------------------------------
+- Fixed issue where curved covers would overlap
+
+---------------------------------
+IceSL version 2.3.0 2018-12-13
+---------------------------------
+- support for vector printing settings; set_setting_value, load/save printing parameters, better UI.
+- proper rendering of UI option 'labeling_mm_per_pixels'
+- minor fixes
+
+---------------------------------
 IceSL version 2.3-beta8 - 2018-12-07
 ---------------------------------
 - improved color mixing
