@@ -10,7 +10,8 @@ set -o errexit
 server=~/Servers/icesl
 
 echo Building website...
-bundle exe jekyll build
+rm -rf _site
+bundle exe jekyll build --baseurl "https://icesl.loria.fr"
 
 echo Cleaning old website
 rm -rf $server/htdocs/*
