@@ -6,7 +6,7 @@ permalink: /slicecrafter/
 exclude: false
 ---
 
-{% assign relative_assets_dir = true %}
+{% assign relative_assets_dir = false %}
 
 {% if relative_assets_dir %}
   {% assign assets_dir = "" %}
