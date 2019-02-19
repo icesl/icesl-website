@@ -1,4 +1,31 @@
 ---------------------------------
+IceSL version 2.3.2-beta1 2018-02-19
+---------------------------------
+- improved round surface quality in gcode output
+- reworked UI to allow for font size interface option
+- increased E axis precision in IceSL's processing pipeline
+- set_setting_value, when applied to the printer setting automatically switches to 
+custom profile
+- added width/height tags to output of SVG exporter service
+- fix multiple bugs from the color mixing UI
+- fixed bug on set_setting_value not checking empty boxes
+- fixed bug preventing cavity calculation via the 'skeletal' tearing method
+- added error message when printer profile lua functiond do not return values when needed (i.e. 'prime' and 'retract')
+- fixed issue with polyfoam infill on intel cards
+- fixed bug where printer profiles without a custom-settings xml file would trigger an unhandled exception
+- fix bug of relative path use in scripts when loading printing settings from other fodler than the script's
+- 
+- multiple fixes in color mixing
+- fix bug where downtime in icesl server would give a false positive update notification
+- added option to make watertight output meshes on 'Ribbon Mesh' method in 'Export to Mesh' service
+- 
+Forge:
+	* improved code completion
+	* fixed bug when drag and dropping files with numbers on their filenames
+Linux & Slicecrafter:
+	* changed window creation back-end from freeglut to glfw
+
+---------------------------------
 IceSL version 2.3.1 2018-12-15
 ---------------------------------
 - Fixed issue where curved covers would overlap
