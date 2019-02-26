@@ -6,13 +6,38 @@ permalink: /documentation/
 exclude: false
 ---
 
-## Scripting & Slicing Documention
+## In-depth Documention
 
-[Scripting language][script-doc]
+<div id="main">
+<section class="posts">
 
-[Cheatsheet][cheatsheet]
+  <article markdown="1">
+## [Scripting language][script-doc]
+[![]({{ '/assets/img/scripting.png' | prepend: site.baseurl }})][script-doc]{:.smaller}{:.image}{:.fit}
+Complete specification of the IceSL scripting language. Includes examples
+  </article>
 
-[Slicing settings][parameters]
+  <article markdown="1">
+## [Printer profiles][profile-doc]
+[![]({{ '/assets/img/profiles.png' | prepend: site.baseurl }})][profile-doc]{:.smaller}{:.image}{:.fit}
+Technical documentation of printer profiles in IceSL and their components
+  </article>
+
+  <article markdown="1">
+## [Printing settings][parameters]
+[![]({{ '/assets/img/settings.png' | prepend: site.baseurl }})][parameters]{:.smaller}{:.image}{:.fit}
+Exhaustive list of printing and slicing settings in IceSL
+  </article>
+
+  <article markdown="1">
+## [Scripting cheatsheet][cheatsheet]
+[![]({{ '/assets/img/cheatsheet.png' | prepend: site.baseurl }})][cheatsheet]{:.smaller}{:.image}{:.fit}
+Cheatsheet of IceSL's scripting language
+  </article>
+
+</section>
+</div>
+
 
 ## Tutorials, Guides & Videos
 
@@ -156,4 +181,5 @@ The following is a video introducing IceSL-slicer as an individual component of 
 [cheatsheet]:   ../cheatsheet/
 [parameters]:   ../parameters/
 [script-doc]:   https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Scripting-language
+[profile-doc]:  https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Printer-profile
 [forum]:        https://groups.google.com/forum/#!forum/{{site.google}}
