@@ -1,4 +1,4 @@
-Diámetro de bases (mm)
+﻿Diámetro de bases (mm)
 Controla el tamaño del ancla de los pilares gene-
 rados por los soportes. Dicha ancla conecta el
 soporte con la plataforma de impresión. Incrementar

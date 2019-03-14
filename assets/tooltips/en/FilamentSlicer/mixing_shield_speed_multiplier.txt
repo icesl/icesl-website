@@ -1,1 +1,2 @@
 Speed up when printing shield
+Speed factor when printing shield while color mixing.

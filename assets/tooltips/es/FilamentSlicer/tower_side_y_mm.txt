@@ -1,4 +1,4 @@
-Tamaño de la torre en el eje Y (mm)
+﻿Tamaño de la torre en el eje Y (mm)
 Dimensión de la torre a travez del eje Y. Incrementar
 esta dimensión si de objserva que el extrusor no es
 limpiado correctamente (se forman cavidades cuando

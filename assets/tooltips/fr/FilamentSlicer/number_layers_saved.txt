@@ -1,0 +1,3 @@
+Nombre de couches
+Nombre de couches (en commençant à la 'Couche de
+départ') à sauvegarder.

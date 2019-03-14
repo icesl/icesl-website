@@ -1,0 +1,3 @@
+Infiller image pixel size (mm)
+Size of pixel in millimeters from image specifying
+infill.

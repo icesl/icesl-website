@@ -1,0 +1,2 @@
+Angle of wing supports (degrees)
+Maximum overhang angle of support structure.

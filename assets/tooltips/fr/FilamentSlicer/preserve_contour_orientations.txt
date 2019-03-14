@@ -1,0 +1,2 @@
+Conserver l'orientation des contours
+Conserve l'orientation originale de tous les contours.

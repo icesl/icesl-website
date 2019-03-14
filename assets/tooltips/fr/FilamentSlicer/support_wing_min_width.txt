@@ -1,0 +1,3 @@
+Epaisseur minimale des ailes de support
+Epaisseur minimale en millimètres des ailes
+de la structure de support.

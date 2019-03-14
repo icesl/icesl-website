@@ -1,0 +1,3 @@
+Activer ou non l'optimiseur pour Multi-matériaux
+Active l'optimisation lors de l'utilisation de
+différents matériaux ou couleurs. 

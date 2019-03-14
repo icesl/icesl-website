@@ -1,1 +1,3 @@
 Minimum width of a support wing
+Minimum width in millimeters of a wing in the
+support structure.

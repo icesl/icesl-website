@@ -1,4 +1,4 @@
-Taille des piliers (mm)
+﻿Taille des piliers (mm)
 Contrôle la taille des piliers (largeur). Les piliers
 sont faits de deux murs formant une croix. Augmenter
 ce paramètre élargie la croix. À augmenter si les

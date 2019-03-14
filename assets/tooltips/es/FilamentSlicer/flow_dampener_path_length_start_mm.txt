@@ -1,0 +1,3 @@
+Amortiguador de flujo: Distancia inicial de transición
+Distancia en milímetros para la transición de colores
+al inicio de un camino de impresión.

@@ -1,3 +1,3 @@
-Filament diameter (mm)
+﻿Filament diameter (mm)
 Diameter (in millimeters) of the filament used 
 by this extruder.

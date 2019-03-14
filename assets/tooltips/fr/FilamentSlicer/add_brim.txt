@@ -1,4 +1,4 @@
-Brim
+﻿Brim
 Un brim ajoute des contours autour de l'objet, sur
 la première couche. Ceci permet de préparer la buse
 en la remplissant de plastique, mais aussi d'accroître

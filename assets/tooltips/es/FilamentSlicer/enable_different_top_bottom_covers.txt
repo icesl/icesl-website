@@ -1,0 +1,3 @@
+Usar diferentes cubiertas inf. y sup.
+Habilitar el uso de diferentes espesores para las
+cubiertas inferiores y superiores.

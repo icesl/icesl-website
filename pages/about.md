@@ -158,7 +158,7 @@ IceSL uses [ImGUI][imgui] for UI elements, [Clipper][clipper] for 2D geometry pr
 [jimmy]:        http://shapeforge.loria.fr/icesl
 [noemie]:       http://shapeforge.loria.fr/icesl
 [jean]:         http://webloria.loria.fr/~jhergel
-[jeremy]:       http://www.loria.fr/~jdumas
+[jeremy]:       https://www.jdumas.org
 [jonas]:        https://sites.google.com/site/jonasmartinezbayona
 [samuel]:       https://members.loria.fr/samuel.hornus/
 [haichuan]:     http://shapeforge.loria.fr/icesl

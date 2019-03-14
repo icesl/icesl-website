@@ -1,0 +1,3 @@
+Width of wing rib reinforcement
+Width in millimeters of the reinforcement ribs of
+each wing in the supports structure.

@@ -1,4 +1,4 @@
-Multiplicateur de flux
+﻿Multiplicateur de flux
 Multiplicateur de flux pour cette brush. Ceci permet
 de pousser plus ou moins de plastique, par exemple 
 pour produire un remplissage intentionnellement 

@@ -1,0 +1,3 @@
+Máx. velocidad de impresión de microcapas
+Velocidad máxima de impresión en milímetros por
+segundo para microcapas.

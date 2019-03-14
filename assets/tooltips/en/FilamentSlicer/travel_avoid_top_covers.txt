@@ -1,4 +1,4 @@
-Avoid traveling within top (visible) covers
+﻿Avoid traveling within top (visible) covers
 When enabled, the travel optimizer will avoid 
 traveling within the top (visible) covers. 
 Enable if the extruder leaves a visible mark on 

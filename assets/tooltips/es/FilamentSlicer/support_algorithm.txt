@@ -1,0 +1,12 @@
+Algoritmo de soportes:
+Algoritmo usado para construir la estructura de
+soporte:
+
+- Wings: Este algoritmo computa más rápido y dis-
+minuye la distancia entre la impresión y la estruc-
+tura de soporte. Lo anterior reduce la probabilidad
+de colisión entre la impresión y los soportes.
+
+- Bridges: Método más conservador y por lo tanto
+más lento que 'Wings'. Puede ser más confiable en
+espacios cerrados.

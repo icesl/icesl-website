@@ -1,1 +1,2 @@
 Flow dampener: retraction length
+Retraction length when transitioning between colors.

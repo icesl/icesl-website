@@ -1,4 +1,4 @@
-Travel only in straight line
+﻿Travel only in straight line
 By default IceSL attempts to stay within printed 
 surfaces while traveling. This prevents stringing
 to appear and reduces the need for retraction.

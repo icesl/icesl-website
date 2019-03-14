@@ -1,0 +1,3 @@
+Altura máxima de conectores (soporte-impresión)
+Altura máxima en milímetros para los conectores
+entre la impresión y la estructura de soporte.

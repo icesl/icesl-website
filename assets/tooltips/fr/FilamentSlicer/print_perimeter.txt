@@ -1,4 +1,4 @@
-Impression du périmètre
+﻿Impression du périmètre
 Active ou désactive l'impression du périmètre pour
 cette brush. Désactiver les périmètres et utiliser
 zéro shells permet de ne garder que le motif de 

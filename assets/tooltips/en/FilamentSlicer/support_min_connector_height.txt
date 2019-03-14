@@ -1,1 +1,3 @@
 Minimum height of a connector (support-part)
+Minimum height in millimeters of a connector 
+between the print and the support structure.

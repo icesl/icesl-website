@@ -1,4 +1,4 @@
-Printer model
+﻿Printer model
 Select the printer model. It is possible to add 
 new printers to IceSL, see subfolder gcode/ of
 the install directory as well as the IceSL wiki.

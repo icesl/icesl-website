@@ -1,0 +1,2 @@
+Angle des supports Wings (degrés)
+Angle de surplomb maximum des structures de support.

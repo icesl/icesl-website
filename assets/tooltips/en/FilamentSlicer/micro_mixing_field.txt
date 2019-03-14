@@ -1,4 +1,4 @@
-Paint mixing field between extruders
+﻿Paint mixing field between extruders
 This brings up the color mixing interface.
 IMPORTANT: Color mixing is NOT supported if layer thickness
 is set per-layer.

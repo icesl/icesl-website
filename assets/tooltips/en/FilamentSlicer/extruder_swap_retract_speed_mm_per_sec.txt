@@ -1,2 +1,2 @@
-Retraction speed after swap (mm/sec)
+﻿Retraction speed after swap (mm/sec)
 Speed of the filament retraction after an extruder swap.

@@ -1,3 +1,3 @@
-Tamaño de la plataforma en x (mm)
+﻿Tamaño de la plataforma en x (mm)
 Tamaño (en milímetros) de la plataforma de impresión,
 de derecha a izquierda.

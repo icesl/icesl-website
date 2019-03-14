@@ -1,0 +1,3 @@
+Número de capas
+Número de capas (a partir de la 'Capa inicial')
+a guardar.

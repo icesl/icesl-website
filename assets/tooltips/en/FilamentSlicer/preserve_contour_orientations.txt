@@ -1,0 +1,2 @@
+Preserve the orientation of contours
+Keep orientation of all contours the same.

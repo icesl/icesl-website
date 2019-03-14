@@ -1,0 +1,1 @@
+Distancia de retroceso en caminos de impresión

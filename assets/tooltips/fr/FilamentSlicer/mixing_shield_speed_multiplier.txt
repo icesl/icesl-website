@@ -1,0 +1,2 @@
+Accélérer pour l'impression du Bouclier
+Multiplicateur de la vitesse d'impression du Bouclier.

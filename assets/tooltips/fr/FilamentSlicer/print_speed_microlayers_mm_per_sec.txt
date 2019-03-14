@@ -1,0 +1,3 @@
+Vitesse max sur les microcouches
+Vitesse maximum en millimètres par seconde de 
+l'impression des microcouches.

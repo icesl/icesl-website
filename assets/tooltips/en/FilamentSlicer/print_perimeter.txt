@@ -1,4 +1,4 @@
-Print perimeter
+﻿Print perimeter
 Enable printing the perimeters for this brush. 
 Disabling the perimeters and using 0 shells produce
 a print with only the infill. This is also useful

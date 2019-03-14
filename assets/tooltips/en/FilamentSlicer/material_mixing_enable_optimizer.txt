@@ -1,1 +1,2 @@
 Turn material mixing optimizer on/off
+Enable optimization when mixing different materials.

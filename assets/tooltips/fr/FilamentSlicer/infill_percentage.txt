@@ -1,4 +1,4 @@
-Pourcentage de remplissage (%)
+﻿Pourcentage de remplissage (%)
 Pourcentage de remplissage pour cette brush. 
 100%% produit un remplissage plein, alors que 0%%
 laisse la pièce complètement vide. Le motif de 

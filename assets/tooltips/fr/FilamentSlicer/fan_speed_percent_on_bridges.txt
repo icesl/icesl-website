@@ -1,4 +1,4 @@
-Vitesse ventilateur pour les ponts
+﻿Vitesse ventilateur pour les ponts
 Vitesse du ventilateur de refroidissement du
 filament lors de l'impression des ponts, en 
 pourcentage de sa vitesse maximale.

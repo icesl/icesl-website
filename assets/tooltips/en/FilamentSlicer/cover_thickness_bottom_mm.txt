@@ -1,0 +1,3 @@
+Cover thickness for bottoms (mm)
+Thickness in millimeters used for the bottom covers
+of the 3D print.

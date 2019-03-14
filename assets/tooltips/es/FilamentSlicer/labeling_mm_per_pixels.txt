@@ -1,0 +1,3 @@
+Tamaño de pixel de la imagen relleno (mm)
+Tamaño en milímetros correspondiente a un pixel en
+la imagen que especifica una estrategia de relleno.

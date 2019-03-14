@@ -1,5 +1,29 @@
 ---------------------------------
-IceSL version 2.3.2-beta1 2018-02-19
+IceSL version 2.3.2 2019-03-14
+---------------------------------
+- introduced the option 'save after service'. This allows to slice before saving the gcode
+- allowed different top/bottom cover thickness
+- added 'Help' menu item
+- improved curve accuracy in printing paths
+- fixed bugs in color mixing UI
+- fixed bug where the processing unit while slicing would get (on certain isolated cases) very small and freeze IceSL
+- improved polyfoam infill rendering and output
+Slicer:
+	* added drag and drop functionality on IceSL-Slicer, both Windows and Linux
+
+---------------------------------
+IceSL version 2.3.2-beta2 2019-02-27
+---------------------------------
+- fixed a bug where screenshots would crash IceSL in Windows with user names with non-ascii characters
+- added global vars 'max_number_extruders' and 'max_number_brushes' to features.lua
+- updated linux dependencies
+- fixed bug in print subset of layers option
+SliceCrafter:
+	* fixed bug that when slicing objects with infill density painted crashed the application
+	* fixed bug that allowed polyfoam parameters appear in UI
+
+---------------------------------
+IceSL version 2.3.2-beta1 2019-02-19
 ---------------------------------
 - improved round surface quality in gcode output
 - reworked UI to allow for font size interface option

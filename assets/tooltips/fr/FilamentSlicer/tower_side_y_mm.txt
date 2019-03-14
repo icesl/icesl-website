@@ -1,4 +1,4 @@
-Taille de la tour en Y (mm)
+﻿Taille de la tour en Y (mm)
 Taille de la tour selon l'axe Y. Augmentez cette valeur
 si l'extrudeur n'est pas prêt lorsqu'il recommence à
 imprimer (manque de plastique), ou bien si la tour

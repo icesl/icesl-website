@@ -1,4 +1,4 @@
-Desplazamiento en líneas rectas únicamente
+﻿Desplazamiento en líneas rectas únicamente
 Por defecto, IceSL intenta permanecer dentro del
 perímetro de las superficies impresas mientras
 el extrusor se desplaza. Esto previene el des-

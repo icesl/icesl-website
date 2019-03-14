@@ -1,0 +1,2 @@
+Use different top/bottom covers
+Enable different thickness for top/bottom covers.

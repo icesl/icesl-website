@@ -1,4 +1,4 @@
-Min. space between supported points (mm)
+﻿Min. space between supported points (mm)
 Minimal spacing (in millimeters) between the contact
 points covering overhanging surfaces.
 Lowering this value makes the support denser,  

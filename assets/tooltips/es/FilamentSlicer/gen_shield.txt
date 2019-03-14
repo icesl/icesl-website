@@ -1,4 +1,4 @@
-Activar escudo
+﻿Activar escudo
 Genera una estructura en forma de escudo que rodea la
 impresión. Dicha estructura sirve para dos propósitos.
 En una impresión de un solo material, el escudo mantiene

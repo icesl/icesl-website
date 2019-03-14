@@ -1,0 +1,2 @@
+Nombre de contours du brim du Bouclier
+Nombre de contours constituant le brim du Bouclier.

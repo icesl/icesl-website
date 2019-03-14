@@ -1,0 +1,3 @@
+Hauteur max d'un connecteur (support-pièce)
+Hauteur maximale en millimètres des connecteurs
+entre la pièce et la struture de support.

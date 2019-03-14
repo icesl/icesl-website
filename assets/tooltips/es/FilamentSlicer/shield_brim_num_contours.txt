@@ -1,0 +1,2 @@
+Número de contornos en el escudo
+Número de contornos al exterior del escudo.
