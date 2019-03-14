@@ -1,4 +1,4 @@
-Nombre de shells (entier)
+﻿Nombre de shells (integer)
 Nombre de contours parallèles au périmètre externe.
 Augmenter cette valeur permet d'imprimer une paroi
 plus épaisse. Une valeur de zéro réduit la paroi au

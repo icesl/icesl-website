@@ -1,4 +1,4 @@
-Supports
+﻿Supports
 Génère une structure support sous les surfaces en
 surplomb. Ceci est souvent nécessaire pour imprimer
 des géométries complexes.

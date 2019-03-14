@@ -1,4 +1,4 @@
-Enable active temperature control
+﻿Enable active temperature control
 When printing with multiple materials, only one extruder
 is active at a given time. Active temperature control
 is specifically designed to avoid material to degrade

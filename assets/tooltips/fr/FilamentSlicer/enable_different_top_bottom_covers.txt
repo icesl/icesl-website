@@ -1,0 +1,3 @@
+Utiliser différentes épaisseurs de plancher
+Autorise l'utilisation de différentes épaisseurs
+de planchers (supérieurs et inférieurs).

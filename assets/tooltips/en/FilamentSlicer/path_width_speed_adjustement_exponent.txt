@@ -1,4 +1,4 @@
-Speed change exponent on varying width
+﻿Speed change exponent on varying width
 If single path fill is enabled, IceSL will consider 
 printing tracks wider than the nozzle width. Depending 
 on your printer and material, it may be necessary to 

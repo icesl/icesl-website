@@ -1,0 +1,3 @@
+Union slice tops/bottoms
+Check to union the tops/bottoms of subsequent
+slices.

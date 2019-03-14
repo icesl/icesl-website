@@ -1,4 +1,4 @@
-Prime/wipe tower
+﻿Prime/wipe tower
 Instructs IceSL to build a prime/wipe tower structure 
 alongside the print. The tower is used to wipe and prime
 the extruders when switching material in multi-material

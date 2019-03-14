@@ -1,4 +1,4 @@
-Velocida de desplazamiento (mm/sec)
+﻿Velocida de desplazamiento (mm/sec)
 Velocidad de desplazamiento (milímetros por segundo)
 mientras no hay actividad de impresión. Altas
 velocidades de desplazamiento reducen el tiempo de

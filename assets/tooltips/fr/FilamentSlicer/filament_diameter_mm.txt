@@ -1,3 +1,3 @@
-Diamètre du filament (mm)
+﻿Diamètre du filament (mm)
 Diamètre (en millimètres) du filament utilisé pour 
 cet extrudeur.

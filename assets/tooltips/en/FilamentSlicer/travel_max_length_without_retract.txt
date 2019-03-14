@@ -1,4 +1,4 @@
-Max. travel length w/out retracting
+﻿Max. travel length w/out retracting
 Maximum travel length in millimiteres (mm) without
 performing a retraction. In many cases IceSL can avoid
 retraction, for instance when traveling within

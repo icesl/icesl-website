@@ -1,0 +1,9 @@
+Forme de la Cavité
+Forme de la structure autoportante interne:
+
+- Cross: [RECOMMANDÉE] Amélioration de la méthode
+Skeletal.
+
+- Skeletal: Implémentation de la publication
+Iterative carving for self-supporting
+3D printed cavities (Eurographics 2018).

@@ -1,1 +1,1 @@
-Paint to specify seam locations
+﻿Paint to specify seam locations

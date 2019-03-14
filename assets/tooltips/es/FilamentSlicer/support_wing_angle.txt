@@ -1,0 +1,3 @@
+Ángulo de soportes (grados)
+Ángulo máximo de inclinación la estructura de
+soportes.

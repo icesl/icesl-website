@@ -1,4 +1,4 @@
-Imprimir perímetro
+﻿Imprimir perímetro
 Habilita la impresión del perímetro para esta brocha.
 Si esta opción está deshabilitada y no se ajusta
 ninguna cavidad, se produce únicamente la impresión

@@ -1,4 +1,4 @@
-Extruder
+﻿Extruder
 Extruder to use for this brush. Brushes can be 
 used to specify which extruder to use in different
 parts of a print. From a lua script, use emit(s,b)

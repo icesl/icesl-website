@@ -1,0 +1,11 @@
+Algorithme de support
+Algorithme utilisé pour la construction de supports:
+
+- Wings: Cet algorithme est rapide à calculer et
+réduit la distance entre la pièce et les structures
+de support. Il réduit également les chances de
+collisions avec la pièces, comparé à 'Bridges'.
+
+- Bridges: Approches plus conservatrice, plus lente
+à calculer que les 'Wings' mais plus fiable sur de
+petits espaces.

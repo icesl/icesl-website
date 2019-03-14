@@ -1,4 +1,4 @@
-Extrudeur
+﻿Extrudeur
 Extrudeur à utiliser pour cette brush. Les brushs 
 permettent d'utiliser un extrudeur différent sur
 différentes parties de l'objet. Depuis un script lua,

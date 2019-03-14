@@ -1,0 +1,3 @@
+Espesor de las cubiertas inferiores (mm)
+Espesor en milímetros usado para las cubiertas
+inferiores de la impresión.

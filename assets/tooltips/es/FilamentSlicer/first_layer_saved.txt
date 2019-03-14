@@ -1,0 +1,2 @@
+Capa inicial
+Primera capa del subconjunto de capas a guardar.

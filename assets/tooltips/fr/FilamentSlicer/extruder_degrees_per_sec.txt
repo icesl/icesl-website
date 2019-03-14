@@ -1,4 +1,4 @@
-Taux de refroidissement/réchauffement (C/sec)
+﻿Taux de refroidissement/réchauffement (C/sec)
 Ce paramètre est requis lorsque le contrôle actif
 de température est utilisé. Il permet à IceSL de 
 prédire l'évolution de la température de l'extrudeur.

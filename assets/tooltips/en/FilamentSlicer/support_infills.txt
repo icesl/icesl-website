@@ -1,1 +1,2 @@
 Support infills
+Include the infill when calculating supports.

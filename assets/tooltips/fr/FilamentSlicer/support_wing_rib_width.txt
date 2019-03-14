@@ -1,0 +1,3 @@
+Epaisseur du renfort des ailes de support
+Epaisseur en millimètres des renforts des 
+ailes de la structure de support.

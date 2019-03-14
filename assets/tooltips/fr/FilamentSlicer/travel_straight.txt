@@ -1,4 +1,4 @@
-Voyager seulement en ligne droite
+﻿Voyager seulement en ligne droite
 Par défaut IceSL tente de voyager à l'intérieur des 
 surfaces pleines. Ceci permet de limiter l'apparition
 de fines fibres de plastique (stringing), et permet de 

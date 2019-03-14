@@ -1,0 +1,2 @@
+Preservar la orientación de los contornos
+Mantiene la misma orientación en todos los contornos.

@@ -1,0 +1,3 @@
+Unir capas verticalmente
+Crea una malla 'watertight' cuando se usa el
+método 'Mesh ribbons'.

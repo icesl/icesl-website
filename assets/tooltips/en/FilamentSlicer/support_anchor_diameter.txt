@@ -1,4 +1,4 @@
-Ground anchor diameters (mm)
+﻿Ground anchor diameters (mm)
 Controls the size of pillar 'feet'; where supports
 connect to the print bed. Increase if the pillars
 detach from the print bed.

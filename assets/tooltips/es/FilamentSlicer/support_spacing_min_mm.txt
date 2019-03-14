@@ -1,4 +1,4 @@
-Espacio mínimo entre puntos (mm)
+﻿Espacio mínimo entre puntos (mm)
 Espacio mínimo (en milímetros) entre puntos de contacto
 de la estructura de soporte y la superficie del modelo.
 Disminuir este valor conlleva el aumento de la estructura

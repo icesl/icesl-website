@@ -1,4 +1,4 @@
-Despl. Z tras intercambio (mm)
+﻿Despl. Z tras intercambio (mm)
 Después de un intercambio de extrusores, mientras
 se devuleve de la posición del intercambio o de una
 torre, un movimiento vertical en z puede ser usado

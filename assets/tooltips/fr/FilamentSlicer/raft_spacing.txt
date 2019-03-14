@@ -1,4 +1,4 @@
-Espacement des lignes du radeau (mm)
+﻿Espacement des lignes du radeau (mm)
 Espacement entre les lignes du dessus du radeau 
 (millimètres). Les couches situées en dessous 
 utilisent un espacement deux fois plus grand.

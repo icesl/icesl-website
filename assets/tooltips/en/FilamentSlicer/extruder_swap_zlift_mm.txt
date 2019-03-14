@@ -1,4 +1,4 @@
-Z-lift in travel on extruder swap (mm)
+﻿Z-lift in travel on extruder swap (mm)
 After swapping between extruders, when traveling back 
 from the swap location or prime/wipe tower, an up/down
 z motion can be used to prevent the extruder from

@@ -1,1 +1,3 @@
 Maximum height of a connector (support-part)
+Maximum height in millimeters of a connector 
+between the print and the support structure.

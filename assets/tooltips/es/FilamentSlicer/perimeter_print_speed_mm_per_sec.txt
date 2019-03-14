@@ -1,4 +1,4 @@
-Velocidad de los perímetros (mm/sec)
+﻿Velocidad de los perímetros (mm/sec)
 Velocidad de impresión (milímetros por segundo) para
 los perímetros. Debido a que los perímetros son las
 partes más visibles de una impresión, esta velocidad

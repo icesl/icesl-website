@@ -6,8 +6,6 @@ permalink: /documentation/
 exclude: false
 ---
 
-## In-depth Documention
-
 <div id="main">
 <section class="posts">
 

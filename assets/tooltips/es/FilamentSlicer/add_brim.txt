@@ -1,4 +1,4 @@
-Borde
+﻿Borde
 Imprime un contorno alrededor de la base del objeto.
 Este contorno ayuda a preparar el inyector y amplía
 la base del objeto para incrementar su adhesión

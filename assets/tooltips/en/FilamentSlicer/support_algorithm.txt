@@ -1,1 +1,10 @@
 Support algorithm
+Algorithm used for constructing supports:
+
+- Wings: This algorithm is faster to compute and 
+decreases the distance between the print and the
+support structure. This reduces collisions with
+the print compared to 'Bridges'.
+
+- Bridges: More conservative approach, hence slower
+than 'Wings'. More reliable for tight spaces.

@@ -1,3 +1,3 @@
-Activer ventilateur sur la première couche
+﻿Activer ventilateur sur la première couche
 Active le ventilateur de refroidissement du
 filament spécifiquement sur la première couche.

@@ -1,0 +1,3 @@
+Optimizaciones para mezcla de materiales.
+Enciender/apagar el optimizador cuando se mezclan
+diferentes materiales.

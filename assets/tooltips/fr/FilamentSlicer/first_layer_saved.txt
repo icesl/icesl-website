@@ -1,0 +1,2 @@
+Couche de départ
+Première couche du groupe à sauvegarder.

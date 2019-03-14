@@ -1,3 +1,3 @@
-Température d'extrusion (C)
+﻿Température d'extrusion (C)
 Température d'extrusion (degrés Celsius) pour cet 
 extrudeur.
