@@ -1,8 +1,0 @@
-Export to mesh
-Produces a mesh [.stl]
-The mesh can be exported using different meshing methods.
-Currently there are two main approaches; (1) directly
-meshing the visual output from IceSL or (2) assembling
-the slice contours and producing a mesh from this.
-The latter is useful to export the mesh to an external 3D
-printing software that requires a closed mesh.

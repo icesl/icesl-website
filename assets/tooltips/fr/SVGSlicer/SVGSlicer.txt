@@ -1,2 +1,0 @@
-Trancher vers un SVG
-Produit des images vectorielles des tranches [.svg]

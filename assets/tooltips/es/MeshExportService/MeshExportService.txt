@@ -1,9 +1,0 @@
-Exportar a malla
-Produce una malla [.stl]
-La malla puede ser exportada usando diferentes métodos.
-Actualmente existen dos clases de métodos; (1) producir
-la malla directamente de la escena representada en IceSL
-o (2) calcular los contornos del seccionamiento y producir
-una malla a partir de esta información. El último método
-es últil para exportar la malla a software externo de
-impresión en 3D que requiera una malla cerrada.
