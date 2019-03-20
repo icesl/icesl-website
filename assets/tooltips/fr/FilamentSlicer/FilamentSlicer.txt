@@ -1,2 +1,0 @@
-﻿Trancher vers du GCode
-Produit un fichier pour les imprimantes à filament [.gcode]

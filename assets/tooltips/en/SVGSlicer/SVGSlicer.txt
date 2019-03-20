@@ -1,2 +1,0 @@
-Slice to SVG
-Produces images for all slices [.SVG]

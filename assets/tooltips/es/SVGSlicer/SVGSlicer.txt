@@ -1,2 +1,0 @@
-Seccionar a SVG
-Produce imágenes a partir de todas las capas [.svg]
