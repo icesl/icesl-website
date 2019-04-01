@@ -4,7 +4,7 @@ The following methods are available:
 -Marching cubes: Constructs a mesh from the scene
 using the marching cubes method (SIGGRAPH, 1987).
 
--Dual Contouring: Constructs a mesh from the scene
+-Dual contouring: Constructs a mesh from the scene
 using the dual contouring method (SIGGRAPH, 2002).
 
 -Mesh ribbons: Produces a mesh by only producing
