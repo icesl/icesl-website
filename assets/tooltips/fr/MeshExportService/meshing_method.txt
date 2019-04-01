@@ -4,7 +4,7 @@ Les méthodes suivantes sont disponibles
 -Marching cubes: Construit un maillage depuis la scène
 en utilisant la méthode des marching cubes (SIGGRAPH, 1987).
 
--Dual Contouring: Construit un maillage depuis la scène
+-Dual contouring: Construit un maillage depuis la scène
 en utilisant la méthode dual contouring (SIGGRAPH, 2002).
 
 -Mesh ribbons: Créer un maillage en produisant seulement
