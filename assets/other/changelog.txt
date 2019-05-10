@@ -1,4 +1,13 @@
 ---------------------------------
+IceSL version 2.3.3-beta1 2019-04-05
+---------------------------------
+- added nozzle width per extruder support
+- improved printing ordering and traveling in complex shapes
+- fixed bug in polyfoam minimum density
+- fixed slow down with shields+supports
+- fixed memory leak on "Export to Mesh" service
+
+---------------------------------
 IceSL version 2.3.2 2019-03-14
 ---------------------------------
 - introduced the option 'save after service'. This allows to slice before saving the gcode
