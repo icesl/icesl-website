@@ -73,17 +73,17 @@ ____
 <tr>
   <td class="rightLineCell"><a href="https://members.loria.fr/sperchy">Salim Perchy</a><sup>2</sup></td>
   <td class="rightLineCell"></td>
-  <td><a href="https://members.loria.fr/czanni">Cédric Zanni</a></td>
-</tr>
-<tr>
-  <td class="rightLineCell"></td>
-  <td class="rightLineCell"></td>
   <td>Pierre Bedell</td>
 </tr>
 <tr>
-  <td class="rightLineCell"></td>
+  <td class="rightLineCell"><a href="https://members.loria.fr/czanni">Cédric Zanni<sup>3</sup></a></td>
   <td class="rightLineCell"></td>
   <td>Noémie Vennin</td>
+</tr>
+<tr>
+  <td class="rightLineCell"></td>
+  <td class="rightLineCell"></td>
+  <td>Haichuan Song</td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
@@ -108,11 +108,6 @@ ____
 <tr>
   <td class="rightLineCell"></td>
   <td class="rightLineCell"></td>
-  <td>Haichuan Song</td>
-</tr>
-<tr>
-  <td class="rightLineCell"></td>
-  <td class="rightLineCell"></td>
   <td>Denis Salem</td>
 </tr>
 <tr>
@@ -127,7 +122,8 @@ ____
 </tr>
 </table>
 <sup>1. Creator, lead, coding, support, testing.</sup><br>
-<sup>2. Coding, support, testing, documentation, localization, website.</sup>
+<sup>2. Coding, support, testing, documentation, localization, website.</sup><br>
+<sup>3. Additional rendering and UI code.</sup>
 
 **Acknowledgements:**<a id="acknowledgements"></a>
 
