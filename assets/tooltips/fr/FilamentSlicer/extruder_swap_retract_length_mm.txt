@@ -1,4 +1,4 @@
-﻿Longueur de rétraction (mm)
+Longueur de rétraction (mm)
 Longueur de rétraction du filament après un changement
 d'extrudeur. De plus grandes longueurs permettent de
 réduire les bavures des extrudeurs qui n'impriment pas.

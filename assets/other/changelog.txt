@@ -1,4 +1,41 @@
 ---------------------------------
+IceSL version 2.3.3-beta3 2019-05-17
+---------------------------------
+- updated french tooltips
+- set_setting_value support for per-layer ratios
+- fixed major path orientation issue
+- fixed minor bugs in shields
+
+---------------------------------
+IceSL version 2.3.3-beta2 2019-05-15
+---------------------------------
+- added undo/redo button for field editing
+- per-layer setting support for mixing ratios
+- support for manually setting the printing order of different paths (e.g., infills, shells, bridges, etc).
+- support for UI-input integers through lua function 'ui_number'
+- added hot-keys (0-9) for field editing open/close
+- support for UI-input values while field editing
+- improved polyfoam infill ordering
+- removed trailing zeros from UI printing settings
+- added/corrected missing/wrong tooltips
+
+Forge:
+	* bug fixed in mouse wheel number modification
+Slicer:
+
+	* added yaw roation UI when loading STL's
+	* added 'clone' effect for printing multiple instances of a model in the same print
+Printer profiles:
+
+	* added support for setting brush/extruder groups of printing parameters in features.lua (e.g., nozzle_diameter_mm = 0.4 instead of nozzle_diameter_mm_0 = 0.4; nozzle_diameter_mm_1 = 0.4...)
+	* fixed bug where selection printing parameters (e.g., infill_type) could not be set in features.lua
+
+Added printer:
+	* Prusa MK3S, Prusa MK3S with MMU2, Volumic Stream30 Pro MK2
+Updated printers:
+	* Dagoma DiscoEasy200, Prusa MK2S
+
+---------------------------------
 IceSL version 2.3.3-beta1 2019-04-05
 ---------------------------------
 - added nozzle width per extruder support

@@ -1,3 +1,3 @@
-﻿Vitesse de rétraction après changement (mm/sec)
+Vitesse de rétraction après changement (mm/sec)
 Vitesse de rétraction du filament après un changement
 d'extrudeur.

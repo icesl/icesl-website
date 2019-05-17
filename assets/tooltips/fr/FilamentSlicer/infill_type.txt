@@ -1,4 +1,4 @@
-﻿Type de remplissage
+Type de remplissage
 Type de remplissage pour un brush donné. 
 IceSL propose quatre options décrites ci-dessous.
 Il est possible d'ajouter un remplissage personnalisé
@@ -6,7 +6,7 @@ en écrivant sa spécification (voir fichier 'README.md'
 dans le dossier 'icesl-infillers'):
 
 -Default(Défaut): Remplissage tétrahédral (meilleure solution
-dans la majorité de sitation).
+dans la majorité des sitations).
 
 -Progressive(Progressif): Les variations dans le pourcentage 
 de remplissage produisent une variation lisse 

@@ -1,0 +1,2 @@
+Distancia máxima de retroceso
+Distancia máxima de retroceso durante la impresión.

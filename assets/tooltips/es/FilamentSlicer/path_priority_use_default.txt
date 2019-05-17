@@ -1,0 +1,3 @@
+Usar prioridad por defecto
+Usar la configuración preestablecida del order de
+impresión de los diferentes tipos de trayectoria.

@@ -1,3 +1,3 @@
-﻿Taille du plateau y (mm)
+Taille du plateau y (mm)
 Taille (millimètres) du lit d'impression, d'avant
 en arrière.

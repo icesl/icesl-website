@@ -1,11 +1,12 @@
-﻿Contrôle actif de température
-Lors de l'impression avec plusieurs matériaux, seul
-un extrudeur imprime à la fois. Le contrôle actif de 
-température permet d'éviter les bavures et la 
+Contrôle actif de température
+Lors de l'impression avec plusieurs matériaux, un
+seul extrudeur imprime à la fois. Le contrôle actif 
+de température permet d'éviter les bavures et la 
 dégradation du filament dans la buse. Les extrudeurs
-inactifs sont automatiquement refroidit et réchauffés,
+inactifs sont automatiquement refroidis et réchauffés,
 de manière à ce qu'ils soient prêts lorsqu'il doivent
 imprimer à nouveau.
+
 Lorsque cette option est activée, veillez à aussi régler
 les paramètres 'idle_extruder_temp_degree_c' et 
 'extruder_degrees_per_sec'.
