@@ -1,0 +1,3 @@
+Seuil du mélange de couleurs 
+Les ratios inférieurs à cette valeur sont arrondis
+à zero.

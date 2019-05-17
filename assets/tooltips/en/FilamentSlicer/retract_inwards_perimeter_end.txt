@@ -1,0 +1,3 @@
+Retract inwards on perimeter end
+Turn this off if getting color smear during multi-
+material printing.

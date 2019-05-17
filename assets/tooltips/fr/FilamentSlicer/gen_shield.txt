@@ -5,6 +5,7 @@ matière, il permet de garder l'air chaud près de la pièce
 et réduit les déformations. Sur les impressions multi-
 matières, il permet aux bavures de se déposer sur
 le bouclier avant qu'elles n'atteignent la pièce.
+
 Le choix d'utiliser une tour ou bien un bouclier dépend
 de l'imprimante. Si les extrudeurs sont fixes et situés
 côte à côte, un bouclier est préférable. Si les extrudeurs

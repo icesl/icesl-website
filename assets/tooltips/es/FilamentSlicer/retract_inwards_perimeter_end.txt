@@ -1,0 +1,3 @@
+Retractación interna al finalizar perímetro
+Apagar esta opción si el color es irregular durante
+impresiones multi-material.

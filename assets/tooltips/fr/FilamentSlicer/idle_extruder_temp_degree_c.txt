@@ -1,4 +1,4 @@
-﻿Température cible lorsque inactif (C)
+Température cible lorsque inactif (C)
 Ce paramètre est requis lorsque le contrôle actif de
 température est activé. Il spécifie la température cible
 de l'extrudeur lorsqu'il est inactif. Sélectionnez la plus 

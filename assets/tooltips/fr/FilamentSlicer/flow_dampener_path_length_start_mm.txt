@@ -1,4 +1,4 @@
-Compensation du flux: longeur de début de chemin
-Longeur sur laquelle est effectuée la rétration
+Compensation du flux: longueur de début de chemin
+Longueur sur laquelle est effectuée la rétration
 au début d'un chemin de couleur (lors des
 transitions).

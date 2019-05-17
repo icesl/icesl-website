@@ -1,0 +1,2 @@
+Mixing ratio threshold
+Mixing ratios below this value are snapped to zero

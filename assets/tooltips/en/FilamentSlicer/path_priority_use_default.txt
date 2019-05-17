@@ -1,0 +1,3 @@
+Use default path priority
+Use the default ordering for printing the different
+types of path.

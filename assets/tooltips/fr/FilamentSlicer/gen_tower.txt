@@ -1,15 +1,18 @@
-﻿Tour 'prime/wipe'
+Tour 'prime/wipe'
 Demande à IceSL de construire une tour pour préparer
 et essuyer les extrudeurs à coté de la pièce imprimée.
 La tour est utilisée lors des changements de matériaux
-sur les impressions multi-matières. La tour n'est
-imprimée que lorsque nécessaire (elle n'est pas 
-imprimée si la pièce utilise une seule matière).
+sur les impressions multi-matières. 
+
+La tour n'est imprimée que lorsque nécessaire (elle n'est
+pas imprimée si la pièce utilise une seule matière).
+
 La tour est placée automatiquement, sauf si la variable
 'extruder_swap_at_location' est activée. Dans ce cas 
 sa position est spécifiée par les variables
 'extruder_swap_location_x_mm' et 
 'extruder_swap_location_y_mm'.
+
 Le choix d'utiliser une tour ou bien un bouclier dépend
 de l'imprimante. Si les extrudeurs sont fixes et situés
 côte à côte, un bouclier est préférable. Si les extrudeurs
