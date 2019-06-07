@@ -133,9 +133,13 @@ This work is supported by ERC grant ShapeForge (StG-2012-307877)
 
 IceSL uses [ImGUI][imgui] for UI elements, [Clipper][clipper] for 2D geometry processing, [Asio][asio] for update notifications, [Eigen][eigen] for some math calulations as well as [TinyXML][tinyxml] for xml parsing, [NanoSVG][nano-svg] for svg parsing and [STBtruetype][stb-truetype] for ttf manipulation.
 
+IceSL uses font [Cousine-Regular][font-reg] by Steve Matteson under the [Apache License v.2][apache-license] and font [Noto Sans CJK][font-ch] by Google Inc. under the [SIL Open Font License][ofl-license].
+
 
 [forum]:          https://groups.google.com/forum/#!forum/{{site.google}}
 [license]:        ../assets/pdf/EULA_IceSL_binary.pdf
+[apache-license]: http://www.apache.org/licenses/LICENSE-2.0
+[ofl-license]:    http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 [slicecrafter]:   ../slicecrafter/
 [download]:       ../download/
 
@@ -147,6 +151,8 @@ IceSL uses [ImGUI][imgui] for UI elements, [Clipper][clipper] for 2D geometry pr
 [tinyxml]:        http://www.grinninglizard.com/tinyxml/
 [stb-truetype]:   https://github.com/nothings/stb
 [nano-svg]:       https://github.com/memononen/nanosvg
+[font-reg]:       https://fonts.google.com/specimen/Cousine
+[font-ch]:        https://www.google.com/get/noto/help/cjk/
 
 [sylvain]:      http://www.antexel.com/research
 [salim]:        https://members.loria.fr/sperchy

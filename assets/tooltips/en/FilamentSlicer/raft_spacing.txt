@@ -1,4 +1,4 @@
-﻿Spacing in-between raft lines (mm)
+Spacing in-between raft lines (mm)
 Space in millimeters (mm) between the lines of the 
 raft top layers. The raft layers below use twice 
 that spacing.

@@ -1,4 +1,4 @@
-﻿Cambio de velocidad en ancho variable
+Cambio de velocidad en ancho variable
 Si las trayectorias únicas en rellenos están
 habilitadas, IceSL considera las trayectorias de
 impresión más anchas que el diámetro de la boquilla.

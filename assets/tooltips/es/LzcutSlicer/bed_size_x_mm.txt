@@ -1,2 +1,3 @@
 Tamaño de la plataforma en x (mm)
-Tamaño (en milímetros) de la plataforma de corte, de derecha a izquierda.
+Tamaño (en milímetros) de la plataforma de corte,
+de derecha a izquierda.

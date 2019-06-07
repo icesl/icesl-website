@@ -2,4 +2,5 @@ Vitesse pour les périmètres (mm/sec)
 Vitesse d'impression (millimètres par seconde) 
 pour les périmètres. Les périmètres forment la 
 paroi visible de l'objet. Une vitesse plus faible
-améliore la qualité des surfaces.
+améliore la qualité des surfaces. Ce paramètre
+s'applique aussi aux ponts.

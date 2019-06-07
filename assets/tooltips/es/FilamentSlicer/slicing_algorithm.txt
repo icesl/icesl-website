@@ -1,4 +1,4 @@
-﻿Algoritmo de seccionado
+Algoritmo de seccionado
 Algoritmo usado para seccionar la geometría:
 
 -Auto: decide automáticamente el mejor algoritmo

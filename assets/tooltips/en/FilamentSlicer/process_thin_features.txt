@@ -1,4 +1,4 @@
-﻿Thicken thin features
+Thicken thin features
 Enable to thicken and preserve thin features. 
 By default, thin features, smaller that the nozzle 
 diameter, will be removed. This option uses an 

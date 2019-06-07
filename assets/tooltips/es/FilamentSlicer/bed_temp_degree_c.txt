@@ -1,4 +1,4 @@
-﻿Temperatura de la plataforma (C)
+Temperatura de la plataforma (C)
 Temperatura (en Celsius) de la plataforma caliente
 para imprimir. Ajustar dependiendo del material para
 incrementar la adhesión y limitar la deformación.

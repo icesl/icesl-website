@@ -1,4 +1,4 @@
-﻿Calentamiento/enfriamento (C/sec)
+Calentamiento/enfriamento (C/sec)
 Este parámetro es necesitado cuando se usa el control
 activo de temperatura. Dicho parámetro indica que
 tan rápido IceSL puede enfriar o calentar los extru-

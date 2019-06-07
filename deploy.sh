@@ -11,17 +11,22 @@ server=~/Servers/icesl
 
 echo Building website...
 rm -rf _site
-bundle exe jekyll build --baseurl "https://icesl.loria.fr"
 
-echo Cleaning old website
-rm -rf $server/htdocs/*
+if [ "$1" = "test" ]; then
+  bundle exe jekyll serve
+else
+  bundle exe jekyll build --baseurl "https://icesl.loria.fr"
 
-echo Copying new website
-cp -r _site/* $server/htdocs/.
+  echo Cleaning old website
+  rm -rf $server/htdocs/*
 
-echo Setting permissions to MFX members
-cd $server/htdocs
-chgrp -R mfx *
-chmod -R g+w *
+  echo Copying new website
+  cp -r _site/* $server/htdocs/.
 
-echo Deployment complete!
+  echo Setting permissions to MFX members
+  cd $server/htdocs
+  chgrp -R mfx *
+  chmod -R g+w *
+
+  echo Deployment complete!
+fi

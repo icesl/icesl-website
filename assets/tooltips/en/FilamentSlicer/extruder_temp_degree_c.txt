@@ -1,2 +1,2 @@
-﻿Extrusion temperature (C)
+Extrusion temperature (C)
 Extruder temperature (Celsius) for this extruder.

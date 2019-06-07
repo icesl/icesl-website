@@ -1,5 +1,8 @@
-﻿Multiplicador de velocidad
+Multiplicador de velocidad
 Multiplicador de velocidad usado en esta brocha.
 Puede ser ajustado para cambiar localmente la velo-
 cidad de impresión. Para este efecto, use diferentes
-brochas en diferentes partes del modelo.
+brochas en diferentes partes del modelo. No aplica
+a la torre, el borde (contorno) o el escudo. En
+bases (rafts) la velocidad es adicionalmente
+disminuida 50%.
