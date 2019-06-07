@@ -1,4 +1,4 @@
-﻿Porcentaje de relleno (%)
+Porcentaje de relleno (%)
 Porcentaje de relleno usado en esta brocha.
 100 significa una densidad máxima y 0 no
 produce relleno. El patrón de reyeno forma

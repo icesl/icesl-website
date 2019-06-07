@@ -1,3 +1,3 @@
-﻿Enable cooling fan on first layer
+Enable cooling fan on first layer
 Enable the filament cooling fan only for
 the first layer.

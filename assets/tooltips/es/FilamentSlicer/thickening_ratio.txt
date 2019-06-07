@@ -1,2 +1,2 @@
-﻿Proporción de engrosamiento
+Proporción de engrosamiento
 Proporción de engrosamiento para características delgadas.

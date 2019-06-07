@@ -1,3 +1,3 @@
-﻿Enable single path fill
+Enable single path fill
 Allows the slicer to fill thin gaps using a single
 deposition path (varying width) instead of a zigzag.

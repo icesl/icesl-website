@@ -1,4 +1,4 @@
-﻿Heated bed temperature (C)
+Heated bed temperature (C)
 Temperature (in Celsius) of the heated bed when 
 printing. Adjust depending on your material to
 increase adhesion and limit warping.

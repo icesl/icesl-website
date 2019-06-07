@@ -1,4 +1,4 @@
-﻿Brim
+Brim
 The brim adds contours around the object, on the 
 base layer. This is useful to prep the nozzle and 
 enlarge the object's base for increased adhesion 

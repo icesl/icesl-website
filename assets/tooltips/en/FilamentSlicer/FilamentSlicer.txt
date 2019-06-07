@@ -1,2 +1,0 @@
-﻿Slice to GCode
-Produces instructions for filament 3D printers [.gcode]

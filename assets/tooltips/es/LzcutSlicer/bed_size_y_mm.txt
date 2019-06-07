@@ -1,2 +1,3 @@
 Tamaño de la plataforma en y (mm)
-Tamaño (en milímetros) de la plataforma de corte, del frente al fondo.
+Tamaño (en milímetros) de la plataforma de corte,
+del frente al fondo.

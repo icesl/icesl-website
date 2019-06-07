@@ -1,4 +1,4 @@
-﻿Slicing algorithm
+Slicing algorithm
 Algorithm used to slice the geometry:
 
 -Auto: let IceSL decide the best algorithm for

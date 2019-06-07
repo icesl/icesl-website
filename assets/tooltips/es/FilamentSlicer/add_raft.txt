@@ -1,4 +1,4 @@
-﻿Base
+Base
 Imprime una base en la parte inferior del objeto
 para compensar defectos menores de calibración. 
 Igualmente facilita el despegado del objeto de la

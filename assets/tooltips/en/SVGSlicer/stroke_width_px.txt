@@ -1,5 +1,5 @@
 Stroke width (px)
 Polygon stroke width in px. A width of 0.0
-generates filled polygons for each shapes.
+generates filled polygons for each shape.
 In opposite cases (i.e. different from 0.0),
 it generates contours only.
