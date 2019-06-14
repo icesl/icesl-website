@@ -1,0 +1,1 @@
+Temps minimum (sec) d'impression d'une couche

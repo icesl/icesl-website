@@ -1,0 +1,2 @@
+Seccionar a GCode
+Produce instrucciones para impresoras 3D de filamento [.gcode]

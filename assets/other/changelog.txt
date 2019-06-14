@@ -1,4 +1,26 @@
 ---------------------------------
+IceSL version 2.3.3-beta4 2019-06-14
+---------------------------------
+- Added widescreen renderer (Standard Renderer):
+	* Square renderer renamed to (Legacy Renderer)
+	* Added menu to switch between renderers
+- improved path planning for cellular infills (polyfoam/shader/image): greater continuity and less stringing
+- experimental min. time per layer feature (work in progress). Implement printer profile function 'wait' to override default behavior
+- UI font switched to 'Cousine-Regular' by Steve Matteson
+- added printer LulzBot TAZ 6 by Brad Morgan
+- added printer Raised3D Pro 2 profile by Davide Battini
+- remapped field hot-keys to Fnc keys (i.e., F1, F2...)
+	* 0-9 keys control the camera as it was before
+- saved UI status when painting and switching fields to allow faster editing.
+
+Forge:
+	- fixed improper 3d texture release at exit
+	- fixed bug where Slice to SVG service would not start
+
+Slicecrafter:
+	- switched to WebGL 2.0
+
+---------------------------------
 IceSL version 2.3.3-beta3 2019-05-17
 ---------------------------------
 - updated french tooltips
