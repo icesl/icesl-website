@@ -1,0 +1,2 @@
+Tiempo mínimo para imprimir una capa
+Fuerza un tiempo mínimio de impresión por cada capa.

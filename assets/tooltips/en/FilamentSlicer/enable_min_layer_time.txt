@@ -1,0 +1,3 @@
+Enable minimum printing time for layers
+Instructs IceSL to set a minimum time spent on prin-
+ting each layer.

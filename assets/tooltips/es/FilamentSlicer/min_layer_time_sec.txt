@@ -1,0 +1,1 @@
+Tiempo mínimo (seg) de impresión de una capa
