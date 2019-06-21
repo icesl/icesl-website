@@ -1,4 +1,14 @@
 ---------------------------------
+IceSL version 2.3.3-beta5 2019-06-21
+---------------------------------
+- fixed bug where all prints would have minimum layer time
+- added tower and shield method for minimum layer time
+- fixed CSG processing bug
+- added custommizable UI color themes
+- french tooltips updated
+- minor tower generation bug fixed
+
+---------------------------------
 IceSL version 2.3.3-beta4 2019-06-14
 ---------------------------------
 - Added widescreen renderer (Standard Renderer):
