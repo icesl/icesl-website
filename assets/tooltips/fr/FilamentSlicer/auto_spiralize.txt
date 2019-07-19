@@ -1,0 +1,7 @@
+Spiraliser automatiquement
+Génère, si possible, un chemin d'impression continu
+suivant la surface externe de la géométrie. Cette méthode
+permet d'éviter la présence de coutures.
+
+Les contours ne seront spiralisés que si les contours,
+le remplissage et les planchers sont mis à zéro.
