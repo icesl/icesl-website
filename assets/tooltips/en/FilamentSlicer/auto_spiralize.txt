@@ -1,0 +1,6 @@
+Automatically spiralize
+Generate, when possible, a continuous path that prints
+the surface of the geometry. This method avoids seams.
+
+In order for this to work, shells, infill and covers
+have to be zeroed out.

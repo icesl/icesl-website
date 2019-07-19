@@ -1,0 +1,7 @@
+Espiralización automática
+Generar si es posible, un camino de impresión continuo
+de la superficie de la geometría. Este método elimina
+las juntas de la superficie.
+
+Este método sólo funciona si no hay cavidades, relleno
+ni cubiertas.

@@ -1,4 +1,16 @@
 ---------------------------------
+IceSL version 2.3.3-beta6 2019-07-19
+---------------------------------
+- introduced automatic spiralization (i.e. continuous print path for single closed surfaces) as a printer setting
+- CSG tree processing improved; stack overflow due to big trees no longer triggered
+- tweaks displayed in creation order
+- fixed gecode file suggestion when slicing an stl
+- bug fixes in non-squared renderering
+- bug fixes to UI
+- 'wait function' from minimum layer time disabled when printer profile doesn't support it
+- tower settings now in 'tower' group
+
+---------------------------------
 IceSL version 2.3.3-beta5 2019-06-21
 ---------------------------------
 - fixed bug where all prints would have minimum layer time

@@ -1,0 +1,1 @@
+Eliminar cubiertas con ancho menor a (mm)
