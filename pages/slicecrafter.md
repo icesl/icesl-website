@@ -88,6 +88,11 @@ initialize();
   }
 </script>
 
+<div class="align-center" id="loading-text">
+  <i>Loading Slicecrafter...</i><br>
+  <progress id="loading-progress" value="0" max="100"></progress>
+</div>
+
 <canvas class="emscripten" id="canvas" tabindex="1" oncontextmenu="event.preventDefault()"></canvas>
 
 <script type='text/javascript'>
@@ -139,9 +144,17 @@ initialize();
     };
   };
 
+  var loadingText = document.getElementById("loading-text")
+  var loadingProgress = document.getElementById("loading-progress") 
   var xhr = new XMLHttpRequest()
   xhr.open('GET', "{{ "IceSL-slicer.wasm" | prepend: assets_dir }}", true)
   xhr.responseType = 'arraybuffer'
+  xhr.onprogress = function(event)
+  {
+    var progress = Math.round(event.loaded / event.total * 100)
+    loadingProgress.value = progress
+    //loadingText.innerHTML = "<i> Loading Slicecrafter... [" + progress + "%]</i>"
+  }
   xhr.onload = function()
   {
     Module.wasmBinary = xhr.response
@@ -151,6 +164,7 @@ initialize();
     {
     console.log("Emscripten boilerplate loaded.")
     }
+    loadingText.parentNode.removeChild(loadingText)
     document.body.appendChild(script)
   }
   xhr.send(null)
