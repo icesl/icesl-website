@@ -17,6 +17,9 @@ if [ "$1" = "test" ]; then
 else
   bundle exe jekyll build --baseurl "https://icesl.loria.fr"
 
+  echo Saving slicecrafter log
+  cp -f $server/htdocs/slicecrafter/log/log.txt _site/slicecrafter/.
+
   echo Cleaning old website
   rm -rf $server/htdocs/*
 
@@ -27,6 +30,7 @@ else
   cd $server/htdocs
   chgrp -R mfx *
   chmod -R g+w *
+  chmod a+rw slicecrafter/log/log.txt
 
   echo Deployment complete!
 fi
