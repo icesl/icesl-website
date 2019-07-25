@@ -20,14 +20,16 @@ categories: download
 
 ### IceSL stable versions:
 
-The packages bellow contain both IceSL-forge and IceSL-slicer for Windows <sup>1,2</sup>:
+The packages bellow contain both IceSL-forge and IceSL-slicer for Windows <sup>1,2,3</sup>:
 
 <br>
 [IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.big}{:.button-half} [IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.big}{:.button-half}
 
-<sup>1. During installation, the Visual Studio redistributable installation sometimes reboots the computer without a warning prompt or message. This only happens the first time you install IceSL, and only if the Visual Studio redistributable is necessary.</sup>
+<sup>1. During installation, if you get the message **An error occurred while installing system components for IceSL** ([see example][install-error]), please uninstall _Microsoft Visual C++ 2017/2019 Redistributable (x64/x86)_. IceSL will reinstall this package.</sup>
 
-<sup>2. We have had reports of Windows Defender rejecting the download of the above installers. We have contacted Microsoft and this has been fixed. If you encounter any problem with downloading the file, please [let us know][contact].</sup>
+<sup>2. During installation, the Visual Studio redistributable installation sometimes reboots the computer without a warning prompt or message. This only happens the first time you install IceSL, and only if the Visual Studio redistributable is necessary.</sup>
+
+<sup>3. We have had reports of Windows Defender rejecting the download of the above installers. We have contacted Microsoft and this has been fixed. If you encounter any problem downloading the file, please [let us know][contact].</sup>
 
 The packages below contain IceSL-slicer for Linux<sup>3</sup>:
 
@@ -90,6 +92,7 @@ Older versions are available from our archives:
 [slicecrafter]:         ../slicecrafter/
 [contact]:              ../contact/
 [changelog]:            ../assets/other/changelog.txt
+[install-error]:        ../assets/img/install-error.png
 
 
 [icesl-win64-beta]:     https://gforge.inria.fr/frs/download.php/file/37915/IceSL_beta.exe
