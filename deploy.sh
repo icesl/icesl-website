@@ -18,7 +18,7 @@ else
   bundle exe jekyll build --baseurl "https://icesl.loria.fr"
 
   echo Saving slicecrafter log
-  cp -f $server/htdocs/slicecrafter/log/log.txt _site/slicecrafter/.
+  cp -f $server/htdocs/slicecrafter/log/log.txt _site/slicecrafter/log/.
 
   echo Cleaning old website
   rm -rf $server/htdocs/*

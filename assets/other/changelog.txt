@@ -1,4 +1,10 @@
 ---------------------------------
+IceSL version 2.3.3 2019-07-25
+---------------------------------
+Slicecrafter:
+	- fixed bug preventing to paint in the web version
+
+---------------------------------
 IceSL version 2.3.3-beta6 2019-07-19
 ---------------------------------
 - introduced automatic spiralization (i.e. continuous print path for single closed surfaces) as a printer setting
