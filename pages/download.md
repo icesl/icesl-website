@@ -31,12 +31,12 @@ The packages bellow contain both IceSL-forge and IceSL-slicer for Windows <sup>1
 
 <sup>3. We have had reports of Windows Defender rejecting the download of the above installers. We have contacted Microsoft and this has been fixed. If you encounter any problem downloading the file, please [let us know][contact].</sup>
 
-The packages below contain IceSL-slicer for Linux<sup>3</sup>:
+The packages below contain IceSL-slicer for Linux<sup>4</sup>:
 
 <br>
 [IceSL {{linux64stable}} Linux 64 bits][icesl-linux64-stable]{:.button.big}{:.button-half} [IceSL {{linux32stable}} Linux 32 bits][icesl-linux32-stable]{:.button.big}{:.button-half}
 
-<sup>3. Modeling on Linux: IceSL-slicer can load lua scripts as well, and constantly monitors changes to the script. Therefore, you can use your favorite editor to edit a script opened in IceSL-slicer; the view will be immediately updated whenever the file is saved.</sup>
+<sup>4. Modeling on Linux: IceSL-slicer can load lua scripts as well, and constantly monitors changes to the script. Therefore, you can use your favorite editor to edit a script opened in IceSL-slicer; the view will be immediately updated whenever the file is saved.</sup>
 
 See the [changelog][changelog].
 
@@ -44,7 +44,7 @@ ___
 
 ### IceSL beta versions:
 
-Experiment with the latest features! <sup>4.</sup>
+Experiment with the latest features! <sup>5</sup>
 
 {% if beta_available %}
 <br>
@@ -53,7 +53,7 @@ Experiment with the latest features! <sup>4.</sup>
 **No beta version yet for next release.**
 {% endif %}
 
-<sup>4. Beta versions are intended to experiment new features prior to release. Everything in beta is subject to change and new features may be unstable. Beta versions are released for 64 bits only.</sup>
+<sup>5. Beta versions are intended to experiment new features prior to release. Everything in beta is subject to change and new features may be unstable. Beta versions are released for 64 bits only.</sup>
 
 ____
 
@@ -65,10 +65,10 @@ Please make sure to install the latest drivers for your GPUs. This solves most o
 It has been tested on the following hardware:
 - GeForce GTX 480 / 580 / 680 / 970 / Titan / GTX 1080
 - GeForce GT 555M / 610M (nouveau driver)
-- Intel HD Graphics 4400, 4600, 4000<sup>5.</sup>
+- Intel HD Graphics 4400, 4600, 4000<sup>6</sup>
 - AMD Radeon 290X
 
-<sup>5. Although Intel HD Graphics 4000 does not fully support OpenGL 4.3, it does support the features needed by IceSL through extensions.</sup>
+<sup>6. Although Intel HD Graphics 4000 does not fully support OpenGL 4.3, it does support the features needed by IceSL through extensions.</sup>
 
 And in the following OS's:
 - Windows 7/10 64 bits

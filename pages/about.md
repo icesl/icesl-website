@@ -31,7 +31,7 @@ Questions? Look here first.
 3. Can I output an STL?
   + Yes. Select a mesh export in the top right 'Service' menu (see tooltips for details). Keep in mind though that IceSL is best used slicing directly.
 4. How about MacOS?
-  + Unfortunately, and as far as we know, there is no support for OpenGL 4.2 under MacOS and this is required to build IceSL. Whenever OpenGL 4.2 becomes available we will work hard to release IceSL on MacOS! In the meanwhile, please use the [web version][slicecrafter].
+  + Unfortunately, and as far as we know, there is no support for OpenGL 4.2 under MacOS and this is required to build IceSL. Whenever OpenGL 4.3 becomes available we will work hard to release IceSL on MacOS! In the meanwhile, please use the [web version][slicecrafter].
 5. Could the produced G-Code break my printer?
   + Despite all the care we take to avoid it, bad things could happen. So yes, be careful, monitor the print, especially the start. We've never broken a printer, but we are extra careful.
 6. Text editor?
