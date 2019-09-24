@@ -7,10 +7,10 @@ exclude: false
 categories: download
 ---
 
-{% assign beta_available = false %}
+{% assign beta_available = true %}
 
-{% assign win64beta = "2.3.3-beta5" %}
-{% assign linux64beta = "2.3.3-beta5" %}
+{% assign win64beta = "2.3.4-beta1" %}
+{% assign linux64beta = "2.3.4-beta1" %}
 
 {% assign win64stable = "2.3.3" %}
 {% assign win32stable = "2.3.3" %}
@@ -95,8 +95,8 @@ Older versions are available from our archives:
 [install-error]:        ../assets/img/install-error.png
 
 
-[icesl-win64-beta]:     https://gforge.inria.fr/frs/download.php/file/37915/IceSL_beta.exe
-[icesl-linux64-beta]:   https://gforge.inria.fr/frs/download.php/file/38068/icesl-2.3.3-beta5-amd64.zip
+[icesl-win64-beta]:     https://gforge.inria.fr/frs/download.php/file/38137/IceSL_beta.exe
+[icesl-linux64-beta]:   https://gforge.inria.fr/frs/download.php/file/38136/icesl-2.3.4-beta1-amd64.zip
 
 [icesl-win64-stable]:   https://gforge.inria.fr/frs/download.php/file/38109/IceSL_win64.exe
 [icesl-win32-stable]:   https://gforge.inria.fr/frs/download.php/file/38108/IceSL_win32.exe

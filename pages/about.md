@@ -68,17 +68,17 @@ ____
 <tr>
   <td class="rightLineCell"><a href="http://www.antexel.com/research">Sylvain Lefebvre</a><sup>1</sup></td>
   <td class="rightLineCell"><a href="http://www.xlim.fr/personnel/claux-frederic">Frédéric Claux</a></td>
-  <td>Jimmy Etienne</td>
+  <td>Pierre Bedell</td>
 </tr>
 <tr>
   <td class="rightLineCell"><a href="https://members.loria.fr/sperchy">Salim Perchy</a><sup>2</sup></td>
   <td class="rightLineCell"></td>
-  <td>Pierre Bedell</td>
+  <td>Jimmy Etienne</td>
 </tr>
 <tr>
   <td class="rightLineCell"><a href="https://members.loria.fr/czanni">Cédric Zanni<sup>3</sup></a></td>
   <td class="rightLineCell"></td>
-  <td>Noémie Vennin</td>
+  <td><a href="https://www.instagram.com/pa_hugron/">Pierre-Alexandre Hugron</a></td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
@@ -88,12 +88,17 @@ ____
 <tr>
   <td class="rightLineCell"></td>
   <td class="rightLineCell"></td>
+  <td><a href="http://thibaulttricard.fr/">Thibault Tricard</a></td>
+</tr>
+<tr>
+  <td class="rightLineCell"></td>
+  <td class="rightLineCell"></td>
   <td><a href="http://webloria.loria.fr/~jhergel">Jean Hergel</a></td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
   <td class="rightLineCell"></td>
-  <td><a href="http://www.loria.fr/~jdumas">Jérémie Dumas</a></td>
+  <td><a href="https://www.jdumas.org/">Jérémie Dumas</a></td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
@@ -108,12 +113,17 @@ ____
 <tr>
   <td class="rightLineCell"></td>
   <td class="rightLineCell"></td>
+  <td>Noémie Vennin</td>
+</tr>
+<tr>
+  <td class="rightLineCell"></td>
+  <td class="rightLineCell"></td>
   <td>Denis Salem</td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
   <td class="rightLineCell"></td>
-  <td>Guillaume Devoille</td>
+  <td>Charles Helbing</td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
