@@ -1,4 +1,12 @@
 ---------------------------------
+IceSL version 2.3.4-beta2 2019-10-07
+---------------------------------
+- added automatic calculation of density based in distance to surface
+- added automatic calculation of density of covering supports
+- optimization of layer height and automatica density calculation are now UI elements in the settings panel
+- fixed minor displacement in trigger event of show/hide settings panel
+
+---------------------------------
 IceSL version 2.3.3 2019-07-25
 ---------------------------------
 Slicecrafter:
