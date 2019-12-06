@@ -1,4 +1,19 @@
 ---------------------------------
+IceSL version 2.3.4-beta4 2019-11-28
+---------------------------------
+- fixed some errors when eroding/dilating due to internal changes
+- fixed Ultimaker2 profile not tracking federate properly
+
+---------------------------------
+IceSL version 2.3.4-beta3 2019-11-26
+---------------------------------
+- added a tool to edit/force supports placements
+- added ironing features (available as a brush setting)
+- added z_lift for travels
+- fixed some OpenGL extension wrongly requested (could lead to IceSL not launching properly)
+- fixed wings supports generation
+
+---------------------------------
 IceSL version 2.3.4-beta2 2019-10-07
 ---------------------------------
 - added automatic calculation of density based in distance to surface
