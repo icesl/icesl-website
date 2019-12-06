@@ -1,4 +1,16 @@
 ---------------------------------
+IceSL version 2.3.4-beta5 2019-12-06
+---------------------------------
+- added printer BCN3D Sigma(X) R19
+- added printer Geeetech A10 and A20
+- added printer Flashforge Creator Pro
+- added Ironing to the gcode preview
+- settings order in UI changed for more clarity
+- fixed the update notification being disabled on previous beta
+- fixed cycles management
+- fixed Ironing specific speed being not properly used
+
+---------------------------------
 IceSL version 2.3.4-beta4 2019-11-28
 ---------------------------------
 - fixed some errors when eroding/dilating due to internal changes
