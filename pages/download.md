@@ -28,10 +28,11 @@ See the [changelog][changelog] for more details on what's new.
 The packages bellow contain both IceSL-forge and IceSL-slicer for Windows:
 
 {% if beta_available %}
-[IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.big}{:.button-half} [IceSL {{win64beta}} Windows 64 bits][icesl-win64-beta]{:.button.big}{:.button-half}
-[IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.small}{:.button-half}
+[IceSL {{win64beta}} Windows 64 bits][icesl-win64-beta]{:.button.big}{:.button-big}
+
+[IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.big}{:.button-half} [IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.big}{:.button-half}
 {% else %}
-[IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.fit}{:.button.big} [IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.fit}{:.button.small}
+[IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.big}{:.button.big} [IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.big}{:.button.half}
 {% endif %}
 
 ___
@@ -41,8 +42,9 @@ ___
 The packages below contain IceSL-slicer for Linux:
 
 {% if beta_available %}
-[IceSL {{linux64stable}} Linux 64 bits][icesl-linux64-stable]{:.button.big}{:.button-half} [IceSL {{linux64beta}} Linux 64 bits][icesl-linux64-beta]{:.button.big}{:.button-half}
-[IceSL {{linux32stable}} Linux 32 bits][icesl-linux32-stable]{:.button.small}{:.button-half}
+[IceSL {{linux64beta}} Linux 64 bits][icesl-linux64-beta]{:.button.big}{:.button-big}
+
+[IceSL {{linux64stable}} Linux 64 bits][icesl-linux64-stable]{:.button.big}{:.button-half} [IceSL {{linux32stable}} Linux 32 bits][icesl-linux32-stable]{:.button.big}{:.button-half}
 {% else %}
 [IceSL {{linux64stable}} Linux 64 bits][icesl-linux64-stable]{:.button.fit}{:.button.big} [IceSL {{linux32stable}} Linux 32 bits][icesl-linux32-stable]{:.button.fit}{:.button.small}
 {% endif %}
@@ -51,14 +53,16 @@ ____
 
 ### FAQ
 
-What is the **_"IceSL-forge"_** piece of software that is included in the Windows packages?
-: IceSL-forge is a special version of IceSL which include a **scripting interface** to make it easier to model in IceSL.
+What is the **_"IceSL-forge"_** component that is included in the Windows installer?
+: _IceSL-forge_ is a special version of IceSL that includes a native **scripting editor** for more streamlined use when modeling.
 
+<br>
 How to model on Linux without IceSL-forge ?
-: IceSL-slicer can load lua scripts as well, and constantly monitors changes to the script. Therefore, you can use your favorite editor to edit a script opened in IceSL-slicer. The view will be immediately updated whenever the file is saved.
+: IceSL-slicer can load lua scripts as well, and constantly monitors changes to the script. Therefore, you can use your favorite editor to work on a script opened in IceSL-slicer and it will be immediately updated whenever the file is saved.
 
-What are the differences between the stable and beta version?
-: Beta versions are intended to experiment new features prior to release. Everything in beta is subject to change and new features may be unstable. Stable versions are packing all the features tested during the previous beta.
+<br>
+What are the differences between the normal and beta version?
+: Beta versions are intended to experiment new features prior to release. Everything in beta is subject to change and new features may be unstable. Normal versions are packing all the features tested during the previous beta.
 
 ____
 
@@ -76,9 +80,9 @@ ____
 Please make sure to install the latest drivers for your GPUs. This solves most of the cases where IceSL does not run or crashes. IceSL requires a GPU with full OpenGL 4.3 support.
 
 It has been tested on the following hardware:
-- GeForce GTX 480 / 580 / 680 / 970 / Titan / GTX 1080
-- GeForce GT 555M / 610M (new driver)
-- Intel HD Graphics 4400, 4600, 4000<sup>*</sup>
+- GeForce GTX 480 / 580 / 680 / 970 / Titan / 1080
+- GeForce GT 555M / 610M (_nouveau_ driver) / GTX 1660 Ti Mobile
+- Intel HD Graphics 630, 4600, 4400, 4000<sup>*</sup>
 - AMD Radeon 290X
 
 <sup>Note: Although Intel HD Graphics 4000 does not fully support OpenGL 4.3, it does support the features needed by IceSL through extensions.</sup>
@@ -86,6 +90,7 @@ It has been tested on the following hardware:
 And in the following OS's:
 - Windows 7/10 64 bits
 - Debian stable/testing 64 bits
+- Ubuntu LTS 64 bits
 
 In case you don't meet the system requirements you can opt to use the [online version][slicecrafter] of IceSL.
 

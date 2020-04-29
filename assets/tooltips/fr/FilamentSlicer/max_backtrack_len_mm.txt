@@ -1,2 +1,3 @@
 Distance maximale de recul
-Distance maximale de recul lors un impression
+Distance maximale de recul avant un 
+voyage en ligne droite.

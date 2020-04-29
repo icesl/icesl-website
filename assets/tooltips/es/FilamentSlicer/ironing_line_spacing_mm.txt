@@ -1,0 +1,3 @@
+Espacio entre lineas de suavizado (mm)
+Especio en milímetro entre los caminos de suavizado.
+El valor recomendado es la mitad del ancho de la boquilla.

@@ -1,0 +1,3 @@
+Enable Z-lift when traveling
+Allow the printer to move up when traveling. This may help
+avoid collisions.

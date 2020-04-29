@@ -1,3 +1,3 @@
-Epaisseur des planchers inférieurs(mm)
-Epaisseur en millimètres des planchers inférieurs
+Épaisseur des planchers inférieurs(mm)
+Épaisseur en millimètres des planchers inférieurs
 de la pièce.

@@ -1,0 +1,3 @@
+Suavizado
+Pasada post-impresión para eliminar los pequeños
+origicios entre las pistas de impresión.

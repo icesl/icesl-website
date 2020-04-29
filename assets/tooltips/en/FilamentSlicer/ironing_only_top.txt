@@ -1,0 +1,3 @@
+Iron only top
+Perform ironing only on top surface.
+(Disable it to gain control inside the piece)

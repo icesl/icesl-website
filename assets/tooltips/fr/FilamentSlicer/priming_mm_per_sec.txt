@@ -1,4 +1,4 @@
-Vitesse pour les rétractations (mm/sec)
-Vitesse utilisée pour les mouvements de rétractation
+Vitesse pour les rétractions (mm/sec)
+Vitesse utilisée pour les mouvements de rétraction
 (millimètres par seconde). Réduire si l'extrudeur
 saute des pas ou grignote le filament.

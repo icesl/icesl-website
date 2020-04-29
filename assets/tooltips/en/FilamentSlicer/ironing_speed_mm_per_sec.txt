@@ -1,0 +1,2 @@
+Ironing speed (mm/s)
+Speed of the toolhead while ironing.

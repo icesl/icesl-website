@@ -6,7 +6,7 @@ en écrivant sa spécification (voir fichier 'README.md'
 dans le dossier 'icesl-infillers'):
 
 -Default(Défaut): Remplissage tétrahédral (meilleure solution
-dans la majorité des sitations).
+dans la majorité des situations).
 
 -Progressive(Progressif): Les variations dans le pourcentage 
 de remplissage produisent une variation lisse 

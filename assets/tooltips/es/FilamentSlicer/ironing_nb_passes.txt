@@ -1,0 +1,2 @@
+Número de pasadas para suavizar
+Define el número de pasadas para 'planchar' la superficie.

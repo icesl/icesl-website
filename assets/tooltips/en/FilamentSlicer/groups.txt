@@ -1,3 +1,5 @@
+Adhesion
+Adhesion
 Brim
 Brim
 Brush
@@ -6,10 +8,12 @@ Cavity
 Cavity
 Custom
 Custom
+Experimental
+Experimental
 Extruder
 Extruder
 Fan
-Fan
+Cooling
 Printer
 Printer
 Processing
@@ -24,6 +28,8 @@ Multi material
 Multi material
 Shield
 Shield
+Tower
+Tower
 Travel
 Travel
 Ordering

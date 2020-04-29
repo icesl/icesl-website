@@ -1,1 +1,5 @@
 Remove covers less than width (mm)
+Remove covers smaller than the specified width (mm).
+This will filter out small residual covers when slicing
+empty objects witch complex outlines
+(ie: vases, objects without infills, etc).

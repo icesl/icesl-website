@@ -1,1 +1,5 @@
-Retire les planchers sous l'épaisseur (mm)
+Retire les planchers sous le seuil de largeur (mm)
+Les planchers moins larges que la valeur spécifiée (mm)
+sont retirés. Cela peut permettre de filtrer des planchers
+résiduels lors du tranchage d'objet vides aux contours 
+complexes (ex: vases, objets sans remplissage, etc).

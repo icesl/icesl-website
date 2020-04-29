@@ -13,9 +13,7 @@ sa position est spécifiée par les variables
 'extruder_swap_location_x_mm' et 
 'extruder_swap_location_y_mm'.
 
-Le choix d'utiliser une tour ou bien un bouclier dépend
-de l'imprimante. Si les extrudeurs sont fixes et situés
-côte à côte, un bouclier est préférable. Si les extrudeurs
-peuvent se lever/descendre, ou bien qu'un seul
-extrudeur permet d'utiliser plusieurs filaments, la tour
-est préférable.
+La tour est aussi ajoutée sur les impressions à un seul
+matériau, par exemple lorsqu'un pièce de faible section
+est imprimée, pour permetter un refroidissement entre
+couches (voir aussi enable_min_layer_time)

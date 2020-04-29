@@ -1,0 +1,2 @@
+Z-lift height (mm)
+Height in millimeters for the upward move.

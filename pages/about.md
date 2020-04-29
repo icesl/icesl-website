@@ -31,9 +31,9 @@ Questions? Look here first.
 3. Can I output an STL?
   + Yes. Select a mesh export in the top right 'Service' menu (see tooltips for details). Keep in mind though that IceSL is best used slicing directly.
 4. How about MacOS?
-  + Unfortunately, and as far as we know, there is no support for OpenGL 4.2 under MacOS and this is required to build IceSL. Whenever OpenGL 4.3 becomes available we will work hard to release IceSL on MacOS! In the meanwhile, please use the [web version][slicecrafter].
+  + Unfortunately, and as far as we know, there is no support for OpenGL 4.3 under MacOS and this is required to build IceSL. Whenever OpenGL 4.3 becomes available we will work hard to release IceSL on MacOS! In the meanwhile, please use the [web version][slicecrafter].
 5. Could the produced G-Code break my printer?
-  + Despite all the care we take to avoid it, bad things could happen. So yes, be careful, monitor the print, especially the start. We've never broken a printer, but we are extra careful.
+  + Despite all the care we take to avoid it, bad things could happen. So yes, be careful, monitor the print, especially the beginning . We've never broken a printer, but we are extra careful.
 6. Text editor?
   + IceSL-forge includes a script editor while IceSL-slicer does not. Both however, monitor file changes to the Lua script file and updates the view whenever the script changes.
 7. Do I need a powerful computer?
@@ -68,25 +68,20 @@ ____
 <tr>
   <td class="rightLineCell"><a href="http://www.antexel.com/research">Sylvain Lefebvre</a><sup>1</sup></td>
   <td class="rightLineCell"><a href="http://www.xlim.fr/personnel/claux-frederic">Frédéric Claux</a></td>
-  <td>Pierre Bedell</td>
+  <td>Jimmy Etienne</td>
 </tr>
 <tr>
   <td class="rightLineCell"><a href="https://members.loria.fr/sperchy">Salim Perchy</a><sup>2</sup></td>
   <td class="rightLineCell"></td>
-  <td>Jimmy Etienne</td>
+  <td><a href="https://www.instagram.com/pa_hugron/">Pierre-Alexandre Hugron</a></td>
 </tr>
 <tr>
   <td class="rightLineCell"><a href="https://members.loria.fr/czanni">Cédric Zanni<sup>3</sup></a></td>
   <td class="rightLineCell"></td>
-  <td><a href="https://www.instagram.com/pa_hugron/">Pierre-Alexandre Hugron</a></td>
-</tr>
-<tr>
-  <td class="rightLineCell"></td>
-  <td class="rightLineCell"></td>
   <td>Haichuan Song</td>
 </tr>
 <tr>
-  <td class="rightLineCell"></td>
+  <td class="rightLineCell">Pierre Bedell<sup>4</sup></td>
   <td class="rightLineCell"></td>
   <td><a href="http://thibaulttricard.fr/">Thibault Tricard</a></td>
 </tr>
@@ -133,7 +128,8 @@ ____
 </table>
 <sup>1. Creator, lead, coding, support, testing.</sup><br>
 <sup>2. Coding, support, testing, documentation, localization, website.</sup><br>
-<sup>3. Additional rendering and UI code.</sup>
+<sup>3. Additional rendering and UI code.</sup><br>
+<sup>4. Additional slicing code, print testing, printer profile management and support.</sup>
 
 **Acknowledgements:**<a id="acknowledgements"></a>
 

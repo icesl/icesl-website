@@ -1,0 +1,4 @@
+Activer le Z-lift pour les voyages
+Autorise la machine à effectuer un décalage en Z 
+lors des voyages, ce qui peut permettre d'éviter des 
+collisions.

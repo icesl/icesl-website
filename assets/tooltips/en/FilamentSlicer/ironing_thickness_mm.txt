@@ -1,0 +1,3 @@
+Ironing thickness (mm)
+Sets the ironing thickness (mm) below the
+top surface.

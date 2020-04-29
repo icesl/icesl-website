@@ -1,4 +1,4 @@
-Eviter de voyager sur les surfaces visibles
+Éviter de voyager sur les surfaces visibles
 Lorsque activée, cette option permet d'optimiser les
 mouvements de voyage pour éviter de passer au dessus
 des surfaces visibles. Activez cette option si la buse 

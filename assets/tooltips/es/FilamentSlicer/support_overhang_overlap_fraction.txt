@@ -1,0 +1,6 @@
+Factor de solapamiento considerado no soportado
+Factor de solapamiento entre el camino superior e
+inferior a partir del cual se considera el camino
+superior como no soportado.
+1.0 => número máximo de puntos a soportar
+0.0 => número mínimo de puntos a soportar

@@ -1,0 +1,3 @@
+Ironing Z offset (mm)
+Zero offset results in ironing at exact level of the surface.
+Note: negative offset results in "scratching" the surface.
