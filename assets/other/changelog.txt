@@ -1,4 +1,22 @@
 ---------------------------------
+IceSL version 2.3.5-beta1 2020-05-04
+---------------------------------
+- introduced lua fuction 'ui_bool'
+- reworked UI menus
+- added shell flow multiplier setting
+- improved polyfoam infill
+- improved distance fields (used in implicits and meshing)
+- improved mesh exporter service (corners cut in some situations)
+- proper filename suggestion of gcode output when saving after slicing
+- fixed rendering and mesh exporting bug on intel cards with driver 27.20.100.7988
+- fixed bug when immediately slicing scripts with more than one brush and using printer with a less number of extruders
+- fixed crash when using mirror on implicit primitives 
+- fixed orientation bug when using mirror in polygonal slices
+Forge:
+	- fixed crash when using the Mouse Wheel + Ctrl on empty scripts
+	- added support for non-ascii paths (Note: always use ASCII encoding on scripts)
+	
+---------------------------------
 IceSL version 2.3.4-beta5 2019-12-06
 ---------------------------------
 - added printer BCN3D Sigma(X) R19

@@ -1,1 +1,1 @@
-Calculer la densité à l'égard de distance de surface
+Calculer la densité à l'égard de la distance de surface

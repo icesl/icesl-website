@@ -1,4 +1,4 @@
-Multiplicador de flujo
+Multiplicador de flujo (general)
 Multiplicador del flujo de material mientras se impri-
 me con esta brocha. Aumentar o reducir para forzar
 o reducir la salida plástico. Puede ser usado para

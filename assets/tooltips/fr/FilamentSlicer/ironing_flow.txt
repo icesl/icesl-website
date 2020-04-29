@@ -1,0 +1,7 @@
+Flux additionnel
+Flux additionnel (pourcentage par rapport au flux de la dernière couche)
+pour combler les écarts entre les lignes des planchers.
+
+Cette extrusion supplémentaire peut aider à produire des planchers
+plus solides et étanches (peut également aider à la transparence avec
+des matériaux transparents)

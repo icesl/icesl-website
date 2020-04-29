@@ -1,0 +1,10 @@
+Minimum time method
+- Tower: Generates a tower to achieve the minimum printing
+time for each layer.
+
+- Shield: Generates shield to achieve the minimum printing
+time for each layer.
+
+- Function 'wait': Lets the user specify the printer behavior 
+to achieve the minimum time. See the documentation on printer
+profiles.

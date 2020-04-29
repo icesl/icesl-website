@@ -1,0 +1,10 @@
+Méthode de temps minimum
+- Tour: Génère une tour pour atteindre le temps minimum
+pour chaque couche.
+
+- Bouclier: Génère un bouclier pour atteindre le temps minimum
+pour chaque couche.
+
+- Fonction 'wait': Laisse l'utilisateur spécifier le comportement
+de l'imprimante pour atteindre le temps minimum. Regardez la
+documentation sur les profils d'imprimante.

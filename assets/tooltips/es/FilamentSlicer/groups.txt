@@ -1,3 +1,5 @@
+Adhesion
+Adhesión
 Brim
 Borde
 Brush
@@ -6,10 +8,12 @@ Cavity
 Cavidad
 Custom
 Personalizados
+Experimental
+Experimental
 Extruder
 Extrusor
 Fan
-Ventilador
+Enfriamiento
 Printer
 Impresora
 Processing
@@ -24,6 +28,8 @@ Multi material
 Multimaterial
 Shield
 Escudo
+Tower
+Torre
 Travel
 Recorrido
 Ordering

@@ -1,0 +1,2 @@
+Compensación en eje X del relleno
+Compensación del relleno basado en imagen en el eje X.

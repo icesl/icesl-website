@@ -1,0 +1,5 @@
+Overlap fraction before overhang
+Overlap fraction between top/bottom paths from which
+the top path is considered overhanging (not supported).
+1.0 => maximum number of points to support.
+0.0 => minimum number of points to support.

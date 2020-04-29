@@ -1,3 +1,5 @@
-Temps d'impressión minimum pour les couches
-Activer un temps minimum d'impressión pour chaque
-couche.
+Temps d'impression minimum par couche
+Activer cette option permet de définir un temps 
+minimum d'impression d'une couche.
+Cela force à ralentir l'impression pour faciliter
+le refroidissement de la matière déposée.

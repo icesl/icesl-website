@@ -1,0 +1,3 @@
+Épaisseur d'action (mm)
+Défini sur quelle épaisseur l'ironing sera effectué 
+sur chaque type de planchers.

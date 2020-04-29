@@ -1,3 +1,3 @@
-Epaisseur des planchers supérieurs(mm)
-Epaisseur en millimètres des planchers supérieurs
+Épaisseur des planchers supérieurs(mm)
+Épaisseur en millimètres des planchers supérieurs
 de la pièce.

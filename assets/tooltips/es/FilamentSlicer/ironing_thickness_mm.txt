@@ -1,0 +1,3 @@
+Grosor del suavizado (mm)
+Define el grosor del suavizado debajo de la superficie
+superior.

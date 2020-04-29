@@ -1,0 +1,6 @@
+Ironing seulement sur les planchers supérieurs
+Effectue les passes d'ironing seulement sur les
+planchers supérieurs.
+
+(À désactiver si l'ironing doit être effectué sur
+tous les planchers)

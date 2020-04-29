@@ -1,0 +1,3 @@
+Ironing line spacing (mm)
+Space between paths in millimeters.
+Recommended value is half of the nozzle width.

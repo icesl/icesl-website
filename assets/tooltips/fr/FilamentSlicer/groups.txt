@@ -1,3 +1,5 @@
+Adhesion
+Adhésion
 Brim
 Brim
 Brush
@@ -6,10 +8,12 @@ Cavity
 Cavité
 Custom
 Personnalisé
+Experimental
+Expérimental
 Extruder
 Extrudeur
 Fan
-Ventilateur
+Refroidissement
 Printer
 Imprimante
 Processing
@@ -24,6 +28,8 @@ Multi material
 Multi-matériaux
 Shield
 Bouclier
+Tower
+Tour
 Travel
 Déplacement
 Ordering

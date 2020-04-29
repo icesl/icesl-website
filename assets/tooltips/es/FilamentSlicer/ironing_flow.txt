@@ -1,0 +1,7 @@
+Flujo de suavizado
+Fujo adicional para asegurar que los orificios en la
+superifice son cubiertos (porcentaje relacionado con
+el flujo de la cubierta).
+
+Esta opción puede ayudar a obtener una cubierta sólida
+o transparente si se usa material transparente.

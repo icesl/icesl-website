@@ -1,4 +1,4 @@
-Epaissir les parois fines
+Épaissir les parois fines
 Activer pour préserver les parois fines. Par défaut,
 les parois plus fines que le diamètre de sortie de
 la buse sont éliminées. Cette option active un 

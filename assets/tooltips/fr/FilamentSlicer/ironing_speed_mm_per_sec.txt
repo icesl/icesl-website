@@ -1,0 +1,2 @@
+Vitesse des passes (mm/s)
+Défini la vitesse des passes d'ironing.

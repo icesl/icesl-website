@@ -1,0 +1,6 @@
+Fraction de recouvrement avant surplomb
+Fraction de recouvrement entre chemins dessus/dessous 
+à partir de laquelle le chemin du dessus est considéré 
+en surplomb (non supporté).
+1.0 => beaucoup de points à porter
+0.0 => minimum de points à porter
