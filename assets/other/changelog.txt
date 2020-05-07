@@ -1,9 +1,11 @@
 ---------------------------------
-IceSL version 2.3.5-beta1 2020-05-04
+IceSL version 2.3.5-beta1 2020-05-07
 ---------------------------------
-- introduced lua fuction 'ui_bool'
+- increased precision for the z-coordinate position of layers
+- introduced lua input tweaks 'ui_bool', 'ui_scalarBox', 'ui_numberBox', 'ui_text', 'ui_radio' and 'ui_combo'
 - reworked UI menus
 - added shell flow multiplier setting
+- added per-bursh ironing speed setting
 - improved polyfoam infill
 - improved distance fields (used in implicits and meshing)
 - improved mesh exporter service (corners cut in some situations)

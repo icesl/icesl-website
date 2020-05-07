@@ -90,7 +90,7 @@ Video duration: 18 minutes.
 </div>
 </details>
 
-<details  markdown="1"><summary> <b>IceSL SLicer - Example Using Adaptive Layer Slicing!</b> </summary>
+<details  markdown="1"><summary> <b>IceSL Slicer - Example Using Adaptive Layer Slicing!</b> </summary>
 _Author: DIY3DTech -- [http://diy3dtech.com/](http://diy3dtech.com/)_
 
 Video duration: 12 minutes.
@@ -153,6 +153,17 @@ The video below demonstrates the ability of painting introduced in version **2.1
 <div markdown="1" class="video-container">
 {:.video-center}
 <iframe src="https://www.youtube.com/embed/oZ2TGFBkLMI" class="youtube-video" frameborder="0" allowfullscreen></iframe>
+</div>
+</details>
+
+<details  markdown="1"><summary> <b>Introduction to IceSL version 2.3.4</b> </summary>
+_Author: Technivorous 3dprinting -- [YouTube channel](https://www.youtube.com/channel/UCuMbDfVJqY4XnWbTUmH3AmQ)_
+
+This video was created with the purpose of a quick show-off of various capabilities of IceSL version 2.3.4. Duration is close to 20 minutes.
+
+<div markdown="1" class="video-container">
+{:.video-center}
+<iframe src="https://www.youtube.com/embed/p4jI7fqBwXw" class="youtube-video" frameborder="0" allowfullscreen></iframe>
 </div>
 </details>
 
