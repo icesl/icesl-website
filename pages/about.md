@@ -120,11 +120,6 @@ ____
   <td class="rightLineCell"></td>
   <td>Charles Helbing</td>
 </tr>
-<tr>
-  <td class="rightLineCell"></td>
-  <td class="rightLineCell"></td>
-  <td>Charles Helbing</td>
-</tr>
 </table>
 <sup>1. Creator, lead, coding, support, testing.</sup><br>
 <sup>2. Coding, support, testing, documentation, localization, website.</sup><br>

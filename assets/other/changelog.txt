@@ -1,4 +1,21 @@
 ---------------------------------
+IceSL version 2.3.5-beta3 2020-07-03
+---------------------------------
+- reworked gcode previewer
+- officially introduced service mode (i.e., batch processing)
+- more discernibale color gradient when using per layer editing
+- added tooltip for measuring tool
+- fixed crash when loading unsupported obj models
+- progress slider only affects now last layer shown
+- added printer profile 'Addiform_RRF' courtesy of Nathan Buxton (https://github.com/n8bot)
+
+---------------------------------
+IceSL version 2.3.5-beta2 2020-05-20
+---------------------------------
+- fixed bug that rendered cellulars infillers unusable
+- fixed missing shell in certain print cases
+
+---------------------------------
 IceSL version 2.3.5-beta1 2020-05-07
 ---------------------------------
 - increased precision for the z-coordinate position of layers
