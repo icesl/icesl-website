@@ -1,4 +1,13 @@
 ---------------------------------
+IceSL version 2.3.4 2019-12-20
+---------------------------------
+- added the possibility to save overhang points
+- updated the priming speed to be set by extruder
+- updated printer profiles to support the priming speed per extruder
+- fixed a bug resulting in an incorrect slicing result when using some effects
+- fixed z-lift to be available only for travel with retract
+
+---------------------------------
 IceSL version 2.3.4-beta5 2019-12-06
 ---------------------------------
 - added printer BCN3D Sigma(X) R19
