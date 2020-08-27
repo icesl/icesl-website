@@ -66,7 +66,7 @@ exclude: false
 <a class="button big button-half" id="fileSelect">Load STL</a>
 <input type="file" id="fileElem" accept=".stl" style="display:none;" onchange="handleSTLFile(this.files[0])">
 <a class="button big button-half" id="fileSelect2">Load settings</a>
-<input type="file" id="fileElem2" accept=".xml" style="display:none;" onchange="handleSettingsFile(this.files[0])">
+<input type="file" id="fileElem2" accept=".lua" style="display:none;" onchange="handleSettingsFile(this.files[0])">
 
 <script>
 initialize();
