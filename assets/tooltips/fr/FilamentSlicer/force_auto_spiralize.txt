@@ -1,0 +1,3 @@
+Forcer la spiralisation pour toutes les couches
+Contourne toutes les vérifications pour prévenir
+les surplombs d'une couche à la suivante.
