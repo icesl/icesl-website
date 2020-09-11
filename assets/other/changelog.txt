@@ -1,4 +1,26 @@
 ---------------------------------
+IceSL version 2.3.5-beta5 2020-09-11
+---------------------------------
+- added UI element to control positioning the geometry anywhere on the bed
+- fixed a rendering bug of implicits that made them float over the printing bed on certain orientations and CSG operations
+- reintroduced polyfoam optimization that was disabled due to a past bug
+- added printing setting 'force_auto_spirialize' to disable checks for overhanging geometry
+- console sliding panel now hiden when editing per-layer or field
+- fixed a freeze when editing per-layer or field when script was in error state
+- fixed bug of zeroed out internal printing settings after slicing and in the GCode file creation context
+- fixed assert when using JigSaw infiller and enabling supports for infill
+
+---------------------------------
+IceSL version 2.3.5-beta4 2020-09-04
+---------------------------------
+- printing settings and tweaks persistence (i.e., save/load) on lua format by default. XML still present but no longer supported and will be most likely phased out in the next stable release
+- introduced progressive rendering for the g-code previewer
+- introduced UI option to set block size of progressive rendering step
+- fixed polyfoam issue with certain density parameters
+- fixed rendering bug when using CSG operations with implicits
+- fixed crash when quiting IceSL while the layer height optimizer was being used
+
+---------------------------------
 IceSL version 2.3.5-beta3 2020-07-03
 ---------------------------------
 - reworked gcode previewer

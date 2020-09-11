@@ -1,1 +1,0 @@
-Tolerancia en la espiralización entre capas (mm)

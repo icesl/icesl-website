@@ -1,0 +1,3 @@
+Forzar espiralización en todas las capas
+Deshabilita chequeos para prevenir material no
+soportado entre capas.
