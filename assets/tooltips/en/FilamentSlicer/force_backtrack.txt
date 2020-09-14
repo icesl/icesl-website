@@ -1,0 +1,11 @@
+Force backtrack on first layer
+Enable backtrack on all printing paths for the first layer.
+This will force the printer to make a "dry move"
+back to the start of a deposition path to ensure
+the first layer is correctly deposited.
+
+This setting can induce a significant increase on
+print time for the first layer.
+
+This is particularly indicated when using Polyfoams
+or any infill with many small cells.

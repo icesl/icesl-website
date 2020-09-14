@@ -1,2 +1,7 @@
 Distancia máxima de retroceso
 Distancia máxima de retroceso durante la impresión.
+
+El retroceso es un movimiento "seco" que se devuelve
+a través del camino de deposición anterior para
+asegurar que no haya solapamiento entre líneas
+de impresión.

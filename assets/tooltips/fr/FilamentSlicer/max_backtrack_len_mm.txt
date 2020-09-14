@@ -1,3 +1,6 @@
 Distance maximale de recul
-Distance maximale de recul avant un 
-voyage en ligne droite.
+Distance maximale de recul avant un voyage en ligne
+droite.
+
+Le recul est un "passage à vide" qui repasse le long
+d'un chemin précédemment déposé pour limiter le stringing.

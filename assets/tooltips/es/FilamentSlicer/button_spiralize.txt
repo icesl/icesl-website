@@ -1,0 +1,3 @@
+Espiralizar
+Usar valores adecuados de cavidades, perímetro,
+cuviertas y densidad de relleno para la espiralización.

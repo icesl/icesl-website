@@ -1,0 +1,7 @@
+Température de l'enceinte (C)
+Température (degrés Celsius) de l'enceinte chauffante
+durant l'impression (si disponible sur la machine
+sélectionnée).
+
+À ajuster selon le matériau pour limiter les
+déformations (warping).
