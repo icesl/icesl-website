@@ -1,4 +1,11 @@
 ---------------------------------
+IceSL version 2.3.5-beta6 2020-09-15
+---------------------------------
+- added spiralize UI button to correctly set the needed parameters for a spiralization to work
+- fixed UI bug where after saving settings or gcode files the brush and extruder settings will get scrambled in the UI
+- fixed implicit rendering and slicing bug
+
+---------------------------------
 IceSL version 2.3.5-beta5 2020-09-11
 ---------------------------------
 - added UI element to control positioning the geometry anywhere on the bed

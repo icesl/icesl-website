@@ -1,0 +1,3 @@
+Spiralize
+Fill values for shells, covers, perimeter and infill
+density to achieve spiralization.

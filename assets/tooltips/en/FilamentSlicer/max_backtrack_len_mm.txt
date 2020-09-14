@@ -1,2 +1,6 @@
 Maximum backtrack length
-Maximum backtrack length when printing
+Maximum backtrack length when printing.
+
+The backtrack is a "dry move" that follows back a
+previously deposited path to ensure there is no
+stringing between printed paths.

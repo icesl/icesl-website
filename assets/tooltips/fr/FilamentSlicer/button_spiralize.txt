@@ -1,0 +1,3 @@
+Spiralize
+Prédéfini les shells, planchers, périmètres et le
+pourcentage de remplissage pour "forcer" Spiralize.

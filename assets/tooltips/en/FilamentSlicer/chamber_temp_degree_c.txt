@@ -1,0 +1,5 @@
+Heated chamber temperature (C)
+Temperature (in Celsius) of the heated chamber
+when printing (if available on the selected machine).
+
+Adjust depending on material used to limit warping.
