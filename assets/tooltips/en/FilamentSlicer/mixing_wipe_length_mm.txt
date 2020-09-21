@@ -1,3 +1,0 @@
-Wipe length
-Path length in millimeters to clean and smooth out
-color transition.

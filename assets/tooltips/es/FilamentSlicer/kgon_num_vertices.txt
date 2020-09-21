@@ -1,4 +1,0 @@
-Lados del cono base de celdas.
-Número de lados del polígono regular que define la base
-del cono que a su vez define las celdas de la estructura
-de esponja.

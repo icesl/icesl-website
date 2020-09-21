@@ -1,3 +1,0 @@
-Distancia de limpieza
-Distancia en milímetros para limpiar y pulir la
-transición de colores.
