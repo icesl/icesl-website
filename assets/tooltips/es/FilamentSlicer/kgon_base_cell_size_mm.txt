@@ -1,5 +1,0 @@
-Tamaño de celdas
-Una celda en una estructura de esponja puede ser definida
-como las 'burbujas vacías' que en ella se encuentran. Este
-valor cambia el tamaño de dichas 'burbujas' y afecta direc-
-tamente la densidad de relleno.

@@ -1,4 +1,0 @@
-Taille initiale des cellules
-Un cellule dans une structure de type éponge peut être
-vue comme une 'bulle vide'. Cette valeur affecte directement
-la densité du remplissage.

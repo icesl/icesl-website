@@ -1,3 +1,0 @@
-Number of covers (integer)
-Number of fully filled layers bellow/above print 
-tops/bottoms. A typical value is 6.
