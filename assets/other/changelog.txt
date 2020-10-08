@@ -1,4 +1,10 @@
 ---------------------------------
+IceSL version 2.3.5 2020-10-06
+---------------------------------
+- raft generation reworked and improved
+- fixed bug where bed size error would trigger 
+
+---------------------------------
 IceSL version 2.3.5-beta6 2020-09-15
 ---------------------------------
 - added spiralize UI button to correctly set the needed parameters for a spiralization to work

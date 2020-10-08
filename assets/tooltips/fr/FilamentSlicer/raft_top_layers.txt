@@ -1,0 +1,4 @@
+Nombre de couches d'interface du Raft
+L'interface du Raft est l'ensemble des couches
+supérieures du Raft 
+(qui sont en contact avec la pièce imprimée).

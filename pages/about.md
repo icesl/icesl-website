@@ -122,8 +122,8 @@ ____
 </tr>
 </table>
 <sup>1. Creator, lead, coding, support, testing.</sup><br>
-<sup>2. Coding, support, testing, documentation, localization, website.</sup><br>
-<sup>3. Additional rendering and UI code.</sup><br>
+<sup>2. Coding, plugins, support, testing, documentation, localization, website.</sup><br>
+<sup>3. Rendering and UI code, plugins.</sup><br>
 <sup>4. Additional slicing code, print testing, printer profile management and support.</sup>
 
 **Acknowledgements:**<a id="acknowledgements"></a>
@@ -158,13 +158,13 @@ IceSL uses font [Cousine-Regular][font-reg] by Steve Matteson under the [Apache 
 [sylvain]:      http://www.antexel.com/research
 [salim]:        https://members.loria.fr/sperchy
 [frederic]:     http://www.xlim.fr/personnel/claux-frederic
-[jimmy]:        http://shapeforge.loria.fr/icesl
-[noemie]:       http://shapeforge.loria.fr/icesl
+[jimmy]:        https://mfx.loria.fr/team/
+[noemie]:       https://mfx.loria.fr/team/
 [jean]:         http://webloria.loria.fr/~jhergel
 [jeremy]:       https://www.jdumas.org
 [jonas]:        https://sites.google.com/site/jonasmartinezbayona
 [samuel]:       https://members.loria.fr/samuel.hornus/
-[haichuan]:     http://shapeforge.loria.fr/icesl
-[denis]:        http://shapeforge.loria.fr/icesl
-[guillaume]:    http://shapeforge.loria.fr/icesl
-[charles]:      http://shapeforge.loria.fr/icesl
+[haichuan]:     https://facultyold.ecnu.edu.cn/s/3849/t/38277/main.jspy
+[denis]:        https://mfx.loria.fr/team/
+[guillaume]:    https://mfx.loria.fr/team/
+[charles]:      https://mfx.loria.fr/team/

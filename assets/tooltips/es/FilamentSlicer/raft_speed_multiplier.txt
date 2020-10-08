@@ -1,0 +1,4 @@
+Multiplicador de velocidad de la base
+Multiplicador de veolcidad de impresión para la base.
+La impresión de la base usa la velocidad de la
+primera capa (i.e., first_layer_print_speed_mm_per_sec).

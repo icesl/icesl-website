@@ -1,0 +1,5 @@
+Multiplicateur de vitesse
+Multiplicateur de vitesse d'impression du Raft.
+Par défaut, le Raft utilise la vitesse
+d'impression de la première couche 
+(first_layer_print_speed_mm_per_sec).
