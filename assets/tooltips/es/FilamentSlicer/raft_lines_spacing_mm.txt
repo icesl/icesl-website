@@ -1,0 +1,4 @@
+Espacio entre las líneas de la base (mm)
+Espacio en milímetros entre las líneas en las capas
+de la base. La primera capa usa el doble de este
+espacio.

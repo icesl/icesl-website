@@ -7,16 +7,16 @@ exclude: false
 categories: download
 ---
 
-{% assign beta_available = true %}
+{% assign beta_available = false %}
 
 {% assign win64beta = "2.3.5-beta6" %}
 {% assign linux64beta = "2.3.5-beta6" %}
 
-{% assign win64stable = "2.3.4" %}
-{% assign win32stable = "2.3.4" %}
+{% assign win64stable = "2.3.5" %}
+{% assign win32stable = "2.3.5" %}
 
-{% assign linux64stable = "2.3.4" %}
-{% assign linux32stable = "2.3.4" %}
+{% assign linux64stable = "2.3.5" %}
+{% assign linux32stable = "2.3.5" %}
 
 IceSL is available for both Windows and Linux Systems.
 If you want to experiment with the latest features, give the beta release a try !
@@ -32,7 +32,7 @@ The packages bellow contain both IceSL-forge and IceSL-slicer for Windows:
 
 [IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.big}{:.button-half} [IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.big}{:.button-half}
 {% else %}
-[IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.big}{:.button.big} [IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.big}{:.button.half}
+[IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.fit}{:.button.big} [IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.fit}{:.button.small}
 {% endif %}
 
 ___
@@ -120,5 +120,5 @@ Older versions are available from our archives:
 
 [icesl-releases]:       https://gforge.inria.fr/frs/?group_id=4731
 
-[icesl-linux64-stable]: https://gforge.inria.fr/frs/download.php/file/38248/icesl-2.3.4-amd64.zip
-[icesl-linux32-stable]: https://gforge.inria.fr/frs/download.php/file/38249/icesl-2.3.4-i386.zip
+[icesl-linux64-stable]: https://gforge.inria.fr/frs/download.php/file/38374/icesl-2.3.5-amd64.zip
+[icesl-linux32-stable]: https://gforge.inria.fr/frs/download.php/file/38373/icesl-2.3.5-i386.zip

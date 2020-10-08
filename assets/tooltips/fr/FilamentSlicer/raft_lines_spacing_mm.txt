@@ -1,0 +1,5 @@
+Espacement des lignes du Raft (mm)
+Espacement, en millimètres, entre les lignes
+des couches du Raft.
+La première couche du Raft utilise un espacement
+deux fois plus grand que spécifié.

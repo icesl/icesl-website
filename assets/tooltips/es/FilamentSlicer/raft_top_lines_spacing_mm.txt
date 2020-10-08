@@ -1,0 +1,1 @@
+Espacio entre las líneas de la interfaz de la base (mm)

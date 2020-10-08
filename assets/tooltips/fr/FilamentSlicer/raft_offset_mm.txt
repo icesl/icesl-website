@@ -1,0 +1,5 @@
+Espacement du Raft (mm)
+Valeur, en millimètres, de l'espacement entre
+la pièce imprimée et le Raft.
+Augmenter cette valeur peut permettre une
+séparation plus aisée du Raft et de la pièce.

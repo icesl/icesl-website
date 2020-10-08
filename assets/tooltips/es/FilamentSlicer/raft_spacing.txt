@@ -1,4 +1,0 @@
-Espacio entre las líneas de base (mm)
-Espacio en milímetros (mm) entre las líneas que forman
-las capas de la base superior. Las capas de la base
-inferior usan el doble de espacio especificado aquí.

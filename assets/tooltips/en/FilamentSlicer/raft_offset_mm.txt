@@ -1,0 +1,5 @@
+Raft offset (mm)
+Value in millimeters of the gap between the printed
+geometry and the raft. Increasing this value can
+help with the removal of the raft from the printed
+geometry after printing.

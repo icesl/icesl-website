@@ -1,0 +1,4 @@
+Number of raft interface layers
+The raft interface is the layers between the printed
+geometry and the remaining layers of the total number
+of raft layers.

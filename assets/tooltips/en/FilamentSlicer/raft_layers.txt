@@ -1,0 +1,2 @@
+Number of raft layers
+Total number of layers of the produced raft.

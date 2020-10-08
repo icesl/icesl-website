@@ -1,5 +1,6 @@
 Base
-Imprime una base en la parte inferior del objeto
-para compensar defectos menores de calibración. 
-Igualmente facilita el despegado del objeto de la
-plataforma impresión.
+Imprimer una base debajo del objeto para compensar
+pequeños problemas de calibración o defectos de la
+superficie de impresión. Esto también puede ayudar
+a separar la impresión de la superficie una vez
+impreso.

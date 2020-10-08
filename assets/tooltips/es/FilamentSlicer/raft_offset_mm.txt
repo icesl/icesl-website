@@ -1,0 +1,4 @@
+Separación de la base (mm)
+Valor en milímetros entre la impresión y la base.
+Incrementar este valor puede ayudar a despegar la
+base de la parte una vez impresa.

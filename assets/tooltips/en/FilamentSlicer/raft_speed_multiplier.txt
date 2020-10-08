@@ -1,0 +1,4 @@
+Raft speed multiplier
+Printing speed multiplier for the raft. By default,
+the raft is printed with the speed of the first
+layer (i.e., first_layer_print_speed_mm_per_sec).

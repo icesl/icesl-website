@@ -1,0 +1,4 @@
+Número de capas de la interfaz de la base
+La interfaz de la base hace referencia a las capas
+entre la impresión y las capas restantes de la base
+(i.e., raft_layers)

@@ -1,0 +1,2 @@
+Número de capas de la base
+Número total de las capas que forman la base.
