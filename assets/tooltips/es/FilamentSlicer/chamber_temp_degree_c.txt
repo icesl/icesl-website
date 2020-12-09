@@ -1,4 +1,5 @@
-Temperatura de la cámara de calor (c)
-Temperatura (en Celcius) de la cámara de calor
-durante la impresión (si la impresora está equipada
-con una cámara de calor).
+Heated chamber temperature (C)
+Temperature (in Celsius) of the heated chamber
+when printing (if available on the selected machine).
+
+Adjust depending on material used to limit warping.

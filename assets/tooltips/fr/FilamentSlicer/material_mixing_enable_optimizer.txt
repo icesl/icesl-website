@@ -1,3 +1,2 @@
-Activer ou non l'optimiseur pour multi-matériaux
-Active l'optimisation lors de l'utilisation de
-différents matériaux ou couleurs. 
+Turn material mixing optimizer on/off
+Enable optimization when mixing different materials.

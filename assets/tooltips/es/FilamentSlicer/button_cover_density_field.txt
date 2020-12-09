@@ -1,1 +1,1 @@
-Calcular densidad de las cubiertas soporte
+Compute density for supporting covers

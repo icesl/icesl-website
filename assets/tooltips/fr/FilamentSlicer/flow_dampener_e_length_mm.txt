@@ -1,3 +1,2 @@
-Compensation du flux: longueur de rétraction
-Longueur de la rétraction effectuée à chaque 
-transition entre les couleurs.
+Flow dampener: retraction length
+Retraction length when transitioning between colors.

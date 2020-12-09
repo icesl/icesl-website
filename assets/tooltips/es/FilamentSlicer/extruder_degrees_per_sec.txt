@@ -1,11 +1,9 @@
-Calentamiento/enfriamento (C/sec)
-Este parámetro es necesitado cuando se usa el control
-activo de temperatura. Dicho parámetro indica que
-tan rápido IceSL puede enfriar o calentar los extru-
-sores. Al ajustar este parámetro, tenga en cuenta
-que a menudo el enfriamento es más rápido que el
-calentamiento. El calentamiento puede ser influenciado
-por la temperatura ambiente: se recomiendo disminuir
-este valor en temperaturas frías. Si usted nota una
-pausa entre intercambios de extrusores, disminuya
-este valor.
+Heating/cooling rate (C/sec)
+This parameter is needed when using active temperature
+control. It tells IceSL how fast an extruder is able to
+cool down and heat. Most often, cooling is faster than
+heating so use the slower of both. Heating is often
+impacted by room temperature: you may want to
+lower this value in cool environments.
+If you notice a pause after an extruder swap, lower
+this value.

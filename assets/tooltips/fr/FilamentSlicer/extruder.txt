@@ -1,6 +1,5 @@
-Extrudeur
-Extrudeur à utiliser pour cette brush. Les brushs 
-permettent d'utiliser un extrudeur différent sur
-différentes parties de l'objet. Depuis un script lua,
-utilisez 'emit(s,b)' avec s une forme et b le numéro
-de la brush.
+Extruder
+Extruder to use for this brush. Brushes can be 
+used to specify which extruder to use in different
+parts of a print. From a lua script, use emit(s,b)
+with s the shape and b the id of the brush.

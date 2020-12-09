@@ -1,6 +1,6 @@
-Distance maximale de recul
-Distance maximale de recul avant un voyage en ligne
-droite.
+Maximum backtrack length
+Maximum backtrack length when printing.
 
-Le recul est un "passage à vide" qui repasse le long
-d'un chemin précédemment déposé pour limiter le stringing.
+The backtrack is a "dry move" that follows back a
+previously deposited path to ensure there is no
+stringing between printed paths.

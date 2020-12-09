@@ -1,2 +1,2 @@
-Pourcentage minimum atteignable
-Contraint le pourcentage de la densité à un minimum.
+Minimum achievable percentage
+Constraint the density percentage to a minimum.

@@ -1,4 +1,3 @@
-Velocidad de impresión (mm/sec)
-Velocidad de impresión por defecto (milímetros por
-segundo) para todos los caminos que no son perímetros
-(i.e. cavidades, rellenos, bases, soportes y cubiertas).
+Print speed (mm/sec)
+Default printing speed (millimeters per second) for 
+most paths (shells, infill, raft, brim and covers).

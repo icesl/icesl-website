@@ -1,4 +1,4 @@
-Pintar áreas de mezcla de extrusores
-Activar la interfaz de mezcla de extrusores.
-IMPORTATE: La mezcla de extrusores NO es soportada si el grosor
-de capa es editado 'por capa'.
+Paint mixing field between extruders
+This brings up the color mixing interface.
+IMPORTANT: Color mixing is NOT supported if layer thickness
+is set per-layer.

@@ -1,1 +1,1 @@
-Densité maximale de la couverture (%)
+Maximum crust density (%)

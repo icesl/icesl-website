@@ -1,6 +1,7 @@
-Éviter de voyager sur les surfaces visibles
-Lorsque activée, cette option permet d'optimiser les
-mouvements de voyage pour éviter de passer au dessus
-des surfaces visibles. Activez cette option si la buse 
-laisse des marques visibles sur les surfaces de dessus.
-Désactiver l'option permet de trancher plus rapidement.
+Avoid traveling within top (visible) covers
+When enabled, the travel optimizer will avoid 
+traveling within the top (visible) covers. 
+Enable if the extruder leaves a visible mark on 
+flat top surfaces. Leave disabled for faster 
+processing if the print has few top flat surfaces,
+or if aesthetics are not a concern.

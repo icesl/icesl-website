@@ -1,1 +1,1 @@
-Altura primera capa (mm)
+First layer height (mm)

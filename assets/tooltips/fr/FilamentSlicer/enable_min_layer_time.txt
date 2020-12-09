@@ -1,5 +1,3 @@
-Temps d'impression minimum par couche
-Activer cette option permet de définir un temps 
-minimum d'impression d'une couche.
-Cela force à ralentir l'impression pour faciliter
-le refroidissement de la matière déposée.
+Enable minimum printing time for layers
+Instructs IceSL to set a minimum time spent on prin-
+ting each layer.

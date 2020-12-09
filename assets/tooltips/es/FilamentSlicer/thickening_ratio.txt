@@ -1,2 +1,1 @@
-Proporción de engrosamiento
-Proporción de engrosamiento para características delgadas.
+Thickening ratio for thin features

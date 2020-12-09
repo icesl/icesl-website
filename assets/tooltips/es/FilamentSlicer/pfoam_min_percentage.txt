@@ -1,2 +1,2 @@
-Porcentaje mínimo permitido
-Restringe el porcentaje de relleno a un mínimo.
+Minimum achievable percentage
+Constraint the density percentage to a minimum.

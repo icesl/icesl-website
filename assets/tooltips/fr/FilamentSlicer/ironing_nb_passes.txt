@@ -1,5 +1,2 @@
-Nombre de passes d'ironing
-Définit le nombre de passes à effectuer.
-
-Plus ce nombre est grand, plus la surface sera lissée,
-au détriment du temps total d'impression.
+Ironing number of passes
+Set the number of passes that 'iron' the surface.

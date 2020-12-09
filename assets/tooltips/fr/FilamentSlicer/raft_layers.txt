@@ -1,2 +1,2 @@
-Couches du Raft
-Nombre total de couches constituant le Raft.
+Number of raft layers
+Total number of layers of the produced raft.

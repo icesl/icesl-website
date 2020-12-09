@@ -1,4 +1,4 @@
-Espacio entre las líneas de la base (mm)
-Espacio en milímetros entre las líneas en las capas
-de la base. La primera capa usa el doble de este
-espacio.
+Spacing in-between raft lines (mm)
+Space in millimeters between the printed lines of
+the raft layers. The first layer of the raft uses
+twice this spacing.

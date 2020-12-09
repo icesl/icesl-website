@@ -1,3 +1,3 @@
-Diámetro de la boquilla (mm)
-Diámetro del agujero de salida de la boquilla (inyector)
-instalada en la impresora.
+Nozzle diameter (mm)
+Diameter of the exit hole of the nozzle installed 
+on the printer.

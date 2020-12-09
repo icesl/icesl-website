@@ -1,2 +1,2 @@
-Preservar la orientación de los contornos
-Mantiene la misma orientación en todos los contornos.
+Preserve the orientation of contours
+Keep orientation of all contours the same.

@@ -1,10 +1,10 @@
-Méthode de temps minimum
-- Tour: Génère une tour pour atteindre le temps minimum
-pour chaque couche.
+Minimum time method
+- Tower: Generates a tower to achieve the minimum printing
+time for each layer.
 
-- Bouclier: Génère un bouclier pour atteindre le temps minimum
-pour chaque couche.
+- Shield: Generates shield to achieve the minimum printing
+time for each layer.
 
-- Fonction 'wait': Laisse l'utilisateur spécifier le comportement
-de l'imprimante pour atteindre le temps minimum. Regardez la
-documentation sur les profils d'imprimante.
+- Function 'wait': Lets the user specify the printer behavior 
+to achieve the minimum time. See the documentation on printer
+profiles.

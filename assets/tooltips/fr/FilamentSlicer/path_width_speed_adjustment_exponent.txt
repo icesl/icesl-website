@@ -1,17 +1,11 @@
-Multiplicateur de vitesse pour les chemins uniques
-Exposant de changement de vitesse pour les 
-changements d'épaisseur.
-
-Si le remplissage avec un seul chemin est actif, 
-IceSL pourra génerer un chemin plus large que le 
-diamètre de sortie de la buse. En fonction du 
-matériau, il peut être nécessaire de ralentir
-la vitesse d'impression.
-
-Cet exposant contrôle le ralentissement. Par exemple:
-0.0 => pas de ralentissement
-1.0 => linéaire, vitesse d'extrusion constante
-2.0 => quatre fois plus lent pour deux fois la largeur
-3.0 => huit fois plus lent pour deux fois la largeur
-
-Nous recommendons 3.0 comme valeur fiable.
+Speed change exponent on varying width
+If single path fill is enabled, IceSL will consider 
+printing tracks wider than the nozzle width. Depending 
+on your printer and material, it may be necessary to 
+slow down when printing larger than the nozzle. 
+This exponent controls the slow down. For instance:
+0.0 => no slow down
+1.0 => linear, maintains constant extrusion speed
+2.0 => four times slower if extruding twice the width
+3.0 => eight times slower if extruding twice the width
+We recommend 3.0 as a safe value.

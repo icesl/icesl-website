@@ -1,3 +1,2 @@
-Seuil du mélange de couleurs 
-Les ratios inférieurs à cette valeur sont arrondis
-à zero.
+Mixing ratio threshold
+Mixing ratios below this value are snapped to zero

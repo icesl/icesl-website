@@ -1,3 +1,2 @@
-Optimizaciones para mezcla de materiales
-Enciender/apagar el optimizador cuando se mezclan
-diferentes materiales.
+Turn material mixing optimizer on/off
+Enable optimization when mixing different materials.

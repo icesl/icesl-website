@@ -1,4 +1,5 @@
 Distance between brim and print (mm)
 Distance in millimeters (mm) between the surrounding
-brim and the object to be printed. Use 0.0 to attach
-the brim to the base layer and stabilize the print.
+brim and the object to be printed. Use 0.0 to use the
+brim as a skirt attached to the base layer and stabilize
+the print.

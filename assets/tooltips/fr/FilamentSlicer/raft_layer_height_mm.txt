@@ -1,1 +1,1 @@
-Épaisseur de couche du Raft (mm)
+Raft layer height (mm)

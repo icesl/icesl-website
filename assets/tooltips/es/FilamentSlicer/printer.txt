@@ -1,5 +1,4 @@
-Impresora
-Seleccione el modelo de impresora usada. Es posible
-añadir nuevas impresoras a IceSL, para esto vaya al
-subdirectorio gcode/ contenido en el directorio de
-instalación e igualmente a la wiki de IceSL.
+Printer model
+Select the printer model. It is possible to add 
+new printers to IceSL, see subfolder gcode/ of
+the install directory as well as the IceSL wiki.

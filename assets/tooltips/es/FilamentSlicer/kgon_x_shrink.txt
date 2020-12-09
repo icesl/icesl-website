@@ -1,3 +1,3 @@
-Grado de anisotropía
-Al aumentar este valor, las celdas se elongan más en la
-dirección de la anisotropía.
+Degree of anisotropy
+As this value decreases, the cells become more stretched
+in the direction of anisotropy.

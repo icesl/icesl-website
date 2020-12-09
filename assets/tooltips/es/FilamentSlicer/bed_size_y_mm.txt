@@ -1,3 +1,2 @@
-Tamaño de la plataforma en y (mm)
-Tamaño (en milímetros) de la plataforma de impresión,
-del frente al fondo.
+Bed size y (mm)
+Size (in millimeters) of printing bed, front to back.

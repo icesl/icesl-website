@@ -1,1 +1,1 @@
-Épaisseur des couches d'interface du Raft (mm)
+Layer height for the raft interface (mm)

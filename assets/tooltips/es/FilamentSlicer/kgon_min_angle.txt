@@ -1,6 +1,6 @@
-Ángulo de soporte
-Ángulo mínimo, en grados, de inclinación de las paredes de relleno
-con respecto a plano xy.
+Overhang angle
+Minimum angle (degrees) between an infill wall and
+the xy plane.
 
-ADVERTENCIA: El ajuste automático de densidad no tienen en cuenta
-este parámetro.
+WARNING: Automatic density adjustment does not take this
+parameter into account.

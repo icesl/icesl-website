@@ -1,3 +1,4 @@
-Utiliser la priorité de chemin par défaut
-Utilisez les valeurs par défaut pour imprimer les
-différents types de chemin.
+Use default path priority
+Use the default ordering for printing the different
+types of path. When using custom ordering, the higher
+the priority, the sooner the specific path type is printed.

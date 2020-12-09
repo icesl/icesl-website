@@ -1,6 +1,5 @@
-Factor de solapamiento considerado no soportado
-Factor de solapamiento entre el camino superior e
-inferior a partir del cual se considera el camino
-superior como no soportado.
-1.0 => número máximo de puntos a soportar
-0.0 => número mínimo de puntos a soportar
+Overlap fraction before overhang
+Overlap fraction between top/bottom paths from which
+the top path is considered overhanging (not supported).
+1.0 => maximum number of points to support.
+0.0 => minimum number of points to support.

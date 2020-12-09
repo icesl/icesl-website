@@ -1,4 +1,3 @@
-Soportes
-Genera automáticamente estructuras de soporte para
-áreas de impresión sin apoyo. Se usa generalmente
-en geometrías complejas.
+Supports
+Generates a support structure in overhanging areas. 
+This is often necessary on complex geometries.

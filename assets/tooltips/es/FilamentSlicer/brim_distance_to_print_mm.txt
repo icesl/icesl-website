@@ -1,5 +1,5 @@
-Distancia borde-impresión (mm)
-Distancia en milímetros entre el borde alrededor
-de la base del objeto y el objeto en sí. Utilice
-un valor de 0.0 para atar el borde y estabilizar
-la impresión.
+Distance between brim and print (mm)
+Distance in millimeters (mm) between the surrounding
+brim and the object to be printed. Use 0.0 to use the
+brim as a skirt attached to the base layer and stabilize
+the print.

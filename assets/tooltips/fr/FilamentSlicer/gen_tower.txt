@@ -1,19 +1,15 @@
-Tour 'prime/wipe'
-Demande à IceSL de construire une tour pour préparer
-et essuyer les extrudeurs à coté de la pièce imprimée.
-La tour est utilisée lors des changements de matériaux
-sur les impressions multi-matières. 
-
-La tour n'est imprimée que lorsque nécessaire (elle n'est
-pas imprimée si la pièce utilise une seule matière).
-
-La tour est placée automatiquement, sauf si la variable
-'extruder_swap_at_location' est activée. Dans ce cas 
-sa position est spécifiée par les variables
-'extruder_swap_location_x_mm' et 
-'extruder_swap_location_y_mm'.
-
-La tour est aussi ajoutée sur les impressions à un seul
-matériau, par exemple lorsqu'un pièce de faible section
-est imprimée, pour permetter un refroidissement entre
-couches (voir aussi enable_min_layer_time)
+Prime/wipe tower
+Instructs IceSL to build a prime/wipe tower structure 
+alongside the print. The tower is used to wipe and prime
+the extruders when switching material in multi-material
+prints. The tower only prints when required (it will not
+appear on single material prints).
+The tower is either automatically placed, or its position
+is controlled by variables 'extruder_swap_location_x_mm'
+and 'extruder_swap_location_y_mm' when a swap 
+location is specified in the printer scripts, and 
+'extruder_swap_at_location' is enabled.
+Note that the tower is added even on single material prints,
+for instance to allow for cooling between layers when 
+printing parts with a small cross-section (see also
+enable_min_layer_time)
