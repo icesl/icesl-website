@@ -1,2 +1,2 @@
-Angle des supports Wings (degrés)
-Angle de surplomb maximum des structures de support.
+Angle of wing supports (degrees)
+Maximum overhang angle of support structure.

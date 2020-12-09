@@ -1,3 +1,3 @@
-Ancho mínimo de la estructura de soporte
-Ancho mínimo en milímetros de los pilares de la
-estructura de soporte.
+Minimum width of a support wing
+Minimum width in millimeters of a wing in the
+support structure.

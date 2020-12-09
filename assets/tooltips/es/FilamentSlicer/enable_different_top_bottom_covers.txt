@@ -1,3 +1,2 @@
-Usar diferentes cubiertas inf. y sup.
-Habilitar el uso de diferentes espesores para las
-cubiertas inferiores y superiores.
+Use different top/bottom covers
+Enable different thickness for top/bottom covers.

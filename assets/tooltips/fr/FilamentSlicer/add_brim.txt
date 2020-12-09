@@ -1,6 +1,5 @@
 Brim
-Un brim ajoute des contours autour de l'objet, sur
-la première couche. Ceci permet de préparer la buse
-en la remplissant de plastique, mais aussi d'accroître
-l'adhésion avec le plateau si une distance de 0.0 mm
-avec l'objet est sélectionnée.
+The brim adds contours around the object, on the 
+base layer. This is useful to prep the nozzle and 
+enlarge the object's base for increased adhesion 
+(use a distance between brim and print of 0.0 mm).

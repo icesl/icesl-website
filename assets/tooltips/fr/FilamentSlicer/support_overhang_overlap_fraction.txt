@@ -1,6 +1,5 @@
-Fraction de recouvrement avant surplomb
-Fraction de recouvrement entre chemins dessus/dessous 
-à partir de laquelle le chemin du dessus est considéré 
-en surplomb (non supporté).
-1.0 => beaucoup de points à porter
-0.0 => minimum de points à porter
+Overlap fraction before overhang
+Overlap fraction between top/bottom paths from which
+the top path is considered overhanging (not supported).
+1.0 => maximum number of points to support.
+0.0 => minimum number of points to support.

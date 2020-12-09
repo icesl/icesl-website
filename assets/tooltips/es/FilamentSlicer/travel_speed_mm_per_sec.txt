@@ -1,5 +1,3 @@
-Velocida de desplazamiento (mm/sec)
-Velocidad de desplazamiento (milímetros por segundo)
-mientras no hay actividad de impresión. Altas
-velocidades de desplazamiento reducen el tiempo de
-impresión.
+Travel speed (mm/sec)
+Travel speed (millimeters per second) when not
+printing. High travel speeds reduce print time.

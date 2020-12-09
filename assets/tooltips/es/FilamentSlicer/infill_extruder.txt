@@ -1,1 +1,1 @@
-Extrusor usado para rellenos
+Extruder for infill

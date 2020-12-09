@@ -1,5 +1,4 @@
-Pourcentage de remplissage (%)
-Pourcentage de remplissage pour cette brush. 
-100% produit un remplissage plein, alors que 0%
-laisse la pièce complètement vide. Le motif de 
-remplissage forme une structure 3D très solide.
+Infill percentage (%)
+Infill percentage for this brush. 100 is fully
+dense while 0 produces no infill. The infill 
+pattern forms a strong 3D structure.

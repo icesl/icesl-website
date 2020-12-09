@@ -1,7 +1,6 @@
-Flux additionnel
-Flux additionnel (pourcentage par rapport au flux de la dernière couche)
-pour combler les écarts entre les lignes des planchers.
+Ironing flow
+Additionnal flow (percentage related to the latest cover flow)
+to make sure the holes are covered.
 
-Cette extrusion supplémentaire peut aider à produire des planchers
-plus solides et étanches (peut également aider à la transparence avec
-des matériaux transparents)
+This may help achieve a solid or watertight cover,
+or transparency when using transparent material.

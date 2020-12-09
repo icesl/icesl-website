@@ -1,3 +1,2 @@
-Utiliser différentes épaisseurs de plancher
-Autorise l'utilisation de différentes épaisseurs
-de planchers (supérieurs et inférieurs).
+Use different top/bottom covers
+Enable different thickness for top/bottom covers.

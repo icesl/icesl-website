@@ -1,6 +1,6 @@
-Cavité
-Creuse la forme à imprimer. Activer cette option
-pour réduire de manière considérable la quantité
-de matériaux utilisée ainsi que les temps d'impression.
-Afin d'éviter que l'impression ne soit structurellement
-fragile, nous recommendons d'utiliser au moins un shell. 
+Cavity
+Hollows the shape to be printed. Enable this 
+option to considerably reduce the material used and
+shorten the printing time. To avoid the print being 
+structurally weak, we recommend using at least one
+shell.

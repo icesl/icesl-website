@@ -1,7 +1,6 @@
-Velocidad de los perímetros (mm/sec)
-Velocidad de impresión (milímetros por segundo) para
-los perímetros. Debido a que los perímetros son las
-partes más visibles de una impresión, esta velocidad
-es generalmente ajustada a un valor bajo para producir
-una superficie más lisa. Este parámetro también aplica
-a los puentes.
+Print speed on perimeters (mm/sec)
+Printing speed (millimeters per second) for the 
+perimeters. As the perimeters are the most visible
+part of a print, this typically uses a lower speed
+for a smoother surface finish. This parameter also
+applies to bridges.

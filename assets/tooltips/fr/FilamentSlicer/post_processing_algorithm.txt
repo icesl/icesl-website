@@ -1,0 +1,3 @@
+Post-processing algorithm
+Post-processing applied to all sliced layers after
+slicing and just before exporting to machine code.

@@ -1,5 +1,4 @@
-Espacement des lignes du Raft (mm)
-Espacement, en millimètres, entre les lignes
-des couches du Raft.
-La première couche du Raft utilise un espacement
-deux fois plus grand que spécifié.
+Spacing in-between raft lines (mm)
+Space in millimeters between the printed lines of
+the raft layers. The first layer of the raft uses
+twice this spacing.

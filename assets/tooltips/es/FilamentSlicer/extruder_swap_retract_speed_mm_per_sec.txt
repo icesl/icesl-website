@@ -1,3 +1,2 @@
-Vel. retractación tras intercambio (mm/sec)
-Velocidad (mm/sec) de la retractación después de un
-intercambio de extrusores.
+Retraction speed after swap (mm/sec)
+Speed of the filament retraction after an extruder swap.

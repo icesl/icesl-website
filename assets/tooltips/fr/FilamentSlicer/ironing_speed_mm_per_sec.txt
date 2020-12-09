@@ -1,2 +1,2 @@
-Vitesse des passes (mm/s)
-Défini la vitesse des passes d'ironing.
+Ironing speed (mm/sec)
+Speed of the toolhead while ironing.

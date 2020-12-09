@@ -1,7 +1,6 @@
-Espiralización automática
-Generar si es posible, un camino de impresión continuo
-de la superficie de la geometría. Este método elimina
-las juntas de la superficie.
+Automatically spiralize
+Generate, when possible, a continuous path that prints
+the surface of the geometry. This method avoids seams.
 
-Este método sólo funciona si no hay cavidades, relleno
-ni cubiertas.
+In order for this to work, shells, infill and covers
+have to be zeroed out.

@@ -1,5 +1,6 @@
-Angle de surplomb
-Angle minimum (en degré) entre une parois de cellule et le plan xy.
+Overhang angle
+Minimum angle (degrees) between an infill wall and
+the xy plane.
 
-AVERTISSEMENT: Le réglage automatique de la densité ne prend pas
-ce paramètre en compte.
+WARNING: Automatic density adjustment does not take this
+parameter into account.

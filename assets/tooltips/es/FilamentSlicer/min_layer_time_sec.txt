@@ -1,1 +1,1 @@
-Tiempo mínimo (seg) de impresión de una capa
+Minimum layer printing time (sec)

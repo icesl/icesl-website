@@ -1,3 +1,3 @@
-Épaisseur minimale des ailes de support (mm)
-Épaisseur minimale en millimètres des ailes
-de la structure de support.
+Minimum width of a support wing
+Minimum width in millimeters of a wing in the
+support structure.

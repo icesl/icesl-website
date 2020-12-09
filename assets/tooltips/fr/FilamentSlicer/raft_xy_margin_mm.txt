@@ -1,3 +1,1 @@
-Marge du Raft (mm)
-Marge, en millimètres, entre le bord du Raft
-et le contour des pièces à imprimer.
+Space between raft edge and geometry footprint (mm)

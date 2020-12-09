@@ -1,4 +1,17 @@
 ---------------------------------
+IceSL version 2.4.0-beta1 2020-12-09
+---------------------------------
+- new infiller: variable width (via https://github.com/horasio)
+- printer profiles now have access to two variables 'path_attributes' 'vertex_attributes'. See printer profile documenation for details
+- brim now behaves as a `skirt` when the distance between the brim and the part is set to zero.
+- improved dual contouring stability
+- spiralize detection improved
+- font lua function can now load IceSL's default font
+- added internal setting `preserve_zigzag_strict_ordering`
+Slicecrafter:
+	* Fix crash when loading non-watertight models
+
+---------------------------------
 IceSL version 2.3.5 2020-10-06
 ---------------------------------
 - raft generation reworked and improved

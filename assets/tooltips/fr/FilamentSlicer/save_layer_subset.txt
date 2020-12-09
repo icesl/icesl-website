@@ -1,2 +1,2 @@
-Sauvegarder une partie des tranches
-Sauvegarder uniquement une partie des tranches produites.
+Save layer subset
+Save only a subset of the produced layers

@@ -1,9 +1,7 @@
-Sin desplazamiento en cubiertas superiores
-Si esta opción está activada, el optimizador de
-desplazamiento evitará pasar por las cubiertas
-superiores visibles. Activar si el extrusor deja
-marcas visibles en las superficienes planas
-superiores. Para un procesamiento más rápido,
-desactivar esta opción si la impresión tiene
-pocas superficies planas superiores o si la
-estética de la impresión no es importante.
+Avoid traveling within top (visible) covers
+When enabled, the travel optimizer will avoid 
+traveling within the top (visible) covers. 
+Enable if the extruder leaves a visible mark on 
+flat top surfaces. Leave disabled for faster 
+processing if the print has few top flat surfaces,
+or if aesthetics are not a concern.

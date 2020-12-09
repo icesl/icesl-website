@@ -1,10 +1,9 @@
-Multiplicateur de flux (général)
-Multiplicateur de flux pour cette brush. Ceci permet
-de pousser plus ou moins de plastique, par exemple 
-pour produire un remplissage intentionnellement 
-fragile (ex: pour des supports en matériau soluble).
-Ce multiplicateur ne s'applique pas à la tour, le
-brim ou le bouclier. Pour le remplissage, le
-multiplicateur peut changer pour s'adapter aux
-espaces étroits. Pour les ponts, le flux est augmenté
-20%.
+Flow multiplier (all)
+Material flow multiplier when printing with this 
+brush. Reduce or increase to artificially push more
+or less plastic. Can be used to produce fragile
+parts (e.g. soluble supports). This multiplier does
+not apply to the tower, brim and shield. In the case
+of infill, the multiplier may vary to accommodate for
+lack of space. In bridges, the flow is additionally
+increased 20%.

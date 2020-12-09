@@ -1,3 +1,2 @@
-Remplir les trous de faible taille 
-Remplir les trous de faible taille laissés par
-les planchers et shells.
+Fill tiny gaps
+Fill the small gaps left by covers and shells.

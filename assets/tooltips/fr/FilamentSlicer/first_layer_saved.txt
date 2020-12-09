@@ -1,2 +1,2 @@
-Couche de départ
-Première couche du groupe à sauvegarder.
+Starting layer
+First layer of the subset to be saved.

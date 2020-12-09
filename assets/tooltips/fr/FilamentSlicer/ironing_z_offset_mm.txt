@@ -1,5 +1,3 @@
-Décalage en Z pour l'ironing (mm)
-Si aucun décalage n'est spécifié, la passe d'ironing sera
-au même niveau que la dernière couche de l'objet.
-
-Un décalage négatif peut créer des "rayures" sur la surface.
+Ironing Z offset (mm)
+Zero offset results in ironing at exact level of the surface.
+Note: negative offset results in "scratching" the surface.

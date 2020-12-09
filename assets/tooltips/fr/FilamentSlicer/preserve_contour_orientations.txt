@@ -1,2 +1,2 @@
-Conserver l'orientation des contours
-Conserve l'orientation originale de tous les contours.
+Preserve the orientation of contours
+Keep orientation of all contours the same.

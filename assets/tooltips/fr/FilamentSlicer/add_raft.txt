@@ -1,7 +1,4 @@
 Raft
-Un raft (radeau) est généré sous l'objet et permet
-de compenser des défauts de nivellement ou de 
-surface du plateau.
-Peut également permettre un détachement plus facile
-de la pièce après impression (pour les plateaux
-texturés ou perforés). 
+Prints a raft under the object to compensate for 
+improper calibration or bed surface defects. This
+can also help printed material removal from bed.

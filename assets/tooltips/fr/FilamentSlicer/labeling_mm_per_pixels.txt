@@ -1,3 +1,3 @@
-Taille des pixel de l'image de remplissage
-Taille des pixels en millimètres de l'image 
-permettant de générer le remplissage.
+Infiller image pixel size (mm)
+Size of pixel in millimeters from image specifying
+infill.

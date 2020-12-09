@@ -1,1 +1,1 @@
-Multiplicador de flujo (cavidades)
+Flow multiplier (shells)

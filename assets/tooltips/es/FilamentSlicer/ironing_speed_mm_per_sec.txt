@@ -1,2 +1,2 @@
-Velocidad del suavizado (mm/s)
-Velocidad del extrusor mientras se realiza el suavizado.
+Ironing speed (mm/sec)
+Speed of the toolhead while ironing.

@@ -1,3 +1,4 @@
 Use default path priority
 Use the default ordering for printing the different
-types of path.
+types of path. When using custom ordering, the higher
+the priority, the sooner the specific path type is printed.

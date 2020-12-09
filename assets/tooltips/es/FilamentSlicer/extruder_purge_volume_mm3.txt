@@ -1,3 +1,3 @@
-Volumen purgación de extrusor (mm3)
-Volumen de material desechado para limpiar el
-extrusor antes de la impresión.
+Volume for purging the extruder (mm3)
+Material volume to purge from the extruder
+before printing.

@@ -1,3 +1,2 @@
-Soportes para rellenos.
-Include los rellenos en el cálculo de la estructura
-de soporte.
+Support infills
+Include the infill when calculating supports.

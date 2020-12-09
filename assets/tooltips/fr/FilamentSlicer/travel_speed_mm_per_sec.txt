@@ -1,5 +1,3 @@
-Vitesse de déplacement (mm/sec)
-Vitesse de déplacement (millimètres par seconde) 
-lorsque l'extrudeur se déplace sans déposer. Une
-vitesse de déplacement rapide réduit le temps 
-d'impression.
+Travel speed (mm/sec)
+Travel speed (millimeters per second) when not
+printing. High travel speeds reduce print time.

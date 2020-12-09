@@ -1,3 +1,3 @@
-Habilitar cubiertas redondas
-Habilitar la generación de cubiertas que redondean
-la forma a imprimir.
+Enable curved covers
+Enable the generation of covers that are curved
+with respect to the shape.

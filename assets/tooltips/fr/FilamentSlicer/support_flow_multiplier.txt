@@ -1,2 +1,1 @@
-Multiplicateur de flux
-Multiplicateur de flux pour les supports.
+Flow multiplier for supports

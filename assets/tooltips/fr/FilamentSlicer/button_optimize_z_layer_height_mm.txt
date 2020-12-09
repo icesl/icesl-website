@@ -1,1 +1,1 @@
-Optimiser l'épaisseur des tranches
+Optimize layer heights

@@ -1,7 +1,5 @@
-Température de l'enceinte (C)
-Température (degrés Celsius) de l'enceinte chauffante
-durant l'impression (si disponible sur la machine
-sélectionnée).
+Heated chamber temperature (C)
+Temperature (in Celsius) of the heated chamber
+when printing (if available on the selected machine).
 
-À ajuster selon le matériau pour limiter les
-déformations (warping).
+Adjust depending on material used to limit warping.

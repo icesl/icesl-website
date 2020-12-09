@@ -1,1 +1,1 @@
-Épaisseur première tranche (mm)
+First layer height (mm)

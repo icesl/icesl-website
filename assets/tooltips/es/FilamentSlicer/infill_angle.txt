@@ -1,3 +1,3 @@
-Dirección de la anisotropía
-Orientación en el plano xy, en grados, de la elongación
-de las celdas producidas por el grado de anisotropía.
+Direction of anisotropy
+Orientation in the xy plane, in degrees, of the streched
+cells produced by the degree of anisotropy.

@@ -1,1 +1,1 @@
-Épaisseur de la couverture (mm)
+Crust thickness (mm)

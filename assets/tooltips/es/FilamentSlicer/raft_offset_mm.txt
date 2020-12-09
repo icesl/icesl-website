@@ -1,4 +1,5 @@
-Separación de la base (mm)
-Valor en milímetros entre la impresión y la base.
-Incrementar este valor puede ayudar a despegar la
-base de la parte una vez impresa.
+Raft offset (mm)
+Value in millimeters of the gap between the printed
+geometry and the raft. Increasing this value can
+help with the removal of the raft from the printed
+geometry after printing.

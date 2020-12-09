@@ -1,6 +1,4 @@
-Base
-Imprimer una base debajo del objeto para compensar
-pequeños problemas de calibración o defectos de la
-superficie de impresión. Esto también puede ayudar
-a separar la impresión de la superficie una vez
-impreso.
+Raft
+Prints a raft under the object to compensate for 
+improper calibration or bed surface defects. This
+can also help printed material removal from bed.

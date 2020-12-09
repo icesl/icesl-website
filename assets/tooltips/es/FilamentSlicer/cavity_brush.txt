@@ -1,4 +1,3 @@
-Brocha a ahuecar
-Seleccionar la brocha usada por la geometría a
-ahuecar. Dejar en su valor inicial si se está
-inseguro de su valor.
+Brush onto which cavity is applied
+Select here the brush that was used to emit the
+shape to be hollowed. Leave unchanged if unsure.

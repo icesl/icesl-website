@@ -1,3 +1,3 @@
-Amortiguador de flujo: Distancia inicial de transición
-Distancia en milímetros para la transición de colores
-al inicio de un camino de impresión.
+Flow dampener: length along path start
+Length along the start of the path where transitioning
+between colors occur.

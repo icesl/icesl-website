@@ -1,5 +1,3 @@
-Trayectoria única en rellenos
-Permite al seccionador (slicer) rellenar pequeños
-vacíos usando una única trayectoria de deposición
-de ancho variable en lugar de una deposición en
-zigzag.
+Enable single path fill
+Allows the slicer to fill thin gaps using a single
+deposition path (varying width) instead of a zigzag.
