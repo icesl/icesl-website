@@ -1,19 +1,23 @@
 ---
 order: 4
 layout: feature
-title: VRPrinter
-permalink: /vrprinter/
+title: WebPrinter
+permalink: /webprinter/
 exclude: false
 ---
     
+<script src="{{ "fileselect.js" | prepend: assets_dir }}" charset="utf-8"></script>
+
 <style type="text/css">
   /* containers management*/
   #vrprinter{
     background-color: #272822;
     position: relative;
     left: -9%;
-    width: 1400px;
-    height: 700px;
+    width: 1410px;
+    height: 710px;
+    border: solid 5px;
+    border-color: #939598;
   }
 
   #vrprinter > div, #vrprinter > canvas{
@@ -92,8 +96,15 @@ exclude: false
   }
 </style>
 
+<a class="button big button-big" id="fileSelect">Load GCODE</a>
+<input type="file" id="fileElem" accept=".gcode" style="display:none;" onchange="handleSTLFile(this.files[0])">
+
+<script>
+initialize();
+</script>
+
 <div class="align-center" id="loading-text">
-  <i>Loading VRPrinter...</i><br>
+  <i>Loading WebPrinter...</i><br>
   <progress id="loading-progress" value="0" max="100"></progress>
 </div>
 
@@ -108,9 +119,6 @@ exclude: false
 </div> 
 
 <script async type="text/javascript" src="files.js"></script>
-
-<script src="Blob.js"></script>
-<script src="FileSaver.js"></script>
 
 <script type="text/javascript">
   /*
@@ -159,7 +167,7 @@ exclude: false
     var text = editor.getSession().getValue();
     document.getElementById("report_line").innerHTML = '';
     document.getElementById("report_msg").innerHTML = '';
-    FS.writeFile('/print.gcode', text);
+    FS.writeFile('/icesl.gcode', text);
   }        
   
   function setupEditor()
