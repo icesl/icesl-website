@@ -97,11 +97,7 @@ exclude: false
 </style>
 
 <a class="button big button-big" id="fileSelect">Load GCODE</a>
-<input type="file" id="fileElem" accept=".gcode" style="display:none;" onchange="handleSTLFile(this.files[0])">
-
-<script>
-initialize();
-</script>
+<input type="file" id="fileElem" accept=".gcode" style="display:none;" onchange="handleGCODEFile(this.files[0])">
 
 <div class="align-center" id="loading-text">
   <i>Loading WebPrinter...</i><br>
@@ -134,6 +130,8 @@ initialize();
   editor.setFontSize(16);
   
   var markerId = -1;
+
+
   
   // utilities
   function reportError(line,msg)
@@ -184,6 +182,14 @@ initialize();
       tmExec = setTimeout(save,1000);
     });         
   }
+
+  function refreshEditor(code)
+  {
+    editor.setValue(code);
+    editor.clearSelection();
+  }
+
+  initialize();
   
   /*
   *****************************
