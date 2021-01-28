@@ -173,6 +173,7 @@ exclude: false
     var code = FS.readFile('icesl.gcode', { encoding: 'utf8' });
     editor.setValue(code);
     editor.clearSelection();
+    editor.moveCursorTo(0);
     editor.getSession().on('change', function() 
     {
       if (typeof(tmExec) !== 'undefined') {
@@ -187,6 +188,7 @@ exclude: false
   {
     editor.setValue(code);
     editor.clearSelection();
+    editor.moveCursorTo(0);
   }
 
   initialize();
