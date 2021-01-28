@@ -10,16 +10,17 @@ function initialize() {
 	}, false);
 }
 
-function handleSTLFile(file) {
+function handleGCODEFile(file) {
  
 	var reader = new FileReader();
 
 	reader.onload = function(event) {
 		var data = event.target.result;
 		createEmscriptenFile("icesl.gcode",data);
+    refreshEditor(data);    
 	};
 		
-	reader.readAsBinaryString(file);
+  reader.readAsBinaryString(file);
 }
 
 function createEmscriptenFile(name,data) {
