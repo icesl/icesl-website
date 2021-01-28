@@ -1,4 +1,14 @@
 ---------------------------------
+IceSL version 2.4.0-beta2 2021-01-27
+---------------------------------
+- path type tooltip in g-code previewer for color blind people
+Forge:
+	- Ctrl + right click on setting name writes the equivalent set_setting_value sentence in the code editor to save the setting value. Works with constant, per-layer and field values.
+Linux:
+	- updated dependencies file
+	- fixed liblua and libluabind shared libary depenency path on exectutable
+
+---------------------------------
 IceSL version 2.4.0-beta1 2020-12-09
 ---------------------------------
 - new infiller: variable width (via https://github.com/horasio)
