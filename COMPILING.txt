@@ -1,0 +1,10 @@
+1. First time generation (on website folder)
+
+> sudo apt-get install rubygems ruby-dev
+> sudo gem install jekyll bundler
+> bundle config set --local path 'vendor/bundle'
+> bundle install
+
+2. Deployment
+
+> sh deploy.sh [test]
