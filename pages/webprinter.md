@@ -165,6 +165,7 @@ exclude: false
     var text = editor.getSession().getValue();
     document.getElementById("report_line").innerHTML = '';
     document.getElementById("report_msg").innerHTML = '';
+    text += '\n';
     FS.writeFile('/icesl.gcode', text);
   }        
   
