@@ -20,6 +20,9 @@ else
   echo Saving slicecrafter log
   cp -f $server/htdocs/slicecrafter/log/log.txt _site/slicecrafter/log/.
 
+  echo Saving webprinter log
+  cp -f $server/htdocs/webprinter/log/log.txt _site/webprinter/log/.
+
   echo Cleaning old website
   rm -rf $server/htdocs/*
 
