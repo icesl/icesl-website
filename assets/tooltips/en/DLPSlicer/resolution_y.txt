@@ -1,0 +1,2 @@
+Resolution on the Y axis
+Screen resolution for the Y axis in pixels.

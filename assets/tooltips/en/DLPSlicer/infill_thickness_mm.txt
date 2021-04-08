@@ -1,0 +1,2 @@
+Infill thickness (mm)
+Thickness of infill lines in millimeters

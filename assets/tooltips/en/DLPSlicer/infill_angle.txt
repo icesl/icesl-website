@@ -1,0 +1,3 @@
+Direction of anisotropy
+Orientation in the xy plane, in degrees, of the streched
+cells produced by the degree of anisotropy.

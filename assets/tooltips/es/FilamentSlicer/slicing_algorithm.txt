@@ -1,17 +1,19 @@
-Slicing algorithm
-Algorithm used to slice the geometry:
+Algoritmo de seccionado
+Algoritmo usado para seccionar la geometría:
 
--Auto: let IceSL decide the best algorithm for
-the given geometry.
+-Auto: decide automáticamente el mejor algoritmo
+para seccionar la geometría visualizada.
 
--Discrete: robust method, performs well on highly
-detailed shapes, can slice anything (STLs,
-implicits, voxels), performance depends heavily on
-GPU specs and object XY extent. Method of choice
-for complex models.
+-Discrete(Discreto): método robusto, funciona bien 
+con geometría detallada, puede seccionar cualquier 
+cosa (STLs, implicits, voxels), desempeño depende 
+áltamente en las especificacion de la tarjeta de 
+video usada y el grado de discretización XY.
+Método por excelencia para modelos complejos.
 
--Polygonal: limited to meshes with no defects,
-does not depend on GPU specs, performs well
-regardless of object XY extent, demanding on
-high polygon counts. Method of choice when slicing
-a single STL.
+-Polygonal: limitado a mallas sin defectos, no
+depende de las especificaciones de la tarjeta de
+video, funciona bien sin importar el grado de dis-
+cretización XY, exigente (en términos computacionales) 
+cuando hay demasiados polígonos (i.e., teselación 
+fina). Método por excelencia para seccionar STLs.

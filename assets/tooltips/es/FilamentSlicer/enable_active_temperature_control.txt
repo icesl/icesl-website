@@ -1,10 +1,11 @@
-Enable active temperature control
-When printing with multiple materials, only one extruder
-is active at a given time. Active temperature control
-is specifically designed to avoid material to degrade
-and ooze from idle extruders. The idle extruder is
-dynamically cooled down and heated during printing,
-such that it is ready when needed and cooled when
-not needed. Adjust extruder parameters
-idle_extruder_temp_degree_c and extruder_degrees_per_sec
-when using this feature.
+Activar control de temperatura activo
+Cuando se imprime con múltiples materiales, únicamente
+un extrusor está activo en un momento dado. El control
+de temperatura activo está diseñado para evitar que
+el material se degrade por la exudación causada cuando
+un extrusor está inactivo. Dicho extrusor inactivo
+es enfriado y calentado dinámicamente mientras se
+imprime y de esta manera el extrusor está preparado
+cuando se necesita y enfriado cuando no. Ajuste los
+parámetros idle_extruder_temp_degree_c y
+extruder_degrees_per_sec cuando use esta característica.

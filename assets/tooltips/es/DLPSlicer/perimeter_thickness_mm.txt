@@ -1,0 +1,2 @@
+Espesor del perímetro (mm)
+Espesor en milímetros de las paredes exteriores.

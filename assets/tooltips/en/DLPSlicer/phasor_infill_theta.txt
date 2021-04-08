@@ -1,0 +1,3 @@
+Infill direction
+General direction on the bed (i.e., XY) plane of the
+phasor infill.

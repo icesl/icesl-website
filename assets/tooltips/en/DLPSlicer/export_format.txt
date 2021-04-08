@@ -1,0 +1,10 @@
+Export format
+File format for sliced output. Support exists
+for the following:
+
+- wow: Outputs the slices for the SparkMaker
+
+- b9j: Outputs the slices for the B9Creator
+
+- png: Outputs all the slices independently
+on png files

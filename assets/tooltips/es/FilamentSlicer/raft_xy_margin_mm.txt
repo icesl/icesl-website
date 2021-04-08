@@ -1,1 +1,1 @@
-Space between raft edge and geometry footprint (mm)
+Espacio entre bordes de la base y la impresión (mm)

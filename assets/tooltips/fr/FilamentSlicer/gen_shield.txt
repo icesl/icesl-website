@@ -1,8 +1,9 @@
-Enable shield
-Generates a shield structure surrounding the part. 
-It serves two purposes. On single material print it 
-allows to keep hot air enclosed around the part and
-reduce warping. On multi-material print, it serves as
-a wipe shield to catch oozing filament before it reaches
-the part. A tower may still be desirable to prime the
-extruders.
+Activer le bouclier
+Génère un bouclier qui entoure la pièce. Le bouclier
+a deux objectifs. Sur les impressions utilisant une seule
+matière, il permet de garder l'air chaud près de la pièce
+et réduit les déformations. Sur les impressions multi-
+matières, il permet aux bavures de se déposer sur
+le bouclier avant qu'elles n'atteignent la pièce.
+Il reste intéressant d'ajouter une tour pour préparer
+les extrudeurs.

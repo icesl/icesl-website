@@ -1,3 +1,3 @@
-Force spiralization on all layers
-Bypasses all checks for preventing layer-to-layer
-overhang.
+Forzar espiralización en todas las capas
+Deshabilita chequeos para prevenir material no
+soportado entre capas.

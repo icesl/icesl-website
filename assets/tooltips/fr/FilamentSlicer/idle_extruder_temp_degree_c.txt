@@ -1,5 +1,6 @@
-Target temperature when idle (C)
-This parameter is needed when using active temperature
-control. This is the target temperature of the idle extruder.
-Select the highest value that does not produce oozing
-and ensures the material will not degrade in the nozzle.
+Température cible lorsque inactif (C)
+Ce paramètre est requis lorsque le contrôle actif de
+température est activé. Il spécifie la température cible
+de l'extrudeur lorsqu'il est inactif. Sélectionnez la plus 
+haute valeur qui ne produit pas de bavures et garantie 
+que  le matériau ne se dégrade pas dans la buse.

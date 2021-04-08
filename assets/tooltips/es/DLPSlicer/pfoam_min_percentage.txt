@@ -1,0 +1,2 @@
+Porcentaje mínimo permitido
+Restringe el porcentaje de relleno a un mínimo.

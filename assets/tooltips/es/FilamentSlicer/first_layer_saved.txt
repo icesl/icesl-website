@@ -1,2 +1,2 @@
-Starting layer
-First layer of the subset to be saved.
+Capa inicial
+Primera capa del subconjunto de capas a guardar.

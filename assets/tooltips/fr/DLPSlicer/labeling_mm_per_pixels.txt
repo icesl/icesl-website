@@ -1,0 +1,3 @@
+Taille des pixel de l'image de remplissage
+Taille des pixels en millimètres de l'image 
+permettant de générer le remplissage.

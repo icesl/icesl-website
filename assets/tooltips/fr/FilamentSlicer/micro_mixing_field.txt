@@ -1,4 +1,3 @@
-Paint mixing field between extruders
-This brings up the color mixing interface.
-IMPORTANT: Color mixing is NOT supported if layer thickness
-is set per-layer.
+Peindre où mélanger les extrudeurs
+Ceci ouvre l'interface de mélange de couleurs. 
+Important : Le mélange de couleurs N'EST PAS supporté si l'épaisseur des tranches est mis en "Edition par tranche.

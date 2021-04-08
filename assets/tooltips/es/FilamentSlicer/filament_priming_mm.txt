@@ -1,3 +1,3 @@
-Filament retract (mm)
-Length of filament retracted to prevent oozing
-during travel motions.
+Retracción del filamento (mm)
+Loguitud de retracción del filamento para prevenir
+exudación (oozing) durante desplazamientos.

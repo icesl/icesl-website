@@ -1,0 +1,3 @@
+Dirección del relleno
+Dirección general sobre la plataforma de impresión
+(i.e., XY) del relleno phasor.

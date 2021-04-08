@@ -1,4 +1,17 @@
 ---------------------------------
+IceSL version 2.4.0-beta3 2021-04-08
+---------------------------------
+- added phasor infiller (via https://github.com/ThibaultTricard)
+- added extruder ID tooltip to the gcode previewer
+- removed chinese language due to lack of updating
+- added setting to choose extruder for printing raft
+- added option to avoid fetching tooltips remotely (use when no internet connection is available)
+- fixed misnomer of perimeter path type in legend
+- shit + mouse wheel increses/decreaes cutting plane when editing fields
+Slicecrafter:
+	* fixed path type tooltip bug
+
+---------------------------------
 IceSL version 2.4.0-beta2 2021-01-27
 ---------------------------------
 - path type tooltip in g-code previewer for color blind people

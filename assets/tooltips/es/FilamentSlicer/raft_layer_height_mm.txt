@@ -1,1 +1,1 @@
-Raft layer height (mm)
+Grosor de las capas de la base (mm)

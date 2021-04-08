@@ -1,8 +1,15 @@
-Enable shield
-Generates a shield structure surrounding the part. 
-It serves two purposes. On single material print it 
-allows to keep hot air enclosed around the part and
-reduce warping. On multi-material print, it serves as
-a wipe shield to catch oozing filament before it reaches
-the part. A tower may still be desirable to prime the
-extruders.
+Activar escudo
+Genera una estructura en forma de escudo que rodea la
+impresión. Dicha estructura sirve para dos propósitos.
+En una impresión de un solo material, el escudo mantiene
+el aire caliente encerrado alrededor de la impresión 
+y esto reduce la deformación. En impresiones con múl-
+tiples materiales, el escudo funciona como una estructura
+de limpieza que atrapa la exudación del filamento antes
+de que se pegue a la impresión. El uso del escudo depen-
+de de la impresora usada: si la impresora tiene inyec-
+tores que se ascienden/descienden o un único inyector
+con múltiples filamentos, es recomendado usar una torre.
+Si la impresora tiene un configuración estándar con
+múltiples eyectores juntos, es también recomendado
+usar esta opción.

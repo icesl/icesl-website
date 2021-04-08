@@ -1,2 +1,2 @@
-Save layer subset
-Save only a subset of the produced layers
+Guardar rango de capas
+Guardar unicamente una parte de las capas producidas.

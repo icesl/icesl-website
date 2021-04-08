@@ -1,0 +1,10 @@
+Format d'export
+Format de fichier pour le résultat du tranchage.
+Les formats suivants sont supportés:
+
+- wow: Produit des tranches pour la SparkMaker.
+
+- b9j: Produit des tranches pour la B9Creator.
+
+- png: Exporte toutes les tranches sous la forme
+de fichiers .png indépendants.

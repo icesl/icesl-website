@@ -1,3 +1,2 @@
-Enable minimum printing time for layers
-Instructs IceSL to set a minimum time spent on prin-
-ting each layer.
+Tiempo mínimo para imprimir una capa
+Fuerza un tiempo mínimio de impresión por cada capa.

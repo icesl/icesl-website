@@ -1,1 +1,2 @@
-Distance between shield and print
+Distance bouclier - pièce
+Distance entre le bouclier et la pièce à imprimer.

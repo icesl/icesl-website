@@ -1,0 +1,2 @@
+Minimum achievable percentage
+Constraint the density percentage to a minimum.

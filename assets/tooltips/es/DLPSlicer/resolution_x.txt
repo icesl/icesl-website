@@ -1,0 +1,2 @@
+Resolución en el eje X
+Resolución del proyector/pantalla en el eje X.

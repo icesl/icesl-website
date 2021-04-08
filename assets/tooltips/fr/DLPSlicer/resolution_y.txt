@@ -1,0 +1,2 @@
+Résolution sur l'axe des Y
+Résolution de l'écran en pixels sur l'axe des Y.

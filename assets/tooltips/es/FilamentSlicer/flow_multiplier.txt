@@ -1,9 +1,9 @@
-Flow multiplier (all)
-Material flow multiplier when printing with this 
-brush. Reduce or increase to artificially push more
-or less plastic. Can be used to produce fragile
-parts (e.g. soluble supports). This multiplier does
-not apply to the tower, brim and shield. In the case
-of infill, the multiplier may vary to accommodate for
-lack of space. In bridges, the flow is additionally
-increased 20%.
+Multiplicador de flujo (general)
+Multiplicador del flujo de material mientras se impri-
+me con esta brocha. Aumentar o reducir para forzar
+o reducir la salida plástico. Puede ser usado para
+imprimir partes frágiles (e.g. partes solubles). No
+aplica a la torre, el borde (contorno) o el escudo.
+En rellenos, el multiplicador puede variar para
+acomodarse a espacios estrechos. En puentes (bridges)
+el fujo es adicionalmente aumentado 20%

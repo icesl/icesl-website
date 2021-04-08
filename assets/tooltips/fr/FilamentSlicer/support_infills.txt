@@ -1,2 +1,2 @@
-Support infills
-Include the infill when calculating supports.
+Supporter le remplissage
+Inclus le remplissage dans le calcul des supports.

@@ -1,1 +1,2 @@
-Thickening ratio for thin features
+Ratio d'épaississement
+Ratio d'épaississement pour les parois fines.

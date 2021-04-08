@@ -1,1 +1,1 @@
-Cover thickness (mm)
+Épaisseur de plancher (mm)

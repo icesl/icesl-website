@@ -1,1 +1,1 @@
-Crust thickness (mm)
+Grosor de la cubierta (mm)

@@ -1,0 +1,2 @@
+Pourcentage minimum atteignable
+Contraint le pourcentage de la densité à un minimum.

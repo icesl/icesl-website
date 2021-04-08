@@ -1,6 +1,5 @@
-Number of shells (integer)
-Number of internal contours parallel to the perimeter. 
-Increase to thicken the print hull. Setting the number 
-of shells to a large value produces only parallel 
-contours, while a value of 0 removes all contours 
-but the perimeter.
+Nombre de shells (entier)
+Nombre de contours parallèles au périmètre externe.
+Augmenter cette valeur permet d'imprimer une paroi
+plus épaisse. Une valeur de zéro réduit la paroi au
+seul périmètre.

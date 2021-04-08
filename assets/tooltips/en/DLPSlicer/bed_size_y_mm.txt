@@ -1,0 +1,2 @@
+Bed size y (mm)
+Size (in millimeters) of printing bed, front to back.

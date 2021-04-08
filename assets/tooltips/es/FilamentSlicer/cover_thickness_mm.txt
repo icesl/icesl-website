@@ -1,1 +1,1 @@
-Cover thickness (mm)
+Espesor de cubierta (mm)

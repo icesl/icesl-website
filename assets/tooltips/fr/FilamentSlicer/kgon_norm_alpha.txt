@@ -1,7 +1,7 @@
-Distribution of slopes
-Values closer to zero mean 'most infill walls have their slopes
-close to the overhang angle' while values closer to 1 mean 'most
-walls are vertical'.
+Répartition des pentes
+Les valeurs proches de zéro signifient "la plupart des parois ont 
+une pente proche de l'angle de surplomb" alors que les valeurs proches
+de 1 signifient "la plupart des parois sont verticales".
 
-WARNING: Automatic density adjustment does not take this
-parameter into account.
+AVERTISSEMENT: Le réglage automatique de la densité ne prend pas
+ce paramètre en compte.

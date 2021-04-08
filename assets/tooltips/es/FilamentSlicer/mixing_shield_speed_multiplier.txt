@@ -1,2 +1,3 @@
-Speed up when printing shield
-Speed factor when printing shield while color mixing.
+Velocidad en la impresión del escudo
+Factor de velocidad usado para el escudo en la
+impresión con colores.

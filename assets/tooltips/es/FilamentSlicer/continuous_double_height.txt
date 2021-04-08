@@ -1,3 +1,3 @@
-Two-pass infill printing
-Each layer's infill is printed as two passes of half
-the height of the current layer.
+Impresión del relleno en dos pasadas
+El relleno en cada capa es impreso en dos pasadas,
+cada una con la mitad del grosor de la capa actual.

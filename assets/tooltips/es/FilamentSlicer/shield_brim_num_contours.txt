@@ -1,3 +1,2 @@
-Number of brim contours for the shield
-Number of contours that make up the brim around
-the shield.
+Número de contornos en el escudo
+Número de contornos al exterior del escudo.

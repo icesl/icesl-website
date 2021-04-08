@@ -1,5 +1,5 @@
-Remove covers less than width (mm)
-Remove covers smaller than the specified width (mm).
-This will filter out small residual covers when slicing
-empty objects witch complex outlines
-(ie: vases, objects without infills, etc).
+Retire les planchers sous le seuil de largeur (mm)
+Les planchers moins larges que la valeur spécifiée (mm)
+sont retirés. Cela peut permettre de filtrer des planchers
+résiduels lors du tranchage d'objet vides aux contours 
+complexes (ex: vases, objets sans remplissage, etc).

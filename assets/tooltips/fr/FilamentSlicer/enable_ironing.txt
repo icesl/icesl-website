@@ -1,3 +1,3 @@
 Ironing
-Post-processing pass to remove the small holes
-between tracks.
+Effectue un passage supplémentaire sur les 
+planchers déjà imprimés pour en lisser la surface.

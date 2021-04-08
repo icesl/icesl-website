@@ -1,5 +1,5 @@
-Tower size along Y (mm)
-Size of the tower along Y direction. Increase if the 
-extruder is not properly primed (holes when the 
-extruder resumes printing after a swap), or if the 
-tower is not stable enough when it becomes tall.
+Taille de la tour en Y (mm)
+Taille de la tour selon l'axe Y. Augmentez cette valeur
+si l'extrudeur n'est pas prêt lorsqu'il recommence à
+imprimer (manque de plastique), ou bien si la tour
+devient instable lorsque sa hauteur augmente.

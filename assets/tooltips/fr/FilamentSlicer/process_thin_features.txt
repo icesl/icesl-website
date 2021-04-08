@@ -1,6 +1,6 @@
-Thicken thin features
-Enable to thicken and preserve thin features. 
-By default, thin features, smaller that the nozzle 
-diameter, will be removed. This option uses an 
-experimental algorithm to preserve such features, 
-thickening them so that they can be printed.
+Épaissir les parois fines
+Activer pour préserver les parois fines. Par défaut,
+les parois plus fines que le diamètre de sortie de
+la buse sont éliminées. Cette option active un 
+algorithme expérimental qui permet de les préserver
+en les épaississant pour qu'elles deviennent imprimables.

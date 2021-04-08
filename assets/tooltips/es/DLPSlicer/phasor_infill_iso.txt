@@ -1,0 +1,3 @@
+Isotropía phasor
+Porcentage de isotropía del generador de ruido phasor.
+Cero significa absencia de isotropía.

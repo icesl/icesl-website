@@ -1,0 +1,2 @@
+Perimeter thickness (mm)
+Thickness of exterior wall in millimeters

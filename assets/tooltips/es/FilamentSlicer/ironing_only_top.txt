@@ -1,3 +1,4 @@
-Iron only top
-Perform ironing only on top surface.
-(Disable it to gain control inside the piece)
+Suavizar solamente la cubierta.
+Suavizar únicamente la parte superior.
+(Deshabilitar si se desea ganar control al interior
+de la impresión).

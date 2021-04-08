@@ -1,3 +1,3 @@
-Width of wing rib reinforcement
-Width in millimeters of the reinforcement ribs of
-each wing in the supports structure.
+Épaisseur du renfort des ailes de support (mm)
+Épaisseur en millimètres des renforts des 
+ailes de la structure de support.

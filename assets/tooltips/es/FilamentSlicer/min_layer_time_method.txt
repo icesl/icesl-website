@@ -1,10 +1,11 @@
-Minimum time method
-- Tower: Generates a tower to achieve the minimum printing
-time for each layer.
+Método de tiempo mínimo
+- Tower: Genera una torre para garantizar el tiempo mínimo
+de impresión de cada capa.
 
-- Shield: Generates shield to achieve the minimum printing
-time for each layer.
+- Shield: Genera un escudo para garantizar el tiempo mínimo
+de impresión de cada capa.
 
-- Function 'wait': Lets the user specify the printer behavior 
-to achieve the minimum time. See the documentation on printer
-profiles.
+- Function 'wait': Permite al usuario especificar el compor-
+tamiento de la impresora para garantizar el tiempo mínimo
+de impresión de cada capa. Ver la documentación de perfiles
+de impresora.

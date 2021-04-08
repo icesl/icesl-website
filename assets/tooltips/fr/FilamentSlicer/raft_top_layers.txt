@@ -1,4 +1,4 @@
-Number of raft interface layers
-The raft interface is the layers between the printed
-geometry and the remaining layers of the total number
-of raft layers.
+Nombre de couches d'interface du Raft
+L'interface du Raft est l'ensemble des couches
+supérieures du Raft 
+(qui sont en contact avec la pièce imprimée).

@@ -1,5 +1,6 @@
-Number of contours in tower brim
-Number of contours on the brim of the prime/wipe tower
-(first layer). As the tower is usually thin and has to resist
-wipe motions from the extruder, it is best to use multiple 
-contours on its brim (e.g. 10).
+Nb. de contours du pied de la tour
+Nombre de contours du pied de la tour (brim) sur
+la première couche. La tour est en général fine et
+doit résister aux mouvements de l'extrudeur. Il est
+recommandé d'utiliser plusieurs contours sur le pied
+(par exemple une dizaine).

@@ -1,6 +1,6 @@
-Min. space between supported points (mm)
-Minimal spacing (in millimeters) between the contact
-points covering overhanging surfaces.
-Lowering this value makes the support denser,  
-increasing the quality of bottom surfaces but 
-making the support more difficult to remove.
+Espacement entre points portés (mm)
+Espacement minimal entre les points du modèle portés
+par la structure support. Une plus faible valeur
+densifie le support. Ceci améliore la qualité des
+surfaces portées mais rend l'élimination du support
+plus difficile.

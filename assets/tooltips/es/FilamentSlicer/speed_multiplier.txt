@@ -1,7 +1,8 @@
-Speed multiplier
-Printing speed multiplier for this brush. This can
-be used to change the printing speed locally,
-using different brushes in different parts of the
-object. This multiplier does not apply to the
-tower, brim and shield. In the raft, the speed is
-additionally decreased 50%.
+Multiplicador de velocidad
+Multiplicador de velocidad usado en esta brocha.
+Puede ser ajustado para cambiar localmente la velo-
+cidad de impresión. Para este efecto, use diferentes
+brochas en diferentes partes del modelo. No aplica
+a la torre, el borde (contorno) o el escudo. En
+bases (rafts) la velocidad es adicionalmente
+disminuida 50%.

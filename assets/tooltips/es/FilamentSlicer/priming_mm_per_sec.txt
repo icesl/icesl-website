@@ -1,4 +1,5 @@
-Speed for prime/retract (mm/sec)
-Speed used for prime/retract extruder motions 
-(millimeters per second). Decrease if the extruder
-skips or grinds the filament after a retraction.
+Velocidad de retractación (mm/sec)
+Velocidad usara para retractar movimientos del
+extrusor (milímetros por segundo). Disminuya este
+valor si el extrusor salta u oprime filamento
+después de la retracación.

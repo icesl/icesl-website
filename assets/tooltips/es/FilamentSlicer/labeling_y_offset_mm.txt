@@ -1,1 +1,2 @@
-Infiller image Y offset (mm)
+Compensación en eje Y del relleno
+Compensación del relleno basado en imagen en el eje Y.

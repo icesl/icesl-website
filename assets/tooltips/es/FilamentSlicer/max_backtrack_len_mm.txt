@@ -1,6 +1,7 @@
-Maximum backtrack length
-Maximum backtrack length when printing.
+Distancia máxima de retroceso
+Distancia máxima de retroceso durante la impresión.
 
-The backtrack is a "dry move" that follows back a
-previously deposited path to ensure there is no
-stringing between printed paths.
+El retroceso es un movimiento "seco" que se devuelve
+a través del camino de deposición anterior para
+asegurar que no haya solapamiento entre líneas
+de impresión.

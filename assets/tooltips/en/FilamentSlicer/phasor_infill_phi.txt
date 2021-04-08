@@ -1,0 +1,3 @@
+Inclination direction
+General inclination direction of the phasor infill
+w.r.t. Z (i.e., height) axis.

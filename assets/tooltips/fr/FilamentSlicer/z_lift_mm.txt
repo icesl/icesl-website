@@ -1,2 +1,2 @@
-Z-lift height (mm)
-Height in millimeters for the upward move.
+Hauteur du Z-lift (mm)
+Hauteur en millimeters du décalage en Z pendant les voyages.

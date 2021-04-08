@@ -1,18 +1,24 @@
-Infill type
-Infill type for a given brush. IceSL is packed
-with four options listed bellow. It is possible
-to add a custom infill by writing its specifi-
-cation (see 'README.md' file in 'icesl-infillers'
-folder):
+Type de remplissage
+Type de remplissage pour un brush donné. 
+IceSL propose quatre options décrites ci-dessous.
+Il est possible d'ajouter un remplissage personnalisé
+en écrivant sa spécification (voir fichier 'README.md'
+dans le dossier 'icesl-infillers'):
 
--Default: Tetrahedral infills (best for the
-majority of situations).
+-Default(Défaut): Remplissage tétrahédral (meilleure solution
+dans la majorité des situations).
 
--Progressive: Changes to infill percentage
-produce smooth variations on the output.
+-Progressive(Progressif): Les variations dans le pourcentage 
+de remplissage produisent une variation lisse 
+dans le résultat.
 
--Cubic: Cubic infills with no smoothing
-of infill percentage variations.
+-Cubic(Cubique): Remplissage cubique sans variation progressive.
 
--Polyfoam: Sponge-like structure infill. See other
-settings below for more control of the output.
+-Polyfoam: Structure sembable à une éponge. 
+Voir les paramètres ci-dessous pour plus de 
+contrôle sur le résultat.
+
+-Phasor: Remplissage utilisant un bruit procédural
+de phasor; structure très flexible. Voir les
+paramètres ci-dessous pour plus de contrôle sur le
+résultat.

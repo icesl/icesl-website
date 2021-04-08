@@ -1,3 +1,3 @@
-Fan speed percentage for bridges
-Filament cooling fan speed when printing bridges,
-as a percentage of its full speed.
+Porcentaje vel. de vent. en puentes
+Velocidad del ventilador de filamento para la impresión
+de puentes. Dado en porcentaje de su poder máximo.

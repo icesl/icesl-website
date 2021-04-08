@@ -1,0 +1,2 @@
+Slice thickness (mm)
+Slice thickness in millimeters for the Z direction.

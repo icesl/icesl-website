@@ -1,0 +1,2 @@
+Temps d'exposition par couche (s)
+Temps d'exposition en secondes d'une couche.

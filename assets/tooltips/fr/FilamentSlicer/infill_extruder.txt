@@ -1,1 +1,1 @@
-Extruder for infill
+Extrudeur pour le remplissage

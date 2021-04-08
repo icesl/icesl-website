@@ -1,1 +1,1 @@
-Minimum layer printing time (sec)
+Temps minimum (sec) d'impression d'une couche
