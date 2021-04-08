@@ -1,0 +1,2 @@
+Épaisseur des remplissages (mm)
+Épaisseur des lignes de remplissage en millimètres.

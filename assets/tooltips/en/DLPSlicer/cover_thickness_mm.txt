@@ -1,0 +1,2 @@
+Cover thickness (mm)
+Tickness of vertical covers in millimeters

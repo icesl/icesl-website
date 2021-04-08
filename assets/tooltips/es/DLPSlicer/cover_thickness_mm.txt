@@ -1,0 +1,2 @@
+Espesor de cubierta (mm)
+Espesor de las cubiertas verticales en milímetros

@@ -1,3 +1,4 @@
-Flow dampener: length along path start
-Length along the start of the path where transitioning
-between colors occur.
+Compensation du flux: longueur de début de chemin
+Longueur sur laquelle est effectuée la rétration
+au début d'un chemin de couleur (lors des
+transitions).

@@ -1,1 +1,1 @@
-Spacing of raft interface lines (mm)
+Espacio entre las líneas de la interfaz de la base (mm)

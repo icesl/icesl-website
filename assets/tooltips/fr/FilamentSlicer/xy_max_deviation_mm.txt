@@ -1,3 +1,2 @@
-Contour deviation in xy plane
-Maximum deviation (mm) of simplified contours in
-the xy plane.
+Déviation du contours dans le plan xy
+Déviation maximum (mm) du contours dans le plan xy.

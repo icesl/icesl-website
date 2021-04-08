@@ -1,0 +1,3 @@
+Dirección de inclinación
+Dirección general de inclinación del relleno phasor
+con respecto al eje Z (i.e., altura).

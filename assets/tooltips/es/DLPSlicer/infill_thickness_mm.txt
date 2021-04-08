@@ -1,0 +1,2 @@
+Espesor del relleno (mm)
+Espesor de las líneas producidas para rellenar.

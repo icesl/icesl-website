@@ -1,6 +1,7 @@
-Ironing flow
-Additionnal flow (percentage related to the latest cover flow)
-to make sure the holes are covered.
+Flujo de suavizado
+Fujo adicional para asegurar que los orificios en la
+superifice son cubiertos (porcentaje relacionado con
+el flujo de la cubierta).
 
-This may help achieve a solid or watertight cover,
-or transparency when using transparent material.
+Esta opción puede ayudar a obtener una cubierta sólida
+o transparente si se usa material transparente.

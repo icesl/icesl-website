@@ -1,0 +1,2 @@
+Épaisseur des tranches (mm)
+Épaisseur en millimètres des tranches dans le sens de l'axe Z.

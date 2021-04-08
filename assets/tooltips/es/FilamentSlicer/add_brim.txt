@@ -1,5 +1,6 @@
-Brim
-The brim adds contours around the object, on the 
-base layer. This is useful to prep the nozzle and 
-enlarge the object's base for increased adhesion 
-(use a distance between brim and print of 0.0 mm).
+Borde
+Imprime un contorno alrededor de la base del objeto.
+Este contorno ayuda a preparar el inyector y amplía
+la base del objeto para incrementar su adhesión
+(ajuste la distancia entre el border y la impresión
+a 0.0mm)

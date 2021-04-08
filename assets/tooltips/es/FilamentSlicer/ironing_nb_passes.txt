@@ -1,2 +1,2 @@
-Ironing number of passes
-Set the number of passes that 'iron' the surface.
+Número de pasadas para suavizar
+Define el número de pasadas para 'planchar' la superficie.

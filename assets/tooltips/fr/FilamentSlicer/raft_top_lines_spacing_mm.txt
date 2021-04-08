@@ -1,1 +1,1 @@
-Spacing of raft interface lines (mm)
+Espacement des lignes de l'interface du Raft (mm)

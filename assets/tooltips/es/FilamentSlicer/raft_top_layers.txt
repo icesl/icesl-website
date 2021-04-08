@@ -1,4 +1,4 @@
-Number of raft interface layers
-The raft interface is the layers between the printed
-geometry and the remaining layers of the total number
-of raft layers.
+Número de capas de la interfaz de la base
+La interfaz de la base hace referencia a las capas
+entre la impresión y las capas restantes de la base
+(i.e., raft_layers)

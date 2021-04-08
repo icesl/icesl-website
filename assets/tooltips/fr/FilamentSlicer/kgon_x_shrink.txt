@@ -1,3 +1,2 @@
-Degree of anisotropy
-As this value decreases, the cells become more stretched
-in the direction of anisotropy.
+Isotropie XY
+Lorsque cette valeur décroit, les cellules deviennent plus étirées dans la direction d'anisotropie.

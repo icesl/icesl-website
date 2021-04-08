@@ -1,0 +1,2 @@
+Tiempo de exposición de capas (s)
+Tiempo de exposición en segundos de cada capa.

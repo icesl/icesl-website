@@ -1,0 +1,3 @@
+Direction d'inclinaison
+Direction générale de l'inclinaison du remplissage
+phasor au regard de l'axe Z (i.e., hauteur)

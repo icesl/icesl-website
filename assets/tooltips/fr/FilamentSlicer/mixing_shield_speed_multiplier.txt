@@ -1,2 +1,2 @@
-Speed up when printing shield
-Speed factor when printing shield while color mixing.
+Accélération pour l'impression du Bouclier
+Multiplicateur de la vitesse d'impression du Bouclier.

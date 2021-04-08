@@ -1,0 +1,3 @@
+Phasor isotropy
+Isotropy percentage of the phasor noise generation.
+0 means no isotropy.

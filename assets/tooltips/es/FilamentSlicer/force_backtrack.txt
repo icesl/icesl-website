@@ -1,11 +1,11 @@
-Force backtrack on first layer
-Enable backtrack on all printing paths for the first layer.
-This will force the printer to make a "dry move"
-back to the start of a deposition path to ensure
-the first layer is correctly deposited.
+Forzar retroceso en la primera capa
+Habilita retrocesos en todos los caminos de impresión
+de la primera capa. Esta opción forzará la impresora
+a realizar un movimiento "seco" de vuelta al inicio
+del la deposición para segurar que lo primer capa
+sea correctamente depositada.
 
-This setting can induce a significant increase on
-print time for the first layer.
-
-This is particularly indicated when using Polyfoams
-or any infill with many small cells.
+Esta opción puede incrementar significativamente
+el tiempo de impresión de la primera capa. Esto es
+particularmente cierto si se usan rellenos tipo
+esponja o con bastantes celdas pequeñas.

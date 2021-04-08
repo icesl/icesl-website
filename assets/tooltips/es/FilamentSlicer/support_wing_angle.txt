@@ -1,2 +1,3 @@
-Angle of wing supports (degrees)
-Maximum overhang angle of support structure.
+Ángulo de soportes (grados)
+Ángulo máximo de inclinación la estructura de
+soportes.

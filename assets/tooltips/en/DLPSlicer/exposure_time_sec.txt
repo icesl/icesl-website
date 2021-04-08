@@ -1,0 +1,2 @@
+Layer exposition time (s)
+Exposition time in seconds of a layer

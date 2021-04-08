@@ -1,3 +1,2 @@
-Number of brim contours for the shield
-Number of contours that make up the brim around
-the shield.
+Nombre de contours du brim du Bouclier
+Nombre de contours constituant le brim du Bouclier.

@@ -1,9 +1,9 @@
-Travel only in straight line
-By default IceSL attempts to stay within printed 
-surfaces while traveling. This prevents stringing
-to appear and reduces the need for retraction.
-One downside is that travel moves take longer, as 
-they follow the shape outlines. Enabling this 
-option will force to travel only in straight line.
-This can be useful on very complex shapes with 
-many small holes, but is otherwise not recommended.
+Desplazamiento en líneas rectas únicamente
+Por defecto, IceSL intenta permanecer dentro del
+perímetro de las superficies impresas mientras
+el extrusor se desplaza. Esto previene el des-
+fibramiento y la dependencia en la retractación.
+Esta opción obliga el desplazamiento a manera de
+líneas rectas únicamente. Dicha opción puede ser
+últil en formas complejas con demasiadas cavidades
+pequeñas, pero en general no es recomendada.

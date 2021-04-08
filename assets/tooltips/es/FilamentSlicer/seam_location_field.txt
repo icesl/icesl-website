@@ -1,1 +1,2 @@
+Pintar localizaciones de junturas
 Paint to specify seam locations

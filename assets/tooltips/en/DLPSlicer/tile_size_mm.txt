@@ -1,0 +1,5 @@
+Processing tile size (mm)
+Size of a tile during processing. Decrease to 
+reduce GPU memory consumption, in particular if 
+slicing generates an out of GPU memory error. 
+Typical values are between 5 mm and 100 mm.

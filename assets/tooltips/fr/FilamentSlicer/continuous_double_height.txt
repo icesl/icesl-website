@@ -1,3 +1,4 @@
-Two-pass infill printing
-Each layer's infill is printed as two passes of half
-the height of the current layer.
+Remplissage en deux passes
+Chaque couche du remplissage est déposée en deux
+passes de la moitié de la hauteur de couche
+actuelle.

@@ -1,2 +1,3 @@
-Flow dampener: retraction length
-Retraction length when transitioning between colors.
+Amortiguador de flujo: Distancia de retracción
+Distancia en milímetros de la retracción entre
+transición de colores.

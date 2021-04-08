@@ -1,0 +1,2 @@
+Épaisseur des planchers (mm)
+Épaisseur des planchers verticaux en millimetres.

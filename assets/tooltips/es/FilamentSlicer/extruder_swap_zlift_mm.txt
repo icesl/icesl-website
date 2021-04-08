@@ -1,6 +1,7 @@
-Z-lift in travel on extruder swap (mm)
-After swapping between extruders, when traveling back 
-from the swap location or prime/wipe tower, an up/down
-z motion can be used to prevent the extruder from
-wiping its nozzle against the part perimeter. A small
-value is usually sufficient, e.g. 1 millimeter.
+Despl. Z tras intercambio (mm)
+Después de un intercambio de extrusores, mientras
+se devuleve de la posición del intercambio o de una
+torre, un movimiento vertical en z puede ser usado
+para prevenir que el extrusor limpie el injector con
+el perímetro. Un valor bajo es a menudo suficiente,
+e.g. 1 milímetro.

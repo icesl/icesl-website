@@ -1,0 +1,4 @@
+Infill percentage (%)
+Infill percentage for this brush. 100 is fully
+dense while 0 produces no infill. The infill 
+pattern forms a strong 3D structure.

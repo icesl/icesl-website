@@ -1,6 +1,6 @@
-Cavity
-Hollows the shape to be printed. Enable this 
-option to considerably reduce the material used and
-shorten the printing time. To avoid the print being 
-structurally weak, we recommend using at least one
-shell.
+Cavidad
+Ahueca la impresión. Habilitar esta opción para
+reducir considerablemente el material usado y el 
+tiempo de impresión. Para evitar que la impresión
+sea estructuralmente débil, recomendamos usar al
+menos una cavidad.

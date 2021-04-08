@@ -1,4 +1,5 @@
-Ground anchor diameters (mm)
-Controls the size of pillar 'feet'; where supports
-connect to the print bed. Increase if the pillars
-detach from the print bed.
+Diamètre du point d'ancrage au sol (mm)
+Contrôle la taille des "pieds" des piliers (au
+niveau de la connexion au lit d’impression).
+À augmenter si les piliers se détachent du lit
+d'impression.

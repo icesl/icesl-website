@@ -1,2 +1,3 @@
-Bed size x (mm)
-Size (in millimeters) of printing bed, left to right.
+Tamaño de la plataforma en x (mm)
+Tamaño (en milímetros) de la plataforma de impresión,
+de derecha a izquierda.

@@ -1,1 +1,1 @@
-Paint to specify seam locations
+Peindre pour spécifier la position des jonctions

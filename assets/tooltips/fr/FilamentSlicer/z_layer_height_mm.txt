@@ -1,6 +1,9 @@
-Layer thickness (mm)
-Layer thickness in millimeters (mm). Using smaller
-values makes the part more precise and smooth, but
-requires longer print times as the number of layers
-increases. This parameter can be set per-layer 
-to smoothly vary the thickness.
+Épaisseur d'une tranche (mm)
+Épaisseur d'une tranche en millimètres.
+De plus faibles épaisseurs permettent une meilleure 
+reproduction de la géométrie, mais demandent plus 
+de couches et donc plus de temps.
+
+Ce paramètre peut être contrôlé par couche et
+être optimisé pour obtenir un tranchage adaptatif
+progressif.

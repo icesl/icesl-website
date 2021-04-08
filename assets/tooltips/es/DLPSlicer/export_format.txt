@@ -1,0 +1,10 @@
+Formato de salida
+Formato usado para el resultado del seccionamiento.
+Los siguientes formatos son soportados:
+
+- wow: Usado por las impresoras SparkMaker
+
+- b9j: Usado por las impresoras B9Creator
+
+- png: Produce una imagen png por aca capa de
+impresión

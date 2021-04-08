@@ -1,3 +1,4 @@
-Post-processing algorithm
-Post-processing applied to all sliced layers after
-slicing and just before exporting to machine code.
+Algoritmo de post-procesamiento
+Post-procesamiento aplicado a todas las capas
+después del seccionamiento y justo antes de guardar
+a un archivo.

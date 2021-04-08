@@ -1,0 +1,3 @@
+Tiempo de exposición de la primera capa (s)
+Tiempo de exposición en segundos de la primera
+capa.

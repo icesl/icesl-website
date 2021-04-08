@@ -1,0 +1,3 @@
+Isotropie du phasor 
+Pourcentage d'isotropie dans la génération du phasor
+noise, zero signifie qu'il n'y a pas d'isotropie.

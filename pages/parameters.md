@@ -5,6 +5,9 @@ permalink: /parameters/
 exclude: true
 ---
 
+{% assign include_chinese = false %}
+{% assign include_dlp = false %}
+
 <script>
 function printingParameter(parameterFile, htmlID, parameterName)
 {
@@ -57,6 +60,27 @@ function printingParameter(parameterFile, htmlID, parameterName)
 </ul>
 </details>
 </li>
+
+{% if include_dlp %}
+<li>
+<details markdown="1"><summary> <b>DLP Slicer</b> </summary>
+<p />
+<ul>
+{% for parameter in site.static_files %}
+  {% assign path = '/assets/tooltips/en/DLPSlicer/' %}
+  {% if parameter.path contains path %}
+  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign html_id = parameter.path | remove: parameter.extname %}
+  {% assign parameter_file = parameter.path | prepend: site.baseurl %}
+<li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
+<a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
+</li>
+  {% endif %}
+{% endfor %}
+</ul>
+</details>
+</li>
+{% endif %}
 
 <li>
 <details markdown="1"><summary> <b>Export to Mesh</b> </summary>
@@ -140,6 +164,27 @@ function printingParameter(parameterFile, htmlID, parameterName)
 </details>
 </li>
 
+{% if include_dlp %}
+<li>
+<details markdown="1"><summary> <b>Seccionar a DLP</b> </summary>
+<p />
+<ul>
+{% for parameter in site.static_files %}
+  {% assign path = '/assets/tooltips/es/DLPSlicer/' %}
+  {% if parameter.path contains path %}
+  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign html_id = parameter.path | remove: parameter.extname %}
+  {% assign parameter_file = parameter.path | prepend: site.baseurl %}
+<li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
+<a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
+</li>
+  {% endif %}
+{% endfor %}
+</ul>
+</details>
+</li>
+{% endif %}
+
 <li>
 <details markdown="1"><summary> <b>﻿Exportar a Malla</b> </summary>
 <p />
@@ -222,6 +267,27 @@ function printingParameter(parameterFile, htmlID, parameterName)
 </details>
 </li>
 
+{% if include_dlp %}
+<li>
+<details markdown="1"><summary> <b>Trancher vers DLP</b> </summary>
+<p />
+<ul>
+{% for parameter in site.static_files %}
+  {% assign path = '/assets/tooltips/fr/DLPSlicer/' %}
+  {% if parameter.path contains path %}
+  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign html_id = parameter.path | remove: parameter.extname %}
+  {% assign parameter_file = parameter.path | prepend: site.baseurl %}
+<li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
+<a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
+</li>
+  {% endif %}
+{% endfor %}
+</ul>
+</details>
+</li>
+{% endif %}
+
 <li>
 <details markdown="1"><summary> <b>﻿Exporter un Maillage</b> </summary>
 <p />
@@ -282,6 +348,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
 </ul>
 </details>
 
+{% if include_chinese %}
 <details markdown="1"><summary> <b>中文</b> </summary>
 <ul style="list-style: none;">
 
@@ -304,6 +371,28 @@ function printingParameter(parameterFile, htmlID, parameterName)
 </ul>
 </details>
 </li>
+
+{% if include_dlp %}
+<li>
+<details markdown="1"><summary> <b>切片并生成 DLP</b> </summary>
+<p />
+<ul>
+{% for parameter in site.static_files %}
+  {% assign path = '/assets/tooltips/ch/DLPSlicer/' %}
+  {% if parameter.path contains path %}
+  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign html_id = parameter.path | remove: parameter.extname %}
+  {% assign parameter_file = parameter.path | prepend: site.baseurl %}
+<li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
+<a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
+</li>
+  {% endif %}
+{% endfor %}
+</ul>
+</details>
+</li>
+{% endif %}
+
 
 <li>
 <details markdown="1"><summary> <b>﻿导出到网格</b> </summary>
@@ -364,4 +453,5 @@ function printingParameter(parameterFile, htmlID, parameterName)
 
 </ul>
 </details>
+{% endif %}
 <br>

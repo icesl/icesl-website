@@ -1,3 +1,4 @@
-Brush onto which cavity is applied
-Select here the brush that was used to emit the
-shape to be hollowed. Leave unchanged if unsure.
+Brush sur lequel cavité est appliqué
+Sélectionner ici le brush ayant été utilisé pour
+la forme devant être creusé. Laisser inchangé
+en cas de doute. 

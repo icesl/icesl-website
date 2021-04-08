@@ -1,6 +1,7 @@
-Automatically spiralize
-Generate, when possible, a continuous path that prints
-the surface of the geometry. This method avoids seams.
+Spiraliser automatiquement
+Génère, si possible, un chemin d'impression continu
+suivant la surface externe de la géométrie. Cette méthode
+permet d'éviter la présence de coutures.
 
-In order for this to work, shells, infill and covers
-have to be zeroed out.
+La spiralisation ne se fera que si les contours,
+le remplissage et les planchers sont mis à zéro.

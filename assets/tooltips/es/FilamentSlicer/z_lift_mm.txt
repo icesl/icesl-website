@@ -1,2 +1,2 @@
-Z-lift height (mm)
-Height in millimeters for the upward move.
+Altura del movimiento en el eje Z
+Altura en milímetros del movimiento vertical.

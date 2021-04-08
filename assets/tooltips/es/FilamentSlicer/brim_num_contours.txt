@@ -1,3 +1,3 @@
-Number of brim contours (integer)
-Number of contours forming the brim surrounding 
-the object to be printed.
+Número de contornos en el borde
+Número de contornos que forman el borde que
+rodea la base del objeto a imprimir.

@@ -1,4 +1,5 @@
-Infill percentage (%)
-Infill percentage for this brush. 100 is fully
-dense while 0 produces no infill. The infill 
-pattern forms a strong 3D structure.
+Porcentaje de relleno (%)
+Porcentaje de relleno usado en esta brocha.
+100 significa una densidad máxima y 0 no
+produce relleno. El patrón de reyeno forma
+una estructura 3D firme.

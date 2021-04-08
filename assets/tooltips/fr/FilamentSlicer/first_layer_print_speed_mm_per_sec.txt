@@ -1,4 +1,4 @@
-Print speed on first layer (mm/sec)
-Printing speed (millimeters per second) for the 
-first layer. Usually this is set to a low speed to
-increase adhesion.
+Vitesse première couche (mm/sec)
+Vitesse d'impression (millimètres par seconde) 
+pour la première couche. Sélectionner une faible
+vitesse permet une meilleure adhésion.

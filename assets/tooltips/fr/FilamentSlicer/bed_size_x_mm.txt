@@ -1,2 +1,3 @@
-Bed size x (mm)
-Size (in millimeters) of printing bed, left to right.
+Taille du plateau x (mm)
+Taille (millimètres) du lit d'impression, de 
+gauche à droite.

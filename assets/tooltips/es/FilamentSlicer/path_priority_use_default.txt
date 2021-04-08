@@ -1,4 +1,6 @@
-Use default path priority
-Use the default ordering for printing the different
-types of path. When using custom ordering, the higher
-the priority, the sooner the specific path type is printed.
+Usar prioridad por defecto
+Usar la configuración preestablecida del order de
+impresión de los diferentes tipos de trayectoria.
+Si se personaliza el orden, una prioridad alta
+significa que el tipo específico de deposición se
+imprimirá antes.

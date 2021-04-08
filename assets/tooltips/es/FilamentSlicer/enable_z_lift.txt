@@ -1,3 +1,3 @@
-Enable Z-lift when traveling
-Allow the printer to move up when traveling. This may help
-avoid collisions.
+Habilitar movimiento en el eje Z durante desplazamiento
+Permite movimiento vertical mientras se hace un desplazamiento
+del extrusor para evitar colisiones con la pieza impresa.

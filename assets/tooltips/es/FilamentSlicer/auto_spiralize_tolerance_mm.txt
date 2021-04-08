@@ -1,1 +1,1 @@
-Spiralize layer to layer tolerance (mm)
+Tolerancia en la espiralización entre capas (mm)

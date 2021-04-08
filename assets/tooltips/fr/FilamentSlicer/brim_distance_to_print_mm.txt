@@ -1,5 +1,5 @@
-Distance between brim and print (mm)
-Distance in millimeters (mm) between the surrounding
-brim and the object to be printed. Use 0.0 to use the
-brim as a skirt attached to the base layer and stabilize
-the print.
+Distance brim - pièce (mm)
+Distance en millimètres (mm) entre le brim et l'objet
+imprimé.  Une distance de 0.0 mm active le mode 'jupe'
+et permet de stabiliser une pièce ayant une base de
+faible section.

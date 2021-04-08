@@ -1,1 +1,1 @@
-Spiralize layer to layer tolerance (mm)
+Tolérance de la spiralisation entre couches (mm)

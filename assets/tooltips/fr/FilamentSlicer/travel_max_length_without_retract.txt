@@ -1,11 +1,16 @@
-Max. travel length w/out retracting
-Maximum travel length in millimiteres (mm) without
-performing a retraction. In many cases IceSL can avoid
-retraction, for instance when traveling within
-a solid layer. This setting controls the maximum
-allowed length without any retraction. It will force
-retraction to occur on any travel longer than the
-selected value. This takes priority over any other
-criterion. Setting a value of 0.0 will force to
-always retract, while a large value will minimize
-retraction. It is recommended to use large values.
+Longueur max. sans rétracter
+Longueur maximale d'un voyage sans rétracter le
+filament.
+
+Dans la plupart des cas, IceSL peut éviter
+de rétracter le filament, par exemple lorsque le voyage
+reste à l'intérieur d'une surface pleine. Ce paramètre
+contrôle la longueur maximale de voyage sans rétraction.
+Cela permet de forcer une rétraction sur tous les voyages
+plus longs.
+
+Ce paramètre est prioritaire sur tous les
+autres critères: une valeur de 0.0 force à toujours
+rétracter, alors qu'une grande valeur réduit les 
+rétractions au minimum. De grandes valeurs sont 
+recommandées.

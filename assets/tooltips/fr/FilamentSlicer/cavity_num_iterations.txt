@@ -1,1 +1,1 @@
-Number of nested cavities
+Nombre de cavités imbriquées

@@ -1,8 +1,8 @@
-Cavity shape
-Shape of self supporting internal structure:
+Forma de la cavidad
 
-- Cross: [RECOMMENDED] Enhancement of Skeletal
-shape.
+Forma de la estructura interna auto soportada:
+
+- Cross: [RECOMENDADA] Mejora de la forma 'Skeletal'
 
 - Skeletal: Iterative carving for self-supporting
 3D printed cavities (Eurographics 2018).

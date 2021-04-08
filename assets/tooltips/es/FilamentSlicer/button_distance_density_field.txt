@@ -1,1 +1,1 @@
-Compute density as surface distance
+Calcular densidad en base a distancia a superficie

@@ -1,3 +1,3 @@
-Max print speed on microlayers
-Maximum speed in millimeters per second when printing
-microlayers.
+Vitesse max. sur les microcouches
+Vitesse maximum en millimètres par seconde de 
+l'impression des microcouches.

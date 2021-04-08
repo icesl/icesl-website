@@ -1,15 +1,21 @@
-Prime/wipe tower
-Instructs IceSL to build a prime/wipe tower structure 
-alongside the print. The tower is used to wipe and prime
-the extruders when switching material in multi-material
-prints. The tower only prints when required (it will not
-appear on single material prints).
-The tower is either automatically placed, or its position
-is controlled by variables 'extruder_swap_location_x_mm'
-and 'extruder_swap_location_y_mm' when a swap 
-location is specified in the printer scripts, and 
-'extruder_swap_at_location' is enabled.
-Note that the tower is added even on single material prints,
-for instance to allow for cooling between layers when 
-printing parts with a small cross-section (see also
-enable_min_layer_time)
+Torre
+Crea un estructura en forma de torre en la esquina
+de la plataforma de impresión. Dicha estructura es
+usada para limpiar y cebar (prime) los extrusores
+cuando se cambia de material en impresiones que usan
+múltiples materiales. La torre solamente se crea
+cuando es considerado necesario (no se creará en
+impresiones de un solo material). La torre puede ser
+posicionada automaticamente o igualmente puede ser
+controlada por el usuario usando las variables
+'extruder_swap_location_x_mm' y 'extruder_swap_location_y_mm'
+en los scripts de la impresor junto con la variable
+'extruder_swap_at_location' con valor true.
+La cuestión de usar una torre o un escudo para impresiones
+con múltiples materiales depende de su impresora:
+si la impresora tiene inyectores que se ascienden/
+descienden o un único inyector con múltiples fila-
+mentos, es recomendado usar una torre. Si la impre-
+sora tiene un configuración estándar con múltiples
+eyectores juntos, es también recomendado usar esta
+opción.

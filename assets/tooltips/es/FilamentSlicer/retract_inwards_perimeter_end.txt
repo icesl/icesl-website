@@ -1,3 +1,3 @@
-Retract inwards on perimeter end
-Turn this off if getting color smear during multi-
-material printing.
+Retractación interna al finalizar perímetro
+Apagar esta opción si el color es irregular durante
+impresiones multi-material.

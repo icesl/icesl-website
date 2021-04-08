@@ -1,3 +1,4 @@
-Ironing line spacing (mm)
-Space between paths in millimeters.
-Recommended value is half of the nozzle width.
+Espacement des chemins d'ironing
+Détermine l'espacement entre les chemins d'ironing
+
+La valeur recommandée est de la moitié du diamètre de la buse.

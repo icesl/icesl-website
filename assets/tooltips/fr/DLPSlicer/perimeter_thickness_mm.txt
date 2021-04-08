@@ -1,0 +1,2 @@
+Épaisseur de périmètre (mm)
+Épaisseur des parois extérieures en millimètres.

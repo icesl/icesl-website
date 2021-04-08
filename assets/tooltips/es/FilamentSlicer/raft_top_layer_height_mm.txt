@@ -1,1 +1,1 @@
-Layer height for the raft interface (mm)
+Grosor de las capas de interfaz de la base (mm)

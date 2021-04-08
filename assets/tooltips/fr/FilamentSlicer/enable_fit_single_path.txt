@@ -1,3 +1,4 @@
-Enable single path fill
-Allows the slicer to fill thin gaps using a single
-deposition path (varying width) instead of a zigzag.
+Remplissage avec un chemin unique
+Autorise le trancheur à remplir les espaces fins
+avec un seul chemin (épaisseur variable), à la 
+place du motif de zigzag.

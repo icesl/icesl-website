@@ -1,0 +1,2 @@
+Slice for DLP
+Produces instructions for resin 3D printers

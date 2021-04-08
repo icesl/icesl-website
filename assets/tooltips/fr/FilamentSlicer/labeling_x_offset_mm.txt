@@ -1,1 +1,2 @@
-Infiller image X offset (mm)
+Décalage en X du remplissage
+Décalage du remplissage basé sur image en l'axe X

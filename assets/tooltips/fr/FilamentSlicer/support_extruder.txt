@@ -1,3 +1,3 @@
-Extruder used for printing supports
-Specify the id of the extruder to be used for 
-printing supports (if generated).
+Extrudeur pour imprimer les supports
+Spécifie quel extrudeur utiliser pour les supports
+(s'ils sont générés).

@@ -1,3 +1,3 @@
-Post-processing algorithm
-Post-processing applied to all sliced layers after
-slicing and just before exporting to machine code.
+Algorithme de post-traitement
+Post-traitement appliqué à toutes les couches après
+tranchage et juste avant le sauvegarde vers un fichier.

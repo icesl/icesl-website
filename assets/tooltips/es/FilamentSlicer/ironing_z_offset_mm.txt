@@ -1,3 +1,4 @@
-Ironing Z offset (mm)
-Zero offset results in ironing at exact level of the surface.
-Note: negative offset results in "scratching" the surface.
+Compensación en el eje Z del suavizado
+Una compensación de cero resulta en un suavizado al mismo
+nivel de la superficie.
+Nota: compensación negativa resulta en el "rayado" de la superficie.

@@ -1,3 +1,2 @@
-Nozzle diameter (mm)
-Diameter of the exit hole of the nozzle installed 
-on the printer.
+Diamètre de la buse (mm)
+Diamètre de sortie de la buse installée sur l'imprimante.
