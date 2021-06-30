@@ -113,7 +113,7 @@ Older versions are available from our archives:
 [install-error]:        ../assets/img/install-error.png
 
 [icesl-win64-beta]:     https://gforge.inria.fr/frs/download.php/file/38144/IceSL_beta.exe
-[icesl-linux64-beta]:   https://gforge.inria.fr/frs/download.php/file/38434/icesl-2.4.0-beta3-amd64.zip
+[icesl-linux64-beta]:   https://gforge.inria.fr/frs/download.php/file/38445/icesl-2.4.0-beta4-amd64.zip
 
 [icesl-win64-stable]:   https://gforge.inria.fr/frs/download.php/file/38252/IceSL_win64.exe
 [icesl-win32-stable]:   https://gforge.inria.fr/frs/download.php/file/38253/IceSL_win32.exe
