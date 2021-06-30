@@ -1,4 +1,16 @@
 ---------------------------------
+IceSL version 2.4.0-beta4 2021-06-30
+---------------------------------
+- significant performance optimization to g-code previewer
+- fixed bug in material mixing where an extruder might be set incorrectly
+- priming and retraction speed separated into their own printing parameters
+- updated printing speed limit in IceSL for newer 3d printers
+- fixed bug where g-code previewer would render incorrectly when slicing after being in transparency view on CSG
+- fixed bug when setting density to 0 in progressive infiller
+- fixed bug in the phasor infiller where in a small number of cases some incorrect singularities would appear in the infill structure
+- added the following printer profiles: Wasp 2040, Artillery SW X1, Kingroon P3, Anycubic Mega Zero and Voron V0
+
+---------------------------------
 IceSL version 2.4.0-beta3 2021-04-08
 ---------------------------------
 - added phasor infiller (via https://github.com/ThibaultTricard)
