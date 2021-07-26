@@ -23,6 +23,9 @@ else
   echo Saving webprinter log
   cp -f $server/htdocs/webprinter/log/log.txt _site/webprinter/log/.
 
+  echo Saving counter log
+  cp -f $server/htdocs/assets/other/counter.txt _site/assets/other/.
+
   echo Cleaning old website
   rm -rf $server/htdocs/*
 
@@ -34,6 +37,7 @@ else
   chgrp -R mfx *
   chmod -R g+w *
   chmod a+rw slicecrafter/log/log.txt
+  chmod a+rw assets/other/counter.txt
 
   echo Deployment complete!
 fi

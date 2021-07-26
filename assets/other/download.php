@@ -54,47 +54,33 @@ if ($handle) {
 if ($os == "x64" || $os == "x86") { //windows
 	$dest .= "win/";
 	if ($vers == "beta") {
-		//$dest .= "beta/IceSL_beta.exe";
-		$dest = "https://gforge.inria.fr/frs/download.php/file/38144/IceSL_beta.exe";
+		$win_beta_counter +=1;
+    $dest .= "beta/IceSL_beta.exe";
 	} elseif ($os == "x64") {
+		$x64_counter +=1;
 		$dest .= $os . "/IceSL_win64.exe";
 	} elseif ($os == "x86") {
+		$x86_counter +=1;
 		$dest .= $os . "/IceSL_win32.exe";
 	}
 } elseif ($os == "i386" || $os == "amd64") { // linux
 	$dest .= "linux/";
 	if ($vers == "beta") {
-		$dest .= "beta/icesl-" . $num . "-" . $os . "zip";
-	} else {
-		$dest .= $os . "/icesl-" . $num . "-" . $os . "zip";
+		$linux_beta_counter +=1;
+		$dest .= "beta/IceSL_beta.zip";
+	} elseif ($os == "amd64") {
+		$amd64_counter +=1;
+		$dest .= $os . "/IceSL_amd64.zip";
+	} elseif ($os == "i386") {
+  	$i386_counter +=1;
+		$dest .= $os . "/IceSL_i386.zip";
 	}
+
 }
 
 // redirect to hosted file to start download
 header("Location: " . $dest);
 
-// counters increment
-if ($os == "x64" || $os == "x86") { // windows
-	if ($vers == "beta") {
-		$win_beta_counter +=1;
-	} else {
-		if ($os == "x64") {
-			$x64_counter +=1;
-		} elseif ($os == "x86") {
-			$x86_counter +=1;
-		}
-	}
-} elseif ($os == "i386" || $os == "amd64") { // linux
-		if ($vers == "beta") {
-		$linux_beta_counter +=1;
-	} else {
-		if ($os == "amd64") {
-			$amd64_counter +=1;
-		} elseif ($os == "i386") {
-			$i386_counter +=1;
-		}
-	}
-}
 $win_total_counter = $win_beta_counter + $x64_counter + $x86_counter;
 $linux_total_counter = $linux_beta_counter + $amd64_counter + $i386_counter;
 
