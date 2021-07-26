@@ -1,0 +1,5 @@
+Retract speed (mm/sec)
+Speed used for the extruder retract motions 
+(millimeters per second).
+Decrease if the extruder skips or grinds
+the filament after a retraction.
