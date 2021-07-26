@@ -7,6 +7,7 @@ exclude: false
 categories: download
 ---
 
+{% show_past_versions = false %}
 {% assign beta_available = true %}
 
 {% assign beta_version = site.data.version.beta %}
@@ -96,11 +97,13 @@ ___
 {:.text-justify}
 In order to speed up updates to IceSL, we are officially discontinuing 32 bits installers from minor versions of IceSL. If you _really_ need a 32 bits build of the current version to run IceSL on your computer, we ask you to [contact us][contact].
 
+{% if show_past_versions %}
 #### IceSL older versions
 
 Older versions are available from our archives:
 
 - [Older releases][icesl-releases]
+{% endif %}
 
 [slicecrafter]:         ../slicecrafter/
 [contact]:              ../contact/
