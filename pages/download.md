@@ -107,13 +107,13 @@ Older versions are available from our archives:
 [changelog]:            ../assets/other/changelog.txt
 [install-error]:        ../assets/img/install-error.png
 
-[icesl-win64-beta]:     download.php?build={{beta_version}}&version=beta&os=x64
-[icesl-linux64-beta]:   download.php?build={{beta_version}}&version=beta&os=amd64
+[icesl-win64-beta]:     ../assets/other/download.php?build={{beta_version}}&version=beta&os=x64
+[icesl-linux64-beta]:   ../assets/other/download.php?build={{beta_version}}&version=beta&os=amd64
 
-[icesl-win64-stable]:   download.php?build={{stable_version}}&version=stable&os=x64
-[icesl-win32-stable]:   download.php?build={{stable_version}}&version=stable&os=x86
+[icesl-win64-stable]:   ../assets/other/download.php?build={{stable_version}}&version=stable&os=x64
+[icesl-win32-stable]:   ../assets/other/download.php?build={{stable_version}}&version=stable&os=x86
 
 [icesl-releases]:       https://gforge.inria.fr/frs/?group_id=4731
 
-[icesl-linux64-stable]: download.php?build={{stable_version}}&version=stable&os=amd64
-[icesl-linux32-stable]: download.php?build={{stable_version}}&version=stable&os=i386
+[icesl-linux64-stable]: ../assets/other/download.php?build={{stable_version}}&version=stable&os=amd64
+[icesl-linux32-stable]: ../assets/other/download.php?build={{stable_version}}&version=stable&os=i386
