@@ -9,14 +9,9 @@ categories: download
 
 {% assign beta_available = true %}
 
-{% assign win64beta = "2.4.0-beta3" %}
-{% assign linux64beta = "2.4.0-beta3" %}
+{% assign beta_version = site.data.version.beta %}
+{% assign stable_version = site.data.version.stable %}
 
-{% assign win64stable = "2.3.5" %}
-{% assign win32stable = "2.3.5" %}
-
-{% assign linux64stable = "2.3.5" %}
-{% assign linux32stable = "2.3.5" %}
 
 IceSL is available for both Windows and Linux Systems.
 If you want to experiment with the latest features, give the beta release a try !
@@ -28,11 +23,11 @@ See the [changelog][changelog] for more details on what's new.
 The packages bellow contain both IceSL-forge and IceSL-slicer for Windows:
 
 {% if beta_available %}
-[IceSL {{win64beta}} Windows 64 bits][icesl-win64-beta]{:.button.big}{:.button-big}
+[IceSL {{beta_version}} Windows 64 bits][icesl-win64-beta]{:.button.big}{:.button-big}
 
-[IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.big}{:.button-half} [IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.big}{:.button-half}
+[IceSL {{stable_version}} Windows 64 bits][icesl-win64-stable]{:.button.big}{:.button-half} [IceSL {{stable_version}} Windows 32 bits][icesl-win32-stable]{:.button.big}{:.button-half}
 {% else %}
-[IceSL {{win64stable}} Windows 64 bits][icesl-win64-stable]{:.button.fit}{:.button.big} [IceSL {{win32stable}} Windows 32 bits][icesl-win32-stable]{:.button.fit}{:.button.small}
+[IceSL {{stable_version}} Windows 64 bits][icesl-win64-stable]{:.button.fit}{:.button.big} [IceSL {{stable_version}} Windows 32 bits][icesl-win32-stable]{:.button.fit}{:.button.small}
 {% endif %}
 
 ___
@@ -42,11 +37,11 @@ ___
 The packages below contain IceSL-slicer for Linux:
 
 {% if beta_available %}
-[IceSL {{linux64beta}} Linux 64 bits][icesl-linux64-beta]{:.button.big}{:.button-big}
+[IceSL {{beta_version}} Linux 64 bits][icesl-linux64-beta]{:.button.big}{:.button-big}
 
-[IceSL {{linux64stable}} Linux 64 bits][icesl-linux64-stable]{:.button.big}{:.button-half} [IceSL {{linux32stable}} Linux 32 bits][icesl-linux32-stable]{:.button.big}{:.button-half}
+[IceSL {{stable_version}} Linux 64 bits][icesl-linux64-stable]{:.button.big}{:.button-half} [IceSL {{stable_version}} Linux 32 bits][icesl-linux32-stable]{:.button.big}{:.button-half}
 {% else %}
-[IceSL {{linux64stable}} Linux 64 bits][icesl-linux64-stable]{:.button.fit}{:.button.big} [IceSL {{linux32stable}} Linux 32 bits][icesl-linux32-stable]{:.button.fit}{:.button.small}
+[IceSL {{stable_version}} Linux 64 bits][icesl-linux64-stable]{:.button.fit}{:.button.big} [IceSL {{stable_version}} Linux 32 bits][icesl-linux32-stable]{:.button.fit}{:.button.small}
 {% endif %}
 
 ____
