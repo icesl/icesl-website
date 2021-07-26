@@ -1,0 +1,5 @@
+Velocidad de retractación (mm/sec)
+Velocidad usada para retractar filamento en el
+extrusor (milímetros por segundo). Disminuya este
+valor si el extrusor salta u oprime filamento
+después de la retracación.
