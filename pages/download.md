@@ -7,7 +7,7 @@ exclude: false
 categories: download
 ---
 
-{% show_past_versions = false %}
+{% assign show_past_versions = false %}
 {% assign beta_available = true %}
 
 {% assign beta_version = site.data.version.beta %}
