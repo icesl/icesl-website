@@ -6,7 +6,7 @@ $vers = $_GET["version"];
 $os = $_GET["os"];
 
 // installers host
-$dest = "https://shapeforge.loria.fr/icesl/packages/";
+$dest = "http://shapeforge.loria.fr/icesl/packages/";
 
 // counter file
 $counter = "counter.txt";
