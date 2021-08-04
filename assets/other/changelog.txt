@@ -1,4 +1,9 @@
 ---------------------------------
+IceSL version 2.4.0 2021-08-04
+---------------------------------
+- separated perimeter and cover printing speed as individual parameters
+
+---------------------------------
 IceSL version 2.4.0-beta4 2021-06-30
 ---------------------------------
 - significant performance optimization to g-code previewer
