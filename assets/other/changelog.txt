@@ -1,4 +1,9 @@
 ---------------------------------
+IceSL version 2.4.1 2021-09-08
+---------------------------------
+- fixed misplaced assert that prevented slicing multi-extruder prints
+
+---------------------------------
 IceSL version 2.4.0 2021-08-04
 ---------------------------------
 - separated perimeter and cover printing speed as individual parameters

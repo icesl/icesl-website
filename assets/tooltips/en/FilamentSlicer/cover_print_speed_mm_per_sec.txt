@@ -1,0 +1,6 @@
+Print speed on covers (mm/sec)
+Printing speed (millimeters per second) for the 
+covers. As the covers are the second most visible
+part of a print, this typically uses the same 
+speed as the perimeters to help closing the part
+properly and for a smoother surface finish. 

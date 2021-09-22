@@ -1,0 +1,6 @@
+Velocidad de las cubiertas (mm/sec)
+Velocidad de impresión (milímetros por segundo) para
+las cubiertas. Debido a que las cubiertas son una de
+las partes más visibles de una impresión, esta velocidad
+es generalmente ajustada a un valor bajo para producir
+una superficie más lisa.

@@ -1,0 +1,7 @@
+Vitesse pour les planchers (mm/sec)
+Vitesse d'impression (millimètres par seconde) 
+pour les planchers. Les planchers étant la seconde 
+partie visible de l'objet, leur vitesse est 
+habituellement similaire à celle des périmètres,
+cela permet de fermer correctement la pièce et 
+une déposition plus uniforme

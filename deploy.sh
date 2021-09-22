@@ -37,6 +37,7 @@ else
   chgrp -R mfx *
   chmod -R g+w *
   chmod a+rw slicecrafter/log/log.txt
+  chmod a+rw webprinter/log/log.txt
   chmod a+rw assets/other/counter.txt
 
   echo Deployment complete!
