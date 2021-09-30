@@ -79,7 +79,14 @@ if ($os == "x64" || $os == "x86") { //windows
 }
 
 // redirect to hosted file to start download
-header("Location: " . $dest);
+header('Content-Description: File Transfer');
+header('Content-Type: application/octet-stream');
+header('Content-Disposition: attachment; filename=' . basename($dest));
+header('Content-Transfer-Encoding: binary');
+header('Expires: 5');
+header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
+header('Pragma: public');
+header('Content-Length: ' . filesize($dest));
 
 $win_total_counter = $win_beta_counter + $x64_counter + $x86_counter;
 $linux_total_counter = $linux_beta_counter + $amd64_counter + $i386_counter;
