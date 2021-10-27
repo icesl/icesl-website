@@ -1,0 +1,5 @@
+Nombre de contours
+Indique le nombre de contours à modéliser lors du
+contourage. La valeur spéciale zéro indique le
+souhait de modéliser autant de contours que
+nécessaire pour remplir la tranche.

@@ -8,7 +8,7 @@ image: /assets/img/brushes.jpg
 summary: Brushes allow different strategies in different parts of a model
 ---
 
-Brushes allow to use different strategies in different parts of a model. Each brush is configured idependently, including the extruder used, the number of shells, infill density, print speed, plastic flow, etc.
+Brushes allow to use different strategies in different parts of a model. Each brush is configured independently, including the extruder used, the number of shells, infill density, print speed, plastic flow, etc.
 
 [![][brushes]{:.img-small.smaller}][brushes]
 

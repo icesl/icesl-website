@@ -22,4 +22,4 @@ Publication:
 
 [bird-model]:       https://www.thingiverse.com/thing:27051
 [color-mix]:         ../../../assets/img/color-mix.jpg
-[colormix-paper]:   javascript:void(0);
+[colormix-paper]:   https://hal.inria.fr/hal-01660621

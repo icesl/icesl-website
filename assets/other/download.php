@@ -6,7 +6,7 @@ $vers = $_GET["version"];
 $os = $_GET["os"];
 
 // installers host
-$dest = "http://shapeforge.loria.fr/icesl/packages/";
+$dest = "../packages/";
 
 // counter file
 $counter = "counter.txt";
@@ -78,6 +78,9 @@ if ($os == "x64" || $os == "x86") { //windows
 
 }
 
+// The following chunk of code is commented out until we can host installers on shapeforge (http)
+// and request them from icesl (https). Some browsers take issue with this change of domain security
+/*
 // redirect to hosted file to start download
 header('Content-Description: File Transfer');
 header('Content-Type: application/octet-stream');
@@ -87,6 +90,10 @@ header('Expires: 5');
 header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
 header('Pragma: public');
 header('Content-Length: ' . filesize($dest));
+*/
+
+// The following line works when the installers are hosted in the same website as the webpage (i.e., icesl.loria.fr)
+header('Location: ' . $dest);
 
 $win_total_counter = $win_beta_counter + $x64_counter + $x86_counter;
 $linux_total_counter = $linux_beta_counter + $amd64_counter + $i386_counter;

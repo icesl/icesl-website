@@ -1,0 +1,3 @@
+Minimal perimeter width (mm)
+Specifies the minimal bead width in millimeters used
+during contouring.

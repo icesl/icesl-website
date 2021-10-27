@@ -1,0 +1,3 @@
+Ancho máximo de perímetros (mm)
+Especifica el ancho máximo de perímetros en milímetros
+durante el contorno.

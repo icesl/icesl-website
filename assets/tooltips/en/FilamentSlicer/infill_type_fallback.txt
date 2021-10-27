@@ -1,0 +1,3 @@
+Infill type fallback
+Type of infill to use for non-filled spaces an infill
+plugin might return to IceSL.

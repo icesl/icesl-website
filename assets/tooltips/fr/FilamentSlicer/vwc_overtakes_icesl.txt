@@ -1,0 +1,6 @@
+Modéliser le périmètre et les shells
+Le plugin prend en charge la modélisation du
+périmètre et des shells à la place de IceSL. Le
+nombre de shell est le nombre spécifié de contours
+moins 1. Attention : l'épaisseur des 'covers' est
+mise à zéro.

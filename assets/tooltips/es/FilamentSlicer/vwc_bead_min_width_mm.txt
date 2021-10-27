@@ -1,0 +1,3 @@
+Ancho mínimo de perímetros (mm)
+Especifica el ancho mínimo de perímetros en milímetros
+durante el contorno.

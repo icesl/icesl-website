@@ -1,1 +1,3 @@
 Multiplicateur de flux (shells)
+Augmenter cette valeur permet d'augmenter l'étanchéité
+des pièces en poussant plus de matière sur les shells.

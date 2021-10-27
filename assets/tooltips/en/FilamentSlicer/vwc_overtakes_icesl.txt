@@ -1,0 +1,3 @@
+Produce perimeter and shells
+The VWC plugin overrides IceSL's perimeter and shells
+and produces its own solution.
