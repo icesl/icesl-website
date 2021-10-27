@@ -4,4 +4,4 @@ permet de changer la vitesse d'impression localement,
 en utilisant des brushs différentes sur certaines
 parties de l'objet. Ce multiplicateur ne s'applique
 pas à la tour, le brim ou le bouclier. Pour les rafts,
-la vitesse est diminuée 50%.
+la vitesse est diminuée de 50%.

@@ -1,0 +1,4 @@
+Number of contours
+Specifies the number of perimeters used during
+contouring. Zero means as many as possible leaving
+no unfilled area.

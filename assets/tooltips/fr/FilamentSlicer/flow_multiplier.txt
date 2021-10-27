@@ -6,5 +6,7 @@ fragile (ex: pour des supports en matériau soluble).
 Ce multiplicateur ne s'applique pas à la tour, le
 brim ou le bouclier. Pour le remplissage, le
 multiplicateur peut changer pour s'adapter aux
-espaces étroits. Pour les ponts, le flux est augmenté
-20%.
+espaces étroits. Pour ne pas dépasser la valeur
+maximale d'extrusion, la vitesse est réduite lorsque
+la valeur du flow est supérieure à 1. Pour les ponts,
+le flux est augmenté de 20%.

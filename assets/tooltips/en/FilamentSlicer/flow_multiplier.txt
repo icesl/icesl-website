@@ -5,5 +5,7 @@ or less plastic. Can be used to produce fragile
 parts (e.g. soluble supports). This multiplier does
 not apply to the tower, brim and shield. In the case
 of infill, the multiplier may vary to accommodate for
-lack of space. In bridges, the flow is additionally
-increased 20%.
+lack of space. To avoid exceeding the maximal flow
+rate, printing speed is decreased whenever flow
+multiplier is over 1. In bridges, the flow is
+additionally increased 20%. 

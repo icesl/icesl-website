@@ -8,7 +8,7 @@ categories: download
 ---
 
 {% assign show_past_versions = false %}
-{% assign beta_available = false %}
+{% assign beta_available = true %}
 
 {% assign beta_version = site.data.version.beta %}
 {% assign stable_version = site.data.version.stable %}
@@ -106,7 +106,7 @@ Older versions are available from our archives:
 {% endif %}
 
 [slicecrafter]:         ../slicecrafter/
-[contact]:              ../contact/
+[contact]:              ../about/
 [changelog]:            ../assets/other/changelog.txt
 [install-error]:        ../assets/img/install-error.png
 

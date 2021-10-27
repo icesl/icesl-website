@@ -1,0 +1,3 @@
+Tipo de relleno de respaldo
+Typo de relleno usado en espacios no rellenados que
+un plugin de relleno pueda haber dejado.

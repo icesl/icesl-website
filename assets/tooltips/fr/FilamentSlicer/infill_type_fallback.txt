@@ -1,0 +1,3 @@
+Type de remplissage alternatif
+Type de remplissage à utiliser dans les espaces non
+remplis pour des plugins de remplissage.

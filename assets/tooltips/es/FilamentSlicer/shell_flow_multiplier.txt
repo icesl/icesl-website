@@ -1,1 +1,4 @@
 Multiplicador de flujo (cavidades)
+Incrementar este valor permite aumentar la imperme-
+abilidad de la geometría al depositar más material
+en las cavidades.

@@ -1,0 +1,3 @@
+Largeur maximale des contours (mm)
+Indique la largeur maximale, en millimètres, des
+contours modélisés lors du contourage.

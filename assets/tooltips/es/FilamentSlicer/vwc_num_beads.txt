@@ -1,0 +1,4 @@
+Número de contornos
+Especifica el número de perímetros usados durante
+el contorno. Cero contornos produce el número
+necesario para no dejar areas sin relleno.

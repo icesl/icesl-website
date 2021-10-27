@@ -1,0 +1,3 @@
+Maximal perimeter width (mm)
+Specifies the maximal perimeter width in millimeters
+used during contouring.

@@ -1,0 +1,3 @@
+Producir perímetros y cavidades
+El plugin VWC toma control de los perímetros y
+cavidades de IceSL y produce su propia solución.
