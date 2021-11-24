@@ -1,4 +1,7 @@
 Flow multiplier (shells)
-Increasing this value allows to increase the water-
-tightness of the geometry by depositing more material
-on shells.
+Additional flow multiplier for shells.
+This multiplier is added on top of the global
+flow multiplier.
+Increasing this value allows to increase the
+water-tightness of the geometry by depositing more
+material on shells.

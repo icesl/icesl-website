@@ -1,11 +1,13 @@
-Cambio de velocidad en ancho variable
-Si las trayectorias únicas en rellenos están
-habilitadas, IceSL considera las trayectorias de
-impresión más anchas que el diámetro de la boquilla.
-Dependiendo de la impresora y el material usado, puede
-ser necesario una desaceleración mientras se imprime 
-un diámetro más ancho que la boquilla. Esta opción
-controla la dicha desaceleración. Por ejemplo:
+Cambio de velocidad con respecto al flujo
+Dependiendo de la impresora, si se desea imprimir
+con un ancho más grande que el de la boquilla, 
+puede ser necesario incrementar el multiplicador de
+flujo por encima de 1.
+
+Este exponente controla la disminución de velocidad
+de impresión cuando el multiplicador de flujo está
+por encima de 1:
+
 0.0 => sin desaceleración
 1.0 => desaceleración lineal, mantiene una velocidad de 
        exstrusión constante
@@ -13,4 +15,8 @@ controla la dicha desaceleración. Por ejemplo:
        doble de longitud
 3.0 => óctuple desaceleración mientras se extrude el
        doble de la longitud
+       
+Cuando el multiplicador de flujo está por debajo de
+1, este exponente aumenta la velocidad.
+       
 Se recomienda 3.0 como un valor seguro.

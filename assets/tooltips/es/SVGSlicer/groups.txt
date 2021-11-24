@@ -1,3 +1,5 @@
+Brush
+Brocha
 Settings
 Ajustes
 SVG

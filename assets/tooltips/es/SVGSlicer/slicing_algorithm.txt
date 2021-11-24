@@ -1,0 +1,19 @@
+Algoritmo de seccionado
+Algoritmo usado para seccionar la geometría:
+
+-Auto: decide automáticamente el mejor algoritmo
+para seccionar la geometría visualizada.
+
+-Discrete(Discreto): método robusto, funciona bien 
+con geometría detallada, puede seccionar cualquier 
+cosa (STLs, implicits, voxels), desempeño depende 
+áltamente en las especificacion de la tarjeta de 
+video usada y el grado de discretización XY.
+Método por excelencia para modelos complejos.
+
+-Polygonal: limitado a mallas sin defectos, no
+depende de las especificaciones de la tarjeta de
+video, funciona bien sin importar el grado de dis-
+cretización XY, exigente (en términos computacionales) 
+cuando hay demasiados polígonos (i.e., teselación 
+fina). Método por excelencia para seccionar STLs.

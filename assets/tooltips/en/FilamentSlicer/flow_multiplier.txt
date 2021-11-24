@@ -1,11 +1,18 @@
 Flow multiplier (all)
 Material flow multiplier when printing with this 
-brush. Reduce or increase to artificially push more
-or less plastic. Can be used to produce fragile
-parts (e.g. soluble supports). This multiplier does
-not apply to the tower, brim and shield. In the case
-of infill, the multiplier may vary to accommodate for
-lack of space. To avoid exceeding the maximal flow
-rate, printing speed is decreased whenever flow
-multiplier is over 1. In bridges, the flow is
-additionally increased 20%. 
+brush.
+Reduce or increase to artificially push less
+or more plastic.
+To avoid exceeding the maximal flow rate, 
+printing speed is decreased whenever flow multiplier
+is over 1. 
+In the case of infill, the multiplier may vary to
+accommodate for lack of space.
+For bridges, the flow is additionally increased by 20%. 
+This multiplier does not apply to the following:
+	- tower
+	- brim
+	- shield.
+Please beware that the setting 
+'Speed change exponent w.r.t. flow' also impacts
+printing speed.

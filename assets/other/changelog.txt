@@ -1,17 +1,21 @@
 ---------------------------------
-IceSL version 2.4.2 2021-10-27
+IceSL version 2.4.2 2021-11-23
 ---------------------------------
 - corrected orientation in SVG export script function
+- added slicing algorithm setting to SVG slicer
 - added is_path_outer_perimeter boolean variable to printer profiles. True when the path is an external perimeter on the geometry
 - fixed a tag mismatched when using fit_single_path
-- added tooltip when painting a field with its value at the 3d coordinate pointed by by the mouse cursor
+- added tooltip when painting a field with its value at the 3d coordinate pointed by 
+by the mouse cursor
+- updated and reworded some tooltips
 - slightly raised travel paths in previewer to visually discern them better
 - fixed bug where path endings were not being shown on previewer sometimes
 - fixed bug where 3D coordinate axes will not appear when editing a field
 - fixed bugs in Wings support creation
 - 'set_setting_value' now enforces minimum/maximum value
 - infill percentages over 95% now produce a proper dense infill
-- improved briding of overgang perimeters
+- improved bridging of overhang perimeters
+- improved slicing of narrow paths
 - fixed several issues with single path infills
 - fixed bug that prevented from visualizing tower in the path previewer
 - fixed misstaged shells in path previewer

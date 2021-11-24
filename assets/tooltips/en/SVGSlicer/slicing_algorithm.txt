@@ -1,0 +1,17 @@
+Slicing algorithm
+Algorithm used to slice the geometry:
+
+-Auto: let IceSL decide the best algorithm for
+the given geometry.
+
+-Discrete: robust method, performs well on highly
+detailed shapes, can slice anything (STLs,
+implicits, voxels), performance depends heavily on
+GPU specs and object XY extent. Method of choice
+for complex models.
+
+-Polygonal: limited to meshes with no defects,
+does not depend on GPU specs, performs well
+regardless of object XY extent, demanding on
+high polygon counts. Method of choice when slicing
+a single STL.

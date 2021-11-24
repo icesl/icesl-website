@@ -1,12 +1,15 @@
 Multiplicador de flujo (general)
 Multiplicador del flujo de material mientras se impri-
-me con esta brocha. Aumentar o reducir para forzar
-o reducir la salida plástico. Puede ser usado para
-imprimir partes frágiles (e.g. partes solubles). No
-aplica a la torre, el borde (contorno) o el escudo.
-En rellenos, el multiplicador puede variar para
-acomodarse a espacios estrechos. Para garantizar la
-tasa máxima de extrusión, la velocidad de impresión
-se disminuye cuando el flujo esté por encima de 1.
-En puentes (bridges) el fujo es adicionalmente
-aumentado 20%.
+me con esta brocha.
+Aumentar o reducir para forzar o reducir la salida
+de plástico. Puede ser usado para imprimir partes
+frágiles (e.g. partes solubles). No aplica a la torre,
+el borde (contorno) o el escudo. En rellenos, el
+multiplicador puede variar para acomodarse a espacios
+estrechos. Para garantizar la tasa máxima de extrusión,
+la velocidad de impresión se disminuye cuando el flujo
+esté por encima de 1. En puentes (bridges) el fujo
+es adicionalmente aumentado 20%.
+Tener en cuenta que el parámetro 'Cambio de velocidad
+con respecto al flujo' también impacta la velocidad
+de impresión.

@@ -1,12 +1,18 @@
-Multiplicateur de flux (général)
-Multiplicateur de flux pour cette brush. Ceci permet
-de pousser plus ou moins de plastique, par exemple 
-pour produire un remplissage intentionnellement 
-fragile (ex: pour des supports en matériau soluble).
-Ce multiplicateur ne s'applique pas à la tour, le
-brim ou le bouclier. Pour le remplissage, le
-multiplicateur peut changer pour s'adapter aux
-espaces étroits. Pour ne pas dépasser la valeur
-maximale d'extrusion, la vitesse est réduite lorsque
-la valeur du flow est supérieure à 1. Pour les ponts,
-le flux est augmenté de 20%.
+Multiplicateur de flux
+Multiplicateur de flux pour cette brush.
+Augmenter ou réduire pour extruder artificiellement
+plus ou moins de matière.
+Pour éviter de dépasser la valeur maximale d'extrusion,
+la vitesse d'impression est réduite lorsque le
+multiplicateur de flux est supérieur à 1.
+Pour le remplissage, le multiplicateur peut changer
+pour s'adapter aux espaces étroits.
+Pour les ponts, le flux est augmenté de 20%.
+Ce multiplicateur n'affecte pas les éléments
+suivants:
+	- la tour
+	- le brim
+	- le bouclier
+Attention, le paramètre
+'Multiplicateur de vitesse selon le flux' a également
+un impact sur la viesse d'impression.
