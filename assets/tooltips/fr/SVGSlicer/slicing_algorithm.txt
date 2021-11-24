@@ -1,0 +1,17 @@
+Algorithme de tranchage
+Algorithme utilisé pour le tranchange de la géométrie:
+
+-Auto: Laisse IceSL décider du meilleur algorithme en 
+fonction de la représentation de la géométrie.
+
+-Discrete(Discret): méthode robuste,  fonctionne bien sur des formes 
+très détaillées, peux trancher tout type de représentation (STLs,
+implicites, voxels), les performances dependent grandement
+sur les spécifications du GPU et de l'étendu de l'objet dans
+le plan xy. Méthode de choix pour les objets complexes.
+
+-Polygonal: utilisable uniquement pour les maillages sans défaut,
+ne dépend pas des spécifications du GPU, fonctionne bien indépendamment
+de l'étendu de l'objet dans le plan xy, couteux pour les objets 
+constitués d'un grand nombre de polygone. Méthode de choix pour le tranchage
+d'un unique fichier STL.

@@ -1,3 +1,6 @@
 Multiplicateur de flux (shells)
+Multiplicateur de flux additionnel pour les shells.
+Ce multiplicateur est ajouté au multiplicateur 
+de flux global.
 Augmenter cette valeur permet d'augmenter l'étanchéité
 des pièces en poussant plus de matière sur les shells.

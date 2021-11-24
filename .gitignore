@@ -1,6 +1,16 @@
 _site/
+
 slicecrafter/IceSL-slicer.js
 slicecrafter/IceSL-slicer.wasm
 slicecrafter/files.data
 slicecrafter/files.js
+
+webprinter/files.data
+webprinter/files.js
+webprinter/icesl-vrprinter.js
+webprinter/icesl-vrprinter.wasm
+webprinter/icesl.gcode
+
+Gemfile.lock
+assets/packages/
 

@@ -1,11 +1,16 @@
-Speed change exponent on varying width
-If single path fill is enabled, IceSL will consider 
-printing tracks wider than the nozzle width. Depending 
-on your printer and material, it may be necessary to 
-slow down when printing larger than the nozzle. 
-This exponent controls the slow down. For instance:
+Speed change exponent w.r.t. flow
+When the flow multiplier is higher than 1, IceSL
+will consider printing tracks wider than the nozzle
+width. 
+Depending on your printer and material, it may be
+necessary to increase the flow multiplier when
+printing larger than the nozzle.
+This exponent controls the slow down.
+For instance, when increasing the flow multiplier:
 0.0 => no slow down
 1.0 => linear, maintains constant extrusion speed
 2.0 => four times slower if extruding twice the width
 3.0 => eight times slower if extruding twice the width
+When decreasing the flow multiplier, this exponent 
+increases the speed instead.
 We recommend 3.0 as a safe value.

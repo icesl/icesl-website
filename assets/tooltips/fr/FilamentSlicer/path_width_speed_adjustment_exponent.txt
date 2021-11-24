@@ -1,17 +1,16 @@
-Multiplicateur de vitesse pour les chemins uniques
-Exposant de changement de vitesse pour les 
-changements d'épaisseur.
-
-Si le remplissage avec un seul chemin est actif, 
-IceSL pourra génerer un chemin plus large que le 
-diamètre de sortie de la buse. En fonction du 
-matériau, il peut être nécessaire de ralentir
-la vitesse d'impression.
-
-Cet exposant contrôle le ralentissement. Par exemple:
+Multiplicateur de vitesse selon le flux
+Lorsque le multiplicateur de flux est supérieur à 1,
+IceSL va essayer de générer un chemin plus large
+que le diamètre de la buse.
+En fonction du matériau et da la machine, il peut
+être nécessaire d'augmenter le multiplicateur de flux
+afin de déposer une ligne plus large que la buse.
+Cet exposant contrôle le ralentissement.
+Par exemple, lors de l'augmentation du multiplicateur de flux:
 0.0 => pas de ralentissement
 1.0 => linéaire, vitesse d'extrusion constante
 2.0 => quatre fois plus lent pour deux fois la largeur
 3.0 => huit fois plus lent pour deux fois la largeur
-
-Nous recommendons 3.0 comme valeur fiable.
+Lorsque le multiplicateur de flux diminue, cet exposant
+va augmenter la vitesse d'impression.
+Nous recommendons 3.0 comme valeur par défaut.

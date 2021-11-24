@@ -1,7 +1,12 @@
 Multiplicateur de vitesse
-Multiplicateur de vitesse pour cette brush. Ceci 
-permet de changer la vitesse d'impression localement,
+Multiplicateur de vitesse pour cette brush.
+Permet de changer la vitesse d'impression localement,
 en utilisant des brushs différentes sur certaines
-parties de l'objet. Ce multiplicateur ne s'applique
-pas à la tour, le brim ou le bouclier. Pour les rafts,
-la vitesse est diminuée de 50%.
+parties de l'objet.
+Ce multiplicateur n'affecte pas les éléments
+suivants:
+	- la tour
+	- le brim
+	- le bouclier
+Pour la pièce couche des rafts, la vitesse est
+diminuée de 50% supplémentaires.
