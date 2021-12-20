@@ -1,4 +1,21 @@
 ---------------------------------
+IceSL version 2.4.3 2021-12-20
+---------------------------------
+- fixed issue in spiralization that introduced gaps
+- fixed brush support for polygonal slicer
+- information on dimentions now with two decimals
+- default infill percentage is 20% unless it's specifically set on the printe profile
+- added warning when print exceeds the z dimension of the printing volume
+- better positioning of tweak windows
+- added comparison of vectors and matrixes on lua scripts
+- added identity matrix to lua scripts (keyword 'Id')
+- added christmas tree to icesl-models repo
+Forge:
+	* fixed ctrl+right_click functionality for settings that are selection
+Slicer:
+	* added effect 'snap to bed'. This effect allows to choose a surface point on the print where it will be snaped to the bed surface. It's useful when models aren't properly aligned to be 3d printed.
+
+---------------------------------
 IceSL version 2.4.2 2021-11-23
 ---------------------------------
 - corrected orientation in SVG export script function
