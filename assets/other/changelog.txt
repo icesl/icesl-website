@@ -1,4 +1,11 @@
 ---------------------------------
+IceSL version 2.4.4 2022-02-15
+---------------------------------
+- fixed bug with cylinder and cone creation where base radius was smalled than specified
+- fixed wrong count of progress steps when exporting to mesh and using methods mesh ribbons and mesh slices
+- corrected min value for of processing tile size in SVG slicer that was inconsistent with its tooltip
+
+---------------------------------
 IceSL version 2.4.3 2021-12-20
 ---------------------------------
 - fixed issue in spiralization that introduced gaps
