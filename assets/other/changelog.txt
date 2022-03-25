@@ -1,4 +1,12 @@
 ---------------------------------
+IceSL version 2.5.0-beta1 2022-03-25
+---------------------------------
+- added a UI compass to paint fields specifying angles more easily
+- user can now hide a specific type of path in the previewer by cliking on its legend color box
+- created a separate path color fill for tiny gaps in the previewer 
+- splitted z-lift up and down speed movements in the printing settings
+
+---------------------------------
 IceSL version 2.4.4 2022-02-15
 ---------------------------------
 - fixed bug with cylinder and cone creation where base radius was smalled than specified
