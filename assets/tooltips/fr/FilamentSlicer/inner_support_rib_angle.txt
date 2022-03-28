@@ -1,0 +1,3 @@
+Angle maximum de la structure (degrés)
+Angle maximum des murs internes créés par la méthode
+'Ribs' pour les supports intérieurs.

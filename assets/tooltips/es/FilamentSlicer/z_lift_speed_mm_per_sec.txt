@@ -1,0 +1,3 @@
+Velocidad de la elevación Z (mm/seg)
+Velocidad en mm/seg de la elevación vertical. 
+Útil para evitar colisiones.

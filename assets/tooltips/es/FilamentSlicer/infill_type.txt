@@ -5,19 +5,28 @@ posible agregar rellenos personalizados escribiendo
 su especificación (leer por favor el archivo
 'README.md' en la carpeta 'icesl-infillers'):
 
--Default(Por defecto): Relleno tetraédricos (óptimos para
-la mayoría de situaciones).
+-Automatic(Automático): Valor aconsejado por la ma-
+yoría de los casos. Dependiendo de los parámetros de
+relleno, se adapta de la mejor manera automáticamente.
 
--Progressive(Progresivo): Cambios al porcentaje de
-relleno produce una variación suavizada en el resultado.
+-Progressive(Progresivo): Cambios en el porcentaje
+de relleno producen variaciones suavizadas. Es reco-
+menando de suavizar la edición por brocha cuando
+se usa.
 
--Cubic(Cúbico): Rellenos cúbicos sin variación
-suavizada en el porcentaje de relleno.
+-Cubic(Cúbico): Cambios en el porcentaje de relleno
+producen variaciones súbitas.
 
 -Polyfoam(Esponja): Relleno con estructura esponjosa.
-Ver las opciones más abajo para tener más control del
-resultado.
+Se recomienda usar con materiales flexibles. Ver las
+opciones más abajo para tener más control del resultado.
 
--Phasor: Relleno procedural basado en ruido 'phasor';
-estructura áltamente deformable. Ver las opciones
-más abajo para tener más control del resultado.
+-Phasor: Relleno procesal basado en ruido 'phasor';
+recomendado para estructuras áltamente deformables.
+Ver las opciones más abajo para tener más control
+del resultado.
+
+-Variable-width contouring: Deposición variable para
+maximizar la precisión de la forma a imprimir. Un 
+relleno como "plan B" puede ser escogido en caso de
+que las cubiertas no rellenen toda la geometría.

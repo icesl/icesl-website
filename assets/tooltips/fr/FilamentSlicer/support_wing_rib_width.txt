@@ -1,3 +1,5 @@
 Épaisseur du renfort des ailes de support (mm)
 Épaisseur en millimètres des renforts des 
-ailes de la structure de support.
+ailes de la structure de support.Il est recommendé
+d'augmenter cette valeur pour des grandes pièces
+(e.g., 5mm pour une pieces de plus de 30cm de hauteur).

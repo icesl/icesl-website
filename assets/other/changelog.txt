@@ -1,4 +1,14 @@
 ---------------------------------
+IceSL version 2.5.0-beta1 2022-03-28
+---------------------------------
+- fixed crash when saving G-code
+- fixed 'x' button for clearing per-field/field edits when using more than one brush
+- set wings supports' rib width default value to 3mm
+- reworked color pallets in some parameters for their per-layer/field editing tool
+Slicer:
+- increased the scaling control maximum value to 100
+
+---------------------------------
 IceSL version 2.5.0-beta1 2022-03-25
 ---------------------------------
 - added a UI compass to paint fields specifying angles more easily

@@ -1,0 +1,3 @@
+Max angle of rib supports (degrees)
+Maximum angle of the inner walls created by the
+ribs algorithm for inner supports.

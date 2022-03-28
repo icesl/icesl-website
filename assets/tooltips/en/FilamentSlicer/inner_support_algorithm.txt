@@ -1,0 +1,4 @@
+Inner support algorithm
+Algorithm used in the creation of inner supports:
+
+- Ribs: Ribbed walls from top to lateral walls.

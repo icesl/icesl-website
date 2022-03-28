@@ -1,0 +1,2 @@
+Z-lift speed (mm/sec)
+Speed in mm/sec of the up-down move of the Z-lift
