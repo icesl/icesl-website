@@ -1,3 +1,5 @@
 Width of wing rib reinforcement
 Width in millimeters of the reinforcement ribs of
-each wing in the supports structure.
+each wing in the supports structure. It is recommended
+to increase this value for tall pieces (e.g., 5mm 
+for pieces of >30cm high).

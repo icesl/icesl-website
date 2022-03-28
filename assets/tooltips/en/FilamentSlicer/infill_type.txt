@@ -5,18 +5,27 @@ to add a custom infill by writing its specifi-
 cation (see 'README.md' file in 'icesl-infillers'
 folder):
 
--Default: Tetrahedral infills (best for the
-majority of situations).
+-Automatic: Advised for the majority of situations.
+Depending on the infill parameters, it adapts in the
+best way possible that is automatic.
 
--Progressive: Changes to infill percentage
-produce smooth variations on the output.
+-Progressive: Adapts changes to infill percentage to
+produce smooth variations on the output. If painting
+the infill percentage, it is recommended to blur out
+the field.
 
--Cubic: Cubic infills with no smoothing
-of infill percentage variations.
+-Cubic: Infill percentage variations produce no
+smoothing between different values.
 
--Polyfoam: Sponge-like structure infill. See other
-settings below for more control of the output.
-
--Phasor: Procedural phasor noise infill; highly
-deformable structure. See other settings below
+-Polyfoam: Sponge-like structure infill. Best used
+with flexible materials. See other settings below
 for more control of the output.
+
+-Phasor: Procedural phasor noise infill for producing
+highly deformable structure. See other settings below
+for more control of the output.
+
+-Variable-width contouring: Variable width deposition
+for maximizing the shape precision. A fallback infill
+can be used if the contours do not cover the fill
+geometry.

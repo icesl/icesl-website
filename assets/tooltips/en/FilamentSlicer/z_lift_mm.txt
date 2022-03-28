@@ -1,2 +1,2 @@
 Z-lift height (mm)
-Height in millimeters for the upward move.
+Height in millimeters of the Z move during travel.

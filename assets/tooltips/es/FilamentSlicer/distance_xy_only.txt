@@ -1,0 +1,3 @@
+Distancia en plano XY
+Calcular la distancia unicamente a traves del plano
+XY.

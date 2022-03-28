@@ -1,0 +1,3 @@
+Supports intérieurs
+Generer une structure de support à l'intérieur de
+la géométrie.

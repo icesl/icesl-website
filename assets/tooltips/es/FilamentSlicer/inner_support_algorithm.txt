@@ -1,0 +1,6 @@
+Algoritmo de soporte interno
+Agoritmo usado para la creación de los soportes
+internos:
+
+- Ribs: Paredes internas del tope a los límites
+  laterales.

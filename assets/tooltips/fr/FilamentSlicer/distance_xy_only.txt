@@ -1,0 +1,2 @@
+Distance en plan XY
+Calculer la distance uniquement à travers du plan XY.

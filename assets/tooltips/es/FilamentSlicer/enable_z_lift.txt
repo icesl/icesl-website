@@ -1,3 +1,4 @@
-Habilitar movimiento en el eje Z durante desplazamiento
-Permite movimiento vertical mientras se hace un desplazamiento
-del extrusor para evitar colisiones con la pieza impresa.
+Habilitar elevación Z
+Habilitar la elevación vertical durante el movimiento 
+sin deposición. 
+Útil para evitar colisiones.

@@ -1,0 +1,5 @@
+Algorithme de support intérieur
+Algorithme utilisé pour la creation des supports
+antérieurs:
+
+- Ribs: Murs internes de dessus à limites laterales

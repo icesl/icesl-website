@@ -1,0 +1,1 @@
+Compute distance outside as well

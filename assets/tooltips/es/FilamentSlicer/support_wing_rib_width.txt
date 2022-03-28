@@ -1,3 +1,5 @@
 Ancho del refuerzo de pilares
 Ancho en milímetros de los refuerzos para los
-pilares de la estructura de soporte.
+pilares de la estructura de soporte. Es recomendado
+aumentar este valor en piezas altas (e.g., 5mm para
+impresiones de más de 30cm).

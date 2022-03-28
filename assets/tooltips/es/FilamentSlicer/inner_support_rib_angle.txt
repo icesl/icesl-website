@@ -1,0 +1,3 @@
+Ángulo máximo de estructura (deegres)
+Ángulo máximo de las paredes interiores creadas
+por el método 'Ribs' para soportes internos.

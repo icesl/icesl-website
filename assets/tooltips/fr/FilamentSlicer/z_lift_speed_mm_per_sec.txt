@@ -1,0 +1,3 @@
+Vitesse du Z-lift (mm/sec)
+Vitesse en mm/sec des déplacements vers le haut/bas
+lors d'un Z-lift
