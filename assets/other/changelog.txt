@@ -1,5 +1,5 @@
 ---------------------------------
-IceSL version 2.4.4 2022-09-29
+IceSL version 2.5.0 2022-09-29
 ---------------------------------
 - added slicing capabilities for resin printers (called DLPSlicer)
 	* support for photon format (cbddlp), png output, wow and b9j format
