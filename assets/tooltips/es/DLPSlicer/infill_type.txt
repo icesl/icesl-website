@@ -5,8 +5,8 @@ posible agregar rellenos personalizados escribiendo
 su especificación (leer por favor el archivo
 'README.md' en la carpeta 'icesl-infillers'):
 
--Default(Por defecto): Relleno tetraédricos (óptimos para
-la mayoría de situaciones).
+-Automatic(Automático): Relleno tetraédricos (óptimos
+para la mayoría de situaciones).
 
 -Progressive(Progresivo): Cambios al porcentaje de
 relleno produce una variación suavizada en el resultado.

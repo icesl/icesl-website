@@ -1,0 +1,3 @@
+Taille du plateau z (mm)
+Taille (millimètres) du lit d'impression, de bas
+en haut.

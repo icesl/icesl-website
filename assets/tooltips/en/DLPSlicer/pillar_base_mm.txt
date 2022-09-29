@@ -1,0 +1,3 @@
+Pillar base (mm)
+Thickness in millimeters of pillar bases in
+support structure.

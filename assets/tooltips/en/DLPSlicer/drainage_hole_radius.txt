@@ -1,0 +1,2 @@
+Drainage hole radius (mm)
+Resin drainage hole radius in millimeters.

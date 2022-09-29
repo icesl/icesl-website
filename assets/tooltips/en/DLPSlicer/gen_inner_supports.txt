@@ -1,0 +1,3 @@
+Inner supports
+Extend the support structure to hold the inner
+space.

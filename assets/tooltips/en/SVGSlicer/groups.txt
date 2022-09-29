@@ -1,6 +1,0 @@
-Brush
-Brush
-Settings
-Settings
-SVG
-SVG

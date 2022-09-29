@@ -1,4 +1,49 @@
 ---------------------------------
+IceSL version 2.4.4 2022-09-29
+---------------------------------
+- added slicing capabilities for resin printers (called DLPSlicer)
+	* support for photon format (cbddlp), png output, wow and b9j format
+	* able to process CSG scripts and stl models
+	* includes support structure generation (method from https://hal.inria.fr/hal-03700018)
+	* ability to lift the print, add drainage holes and generate a raft
+- cutting plane is now a global UI element (in Bed positioning and Inspection section on the settings panel)
+- added plugin system documentation link to Help section
+- fixed discontinuity bug for dense cunston shader infills
+- refactored internal settings with *per_pixels names to *per_pixel for semantic consistency
+Forge:
+	* added netrual transformation functions when drag and dropping stl models
+	* force script udpate when drag and dropping assets even when auto refresh is disabled
+Plugins:
+	* Post-Processing plugins: added boolean parameter to allow the user to know/set when a layer is spiralized
+	* Post-Processing plugins: added boolean flag to indicate when a layer is divided into different parts based on the extruder it’s using
+	* Machine-code plugins: IceSL now informs when plugin reports and error
+* Machine-code plugins: fixed bug where IceSL would not correctly deduce the output format when raising a save file dialog
+Slicecrafter:
+	* added slicing capabilities for resin printers
+
+---------------------------------
+IceSL version 2.5.0-beta4 2022-06-21
+--------------------------------
+- fixed flow problem in the variable-width contouring plugin
+- fixed a bug in the polygonal slicer that crashes IceSL in certain CSG constructs
+- fixed incorrect width of deposition paths in the previewer when the nozzle diameter was too big
+Forge:
+	* fixed ctrl+right_click on UI parameters for boolean settings
+
+---------------------------------
+IceSL version 2.5.0-beta3 2022-05-06
+--------------------------------
+- official release of the IceSL plugin system:
+	https://gitlab.inria.fr/mfx/icesl-documentation/-/wikis/Plugin-system
+- introduced inner support method 'Ribs'; minimizes the infill deposition in a volume
+- fixed bug of unwanted painting of geometry when interacting with the UI compass window using the left click while the geometry was underneath it
+- reduced the size of the UI compass
+- added retracting/priming on supports
+- fixed tagging of dense infill as gapfill
+- incresed maximum printing speed to 10,000mm/s
+- cleaned printer profiles. Legacy printers are no longer packed with IceSL, but accessible at https://github.com/shapeforge/icesl-printers/tree/legacy/
+
+---------------------------------
 IceSL version 2.5.0-beta1 2022-03-28
 ---------------------------------
 - fixed crash when saving G-code

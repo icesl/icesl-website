@@ -22,6 +22,12 @@ Technical documentation of printer profiles in IceSL and their components
   </article>
 
   <article markdown="1">
+## [Plugins System][plugins-doc]
+[![]({{ '/assets/img/plugins.png' | prepend: site.baseurl }})][plugins-doc]{:.smaller}{:.image}{:.fit}
+IceSL plugin system specification. Includes how to set up a framework and samples with explanation
+  </article>
+
+  <article markdown="1">
 ## [Printing settings][parameters]
 [![]({{ '/assets/img/settings.png' | prepend: site.baseurl }})][parameters]{:.smaller}{:.image}{:.fit}
 Exhaustive list of printing and slicing settings in IceSL
@@ -192,4 +198,5 @@ The following is a video introducing IceSL-slicer as an individual component of 
 [parameters]:   ../parameters/
 [script-doc]:   https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Scripting-language
 [profile-doc]:  https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Printer-profile
+[plugins-doc]:  https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Plugin-system
 [forum]:        https://groups.google.com/forum/#!forum/{{site.google}}

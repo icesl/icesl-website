@@ -1,0 +1,4 @@
+Tiempo de descanso entre capas (s)
+Retrazo de luz apagada. Este retraso es la cantidad
+de tiempo la cual la luz UV se apaga entre el final
+de ciclo de exposición y el comienzo del siguiente.

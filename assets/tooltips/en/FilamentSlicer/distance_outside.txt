@@ -1,1 +1,4 @@
-Compute distance outside as well
+Unnormalized distance
+Distance computation takes into account the outside
+of the volume. This produces a smaller range for
+the density value.

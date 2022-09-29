@@ -1,0 +1,3 @@
+Base des piliers (mm)
+Hauteur en millimètre de la base des piliers de
+la structure de support.

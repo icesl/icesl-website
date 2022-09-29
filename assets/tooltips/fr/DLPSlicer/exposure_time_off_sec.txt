@@ -1,0 +1,4 @@
+Délai d'extinction (s)
+C'est la quantité de temps pendant lequel la lumiére
+UV est éteinte, entre la fin d'un cycle d'exposition
+et le début du prochain.

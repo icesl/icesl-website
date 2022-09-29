@@ -1,0 +1,4 @@
+Diagonal connection length (mm)
+Length of penetration in millimeters from the
+top tip of a diagonal anchor to the geometry
+to be supported.

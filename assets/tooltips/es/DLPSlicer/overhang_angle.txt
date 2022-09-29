@@ -1,0 +1,3 @@
+Ángulo a soportar
+Ángulo de la pendiente (con respecto al eje +Z)
+considerado como candidato a soportar.

@@ -1,0 +1,3 @@
+Filter radius (mm)
+Sphere radius in millimeters to lower density
+and diminish the number of overhang points.

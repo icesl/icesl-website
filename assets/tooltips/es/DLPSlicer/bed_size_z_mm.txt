@@ -1,0 +1,3 @@
+Tamaño de la plataforma en z (mm)
+Tamaño (en milímetros) de la plataforma de impresión,
+de abajo a arriba.

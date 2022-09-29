@@ -1,8 +1,0 @@
-Brush
-Brush
-Cutter
-Découpeur
-Processing
-Traitement
-Slicing
-Tranchage

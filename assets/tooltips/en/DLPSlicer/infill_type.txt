@@ -5,7 +5,7 @@ to add a custom infill by writing its specifi-
 cation (see 'README.md' file in 'icesl-infillers'
 folder):
 
--Default: Tetrahedral infills (best for the
+-Automatic: Tetrahedral infills (best for the
 majority of situations).
 
 -Progressive: Changes to infill percentage

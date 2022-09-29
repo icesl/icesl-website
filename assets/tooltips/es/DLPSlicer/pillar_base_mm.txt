@@ -1,0 +1,3 @@
+Base de pilares
+Altura en milímetros de la base de pilares
+en la estructura de soporte.

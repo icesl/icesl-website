@@ -1,0 +1,2 @@
+Soportes
+Generar una estructura de soportes.

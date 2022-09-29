@@ -1,0 +1,4 @@
+Output quality of polygonal slicer
+Quality factor of the polygonal slicer output.
+1.0 means the best possible quality w.r.t.
+printer resolution.

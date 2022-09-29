@@ -1,0 +1,4 @@
+Calidad de fileteador poligonal
+Factor de calidad del resultado del filiteador
+poligonal. 1.0 significa la máxima calidad posible
+con respecto a la resolución de la impresora.

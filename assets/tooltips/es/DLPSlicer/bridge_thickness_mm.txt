@@ -1,0 +1,3 @@
+Espesor de puentes de soporte (mm)
+Espesor en milímetros de los puentes de la estructura
+de soporte.

@@ -1,2 +1,0 @@
-First layer exposition time (s)
-Exposition time of th first layer in seconds.

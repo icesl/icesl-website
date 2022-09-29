@@ -1,0 +1,3 @@
+Pillar width (mm)
+Width in millimeters of pillars in support
+structure.

@@ -1,0 +1,5 @@
+Ancho de la base de pilares
+Ancho de la base de pilares en la estructura
+de soporte. Interpretado como un factor
+del ancho de los pilares en la estructura de
+soporte.

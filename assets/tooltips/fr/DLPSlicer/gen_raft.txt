@@ -1,0 +1,3 @@
+Générer une base
+Générer une base en dessous de l'impression pour
+augmenter la stabilité de la structure de support.

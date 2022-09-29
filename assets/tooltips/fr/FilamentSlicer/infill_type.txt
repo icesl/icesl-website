@@ -1,32 +1,31 @@
 Type de remplissage
 Type de remplissage pour un brush donné. 
-IceSL propose quatre options décrites ci-dessous.
+IceSL propose plusieurs options décrites ci-dessous.
 Il est possible d'ajouter un remplissage personnalisé
 en écrivant sa spécification (voir fichier 'README.md'
 dans le dossier 'icesl-infillers'):
 
--Automatic(Automatique): Recommandé pour la majoritée
-des situations. En fonction des paramètres de remplissage
-, cet infill s'adaptera automatiquement de la meilleure
+-Automatic(Automatique): Recommandé pour la majorité
+des situations. En fonction des paramètres de remplissage,
+cet infill s'adaptera automatiquement de la meilleure
 façon possible.
 
 -Progressive(Progressif): En cas de changement du
 pourcentage de remplissage, des variations lisses
 sont produites. Pour un résultat optimal, lorsqu'un
-champ est defini, il est recommandé de l'estomper.
+champ est défini, il est recommandé de l'estomper.
 
 -Cubic(Cubique): Les variations dans le pourcentage
 de remplissage ne produisent pas de changement doux
 entre les différentes valeurs.
 
--Polyfoam:
-Structure contrôlable semblable à une éponge.
+-Polyfoam: Structure contrôlable semblable à une éponge.
 Adaptée aux materiaux flexibles.
 
 -Phasor: Remplissage utilisant un bruit procédural
 de phasor. Adaptée aux materiaux flexibles.
 
 -Variable-width contouring: Déposition à largeur 
-variable pour maximiser la precision des bordures.
+variable pour maximiser la précision des bordures.
 Un autre remplissage peut être utilisé en complément
 si le nombre de contours ne couvre pas toute la surface.

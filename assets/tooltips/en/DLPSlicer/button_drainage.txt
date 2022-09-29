@@ -1,0 +1,3 @@
+Drainage hole
+Select a surface point where to add a resin
+drainage hole.

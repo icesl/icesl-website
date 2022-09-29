@@ -1,0 +1,4 @@
+Radio de filtro de soportes (mm)
+Radio en milímetros del filtro para disminuir
+la densidad y el número de puntos candidatos
+a soportar.

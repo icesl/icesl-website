@@ -1,0 +1,4 @@
+Largeur de la base des piliers
+Largeur de la base de piliers de la structure
+de support. La valeur est exprimée comme un facteur
+de largeur des piliers de la structure de support.

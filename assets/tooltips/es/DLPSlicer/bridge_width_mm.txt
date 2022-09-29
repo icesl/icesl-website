@@ -1,0 +1,3 @@
+Ancho de puentes de soporte (mm)
+Ancho en milímetros de los puentes en la estructura
+de soporte.
