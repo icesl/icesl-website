@@ -1,0 +1,5 @@
+Rétracter sur les supports
+Permet l'utilisation de rétractions entre les
+structures de support.
+Utilise "travel_max_length_without_retract" pour
+définir le meilleur moment pour rétracter.

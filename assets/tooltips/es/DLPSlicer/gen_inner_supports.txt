@@ -1,0 +1,3 @@
+Soportes internos
+Extender la estructura de soporte para sostener
+el espacio interno de la impresión.

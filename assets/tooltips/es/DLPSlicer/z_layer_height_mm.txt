@@ -1,0 +1,5 @@
+Grosor de capa (mm)
+Grosor de capa en milímetros (mm). Este parámetro
+puede ser ajustado para cada capa (o conjuntos de
+capas) permitiendo adaptar flexiblemente el grosor
+de las capas para toda la impresión.

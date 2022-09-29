@@ -1,0 +1,4 @@
+Layer exposure time off (s)
+Light off delay. This is the amount of time that the
+UV light is turned off between the end of one exposure
+cycle and the beginning of the next.

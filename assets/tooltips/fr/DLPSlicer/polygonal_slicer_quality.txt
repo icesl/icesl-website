@@ -1,0 +1,4 @@
+Qualité du trancheur polygonal
+Facteur de qualité du résultat du trancheur polygonal.
+1.0 indique la qualité maximale de la résolution 
+de l'imprimante.

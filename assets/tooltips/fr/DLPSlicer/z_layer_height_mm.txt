@@ -1,0 +1,5 @@
+Épaisseur d'une tranche (mm)
+Épaisseur d'une tranche en millimètres.
+De plus faibles épaisseurs permettent une meilleure 
+reproduction de la géométrie, mais demandent plus 
+de couches et donc plus de temps.

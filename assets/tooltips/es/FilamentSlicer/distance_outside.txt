@@ -1,1 +1,4 @@
-Calcular distancia exterior
+Distancia no normalizada
+El cálculo de la distancia tiene en cuenta el exterior
+de la geometría. Esto produce que la densidad esté
+en un rango de valores más pequeño.

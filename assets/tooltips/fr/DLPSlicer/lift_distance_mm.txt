@@ -1,0 +1,3 @@
+Distance d'élévation (mm)
+Distance en millimètre de l'élévation 
+de l'impression.

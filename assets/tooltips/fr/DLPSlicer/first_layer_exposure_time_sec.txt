@@ -1,2 +1,0 @@
-Temps d'exposition de la 1ere couche (s)
-Temps d'exposition en secondes de la première couche.

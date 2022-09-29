@@ -1,0 +1,6 @@
+Générer remplissage
+Générer le remplissage pour cet brush. Il est possible que 
+le remplissage ne soit pas necessaire pour l'impression résine. 
+Le remplissage peut générer des cavités où la résine
+se trouve emprisonnée. Cette option permet à l'utilisateur 
+d'activer ou non la génération du remplissage.

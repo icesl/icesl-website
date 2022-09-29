@@ -1,0 +1,4 @@
+Largo de conexión diagonal (mm)
+Largo de la penetración en milímetros de la punta
+superior de las anclas diagonals en los puntos de
+soporte de la impresión.

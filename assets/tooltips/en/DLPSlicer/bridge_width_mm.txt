@@ -1,0 +1,3 @@
+Support bridge width (mm)
+Width in millimeters of bridges in the support
+structure.

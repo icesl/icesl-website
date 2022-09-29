@@ -1,0 +1,4 @@
+Longueur de connexion diagonale (mm)
+Longueur de la pénétration en millimètre de l'extrémité
+supérieur des points de contact diagonales sur les points
+de surplomb de l'impression.

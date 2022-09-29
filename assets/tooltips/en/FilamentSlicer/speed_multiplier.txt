@@ -6,6 +6,6 @@ object.
 This multiplier does not apply to the following:
 	- tower
 	- brim
-	- shield.
+	- shield
 For the raft's first layer, the speed is additionally
 decreased by 50%.

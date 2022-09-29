@@ -1,0 +1,4 @@
+Trou de drainage
+Sélectionner un point sur la surface de la
+géométrie pour ajouter un trou d'évacuation
+de la résine.

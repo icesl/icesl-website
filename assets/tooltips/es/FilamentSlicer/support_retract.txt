@@ -1,0 +1,4 @@
+Retractación/Empuje en soportes
+Permitir retractación y empuje entre la estructura
+de soportes. 
+Tiene en cuenta el desplazamiento máximo sin retracción.

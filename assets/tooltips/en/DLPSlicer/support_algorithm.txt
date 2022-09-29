@@ -1,0 +1,6 @@
+Support method
+Choose a method to generate the support
+structure:
+
+-Pillars: Procedural bridges-and-pillars
+support generation (Eurographics 2022).

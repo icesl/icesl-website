@@ -1,0 +1,3 @@
+Radio de filtración (mm)
+Radio en milímetros del hoyo de filtración
+de la resina.

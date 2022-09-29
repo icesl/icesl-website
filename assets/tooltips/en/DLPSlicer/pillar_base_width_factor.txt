@@ -1,0 +1,3 @@
+Pillar base width
+Pillar base width as a factor of half the
+pillar width in support structure.

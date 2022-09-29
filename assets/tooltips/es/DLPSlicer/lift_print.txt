@@ -1,0 +1,3 @@
+Elevar impresión
+Elevar la impresión para permitir a la estructura
+de soporta usar el espacio debajo de ella.

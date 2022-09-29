@@ -1,0 +1,2 @@
+Temps d'exposition de couches inferieures (s)
+Temps d'exposition en secondes de la première couche.

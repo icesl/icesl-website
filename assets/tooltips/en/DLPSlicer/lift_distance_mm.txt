@@ -1,0 +1,2 @@
+Lift distance (mm)
+Distance in millimeters to lift the print.

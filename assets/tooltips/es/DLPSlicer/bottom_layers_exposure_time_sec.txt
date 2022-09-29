@@ -1,0 +1,3 @@
+Tiempo de exposición de capas inferiores (s)
+Tiempo de exposición en segundos de la primera
+capa.

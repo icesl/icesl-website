@@ -1,6 +1,6 @@
 Tipo de relleno
 Tipo de relleno para esta brocha. IceSL viene con
-cuatro opciones de relleno descritas abajo. Es
+algunas opciones de relleno descritas abajo. Es
 posible agregar rellenos personalizados escribiendo
 su especificación (leer por favor el archivo
 'README.md' en la carpeta 'icesl-infillers'):

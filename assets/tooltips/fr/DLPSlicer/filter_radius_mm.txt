@@ -1,0 +1,3 @@
+Rayon de filtre de supports (mm)
+Rayon en millimètre du filtre pour diminuer
+la densité et le nombre de point en surplomb.

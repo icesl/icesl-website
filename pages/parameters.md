@@ -6,7 +6,7 @@ exclude: true
 ---
 
 {% assign include_chinese = false %}
-{% assign include_dlp = false %}
+{% assign include_dlp = true %}
 
 <script>
 function printingParameter(parameterFile, htmlID, parameterName)

@@ -1,0 +1,3 @@
+Overhang angle
+Angle of slope (w.r.t. +Z) considered to be
+overhang and thus in need of support.

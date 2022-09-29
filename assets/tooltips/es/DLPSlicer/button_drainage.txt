@@ -1,0 +1,4 @@
+Hoyo de filtración
+Seleccionar un punto en la superficie de la
+geometría para agregar un hoyo de filtración
+de resina.

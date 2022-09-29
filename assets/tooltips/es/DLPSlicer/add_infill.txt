@@ -1,0 +1,6 @@
+Generar relleno
+Generar relleno para la brocha. Existen casos donde
+la impresión en resina no necesita relleno o bien, los 
+rellenos pueden generar cavidades donde la resina queda
+atrapado. Esta opción permite al usuario activar su
+generación o no.

@@ -1,0 +1,3 @@
+Ancho de pilares (mm)
+Ancho en milímetros de los pilares en la
+estructura de soporte.

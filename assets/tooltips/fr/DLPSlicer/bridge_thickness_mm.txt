@@ -1,0 +1,3 @@
+Épaisseur de ponts des supports (mm)
+Épaisseur en millimètre des ponts de la structure
+de support.

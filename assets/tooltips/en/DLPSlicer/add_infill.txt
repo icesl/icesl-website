@@ -1,0 +1,6 @@
+Add infill
+Generate infill for the current brush. When printing
+in resin, infill structures are sometimes unnecessary, 
+or they might created internal pockets where resin is
+trapped. This option allows the user to choose whether
+to generate them.

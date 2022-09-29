@@ -1,2 +1,0 @@
-Espesor de capas (mm)
-Espesor en milímetros de las capas en el eje Z.

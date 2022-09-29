@@ -1,0 +1,3 @@
+Largeur des ponts de support (mm)
+Largeur en millimètre des ponts de la structure
+de support.

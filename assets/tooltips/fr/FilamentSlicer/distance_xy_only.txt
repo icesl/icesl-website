@@ -1,2 +1,3 @@
-Distance en plan XY
-Calculer la distance uniquement à travers du plan XY.
+Limiter la distance à XY
+Limiter le calcul de la distance au plan XY
+exclusivement.

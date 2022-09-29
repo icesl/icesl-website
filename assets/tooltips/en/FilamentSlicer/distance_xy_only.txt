@@ -1,1 +1,2 @@
-Compute distance along XY only
+Restrict distance to XY
+Restrict distance calculation to XY plane only.

@@ -1,0 +1,2 @@
+Distancia de elevación (mm)
+Distancia en milímetros a elevar la impresión.

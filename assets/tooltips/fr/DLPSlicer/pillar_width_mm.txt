@@ -1,0 +1,3 @@
+Largeur des piliers (mm)
+Largeur en millimètre des piliers de la
+structure de support.
