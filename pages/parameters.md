@@ -7,6 +7,7 @@ exclude: true
 
 {% assign include_chinese = false %}
 {% assign include_dlp = true %}
+{% assign groups_file = 'groups.txt' %}
 
 <script>
 function printingParameter(parameterFile, htmlID, parameterName)
@@ -49,12 +50,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/en/FilamentSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -69,12 +72,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/en/DLPSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -89,12 +94,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/en/MeshExportService/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -108,12 +115,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/en/SVGSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -127,12 +136,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/en/LzcutSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -152,12 +163,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/es/FilamentSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -172,12 +185,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/es/DLPSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -192,12 +207,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/es/MeshExportService/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -211,12 +228,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/es/SVGSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -230,12 +249,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/es/LzcutSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -255,12 +276,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/fr/FilamentSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -275,12 +298,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/fr/DLPSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -295,12 +320,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/fr/MeshExportService/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -314,12 +341,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/fr/SVGSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -333,12 +362,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/fr/LzcutSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -359,12 +390,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/ch/FilamentSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 
@@ -380,12 +413,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/ch/DLPSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -401,12 +436,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/ch/MeshExportService/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -420,12 +457,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/ch/SVGSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
@@ -439,12 +478,14 @@ function printingParameter(parameterFile, htmlID, parameterName)
 {% for parameter in site.static_files %}
   {% assign path = '/assets/tooltips/ch/LzcutSlicer/' %}
   {% if parameter.path contains path %}
+  {% unless parameter.path contains groups_file %}
   {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
 <a href="javascript:void(0);" title="" onclick="printingParameter('{{ parameter_file }}', '{{ html_id }}', '{{ printing_parameter }}')">{{ printing_parameter }}</a>
 </li>
+  {% endunless %}
   {% endif %}
 {% endfor %}
 </ul>
