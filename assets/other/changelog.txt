@@ -1,4 +1,34 @@
 ---------------------------------
+IceSL version 2.5.1 2023-03-06
+---------------------------------
+- fixed bug in deposition of shells that sometimes would cut corners and hence leave the printing perimeter
+- added supprot for circular beds
+- added thumbnail to gcode output format in the GCode service
+- use of IO/OS libraries now propagates to printer profiles and saves between executions
+- clipping plane now is a checkbox 
+- added thumbnail to cdbdlp outout format in the DLP service
+- changed UI colormaps when painting to Twilight (when value is an angle) and Viridis (otherwise)
+- web installers now fetch the msi files from our https domain (Windows only)
+- added dependency on openssl to allow for updating tooltips online fom our https domain
+- increased maximum size of brush for painting fields
+- fixed wrong hiding condition of parameter 'travel_max_length_without_retract_min'
+- fixed imprecise aligment in the SVG service
+- allowed for cubic infills to be at least 1% dense
+- fixed bug in 'lua_set_setting_value' for direction fields
+- saved direction field UI state when switching to other fields
+- moved SVG output coordinates to the positive Y plane when using the SVG service
+- added log scale option when setting infill densities. This allows for more fine control of lower densities (~5% - ~50%)
+- added correct progress number to progress bar when slicing meshes
+- optimized rendering of scenes with multiple cubes
+- fixed crash when only printing brims or rafts
+Forge:
+	* updated .Net framework dependency to 4.8
+	* added ctrl+right_click support for brush color selection
+	* set IceSL icon to forge executable 
+Slicecrafter:
+	* fixed bug that distorted cdbdlp output in DLP service
+
+---------------------------------
 IceSL version 2.5.0 2022-09-29
 ---------------------------------
 - added slicing capabilities for resin printers (called DLPSlicer)

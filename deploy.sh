@@ -7,7 +7,7 @@ set -o errexit
 # variable 'server' points to the folder where the icesl server is mounted (e.g., \\alcor\websites\icesl)
 
 
-server=~/Servers/icesl
+server=~/Documents/Servers/loria
 
 echo Building website...
 rm -rf _site
@@ -34,7 +34,7 @@ else
 
   echo Setting permissions to MFX members
   cd $server/htdocs
-  chgrp -R mfx *
+  #chgrp -R mfx *
   chmod -R g+w *
   chmod a+rw slicecrafter/log/log.txt
   chmod a+rw webprinter/log/log.txt
