@@ -1,4 +1,6 @@
 _site/
+vendor/
+.bundle/
 
 slicecrafter/IceSL-slicer.js
 slicecrafter/IceSL-slicer.wasm

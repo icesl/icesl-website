@@ -2,6 +2,8 @@ Taille des cases de calcul (mm)
 Taille des cases utilisées pendant les calculs. 
 Diminuer cette valeur réduit la consommation mémoire
 GPU mais accroit le temps de tranchage. 
+
 Réduire lorsque le trancheur retourne une erreur 
 'out of GPU memory'.
+
 Valeur recommandée: entre 5 mm et 100 mm

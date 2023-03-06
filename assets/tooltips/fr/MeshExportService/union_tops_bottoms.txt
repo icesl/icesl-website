@@ -1,3 +1,3 @@
-Joindre les couches verticalment
-Creer un maillage «étanche» en utilisant le
+Joindre les couches verticalement
+Creer un maillage «étanche» en utilisant la
 méthode 'Mesh ribbons'.

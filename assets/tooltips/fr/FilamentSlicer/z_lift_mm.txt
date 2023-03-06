@@ -1,2 +1,2 @@
 Hauteur du Z-lift (mm)
-Hauteur en millimeters du décalage en Z pendant les voyages.
+Hauteur en millimèters du décalage en Z pendant les voyages.
