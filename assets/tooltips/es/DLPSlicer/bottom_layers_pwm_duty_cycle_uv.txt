@@ -1,0 +1,5 @@
+Ciclo útil UV en las capas inferiores
+Ciclo útil de la modulación por ancho de pulsos (PWM)
+para la fuente de iluminación UV en capas inferiores.
+Su valor es representado por un porcentaje donde 100%
+significa que la exposición UV es constante.

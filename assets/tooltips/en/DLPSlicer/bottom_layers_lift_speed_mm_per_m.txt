@@ -1,0 +1,3 @@
+Lift speed from resin vat for bottom layers (mm/m)
+Lift speed from resin vat for the bottom layers
+in millimeters per minute.

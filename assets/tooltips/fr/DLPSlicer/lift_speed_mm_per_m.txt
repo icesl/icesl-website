@@ -1,0 +1,3 @@
+Vitesse de décollement depuis le bac de résine (mm/m)
+Vitesse de décollement depuis le bac de résine 
+en millimètres par minutes.

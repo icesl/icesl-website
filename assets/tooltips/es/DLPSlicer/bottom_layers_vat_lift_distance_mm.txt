@@ -1,0 +1,5 @@
+Distancia de alejamiento de la tina para capas inferiores (mm)
+Después de cada capa inferior impresa, la plataforma de resina
+se aleja una distancia vertical de la tina y vuelve a su
+posición. Esto ayuda a la separación de la resina no seca
+de la capa impresa justo antes.

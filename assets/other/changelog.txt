@@ -1,4 +1,18 @@
 ---------------------------------
+IceSL version 2.5.2 2023-06-29
+---------------------------------
+- added ui uniforms in shader infillers (see README.md in 'icesl-infillers' folder)
+- added control string to service mode (see service mode documentation)
+- added anti-aliasing in DLP service when using PNG output
+- fixed bug in per-layer mode on phasor infiller
+- fixed per-layer color maps slowdown
+- fixed bug in polygonal slicer where some shapes would not be sliced
+- fixed multimateriales parameters not shown when required
+- increased progress bar resolution in g-code viewer
+- added lithophane model to 'icesl-models'
+- new tweak 'ui_OpenFile' (see scripting documentation)
+
+---------------------------------
 IceSL version 2.5.1 2023-03-06
 ---------------------------------
 - fixed bug in deposition of shells that sometimes would cut corners and hence leave the printing perimeter

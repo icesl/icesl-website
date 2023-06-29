@@ -1,0 +1,3 @@
+Velocidad de retracción hacia la tina (mm/m)
+Velocidad de re-aproximación hacia la tina en
+milímetros por minuto.

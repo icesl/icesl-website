@@ -1,0 +1,4 @@
+Anti-aliasing
+L'anti-aliasing adoucit le périmètre de
+l'impression et réduit l'effet de crénelage
+en XY.

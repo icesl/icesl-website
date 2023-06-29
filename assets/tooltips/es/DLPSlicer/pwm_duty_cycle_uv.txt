@@ -1,0 +1,5 @@
+Ciclo útil UV
+Ciclo útil de la modulación por ancho de pulsos (PWM)
+para la fuente de iluminación UV. Su valor es repre-
+sentado por un porcentaje donde 100% significa que la
+exposición UV es constante.

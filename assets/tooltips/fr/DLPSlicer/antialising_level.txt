@@ -1,0 +1,3 @@
+Niveau d'anti-aliasing
+Niveau d'anti-aliasing. Plus la valeur est grande,
+plus la surface est lisse.

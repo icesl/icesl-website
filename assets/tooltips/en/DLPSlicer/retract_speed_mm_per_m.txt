@@ -1,0 +1,3 @@
+Retract speed to resin vat (mm/m)
+Retract speed to resin vat in millimeters
+per minute.

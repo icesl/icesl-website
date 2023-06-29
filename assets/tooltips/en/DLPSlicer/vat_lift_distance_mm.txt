@@ -1,0 +1,5 @@
+Lift distance from resin vat (mm)
+After each printed layer, the resin platform moves
+away and back some vertical distance to the RED
+(Fluorinated Ethylene Propylene). This helps the
+separation of wet resin from the layer just printed.

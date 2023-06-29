@@ -1,0 +1,3 @@
+Velocidad de retracción hacia la tina en capas inferiores (mm/m)
+Velocidad de re-aproximación hacia la tina para las capas
+inferiores en milímetros por minuto.

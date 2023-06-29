@@ -1,2 +1,2 @@
-Layer exposition time (s)
-Exposition time in seconds of a layer
+Layer exposure time (s)
+Layer exposure time to UV light, in seconds.

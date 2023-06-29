@@ -1,0 +1,5 @@
+Temps de pause après l'exposition de la couche (s)
+Délai d'extinction de la lumière. Correspond au temps 
+pendant lequel la lumière UV est éteinte entre la fin 
+d'un cycle d'exposition et le début du suivant pour 
+les premières couches.

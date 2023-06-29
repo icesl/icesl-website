@@ -1,0 +1,3 @@
+Retract speed to resin vat for bottom layers (mm/m)
+Retract speed to resin vat for the bottom layers
+in millimeters per minute.
