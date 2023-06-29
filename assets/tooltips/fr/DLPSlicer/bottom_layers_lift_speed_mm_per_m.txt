@@ -1,0 +1,3 @@
+Vitesse décollement du bac de résine pour les premières couches (mm/m)
+Vitesse de décollement depuis le bac de résine pour 
+les premières couches en millimètres par minutes.

@@ -1,0 +1,3 @@
+Vitesse de descente vers le bac de résine pour les premières couches (mm/m)
+Vitesse de descente vers le bac de résine pour les
+premières couches en millimètres par minute.

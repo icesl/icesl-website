@@ -1,0 +1,3 @@
+Anti-aliasing
+Use anti-aliasing to soften the perimeter of
+the print and reduce its staircase effect.

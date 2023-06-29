@@ -1,0 +1,5 @@
+Rapport cyclique des UV
+Modulation de la largeur des pulsation du rapport 
+cyclique pour la source de lumière. Exprimé comme
+un pourcentage où 100% indique que l'exposition 
+UV est constante.

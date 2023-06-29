@@ -1,0 +1,3 @@
+Nivel de anti-aliasing
+Nivel de anti-aliasing. Entre más alto sea
+el perímetro es más suave en la impresión.

@@ -1,0 +1,3 @@
+Velocidad de alejamiento de la tina para capas inferiores (mm/m)
+Velocidad de despegue de la tina para las capas inferiores
+en milímetros por segundo.

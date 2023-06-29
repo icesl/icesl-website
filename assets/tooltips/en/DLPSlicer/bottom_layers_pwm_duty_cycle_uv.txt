@@ -1,0 +1,5 @@
+UV duty cycle for bottom layers
+Pulse-width modulation duty cycle for the UV
+illumination source on bottom layers. This is
+input as a percentage where 100% means that
+the UV exposure is constant.

@@ -1,0 +1,3 @@
+Vitesse de descente vers le bac de résine (mm/m)
+Vitesse de descente vers le bac de résine 
+en millimètres par minute.

@@ -1,0 +1,4 @@
+UV duty cycle
+Pulse-width modulation duty cycle for the UV
+illumination source. This is input as a percentage
+where 100% means that the UV exposure is constant.

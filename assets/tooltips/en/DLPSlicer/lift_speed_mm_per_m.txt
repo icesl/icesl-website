@@ -1,0 +1,3 @@
+Lift speed from resin vat (mm/m)
+Lift speed from resin vat in millimeters
+per minute.

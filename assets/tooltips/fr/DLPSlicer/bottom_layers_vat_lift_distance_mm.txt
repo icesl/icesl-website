@@ -1,0 +1,5 @@
+Distance décollememt du bac de résine pour les premières couches (mm)
+Après chaque première couche, la plateforme s'éloigne et se
+rappoche verticalement du film FEP (éthylène-propylène fluoré). 
+Cela permet la séparation entre la résine non solidifiée 
+et la couche qui vient d'être imprimée.
