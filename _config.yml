@@ -44,7 +44,7 @@ google:             icesl
 
 # personal
 location:           Nancy, France
-phone:              
+phone:              +33 3 83 59 30 00
 email:              sylvain.lefebvre@inria.fr
 
 # Gems
@@ -53,10 +53,10 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
+#  - jekyll-paginate
 
-paginate: 6
-paginate_path: "/blog/page:num/"
+#paginate: 6
+#paginate_path: "/blog/page:num/"
 
 jekyll-mentions:
     base_url: https://github.com

@@ -51,7 +51,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/en/FilamentSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -73,7 +73,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/en/DLPSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -95,7 +95,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/en/MeshExportService/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -116,7 +116,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/en/SVGSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -137,7 +137,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/en/LzcutSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -164,7 +164,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/es/FilamentSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -186,7 +186,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/es/DLPSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -208,7 +208,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/es/MeshExportService/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -229,7 +229,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/es/SVGSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -250,7 +250,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/es/LzcutSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -277,7 +277,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/fr/FilamentSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -299,7 +299,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/fr/DLPSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -321,7 +321,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/fr/MeshExportService/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -342,7 +342,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/fr/SVGSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -363,7 +363,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/fr/LzcutSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -391,7 +391,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/ch/FilamentSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -414,7 +414,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/ch/DLPSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -437,7 +437,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/ch/MeshExportService/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -458,7 +458,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/ch/SVGSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
@@ -479,7 +479,7 @@ function printingParameter(parameterFile, htmlID, parameterName)
   {% assign path = '/assets/tooltips/ch/LzcutSlicer/' %}
   {% if parameter.path contains path %}
   {% unless parameter.path contains groups_file %}
-  {% assign printing_parameter = (parameter.path | remove: path) | remove: parameter.extname %}
+  {% assign printing_parameter = parameter.path | remove: path | remove: parameter.extname %}
   {% assign html_id = parameter.path | remove: parameter.extname %}
   {% assign parameter_file = parameter.path | prepend: site.baseurl %}
 <li style="list-style: none; line-height: 0%;" id="{{ html_id }}" markdown="1">
