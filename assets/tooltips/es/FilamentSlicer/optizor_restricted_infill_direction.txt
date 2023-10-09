@@ -1,0 +1,4 @@
+Pintar direcciones de relleno sin restricción
+Especificar que partes de la geometría el relleno
+Optizor puede decidir el mejor ángulo para la
+dirección de relleno.

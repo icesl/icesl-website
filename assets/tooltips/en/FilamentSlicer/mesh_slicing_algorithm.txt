@@ -1,0 +1,4 @@
+Mesh slicing algorithm
+Slicer used on meshes. Possible selections in this
+setting come from installed plugins. Choose 'default'
+to use the internal algorithm.

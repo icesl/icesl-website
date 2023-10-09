@@ -1,0 +1,3 @@
+Exportar miniaturas en el archivo GCode
+Agregar miniaturas (thumbnails) al GCode de la
+geométria a ser impresa.

@@ -1,0 +1,7 @@
+Máxima pendiente procesada
+Máxima pendiente (i.e., ángulo) de la geometría
+procesada por el seccionado curvo. Valores altos
+permiten obtener más geometría en capas no planas.
+Este valor está normalizado donde 0 significa la
+mínima pendiente (i.e., ángulo horizontal) y 1
+significa la pendiente máxima (i.e., ángulo recto).

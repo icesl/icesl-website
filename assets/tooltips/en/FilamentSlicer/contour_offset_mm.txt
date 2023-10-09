@@ -1,0 +1,5 @@
+Brush contour offset (mm)
+Offset in millimeters between intersecting
+geometries from brushes when slicing.
+This avoids contact between potentially different
+materials.

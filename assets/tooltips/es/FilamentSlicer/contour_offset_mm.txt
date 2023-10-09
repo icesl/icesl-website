@@ -1,0 +1,5 @@
+Distancia entre contornos de brochas (mm)
+Distancia en milímetros entre contornos que se
+intersectan de diferentes brochas. Esto evita
+el contacto entre materiales potenciálmente
+diferentes.

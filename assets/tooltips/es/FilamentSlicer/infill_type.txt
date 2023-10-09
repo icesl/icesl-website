@@ -26,6 +26,11 @@ recomendado para estructuras áltamente deformables.
 Ver las opciones más abajo para tener más control
 del resultado.
 
+-Optizor: Relleno orientable en ciclo para producir
+apariencias anisotrópicas. La orientación del relleno
+puede ser especificada pintando o a través de una
+imagen externa (.png y .jpg).
+
 -Variable-width contouring: Deposición variable para
 maximizar la precisión de la forma a imprimir. Un 
 relleno como "plan B" puede ser escogido en caso de

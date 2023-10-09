@@ -25,6 +25,10 @@ Adaptée aux materiaux flexibles.
 -Phasor: Remplissage utilisant un bruit procédural
 de phasor. Adaptée aux materiaux flexibles.
 
+-Optizor: Remplissage cyclique orientable des apparence
+anisotropes. L'orientation peut être specifiée soit en
+peignant ou via une image externe (.png et .jpg).
+
 -Variable-width contouring: Déposition à largeur 
 variable pour maximiser la précision des bordures.
 Un autre remplissage peut être utilisé en complément

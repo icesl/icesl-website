@@ -1,0 +1,4 @@
+Algorithme pour trancher maillages
+Trancheur des maillages. Des sélections possibles pour
+ce paramètre viennent de plugins installés. La sélection
+'default' utilise l'algorithme interne par defaut.

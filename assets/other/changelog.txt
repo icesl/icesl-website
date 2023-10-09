@@ -1,4 +1,23 @@
 ---------------------------------
+IceSL version 2.5.3-beta1 2023-10-09
+---------------------------------
+- added previewer plugins using skeleton structures for fast rendering
+	- Skeleton (Geometry shader): uses a geometry shader
+	- Skeleton (Mesh shader): uses a mesh shader. Available only on selected video cards (i.e., turing architecture in NVidia)
+- added Optizor infill:
+	- this infill allows to orient infill direction in a faster and more coherent way than the phazor infill
+	- infill direction can either be painted with the mouse or set via an external image (.png and .jpg formats supported)
+- avoided black coloring when per-layer settings were specified from the base of the print (i.e., 0 height)
+- enabled multi-color printing in multi-extruder capable printers
+- fixed crash when optimizing layer thickness in empty geometry
+- travel_max_length_without_retract can now be specified per-layer
+- added setting to offset a brush contour to prevent (when necessary) the contamination of multi-material prints
+- optimized field painting in machines with low specs
+- printing bed is now aware of alpha values (i.e., transparency) set in icesl-themes
+- fixed bug in travel optimization
+- added export gcode thumbnails as UI option
+
+---------------------------------
 IceSL version 2.5.2 2023-06-29
 ---------------------------------
 - added ui uniforms in shader infillers (see README.md in 'icesl-infillers' folder)

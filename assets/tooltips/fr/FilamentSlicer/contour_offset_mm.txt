@@ -1,0 +1,4 @@
+Distance entre contours de brushes
+Distance en millimètres entre la géométrie de differents brushes
+s'intersectant. Ceci évite le contact potentielement entre
+différents matériaux.

@@ -1,0 +1,4 @@
+Algoritmo para seccionar mallas
+Seccionador (slicer) de mallas. Posibles selecciones
+en este parámetro vienen de plugins instalados. La
+selección 'default' usa el algoritmo interno por defecto.
