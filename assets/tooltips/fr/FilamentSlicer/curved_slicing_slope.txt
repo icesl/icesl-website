@@ -1,0 +1,6 @@
+Pente maximale autorisée
+Pente maximale autorisée lors du tranchage de la géométrie.
+De grandes valeurs permettent d'augmenter la courbure maximale.
+La valeur est normalisée où 0 signifie aucune pente
+(i.e., angle horizontal) et 1 signifie la pente maximale
+(i.e., angle vertical).

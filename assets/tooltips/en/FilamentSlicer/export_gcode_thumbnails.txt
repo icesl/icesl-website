@@ -1,0 +1,3 @@
+Export thumbnails in GCode file
+Add thumbnails to GCode file of the geometry
+to be printed.

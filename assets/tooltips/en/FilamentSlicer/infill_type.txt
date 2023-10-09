@@ -25,6 +25,10 @@ for more control of the output.
 highly deformable structure. See other settings below
 for more control of the output.
 
+-Optizor: Orientable cyclic infill for anisotropic
+appearance. Infill orientation can be either painted
+or specified through an external image (.png and .jpg).
+
 -Variable-width contouring: Variable width deposition
 for maximizing the shape precision. A fallback infill
 can be used if the contours do not cover the fill

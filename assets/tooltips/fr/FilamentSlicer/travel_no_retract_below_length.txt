@@ -1,0 +1,3 @@
+Distance de voyage sans rétraction (mm)
+Distance en millimètres de voyage en dessous de 
+laquelle il n'y a aucune rétraction.

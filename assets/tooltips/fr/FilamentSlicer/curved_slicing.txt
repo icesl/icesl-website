@@ -1,0 +1,4 @@
+Activer le tranchage non planaire
+Activer les couches non planaires lors du tranchage de la
+géométrie. Cette fonctionalité est encore expérimentale
+et doit être utilisée avec prudence.

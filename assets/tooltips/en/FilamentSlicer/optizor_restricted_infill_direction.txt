@@ -1,0 +1,3 @@
+Paint where to unrestrict infill direction
+Paint where to let the Optizor infiller decide the
+best angle for the infill direction.

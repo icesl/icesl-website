@@ -1,0 +1,4 @@
+Habilitar el seccionado curvo
+Habilitar las capas no planas cuando se secciona
+la geometría. Esta funcionalidad es todavía
+experimental y debe ser usada con atención.

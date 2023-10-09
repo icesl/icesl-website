@@ -1,0 +1,3 @@
+Exporter les vignettes au fichier GCode
+Ajouter des vignettes au fichier GCode de la
+géometrie à être imprimée.

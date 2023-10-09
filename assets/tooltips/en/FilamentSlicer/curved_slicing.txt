@@ -1,0 +1,4 @@
+Enable curved slicing
+Enable non planar layers when slicing geometry.
+This feature is still experimental and should
+be used with care.

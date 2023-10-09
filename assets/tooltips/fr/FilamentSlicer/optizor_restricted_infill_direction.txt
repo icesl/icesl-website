@@ -1,0 +1,3 @@
+Peindre pour spécifier les directions sans restrictions
+Peidre ou laisse le remplissage Optizor décider du
+meilleur angle pour la direction de remplissage.

@@ -1,3 +1,3 @@
-Enable curved covers
-Enable the generation of covers that are curved
+Enable concentric covers
+Enable the generation of covers that are concentric
 with respect to the shape.

@@ -1,0 +1,3 @@
+Distancia de viaje sin retractación (mm)
+Distancia en milímetros debajo la cual no se
+realiza alguna retractación.
