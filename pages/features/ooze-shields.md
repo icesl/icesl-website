@@ -3,21 +3,21 @@ layout: feature
 order: 9
 exclude: true
 categories: feature
-title: Tight ooze shields and maximal self-supporting cavities
-image: /assets/img/cavity.jpg
-summary: Self supporting cavities and nice ooze shields that remain close to the print at all times
+title: Self supporting internal structures
+image: /assets/img/cavities2.png
+summary: Self supporting infill structures to minimize material and printing time
 ---
 
-Our tight enclosure algorithm let us create nice ooze shields that remain close to the print at all times while being easy to remove. The same algorithm can be used to create large self-supporting cavities inside parts. Print large and fast!
+Print large and fast using our built-in techniques to hollow 3D prints. With them you can minimize printing time as well as the amount material used.
 
 <div markdown="1" class="noBorderNoBackground">
 {:.table-center}
-[![][ooze-shield]{:.img-small}][ooze-shield] | [![][cavity]{:.img-small}][cavity]
+[![][cavities-1]{:.img-small}][cavities-1] | [![][cavities-2]{:.img-small}][cavities-2]
 
 </div>
 
-{:.caption4}
-<sup>**Left(3)**:The ooze shield tightly encloses the object while being easy to remove. [Twin cats by Mankati3DPrinter][cat-model]. **Right**: Kitten printed with a maximally empty cavity inside, saving large amounts of time and material (print is back-lit, filament is slightly transparent). The outer shell is a single thread thick. <sup>
+{:.caption1}
+<sup>Models printed minimizing material consumed and printing time using different techniques<sup>
 
 
 Publication:
@@ -25,7 +25,6 @@ Publication:
  - Samuel Hornus, Sylvain Lefebvre, Jérémie Dumas and Frédéric Claux
  - GradiFab 2016
 
-[ooze-shield]:      ../../../assets/img/oozeshield.jpg
-[cavity]:           ../../../assets/img/cavity.jpg
-[cat-model]:        http://www.thingiverse.com/thing:869645
+[cavities-1]:       ../../../assets/img/cavities1.png
+[cavities-2]:       ../../../assets/img/cavities2.png
 [enclosure-paper]:  https://hal.inria.fr/hal-01141706/

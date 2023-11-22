@@ -13,9 +13,8 @@ The best and most straightforward way to reach us is through [our forum][forum].
 **Contact information:**
 
 + Phone: +33 3 54 95 86 53
-+ e-mail: sylvain dot lefebvre at inria dot fr
-
-<br>
++ e-mail: icesl at googlegroups . com
++ e-mail: mfx at inria . fr
 
 ____
 
@@ -24,24 +23,22 @@ ____
 
 Questions? Look here first.
 
-1. I found a bug, have a feature request, or a model that does not print well. Who should I contact?
-  + Join our [forum][forum] or contact _sylvain . lefebvre at inria.fr_ **or** _yamil - salim . perchy at inria.fr_
-2. Do you provide examples?
+1. **I found a bug, have a feature request, or a model that does not print well. Who should I contact?**
+  + Join our [forum][forum] or contact _icesl at googlegroups . com_ &nbsp;&nbsp; or &nbsp;&nbsp; _mfx at inria . fr_
+2. **Do you provide examples?**
   + Yes! IceSL comes with many examples, located in the 'icesl-models' folder. On a default install, this folder should be accessible by clicking _File_ &rarr; _Open assets folder_.
-3. Can I output an STL?
+3. **Can I output an STL?**
   + Yes. Select a mesh export in the top right 'Service' menu (see tooltips for details). Keep in mind though that IceSL is best used slicing directly.
-4. How about MacOS?
+4. **How about MacOS?**
   + Unfortunately, and as far as we know, there is no support for OpenGL 4.3 under MacOS and this is required to build IceSL. Whenever OpenGL 4.3 becomes available we will work hard to release IceSL on MacOS! In the meanwhile, please use the [web version][slicecrafter].
-5. Could the produced G-Code break my printer?
+5. **Could the produced G-Code break my printer?**
   + Despite all the care we take to avoid it, bad things could happen. So yes, be careful, monitor the print, especially the beginning . We've never broken a printer, but we are extra careful.
-6. Text editor?
+6. **Text editor?**
   + IceSL-forge includes a script editor while IceSL-slicer does not. Both however, monitor file changes to the Lua script file and updates the view whenever the script changes.
-7. Do I need a powerful computer?
+7. **Do I need a powerful computer?**
   + See the system requirements in the [download][download] section.
-8. So if IceSL is free, does that mean I can do whatever I want with it?
+8. **So if IceSL is free, does that mean I can do whatever I want with it?**
   + See the license below.
-
-<br>
 
 ____
 
@@ -52,8 +49,6 @@ IceSL is free for research purposes (contact us for all other cases). The full l
 
 {:.text-justify}
 We kindly as you to cite our work and IceSL in your publications (e.g., paper, web page, blog, source code, etc.). If you implement features similar to those introduced in IceSL to your slicer, please also acknowledge IceSL (or the corresponding publication) as the source of inspiration. This is very important for us to get funding and/or support and continue our research. 
-
-<br>
 
 ____
 
@@ -68,27 +63,22 @@ ____
 <tr>
   <td class="rightLineCell"><a href="http://www.antexel.com/research">Sylvain Lefebvre</a><sup>1</sup></td>
   <td class="rightLineCell"><a href="http://www.xlim.fr/personnel/claux-frederic">Frédéric Claux</a></td>
-  <td>Jimmy Etienne</td>
-</tr>
-<tr>
-  <td class="rightLineCell"><a href="https://members.loria.fr/sperchy">Salim Perchy</a><sup>2</sup></td>
-  <td class="rightLineCell"></td>
-  <td><a href="https://www.instagram.com/pa_hugron/">Pierre-Alexandre Hugron</a></td>
-</tr>
-<tr>
-  <td class="rightLineCell"><a href="https://members.loria.fr/czanni">Cédric Zanni<sup>3</sup></a></td>
-  <td class="rightLineCell"></td>
-  <td>Haichuan Song</td>
-</tr>
-<tr>
-  <td class="rightLineCell">Pierre Bedell<sup>4</sup></td>
-  <td class="rightLineCell"></td>
   <td><a href="http://thibaulttricard.fr/">Thibault Tricard</a></td>
 </tr>
 <tr>
+  <td class="rightLineCell"><a href="https://members.loria.fr/sperchy">Salim Perchy</a><sup>2</sup></td>
+  <td class="rightLineCell"><a href="https://members.loria.fr/czanni">Cédric Zanni<sup>3</sup></a></td>
+  <td>Jimmy Etienne</td>
+</tr>
+<tr>
+  <td class="rightLineCell"><a href="https://www.instagram.com/pa_hugron/">Pierre-Alexandre Hugron<sup>5</sup></a></td>
+  <td class="rightLineCell"><a href="https://fr.linkedin.com/in/nathaniel-seyler-1003291b7">Nathaniel Seyler<sup>4</sup></a></td>
+  <td>Haichuan Song</td>
+</tr>
+<tr>
   <td class="rightLineCell"></td>
-  <td class="rightLineCell"></td>
-  <td><a href="http://webloria.loria.fr/~jhergel">Jean Hergel</a></td>
+  <td class="rightLineCell">Pierre Bedell<sup>5</sup></td>
+  <td><a href="https://sites.google.com/site/jonasmartinezbayona">Jonàs Martínez</a></td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
@@ -98,7 +88,7 @@ ____
 <tr>
   <td class="rightLineCell"></td>
   <td class="rightLineCell"></td>
-  <td><a href="https://sites.google.com/site/jonasmartinezbayona">Jonàs Martínez</a></td>
+  <td><a href="http://webloria.loria.fr/~jhergel">Jean Hergel</a></td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
@@ -124,7 +114,8 @@ ____
 <sup>1. Creator, lead, coding, support, testing.</sup><br>
 <sup>2. Coding, plugins, support, testing, documentation, localization, website.</sup><br>
 <sup>3. Rendering and UI code, plugins.</sup><br>
-<sup>4. Additional slicing code, print testing, printer profile management and support.</sup>
+<sup>4. UI code, preview plugins, testing tools, python bindings. </sup><br> 
+<sup>5. Additional slicing code, print testing, printer profile management and support.</sup>
 
 **Acknowledgements:**<a id="acknowledgements"></a>
 

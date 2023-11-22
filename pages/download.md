@@ -77,9 +77,10 @@ Please make sure to install the latest drivers for your GPUs. This solves most o
 
 It has been tested on the following hardware:
 - GeForce GTX 480 / 580 / 680 / 970 / Titan / 1080
+- GeForce RTX 2080 Ti / 4080
 - GeForce GT 555M / 610M (_nouveau_ driver) / GTX 1660 Ti Mobile
 - Intel HD Graphics 630, 4600, 4400, 4000<sup>*</sup>
-- AMD Radeon 290X
+- AMD Radeon 290X / RX570
 
 <sup>Note: Although Intel HD Graphics 4000 does not fully support OpenGL 4.3, it does support the features needed by IceSL through extensions.</sup>
 
@@ -95,7 +96,7 @@ ___
 #### IceSL 32 bits versions
 
 {:.text-justify}
-In order to speed up updates to IceSL, we are officially discontinuing 32 bits installers from minor versions of IceSL. If you _really_ need a 32 bits build of the current version to run IceSL on your computer, we ask you to [contact us][contact].
+In order to speed up updates to IceSL, we are officially discontinuing 32 bits installers from beta versions of IceSL. If you _really_ need a 32 bits build of the current beta version to run IceSL on your computer, we ask you to [contact us][contact].
 
 {% if show_past_versions %}
 #### IceSL older versions

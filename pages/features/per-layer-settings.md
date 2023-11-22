@@ -8,7 +8,7 @@ image: /assets/img/per-layer.jpg
 summary: Unprecedented control over your prints with settings specified per-layer
 ---
 
-IceSL gives you unprecedented control over your prints by allowing most settings to be specified per-layer, with smooth variations. This is done through a simple interface specifying parameter values at different heights.
+IceSL gives you unparalleled control of your printing settings by allowing most of them to be specified per-layer, with smooth variations. This is done through a simple interface specifying parameter values at different heights. You can control, among others, layer thickness, infill density, printing speed, fan control and many more.
 
 [![][per-layer]{:.img-small}][per-layer]
 
