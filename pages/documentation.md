@@ -43,7 +43,6 @@ Cheatsheet of IceSL's scripting language
 </div>
 
 <br>
-<br>
 ## Tutorials, Guides & Videos
 
 Here you will find a number of tutorials and videos on the use of IceSL. Their presentation order is based on difficulty and familiarity with the tool, hence we recommend to follow them in an orderly fashion.

@@ -12,9 +12,11 @@ categories: home
 
 <br>
 
-IceSL is a state of the art slicer (STL &rarr; G-code) with advanced modeling capabilities. Head to the &nbsp;[features page][features]{:.text-big}{:.text-color1}&nbsp; to know all about IceSL's cutting edge technology. For documentation, guides, tutorials and references about using IceSL, go to the &nbsp;[documentation section][documentation]{:.text-big}{:.text-color2}&nbsp; as well as the handy &nbsp;[cheatsheet][cheatsheet]{:.text-big}{:.text-color4}&nbsp; we've created. If you want to ask a question about IceSL or inquire about licensing, please reach us through our &nbsp;[forum][forum]{:.text-big}&nbsp; or go to the &nbsp;[about page][about]{:.text-big}{:.text-color3}&nbsp; where there is also a [F.A.Q section][faq]{:.text-color4}.
+IceSL is a state of the art slicer (STL &rarr; G-code) with advanced modeling capabilities.
 
-See also the [Acknowledgements][acknowledgements]{:.text-big}{:.text-color2} section for information on funding and/or technologies used in IceSL.
+Head to the &nbsp;**[features page][features]{:.text-color1}**&nbsp; to know all about IceSL's cutting edge technology. For documentation, guides, tutorials and references about using IceSL, go to the &nbsp;**[documentation section][documentation]{:.text-color1}**&nbsp; as well as the handy &nbsp;**[cheatsheet][cheatsheet]{:.text-color1}**&nbsp; we've created. If you want to ask a question about IceSL or inquire about licensing, please reach us through our &nbsp;**[forum][forum]{:.text-color1}**&nbsp; or go to the &nbsp;**[about page][about]{:.text-color1}**&nbsp; where there is also a &nbsp;**[F.A.Q section][faq]{:.text-color1}**&nbsp;.
+
+See also the &nbsp;**[Acknowledgements][acknowledgements]{:.text-color1}**&nbsp; section for information on funding and/or technologies used in IceSL.
 
 <br>
 
@@ -24,13 +26,18 @@ See also the [Acknowledgements][acknowledgements]{:.text-big}{:.text-color2} sec
 
 </div>
 
+{% if false %}
+
 <br>
 <br>
+
 Follow us on [twitter][twitter] to stay tuned about updates, new features, presentations and events!
 
 <div align="center">
 <a class="twitter-timeline" data-theme="light" data-width="50%" data-height="700px" href="https://twitter.com/iceslapp">Twitter feed</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
+
+{% endif %}
 
 [logo]:             ./assets/img/logo-cropped1.png
 [banner1]:          ./assets/img/banner1.jpeg
