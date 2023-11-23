@@ -1,6 +1,6 @@
 ---
 layout: feature
-order: 5
+order: 13
 exclude: true
 categories: feature
 title: Advanced bridge supports
@@ -17,11 +17,12 @@ IceSL features a powerful support technique that optimizes a small but reliable 
 </div>
 
 {:.caption2}
-<sup>**Left**: print with supports. **Right**: after cleanup. [Female knight by sotckto][knight-model]<sup>
+<sup>**Left**: print with supports. **Right**: after cleanup. <br> [Female knight by sotckto][knight-model]<sup>
 
 Publication:
 - [Bridging the Gap: Automated Steady Scaffoldings for 3D Printing][supports-paper]
 - Jérémie Dumas, Jean Hergel, Sylvain Lefebvre
+- ACM Transactions on Graphics 2014
 
 [supports1]:        ../../../assets/img/knight1_supported.jpg
 [supports2]:        ../../../assets/img/knight1_cleaned.jpg

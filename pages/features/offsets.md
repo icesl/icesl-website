@@ -13,7 +13,7 @@ Offsets can erode or dilate even the most complex objects.
 [![][offsets]{:.img-small.smaller}][offsets]
 
 {:.caption1}
-<sup>**Left**: erosion, **Middle**: original, **Right**: dilation. [Dragon by Valentine][dragon-model]</sup>
+<sup>**Left**: erosion, **Middle**: original, **Right**: dilation. <br> [Dragon by Valentine][dragon-model]</sup>
 
 Publication:
 - [Chained segment offsetting for ray-based solid representations][offsets-paper]

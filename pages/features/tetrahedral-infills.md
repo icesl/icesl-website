@@ -1,9 +1,9 @@
 ---
 layout: feature
-order: 3
+order: 15
 exclude: true
 categories: feature
-title: Cubic, tetrahedral and hierarchical infills
+title: Cubic, tetrahedral and hierarchical infillers
 image: /assets/img/3dinfill.jpg
 summary: Tetrahedral infills present an excellent compromise in speed, strength and weight
 ---

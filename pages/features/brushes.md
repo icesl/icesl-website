@@ -1,6 +1,6 @@
 ---
 layout: feature
-order: 6
+order: 11
 exclude: true
 categories: feature
 title: Brushes for local deposition strategies
@@ -13,6 +13,6 @@ Brushes allow to use different strategies in different parts of a model. Each br
 [![][brushes]{:.img-small.smaller}][brushes]
 
 {:.caption1}
-<sup>A brush is used to reinforce the box around the hole. **Left**: script. Middle: 3D model. **Right**: one slice revealing the stronger infill around the hole.</sup>
+<sup>A brush is used to reinforce the box around the hole. <br> **Left**: script. Middle: 3D model. **Right**: one slice revealing the stronger infill around the hole.</sup>
 
 [brushes]:          ../../../assets/img/brushes.jpg
