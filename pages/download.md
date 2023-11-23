@@ -47,6 +47,33 @@ The packages below contain IceSL-slicer for Linux:
 
 ____
 
+### Overview
+
+{% for page in site.pages %}
+  {% if page.categories contains 'download' %}
+
+{:.text-justify}
+Our aim is to make our latest research in modeling and slicing available as quickly as possible in a powerful yet accessible software. It integrates several ground breaking ideas that our team developed over the years, such as cubic/tetrahedral infills, bridge support structures, optimal adaptive layer thickness optimization, progressive infills, efficient offsetting, tight protective shields, and maximal self-supporting cavities. Several of these features have inspired other slicers. Why wait? You can benefit from the latest advances right now in IceSL! (and it is free, see our license).
+
+IceSL's core technology is exposed through four different software:
+
+{:.text-justify}
+- **IceSL-forge** is the most complete and powerful software. It combines modeling and slicing and gives unprecedented flexibility for modeling and fabricating complex, customizable shapes. Modeling is done through scripting with a Lua-based language that allows to describe boolean combinations of shapes (triangle meshes, voxels, implicit surfaces, shaders). Thanks to state of the art rendering technology, all operations are performed interactively with real-time feedback allowing interactive customization of model parameters. The same technology enables efficient slicing and generation of printer instructions (e.g. G-code), avoiding the expensive step of producing a mesh. Nothing stands between your model and your printer!
+
+{:.text-justify}
+- **IceSL-slicer** focuses on slicing. Given a 3D model (e.g. STL) or a geometry script (i.e. lua), it will use our slicing technology to generate instructions for your printer (G-code, but also images for DLP printers and cutting paths for laser cutters).
+
+{:.text-justify}
+- [**SliceCrafter**][slicecrafter] is an online version of our slicing technology. It is less powerful than IceSL-slicer, but runs entirely from within a web browser.
+
+{:.text-justify}
+- [**WebPrinter**][webprinter] is an online gcode previewer. It emulates a 3D printer as it executes user specified gcode.
+
+  {% endif %}
+{% endfor %}
+
+____
+
 ### FAQ
 
 What is the **_"IceSL-forge"_** component that is included in the Windows installer?
@@ -107,6 +134,7 @@ Older versions are available from our archives:
 {% endif %}
 
 [slicecrafter]:         ../slicecrafter/
+[webprinter]:           ../webprinter/
 [contact]:              ../about/
 [changelog]:            ../assets/other/changelog.txt
 [install-error]:        ../assets/img/install-error.png

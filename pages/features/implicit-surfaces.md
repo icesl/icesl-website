@@ -1,11 +1,11 @@
 ---
 layout: feature
-order: 7
+order: 12
 exclude: true
 categories: feature
 title: Implicit surfaces
 image: /assets/img/implicits.jpg
-summary: Gemoetry specified by shaders. Avoid tessellation!
+summary: Geometry specified by shaders. Avoid tessellation!
 ---
 
 Shapes from shaders, your models no longer have to look simple. Fully exploits printer resolution by avoiding tessellation. 

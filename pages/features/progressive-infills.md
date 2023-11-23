@@ -1,6 +1,6 @@
 ---
 layout: feature
-order: 4
+order: 14
 exclude: true
 categories: feature
 title: Progressive infills
@@ -14,6 +14,3 @@ IceSL features a unique progressive infill pattern that can smoothly vary in den
 {:.video-center}
 <iframe src="https://www.youtube.com/embed/ZRiaFvumLCQ" class="youtube-video" frameborder="0" allowfullscreen></iframe>
 </div>
-
-Publication:
- - Not yet published.
