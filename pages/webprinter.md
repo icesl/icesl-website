@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 5
 layout: feature
 title: WebPrinter
 permalink: /webprinter/
@@ -13,7 +13,7 @@ exclude: false
   #vrprinter{
     background-color: #272822;
     position: relative;
-    left: -9%;
+    left: 0%;
     width: 1410px;
     height: 710px;
     border: solid 5px;

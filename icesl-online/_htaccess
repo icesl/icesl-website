@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile /global/web-serveurs/shapeforge/htdocs/slicecrafter/auth/data.txt
+Require valid-user
