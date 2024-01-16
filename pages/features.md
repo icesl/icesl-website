@@ -8,8 +8,6 @@ exclude: false
 
 ___
 
-### Key Features
-
 <div id="main">
 {% assign sorted_features = site.pages | where:'categories', 'feature' | sort:'order' %}
 <section class="posts">

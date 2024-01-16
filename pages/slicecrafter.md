@@ -6,19 +6,8 @@ permalink: /slicecrafter/
 exclude: false
 ---
 
-{% assign relative_assets_dir = true %}
+{% assign assets_dir = "" %}
 
-{% if relative_assets_dir %}
-  {% assign assets_dir = "" %}
-{% else %}
-  {% assign assets_dir = "/assets/slicecrafter/" | prepend: site.baseurl %}
-{% endif %}
-
-<script src="{{ "jquery-3.3.1.min.js" | prepend: assets_dir }}" charset="utf-8"></script>
-<script src="{{ "bootstrap.js" | prepend: assets_dir }}" charset="utf-8"></script>
-<script src="{{ "fileselect.js" | prepend: assets_dir }}" charset="utf-8"></script>
-		
-    
 <style>
   body {
     font-family: arial;
@@ -27,7 +16,7 @@ exclude: false
     background-color: #ffffff;
   }
 
-  .emscripten { position: relative; left: -7.5%; padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
+  .emscripten { position: relative; left: -1%; padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
    div.emscripten { text-align: center; }
    div.emscripten_border { border: 1px solid black; }
    /* the canvas *must not* have any border or padding, or mouse coords will be wrong */
@@ -53,15 +42,11 @@ exclude: false
     height: 0px;
     margin-top: -16px;
   }
-
 </style>
 
-<!--
-<label for="name">Enter url of STL:</label>
-<input style="width: 100%" type="text" name="url" id="url" value="http://">
-<a style="float: right;" class="button small" id="createLink" onclick="createLink()">Create link</a><br>
-<a style="float: right;" id="link"></a>
--->
+<script src="{{ "jquery-3.3.1.min.js" | prepend: assets_dir }}" charset="utf-8"></script>
+<script src="{{ "bootstrap.js" | prepend: assets_dir }}" charset="utf-8"></script>
+<script src="{{ "fileselect.js" | prepend: assets_dir }}" charset="utf-8"></script>
 
 <a class="button big button-half" id="fileSelect">Load STL</a>
 <input type="file" id="fileElem" accept=".stl" style="display:none;" onchange="handleSTLFile(this.files[0])">
@@ -70,22 +55,6 @@ exclude: false
 
 <script>
 initialize();
-</script>
-
-<script>
-  function createLink()
-  {
-    var url = document.getElementsByName('url')[0].value;
-    var mod = url;
-    if (url.match('www.dropbox.com')) {
-      mod = url.replace('www.dropbox.com','dl.dropboxusercontent.com');
-      mod = mod.replace('?dl=0','?dl=1');
-    }
-    var lnk = 'http://icesl.loria.fr/slicecrafter/index.html?url=' + encodeURIComponent(mod);
-    var a = document.getElementById('link');
-    a.innerHTML=lnk;
-    a.href=lnk;
-  }
 </script>
 
 <div class="align-center" id="loading-text">
@@ -223,10 +192,6 @@ initialize();
   }
 </script>
 
-
-<script src="{{ "Blob.js" | prepend: assets_dir }}"> </script>
-<script src="{{ "FileSaver.js" | prepend: assets_dir }}"> </script>
-
 <script>
   function saveFileFromMemoryFSToDisk(name) {
    var data=FS.readFile(name);
@@ -244,6 +209,9 @@ initialize();
   return "{{ assets_dir }}" + path;
   }
 </script>
+
+<script src="{{ "Blob.js" | prepend: assets_dir }}"> </script>
+<script src="{{ "FileSaver.js" | prepend: assets_dir }}"> </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80490047-1"></script>
