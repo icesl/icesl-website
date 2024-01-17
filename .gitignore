@@ -7,6 +7,11 @@ slicecrafter/IceSL-slicer.wasm
 slicecrafter/files.data
 slicecrafter/files.js
 
+icesl-online/IceSL-online.js
+icesl-online/IceSL-online.wasm
+icesl-online/files.data
+icesl-online/files.js
+
 webprinter/files.data
 webprinter/files.js
 webprinter/icesl-vrprinter.js

@@ -1,0 +1,10 @@
+Especificar imagen para la dirección de relleno
+Selecciona una imagen para especificar la dirección
+de relleno para Optizor. Esta opción solamente soporta
+extensiones .png, .jpg, y .bmp con formatos RGB o RGBA.
+IceSL calcula el ángulo basado en un conversión a escala
+de grises usando un promedio normalizado (i.e., [0-1])
+de los canales RGB (i.e., (r + g + b) / 3). El resultado
+es aplicado (i.e., multiplicado) a un ángulo entre
+0 (vertical) y 180 grados. Si ningún archivo es especificado,
+IceSL usa por defecto el parámetro de dirección de relleno.
