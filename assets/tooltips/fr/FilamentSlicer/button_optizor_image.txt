@@ -1,0 +1,12 @@
+Choisir une image pour la direction de remplissage
+Selection d'une image pour specifier le sens de
+remplissage pour Optizor. Seul les extension .png,
+.jpg et .bmp avec les formats RGB et RGBA sont
+supportées. IceSL calcule l'angle d'après la
+conversion en niveau de gris de l'image. Cette
+conversion s'effectue à partir d'une moyenne des
+canaux RGB ( i.e., (r + g + b) / 3) normalisée
+(i.e. [0-1]). Le résultat est multiplié par un angle
+entre 0 et 180 degrés. Si aucun fichier est selectioné,
+IceSL utilise le paramètre de direction de remplissage
+par défaut.

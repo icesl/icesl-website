@@ -1,0 +1,10 @@
+Choose image for infill direction
+Select image to specify infill direction for the
+Optizor infiller. Supports only .png, .jpg and
+.bmp images with either RGB or RGBA formats. IceSL
+calculates the angle based on a conversion to
+grayscale using a normalized (i.e., [0-1]) average
+of the RGB channels (i.e., (r + g + b) / 3). The result
+is mapped (i.e., multiplied) to an angle between
+0 (vertical) and 180 degrees. If no file is chosen,
+IceSL defaults to the infill direction parameter.

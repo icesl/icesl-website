@@ -1,4 +1,29 @@
 ---------------------------------
+IceSL version 2.5.3-beta5 2024-01-17
+---------------------------------
+- introducing WebForge*, an online csg modeling subset of IceSL desktop version. Go to IceSL's website to check it out!!!
+	*temporal name
+- improved wing supports with triangular structure shape (this is still in testing phase)
+- fixed path previewer remaining open when loading a new script
+- fixed bug where some transformations would wrongly center objects on printing bed
+- update checker is now threaded to avoid hanging when IceSL server is down
+- fixed brush contour offset bug
+- multiple fixes and optimization to optizor infiller
+- setting optizor infill direction from an image can be now done through a UI button
+- fixed bug where dexel buffer resolution would get to high when slicing
+- avoided crash when creating a 3D texture via lua that exceeds memory size
+Forge:
+	* Editor cursor set to last position when passing printing setting to the script via ctrl+right_click
+	* fixed bug in path previewer not showing the extruder tooltip in certain positions
+
+
+---------------------------------
+IceSL version 2.5.3-beta2 2023-10-12
+---------------------------------
+- fixed bug where using the discrete slicer was crashing IceSL
+- added error message when creating a 3d texture in a script that would exceed the vram limitations
+
+---------------------------------
 IceSL version 2.5.3-beta1 2023-10-09
 ---------------------------------
 - added previewer plugins using skeleton structures for fast rendering
