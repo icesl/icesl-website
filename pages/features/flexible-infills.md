@@ -6,6 +6,7 @@ categories: feature
 title: Flexible material infillers 
 image: /assets/img/flexible-infills.png
 summary: Infill techniques to allow for deformation properties in a flexible print
+show_feature: true
 ---
 
 IceSL allows printing objects with deformation properties via the Polyfoam and Phasor infillers. The user can control locally the density, infill orientation, direction and randomness to obtain a desired deformation. 

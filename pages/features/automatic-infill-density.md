@@ -6,6 +6,7 @@ categories: feature
 title: Distance based infill density
 image: /assets/img/polybone.png
 summary: Automatic infill density based on distance
+show_feature: true
 ---
 
 Infill density can be set automatically based on distance to the geometry surface. Subsequently, this can be used to set rigid crusts relative to the interior and vice versa. This feature is accessed easily through the UI.

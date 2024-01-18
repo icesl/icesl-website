@@ -6,6 +6,7 @@ categories: feature
 title: Color fused fabrication
 image: /assets/img/color-mix.jpg
 summary: Print in color using our novel technique that mixes different filaments into one nozzle
+show_feature: true
 ---
 
 Currently, filament printers cannot truly reproduce colored objects and the best present techniques rely on a form of dithering exploiting occlusion. These techniques are only demonstrated for shades of two base colors that behave differently depending on surface slope. IceSL provides a novel 3D color printing method capable of creating controlled gradients of varying sharpness.

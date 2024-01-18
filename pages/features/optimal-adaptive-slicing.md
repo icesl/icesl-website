@@ -6,6 +6,7 @@ categories: feature
 title: Optimal adaptive slicing
 image: /assets/img/adaptive.png
 summary: Obtain the best possible choice of slice thicknesses that will maximize part accuracy
+show_feature: true
 ---
 
 IceSL features a state of the art algorithm for automatic layer thickness selection. It computes the best possible choice of slice thicknesses that will maximize part accuracy, given a number of slices. Yes, this means you get to choose a number of slices (which strongly correlates with printing time in most cases), and the algorithm selects the slice thicknesses than provide the most accurate result for this choice.

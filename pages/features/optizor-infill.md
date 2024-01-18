@@ -6,6 +6,7 @@ categories: feature
 title: Anisotropic appearance infiller
 image: /assets/img/optizor-infill.png
 summary: Technique to create freely oriented infills for appearance purposes
+show_feature: true
 ---
 
 The Optizor infiller allows the user to recreate, through light reflection, any image as a printed flat surface. Also, a user can freely orient the deposition direction of infills to achieve a certain appearance property.

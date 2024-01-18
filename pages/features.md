@@ -12,12 +12,14 @@ ___
 {% assign sorted_features = site.pages | where:'categories', 'feature' | sort:'order' %}
 <section class="posts">
 {% for feature in sorted_features %}
+  {% if feature.show_feature == true %}
   <article markdown="1">
 ## [{{ feature.title }}]({{ feature.url | prepend: site.baseurl }})
 [![]({{ feature.image | prepend: site.baseurl }})]({{ feature.url | prepend: site.baseurl }}){:.smaller}{:.image}{:.fit}
 
 {{ feature.summary }}
   </article>
+  {% endif %}
 {% endfor %}
 </section>
 </div>
