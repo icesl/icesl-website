@@ -6,6 +6,7 @@ categories: feature
 title: Brushes for local deposition strategies
 image: /assets/img/brushes.jpg
 summary: Brushes allow different strategies in different parts of a model
+show_feature: true
 ---
 
 Brushes allow to use different strategies in different parts of a model. Each brush is configured independently, including the extruder used, the number of shells, infill density, print speed, plastic flow, etc.

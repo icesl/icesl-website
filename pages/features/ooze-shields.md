@@ -6,6 +6,7 @@ categories: feature
 title: Self supporting internal structures
 image: /assets/img/cavities2.png
 summary: Self supporting infill structures to minimize material and printing time
+show_feature: true
 ---
 
 Print large and fast using our built-in techniques to hollow 3D prints. With them you can minimize printing time as well as the amount material used.

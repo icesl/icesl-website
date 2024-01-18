@@ -6,6 +6,7 @@ categories: feature
 title: Custom infillers 
 image: /assets/img/custom-infiller.png
 summary: User created infill deposition strategies
+show_feature: true
 ---
 
 With IceSL, the user can create her own infill deposition strategies through; (1) an image, (2) a glsl shader or (3) a C++ plugin. 

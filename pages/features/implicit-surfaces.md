@@ -6,6 +6,7 @@ categories: feature
 title: Implicit surfaces
 image: /assets/img/implicits.jpg
 summary: Geometry specified by shaders. Avoid tessellation!
+show_feature: true
 ---
 
 Shapes from shaders, your models no longer have to look simple. Fully exploits printer resolution by avoiding tessellation. 

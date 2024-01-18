@@ -6,6 +6,7 @@ categories: feature
 title: Compass
 image: /assets/img/compass-ui.png
 summary: UI compass to specify direction fields
+show_feature: true
 ---
 
 Specifying direction fields with the mouse is possible with the compass This UI element allows the user to paint correctly an angle and painting direction for selected fields (e.g., infill direction). 

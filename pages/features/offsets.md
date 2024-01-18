@@ -6,6 +6,7 @@ categories: feature
 title: Offsets
 image: /assets/img/offsets.jpg
 summary: Offsets can erode or dilate even the most complex objects
+show_feature: true
 ---
 
 Offsets can erode or dilate even the most complex objects.
