@@ -64,6 +64,11 @@
   height: 500px;
 }
 
+.img-original {
+  margin: auto;
+  display: block;
+}
+
 .smaller {
   height: 200px;
 }

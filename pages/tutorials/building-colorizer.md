@@ -1,6 +1,6 @@
 ---
 layout: feature
-order: 1
+order: 2
 exclude: true
 categories: guide
 title: Building the colorizer
