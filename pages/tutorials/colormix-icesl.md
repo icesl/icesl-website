@@ -1,6 +1,6 @@
 ---
 layout: feature
-order: 2
+order: 3
 exclude: true
 categories: guide
 title: Color mixing with IceSL
