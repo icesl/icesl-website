@@ -280,6 +280,11 @@ function parseCommandLine()
   Module['locateFile'] = function(path, prefix) {
   return "{{ assets_dir }}" + path;
   }
+  
+  function selectEditorLine(line) {
+    editor.gotoLine(line);
+    editor.selection.selectLine();
+  }
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
