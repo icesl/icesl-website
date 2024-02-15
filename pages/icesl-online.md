@@ -72,10 +72,12 @@ exclude: false
 <script src="{{ "ace-min/ace.js" | prepend: assets_dir }}" type="text/javascript" charset="utf-8"></script>
 <script async type="text/javascript" src="{{ "files.js" | prepend: assets_dir }}"></script>
 
-<a class="button big button-half" id="loadScript">Load script</a>
+<a class="button big button-third" id="loadScript">Load script</a>
 <input type="file" id="loadFile" accept=".lua" style="display:none;" onchange="loadScriptFnc(this.files[0],editor)">
-<a class="button big button-half" id="saveScript">Save script</a>
+<a class="button big button-third" id="saveScript">Save script</a>
 <input type="button" id="saveFile" style="display:none;" onclick="saveScriptFnc(editor)">
+<a class="button big button-third" id="linkScript">Link script</a>
+<input type="button" id="linkFile" style="display:none;" onclick="linkScriptFnc(editor)">
 
 <script>
 initialize();
@@ -178,6 +180,18 @@ function parseCommandLine()
   {
     var code = FS.readFile('script.lua', { encoding: 'utf8' });
     editor.setValue(code);
+    
+    // get lua code from url (if any) and set
+    var url = window.location.search.substring(1);
+    var url_vars = url.split('&');
+    for (var v = 0; v < url_vars.length; v++) {
+        var name_value = url_vars[v].split('=');
+        if (name_value[0] == "luacode") {
+            editor.setValue(decodeURI(name_value[1]));
+            save();
+        }
+    }
+    
     editor.clearSelection();
     editor.moveCursorTo(0,0);
     editor.getSession().on('change', function() 
@@ -188,7 +202,7 @@ function parseCommandLine()
         Module.reload();
       }
       tmExec = setTimeout(save,1000);
-    });         
+    });
   }
   
   var Module = {

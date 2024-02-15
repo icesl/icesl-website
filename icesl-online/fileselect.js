@@ -18,6 +18,15 @@ function initialize() {
 	  e.preventDefault(); // prevent navigation to "#"
 	}, false);	
 
+    var fileSelect3 = document.getElementById("linkScript"),
+    fileElem3 = document.getElementById("linkFile"); 
+	fileSelect3.addEventListener("click", function (e) {
+	if (fileElem3) {
+	    fileElem3.click();
+	  }
+	  e.preventDefault(); // prevent navigation to "#"
+	}, false);
+
 }
 
 function loadScriptFnc(file, editor) {
@@ -52,4 +61,12 @@ function saveScriptFnc(editor) {
     }).done(function(data) {
     });
     
+}
+
+function linkScriptFnc(editor) {
+
+    var link = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
+    link = link + "?luacode=" + encodeURI(editor.getValue());
+    window.open(link, "_blank");
+
 }
