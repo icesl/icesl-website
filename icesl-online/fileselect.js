@@ -1,52 +1,36 @@
 function initialize() {
 
-	var fileSelect = document.getElementById("fileSelect"),
-  fileElem = document.getElementById("fileElem"); 
+	var fileSelect = document.getElementById("loadScript"),
+    fileElem = document.getElementById("loadFile"); 
 	fileSelect.addEventListener("click", function (e) {
-	  if (fileElem) {
+	if (fileElem) {
 	    fileElem.click();
 	  }
 	  e.preventDefault(); // prevent navigation to "#"
 	}, false);
 
-	var fileSelect2 = document.getElementById("fileSelect2"),
-  fileElem2 = document.getElementById("fileElem2"); 
+	var fileSelect2 = document.getElementById("saveScript"),
+    fileElem2 = document.getElementById("saveFile"); 
 	fileSelect2.addEventListener("click", function (e) {
-	  if (fileElem2) {
+	if (fileElem2) {
 	    fileElem2.click();
 	  }
 	  e.preventDefault(); // prevent navigation to "#"
-	}, false);
+	}, false);	
 
 }
 
-function handleSTLFile(file) {
- 
-	var reader = new FileReader();
-
-	reader.onload = function(event) {
-		var data = event.target.result;
-		createEmscriptenFile("loaded.stl",data);
-	};
-		
-	reader.readAsBinaryString(file);
+function loadScriptFnc(file, editor) {
+    var reader = new FileReader();
+    reader.onload = function(event) {
+        var data = event.target.result;
+        editor.setValue(data, data.length);
+    }
+    
+    reader.readAsText(file)
 }
 
-function createEmscriptenFile(name,data) {
-  try {
-    FS.unlink("/" + name);
-  } catch (error) {}
-  FS.createDataFile("/", name, data, true, true, true);
-}
-
-function handleSettingsFile(file) {
- 
-	var reader = new FileReader();
-
-	reader.onload = function(event) {
-		var data = event.target.result;
-		createEmscriptenFile("settings.xml",data);
-	};
-		
-	reader.readAsBinaryString(file);
+function saveScriptFnc(editor) {
+    var blob = new Blob([editor.getValue()], {type: "text/plain"});
+    saveAs(blob, "script.lua");
 }

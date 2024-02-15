@@ -72,6 +72,15 @@ exclude: false
 <script src="{{ "ace-min/ace.js" | prepend: assets_dir }}" type="text/javascript" charset="utf-8"></script>
 <script async type="text/javascript" src="{{ "files.js" | prepend: assets_dir }}"></script>
 
+<a class="button big button-half" id="loadScript">Load script</a>
+<input type="file" id="loadFile" accept=".lua" style="display:none;" onchange="loadScriptFnc(this.files[0],editor)">
+<a class="button big button-half" id="saveScript">Save script</a>
+<input type="button" id="saveFile" style="display:none;" onclick="saveScriptFnc(editor)">
+
+<script>
+initialize();
+</script>
+
 <div class="align-center" id="loading-text">
   <i>Loading WebForge...</i><br>
   <progress id="loading-progress" value="0" max="100"></progress>
