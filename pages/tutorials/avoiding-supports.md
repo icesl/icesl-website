@@ -49,7 +49,7 @@ Some of these techniques apply only to IceSL while others are sufficiently gener
     
 **BONUS:**
 
-* **Increase nozzle diameter.** &nbsp; This might seem counterintuitive but bigger nozzle diameters can round up overhang corners and thus eliminating the need of support for them.  
+* **Increase nozzle diameter.** &nbsp; This might seem counterintuitive but bigger nozzle diameters can round up overhang corners and thus eliminating the need of support for them. 
     * _Pros_: Easy-to-use solution.
     * _Cons_: Additional hardware necessary (i.e., bigger nozzle). Decreases final print quality.
 
