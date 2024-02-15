@@ -185,10 +185,12 @@ function parseCommandLine()
     var url = window.location.search.substring(1);
     var url_vars = url.split('&');
     for (var v = 0; v < url_vars.length; v++) {
-        var name_value = url_vars[v].split('=');
-        if (name_value[0] == "luacode") {
-            editor.setValue(decodeURI(name_value[1]));
+        if (url_vars[v].search("luacode") >= 0) {
+            var pos = url_vars[v].search("=")
+            var code = url_vars[v].substring(pos + 1)
+            editor.setValue(decodeURI(code));
             save();
+            break;
         }
     }
     
