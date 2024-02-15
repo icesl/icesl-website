@@ -156,6 +156,8 @@ function parseCommandLine()
   editor.setTheme("ace/theme/monokai");
   editor.getSession().setMode("ace/mode/lua");
   editor.setFontSize(16);
+  
+  var lastLoadedFilename = "";
 
   function reportError(line,msg)
   {

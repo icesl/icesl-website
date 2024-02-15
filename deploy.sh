@@ -22,6 +22,9 @@ else
   server_folder=/local/web-serveurs/icesl
   server_dir=htdocs
 
+  echo Saving web-forge log
+  scp $server_user@$server_url:$server_folder/$server_dir/icesl-online/log/log.txt _site/icesl-online/log/.
+
   echo Saving slicecrafter log
   scp $server_user@$server_url:$server_folder/$server_dir/slicecrafter/log/log.txt _site/slicecrafter/log/.
 
@@ -40,6 +43,7 @@ else
   echo Setting permissions to MFX members
   #ssh $server_user@$server_url chgrp -R mfx $server_folder/$server_dir/*
   ssh $server_user@$server_url chmod -R g+w $server_folder/$server_dir/*
+  ssh $server_user@$server_url chmod a+rw $server_folder/$server_dir/icesl-online/log/log.txt
   ssh $server_user@$server_url chmod a+rw $server_folder/$server_dir/slicecrafter/log/log.txt
   ssh $server_user@$server_url chmod a+rw $server_folder/$server_dir/webprinter/log/log.txt
   ssh $server_user@$server_url chmod a+rw $server_folder/$server_dir/assets/other/counter.txt
