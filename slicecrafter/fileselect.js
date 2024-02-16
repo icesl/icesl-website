@@ -1,7 +1,7 @@
 function initialize() {
 
-	var fileSelect = document.getElementById("fileSelect"),
-  fileElem = document.getElementById("fileElem"); 
+	var fileSelect = document.getElementById("fileSelect");
+	var fileElem = document.getElementById("fileElem"); 
 	fileSelect.addEventListener("click", function (e) {
 	  if (fileElem) {
 	    fileElem.click();
@@ -9,8 +9,8 @@ function initialize() {
 	  e.preventDefault(); // prevent navigation to "#"
 	}, false);
 
-	var fileSelect2 = document.getElementById("fileSelect2"),
-  fileElem2 = document.getElementById("fileElem2"); 
+	var fileSelect2 = document.getElementById("fileSelect2");
+	var fileElem2 = document.getElementById("fileElem2"); 
 	fileSelect2.addEventListener("click", function (e) {
 	  if (fileElem2) {
 	    fileElem2.click();
