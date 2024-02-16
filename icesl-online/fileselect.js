@@ -26,6 +26,15 @@ function initialize() {
 	  }
 	  e.preventDefault(); // prevent navigation to "#"
 	}, false);
+	
+	var fileSelect4 = document.getElementById("loadMesh"),
+    fileElem4 = document.getElementById("loadSTL"); 
+	fileSelect4.addEventListener("click", function (e) {
+	if (fileElem4) {
+	    fileElem4.click();
+	  }
+	  e.preventDefault(); // prevent navigation to "#"
+	}, false);
 
 }
 
@@ -69,4 +78,30 @@ function linkScriptFnc(editor) {
     link = link + "?luacode=" + encodeURI(editor.getValue());
     window.open(link, "_blank");
 
+}
+
+function loadMeshFnc(file, editor) {
+
+    var reader = new FileReader();
+
+	reader.onload = function(event) {
+		var data = event.target.result;
+		createEmscriptenFile(file.name,data);
+	};
+		
+	reader.readAsBinaryString(file);
+	
+	var session = editor.session;
+    session.insert(
+        {row:session.getLength(), column:0},
+        "emit(load('" + file.name + "'))"
+    );
+
+}
+
+function createEmscriptenFile(name, data) {
+  try {
+    FS.unlink("/" + name);
+  } catch (error) {}
+  FS.createDataFile("/", name, data, true, true, true);
 }
