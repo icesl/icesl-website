@@ -79,6 +79,12 @@ exclude: false
 <a class="button big button-third" id="linkScript">Link script</a>
 <input type="button" id="linkFile" style="display:none;" onclick="linkScriptFnc(editor)">
 
+<center>
+<a class="button big button-third" id="loadMesh">Load mesh</a>
+<input type="file" id="loadSTL" accept=".stl" style="display:none;" onchange="loadMeshFnc(this.files[0],editor)">
+</center>
+<br>
+
 <script>
 initialize();
 </script>
