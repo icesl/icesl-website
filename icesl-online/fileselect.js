@@ -1,37 +1,38 @@
 function initialize() {
 
-	var fileSelect = document.getElementById("loadScript"),
-    fileElem = document.getElementById("loadFile"); 
-	fileSelect.addEventListener("click", function (e) {
-	if (fileElem) {
-	    fileElem.click();
+	var buttonElement1 = document.getElementById("loadScript");
+    var buttonElem1 = document.getElementById("loadFile"); 
+	buttonElement1.addEventListener("click", function (e) {
+	if (buttonElem1) {
+	    buttonElem1.click();
 	  }
 	  e.preventDefault(); // prevent navigation to "#"
 	}, false);
 
-	var fileSelect2 = document.getElementById("saveScript"),
-    fileElem2 = document.getElementById("saveFile"); 
-	fileSelect2.addEventListener("click", function (e) {
-	if (fileElem2) {
-	    fileElem2.click();
+	var buttonElement2 = document.getElementById("saveScript");
+    var buttonElem2 = document.getElementById("saveFile"); 
+	buttonElement2.addEventListener("click", function (e) {
+	if (buttonElem2) {
+	    buttonElem2.click();
 	  }
 	  e.preventDefault(); // prevent navigation to "#"
 	}, false);	
 
-    var fileSelect3 = document.getElementById("linkScript"),
-    fileElem3 = document.getElementById("linkFile"); 
-	fileSelect3.addEventListener("click", function (e) {
-	if (fileElem3) {
-	    fileElem3.click();
+	var buttonElement3 = document.getElementById("linkScript");
+    var buttonElem3 = document.getElementById("linkFile");
+	buttonElement3.addEventListener("click", function (e) {
+	if (buttonElem3) {
+	    buttonElem3.click();
 	  }
 	  e.preventDefault(); // prevent navigation to "#"
-	}, false);
+	}, false);	
+
 	
-	var fileSelect4 = document.getElementById("loadMesh"),
-    fileElem4 = document.getElementById("loadSTL"); 
-	fileSelect4.addEventListener("click", function (e) {
-	if (fileElem4) {
-	    fileElem4.click();
+	var buttonElement4 = document.getElementById("loadMesh");
+    var buttonElem4 = document.getElementById("loadSTL"); 
+	buttonElement4.addEventListener("click", function (e) {
+	if (buttonElem4) {
+	    buttonElem4.click();
 	  }
 	  e.preventDefault(); // prevent navigation to "#"
 	}, false);
@@ -76,7 +77,16 @@ function linkScriptFnc(editor) {
 
     var link = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
     link = link + "?luacode=" + encodeURI(editor.getValue());
-    window.open(link, "_blank");
+    navigator.clipboard.writeText(link);
+    var buttonElement = document.getElementById("linkScript");
+    var buttonName = buttonElement.innerHTML;
+    buttonElement.innerHTML = "Copied to clipboard";
+    async function sleep(ms) {
+        await new Promise(r => setTimeout(r, ms));
+        buttonElement.innerHTML = buttonName;
+    }
+    sleep(5000);
+    //window.open(link, "_blank");
 
 }
 
@@ -100,8 +110,10 @@ function loadMeshFnc(file, editor) {
 }
 
 function createEmscriptenFile(name, data) {
+
   try {
     FS.unlink("/" + name);
   } catch (error) {}
   FS.createDataFile("/", name, data, true, true, true);
+  
 }
