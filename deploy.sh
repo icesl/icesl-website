@@ -23,19 +23,19 @@ else
   server_dir=htdocs
 
   echo Saving web-forge log
-  scp $server_user@$server_url:$server_folder/$server_dir/icesl-online/log/log.txt _site/icesl-online/log/.
+  scp $server_user@$server_url:$server_folder/$server_dir/icesl-online/log/log.txt icesl-online/log/.
 
   echo Saving slicecrafter log
-  scp $server_user@$server_url:$server_folder/$server_dir/slicecrafter/log/log.txt _site/slicecrafter/log/.
+  scp $server_user@$server_url:$server_folder/$server_dir/slicecrafter/log/log.txt slicecrafter/log/.
 
   echo Saving webprinter log
-  scp $server_user@$server_url:$server_folder/$server_dir/webprinter/log/log.txt _site/webprinter/log/.
+  scp $server_user@$server_url:$server_folder/$server_dir/webprinter/log/log.txt webprinter/log/.
 
   echo Saving counter log
-  scp $server_user@$server_url:$server_folder/$server_dir/assets/other/counter.txt _site/assets/other/.
+  scp $server_user@$server_url:$server_folder/$server_dir/assets/other/counter.txt assets/other/.
 
   echo Cleaning old website
-  ssh $server_user@$server_url rm -rf $server_folder/$server_dir/*
+#  ssh $server_user@$server_url rm -rf $server_folder/$server_dir/*
 
   echo Copying new website
   scp -r _site/* $server_user@$server_url:$server_folder/$server_dir/.
