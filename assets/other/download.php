@@ -24,6 +24,9 @@ $i386_counter = 0;
 $linux_beta_counter = 0;
 $linux_total_counter = 0;
 
+// Pyicesl versions
+$pyicesl_win_counter = 0;
+$pyicesl_linux_counter = 0;
 
 // retrieve previous values from counter file
 $handle = fopen("counter.txt", "r");
@@ -45,17 +48,24 @@ if ($handle) {
 			$linux_beta_counter = intval(fgets($handle));
 		} else if (strpos($line, 'linux_total') !== false) {
 			$linux_total_counter = intval(fgets($handle));
+		} else if (strpos($line, 'pyicesl_win') !== false) {
+			$pyicesl_win_counter = intval(fgets($handle));
+		} else if (strpos($line, 'pyicesl_linux') !== false) {
+			$pyicesl_linux_counter = intval(fgets($handle));
 		}
   }
   fclose($handle);
 }
 
 // reconstruct url for download based on params
-if ($os == "x64" || $os == "x86") { //windows
+if ($os == "x64" || $os == "x86") { // windows
 	$dest .= "win/";
 	if ($vers == "beta") {
 		$win_beta_counter +=1;
-    $dest .= "beta/IceSL_beta.exe";
+    		$dest .= "beta/IceSL_beta.exe";
+    	} elseif ($vers == "pyicesl") {
+    		$pyicesl_win_counter +=1;
+    		$dest .= "python/pyicesl_win64.zip";
 	} elseif ($os == "x64") {
 		$x64_counter +=1;
 		$dest .= $os . "/IceSL_win64.exe";
@@ -68,6 +78,9 @@ if ($os == "x64" || $os == "x86") { //windows
 	if ($vers == "beta") {
 		$linux_beta_counter +=1;
 		$dest .= "beta/IceSL_beta.zip";
+	} elseif ($vers == "pyicesl") {
+		$pyicesl_linux_counter +=1;
+		$dest .= "python/pyicesl_amd64.zip";
 	} elseif ($os == "amd64") {
 		$amd64_counter +=1;
 		$dest .= $os . "/IceSL_amd64.zip";
@@ -77,20 +90,6 @@ if ($os == "x64" || $os == "x86") { //windows
 	}
 
 }
-
-// The following chunk of code is commented out until we can host installers on shapeforge (http)
-// and request them from icesl (https). Some browsers take issue with this change of domain security
-/*
-// redirect to hosted file to start download
-header('Content-Description: File Transfer');
-header('Content-Type: application/octet-stream');
-header('Content-Disposition: attachment; filename=' . basename($dest));
-header('Content-Transfer-Encoding: binary');
-header('Expires: 5');
-header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
-header('Pragma: public');
-header('Content-Length: ' . filesize($dest));
-*/
 
 // The following line works when the installers are hosted in the same website as the webpage (i.e., icesl.loria.fr)
 header('Location: ' . $dest);
@@ -120,7 +119,13 @@ if($handle) {
 	fwrite($handle, strval($linux_beta_counter) . "\n");
 	fwrite($handle, "--linux_total--" . "\n");
 	fwrite($handle, strval($linux_total_counter) . "\n");
-	fclose($handle);	
+	fwrite($handle, "\n");
+	fwrite($handle, "## Python ##" . "\n");
+	fwrite($handle, "--pyicesl_win--" . "\n");
+	fwrite($handle, strval($pyicesl_win) . "\n");
+	fwrite($handle, "--pyicesl_linux--" . "\n");
+	fwrite($handle, strval($pyicesl_linux) . "\n");
+	fclose($handle);
 } else {
 	print_r(error_get_last());
 }

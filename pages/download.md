@@ -8,10 +8,11 @@ categories: download
 ---
 
 {% assign show_past_versions = false %}
-{% assign beta_available = true %}
+{% assign beta_available = false %}
 
 {% assign beta_version = site.data.version.beta %}
 {% assign stable_version = site.data.version.stable %}
+{% assign pyicesl_version = site.data.version.pyicesl %}
 
 
 IceSL is available for both Windows and Linux Systems.
@@ -44,6 +45,14 @@ The packages below contain IceSL-slicer for Linux:
 {% else %}
 [IceSL {{stable_version}} Linux 64 bits][icesl-linux64-stable]{:.button.fit}{:.button.big} [IceSL {{stable_version}} Linux 32 bits][icesl-linux32-stable]{:.button.fit}{:.button.small}
 {% endif %}
+
+___
+
+### IceSL for Python
+
+The packages below contain _pyicesl_, IceSL's python bindings for Windows and Linux:
+
+[Pyicesl {{pyicesl_version}} Windows 64 bits][pyicesl-win64]{:.button.big}{:.button-half} [Pyicesl {{pyicesl_version}} Linux 64 bits][pyicesl-linux64]{:.button.big}{:.button-half}
 
 ____
 
@@ -149,3 +158,6 @@ Older versions are available from our archives:
 
 [icesl-linux64-stable]: ../assets/other/download.php?build={{stable_version}}&version=stable&os=amd64
 [icesl-linux32-stable]: ../assets/other/download.php?build={{stable_version}}&version=stable&os=i386
+
+[pyicesl-win64]:        ../assets/other/download.php?build={{pyicesl_version}}&version=pyicesl&os=x64
+[pyicesl-linux64]:      ../assets/other/download.php?build={{pyicesl_version}}&version=pyicesl&os=amd64

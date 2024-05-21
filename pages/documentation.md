@@ -21,10 +21,16 @@ Complete specification of the IceSL scripting language. Includes examples
 Technical documentation of printer profiles in IceSL and their components
   </article>
 
-  <article markdown="1">
-## [Plugins System][plugins-doc]
+<article markdown="1">
+## [Plugins system][plugins-doc]
 [![]({{ '/assets/img/plugins.png' | prepend: site.baseurl }})][plugins-doc]{:.smaller}{:.image}{:.fit}
 IceSL plugin system specification. Includes how to set up a framework and samples with explanation
+  </article>
+
+  <article markdown="1">
+## [Python module][pyicesl-doc]
+[![]({{ '/assets/img/pyicesl.png' | prepend: site.baseurl }})][pyicesl-doc]{:.smaller}{:.image}{:.fit}
+Pyicesl documentation. Complete specification of IceSL's python bindings
   </article>
 
   <article markdown="1">
@@ -198,4 +204,5 @@ The following is a video introducing IceSL-slicer as an individual component of 
 [script-doc]:   https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Scripting-language
 [profile-doc]:  https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Printer-profile
 [plugins-doc]:  https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Plugin-system
+[pyicesl-doc]:  https://gitlab.inria.fr/mfx/icesl-documentation/-/wikis/Python-module
 [forum]:        https://groups.google.com/forum/#!forum/{{site.google}}
