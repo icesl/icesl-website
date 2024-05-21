@@ -112,7 +112,7 @@ ____
 </tr>
 </table>
 <sup>1. Creator, lead, coding, support, testing.</sup><br>
-<sup>2. Coding, plugins, support, testing, documentation, localization, website.</sup><br>
+<sup>2. Coding, plugins, python bindings, support, testing, documentation, localization, website.</sup><br>
 <sup>3. Rendering and UI code, plugins.</sup><br>
 <sup>4. UI code, preview plugins, testing tools, python bindings. </sup><br> 
 <sup>5. Additional slicing code, print testing, printer profile management and support.</sup>

@@ -1,4 +1,38 @@
 ---------------------------------
+IceSL version 2.5.3 2024-05-15
+---------------------------------
+PyIceSL:
+	*official release of pyicesl v.01; python bindings for IceSL's modeling and slicing pipeline
+	* see official documentation in https://gitlab.inria.fr/mfx/icesl-documentation/-/wikis/Python-module
+- printer selection drop-down places the last three profiles used on top
+Otizor infiller:
+	* added support for non-square images
+	* fixed various bugs including bad orientation angle specification
+Plugin system:
+	* added layer height and thickness to post-processing type plugin interface
+- fixed bug with isotropic phasor with certain inclinations
+- fixed bug that rendered service mode unusable
+- transition to CPP17
+- added option to not generate bridges
+- fixed bug in 'set_setting_value' when doing a per-layer assignment
+- fixed bug where post-processing plugins were ignored
+- fixed bug that prevented reporting the slicer version on GCode files
+- fixed bug where fields were not set to a valid value when initializing them
+Forge:
+	- fixed crash when selecting image for optizor infiller
+WebForge:
+	* implemented highlight of primitive in editor via selection in scene view
+	* added support for per-layer and field parameters
+	* added support for 3D textures in lua script
+	* implemented non-square rendering
+	* added support for brush colors
+	* fixed bug where primitive pointers were dellocating and segfaulting
+Slicrafter:
+	* added support for field parameters
+	* added support for cutting plane (a.k.a. inspection plane)
+	* added support for painting field parameters
+
+---------------------------------
 IceSL version 2.5.3-beta5 2024-01-17
 ---------------------------------
 - introducing WebForge*, an online csg modeling subset of IceSL desktop version. Go to IceSL's website to check it out!!!

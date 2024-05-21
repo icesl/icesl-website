@@ -7,8 +7,21 @@ categories: home
 ## Advanced modeling and slicing for 3D printing
 
 <br>
+<br>
 
-[Download now][download]{:.button.big}{:.button-half} [Online version][slicecrafter]{:.button.big}{:.button-half}
+[Download now][download]{:.button.fit}{:.button.big}
+
+<br>
+
+___
+
+We also offer browser-based tools and python bindings:
+
+[Online slicer][slicecrafter]{:.button.big}{:.button-half} [Online modeler][webforge]{:.button.big}{:.button-half}
+
+[Python bindings][pyicesl]{:.button.fit}{:.button.big}
+
+___
 
 <br>
 
@@ -47,6 +60,8 @@ Follow us on [twitter][twitter] to stay tuned about updates, new features, prese
 [banner5]:          ./assets/img/banner5.jpeg
 [banner6]:          ./assets/img/banner6.jpeg
 [slicecrafter]:     ./slicecrafter/
+[webforge]:         ./icesl-online/
+[pyicesl]:          ./download/
 [download]:         ./download/
 [features]:         ./features/
 [documentation]:    ./documentation/
