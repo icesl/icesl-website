@@ -1,0 +1,8 @@
+Velocidad del ventilador según ángulo de soporte
+Calcular automáticamente la velocidad del ventilador sobre
+la geometría con respecto a su ángulo de soporte. Entre más
+cerca el ángulo de inclinación (con respecto al eje Z positivo)
+esté del ángulo de soporte definido por el usuario, más rápida
+es la velocidad del ventilador (el material se enfría más rápido).
+El rango de velocidades del ventilador es también definido por
+el usuario.

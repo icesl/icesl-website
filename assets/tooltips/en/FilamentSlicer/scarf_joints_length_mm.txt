@@ -1,0 +1,4 @@
+Scarf joints length (mm)
+
+Distance in millimeters (mm) of the diagonally
+overlapping perimeter joint (junction).

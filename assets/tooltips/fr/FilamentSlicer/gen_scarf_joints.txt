@@ -1,0 +1,5 @@
+Générer l'assemblage en biseau
+
+Générer l'assamble de périmètres en forme de biseau.
+Les extrémites se chevauchent diagonalement par une
+distance specifié par l'usager.

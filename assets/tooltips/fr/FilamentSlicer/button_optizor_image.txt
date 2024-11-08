@@ -7,6 +7,8 @@ conversion en niveau de gris de l'image. Cette
 conversion s'effectue à partir d'une moyenne des
 canaux RGB ( i.e., (r + g + b) / 3) normalisée
 (i.e. [0-1]). Le résultat est multiplié par un angle
-entre 0 et 180 degrés. Si aucun fichier est selectioné,
-IceSL utilise le paramètre de direction de remplissage
-par défaut.
+entre 0 et 90 (plus contraste) ou 180 degrés
+(gamme prolongé). Si la valeur du chaine alpha (s'il existe)
+es plus de 0,5, IceSL calcule l'angle optimal pour minimiser
+le constraste. Si aucun fichier est selectioné, IceSL
+utilise le paramètre de direction de remplissage par défaut.

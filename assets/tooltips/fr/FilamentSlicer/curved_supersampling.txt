@@ -1,0 +1,1 @@
+Facteur de supersampling (>1 augemente le nombre de 'samples')

@@ -1,0 +1,5 @@
+Overhang angle (degrees)
+Angle at which geometry is considered overhang (i.e.,
+no ability to support itself). This angle is defined as
+the geometry's inclination w.r.t. to the positive Z-axis,
+thus anything below it is NOT considered overhang.

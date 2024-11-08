@@ -1,0 +1,8 @@
+Flujo volumétrico máximo (mm^3/sec)
+El flujo volumétrico es calculado de la siguiente manera:
+
+(grosor de capa) x (diámetro de boquilla) x (velocidad de impresión)
+
+IceSL limita la velocidad de impresión para evitar exceder
+este límite. El valor cero (0) en este parámetro no limita
+el volumen de flujo.

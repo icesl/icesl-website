@@ -1,0 +1,5 @@
+Angle de support (degrés)
+Angle auquel la géometrie est considerée non supportée
+(i.e., en surplomb). Cet angle est defini comme l'inclination
+de la géometrie selon l'axe positif Z, par consequent, tout
+angle en dessous est consideré comme supporté.

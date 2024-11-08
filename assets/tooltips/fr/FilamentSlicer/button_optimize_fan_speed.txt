@@ -1,0 +1,8 @@
+Vitesse du ventilateur selon l'angle de support
+Calculer automatiquement la vitesse du ventilateur sur
+la géometrie selon l'angle de support. Plus l'angle
+d'inclination (selon l'axe Z positif) est proche à la
+valeur de support definie pour l'usager, plus la vitesse
+de ventilateur monte (refroidir le material plus vite).
+L'intervalle de vitesse du ventilateur est aussi fixé
+pour l'usager.

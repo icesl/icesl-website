@@ -6,5 +6,8 @@ calculates the angle based on a conversion to
 grayscale using a normalized (i.e., [0-1]) average
 of the RGB channels (i.e., (r + g + b) / 3). The result
 is mapped (i.e., multiplied) to an angle between
-0 (vertical) and 180 degrees. If no file is chosen,
-IceSL defaults to the infill direction parameter.
+0 (vertical) and 90 (more contrast) or 180 (higher range)
+degrees. When the alpha value (if available) is below 0.5,
+IceSL sets an optimal angle to minimize contrast.
+If no file is chosen, IceSL defaults to the
+infill direction parameter.

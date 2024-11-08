@@ -1,0 +1,12 @@
+Débit volumétrique maximal (mm^3/sec)
+Le débit volumétrique es calculé selon l'expression:
+
+(épaisseur de couche) x (diametre du nozzle) x (vitesse d'impression)
+
+IceSL limite la vitesse d'impression pour eviter le
+depassement de cette valeur. Une valeur de zero (0)
+n'impose pas de limite.
+
+IceSL limita la velocidad de impresión para evitar exceder
+este límite. El valor cero (0) en este parámetro no limita
+el volumen des restrictions.

@@ -6,5 +6,8 @@ IceSL calcula el ángulo basado en un conversión a escala
 de grises usando un promedio normalizado (i.e., [0-1])
 de los canales RGB (i.e., (r + g + b) / 3). El resultado
 es aplicado (i.e., multiplicado) a un ángulo entre
-0 (vertical) y 180 grados. Si ningún archivo es especificado,
-IceSL usa por defecto el parámetro de dirección de relleno.
+0 (vertical) y 90 (más contraste) ó 180 (más rango) grados.
+Cuando el valor del canal alfa (si existe) está debajo de
+0.5, IceSL calcula el ángulo óptimo para minimizar contraste.
+Si ningún archivo es especificado, IceSL usa por defecto
+el parámetro de dirección de relleno.

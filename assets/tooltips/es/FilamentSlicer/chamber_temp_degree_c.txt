@@ -1,4 +1,4 @@
-Temperatura de la cámara de calor (c)
+Temperatura de la cámara de calor (C)
 Temperatura (en Celcius) de la cámara de calor
 durante la impresión (si la impresora está equipada
 con una cámara de calor).

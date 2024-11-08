@@ -1,0 +1,7 @@
+Maximal volumetric flow (mm^3/sec)
+Volumetric flow is calculate as follows:
+
+(layer thickness) x (nozzle diameter) x (printing speed)
+
+IceSL caps the printing speed as to not exceed this value.
+Set it to zero (0) if no limit is desired.
