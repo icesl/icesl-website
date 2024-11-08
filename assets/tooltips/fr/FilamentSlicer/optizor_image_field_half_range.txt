@@ -1,0 +1,4 @@
+Augmenter le contraste de l'image
+Limiter la valeur calculée de l'angle à 90 degrés
+au lieu de 180. Cela augmente le contraste de
+l'impression et reduit la gamme de l'image.

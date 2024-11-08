@@ -3,4 +3,4 @@ Imprime un contorno alrededor de la base del objeto.
 Este contorno ayuda a preparar el inyector y amplía
 la base del objeto para incrementar su adhesión
 (ajuste la distancia entre el border y la impresión
-a 0.0mm)
+a 0.0mm).

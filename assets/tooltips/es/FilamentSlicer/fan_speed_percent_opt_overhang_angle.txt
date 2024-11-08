@@ -1,0 +1,6 @@
+Ángulo de soporte (grados)
+Ángulo en el cual la geometría es considerada no soportada
+(i.e., sin soporte). Este ángulo es definido como la incli-
+nación de la geometría con respecto al eje positivo Z, por
+lo tanto, cualquier ángulo menor a éste es considerado como
+soportado.

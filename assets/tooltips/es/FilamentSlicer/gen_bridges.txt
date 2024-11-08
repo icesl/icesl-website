@@ -1,0 +1,3 @@
+Generar puentes
+Permite a IceSL calcular y generar puentes
+que sostienen cubiertas.

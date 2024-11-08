@@ -1,0 +1,1 @@
+Número de etapas de suavizado en inclinaciones (ABC)

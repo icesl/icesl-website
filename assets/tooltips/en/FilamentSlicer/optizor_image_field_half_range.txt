@@ -1,0 +1,4 @@
+Increase output contrast
+Restricts the calculated angle's range from 0 to
+90 rather than 180. This increases the contrast
+of the final print while reducing the output range.

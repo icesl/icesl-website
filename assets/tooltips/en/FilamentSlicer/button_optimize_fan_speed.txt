@@ -1,0 +1,6 @@
+Compute fan speed w.r.t. overhang angle
+Automatically compute fan speed over the geometry according
+to an overhang angle. The closer the geometry's inclination
+(i.e., angle w.r.t. Z axis) is to a user-defined overhang
+angle, the faster the fan is set (i.e., material cools down
+quicker). The range of fan speeds are also user-defined.

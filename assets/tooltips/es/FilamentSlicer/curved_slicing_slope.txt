@@ -1,4 +1,4 @@
-Máxima pendiente procesada
+Máxima inclinación de razgos
 Máxima pendiente (i.e., ángulo) de la geometría
 procesada por el seccionado curvo. Valores altos
 permiten obtener más geometría en capas no planas.

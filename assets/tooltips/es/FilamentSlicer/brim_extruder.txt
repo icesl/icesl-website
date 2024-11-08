@@ -1,0 +1,2 @@
+Extrusor del borde
+Extrusor usado para imprimir el borde.

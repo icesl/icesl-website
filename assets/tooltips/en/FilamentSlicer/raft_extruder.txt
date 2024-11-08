@@ -1,2 +1,2 @@
-Extruder
+Raft extruder
 Extruder used to print the raft. 

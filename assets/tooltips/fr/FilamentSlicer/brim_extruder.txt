@@ -1,0 +1,2 @@
+Extrudeur du brim
+Extrudeur utilisé pour l'impression du brim. 

@@ -1,2 +1,2 @@
-Extrudeur
+Extrudeur du raft
 Extrudeur utilisé pour l'impression du raft. 

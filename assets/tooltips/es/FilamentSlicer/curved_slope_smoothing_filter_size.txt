@@ -1,0 +1,1 @@
+Tamaño de filtro de suavizado para inclinaciones (ABC)
