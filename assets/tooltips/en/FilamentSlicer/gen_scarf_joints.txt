@@ -1,5 +1,4 @@
 Generate scarf joints
-
 Generate perimeter joints in the form of "scarfs."
 Perimeter junctions are overlapped by a user given
 distance in the form of a diagonal stair.

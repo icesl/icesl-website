@@ -1,4 +1,11 @@
 ---------------------------------
+IceSL version 2.5.4-beta2 2024-11-21
+---------------------------------
+- fixed a bug that set path colors in previewer all blue
+- disabled debug dumps from curved slicing
+- eliminated some unnecesary curved slicing settings
+
+---------------------------------
 IceSL version 2.5.4-beta1 2024-11-08
 ---------------------------------
 - Added experimental implementation curve slicing

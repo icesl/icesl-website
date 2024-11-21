@@ -1,4 +1,3 @@
 Distance de l'assemblage en biseau (mm)
-
 Distance en millimètres (mm) des extrémites de périmètres
 chevauchés diagonalement.
