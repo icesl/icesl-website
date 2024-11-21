@@ -1,4 +1,3 @@
 Distancia de juntas solapadas (mm)
-
 Distance en mílimetros (mm) de las juntas solapadas
 diagonálmente en los perímetros.

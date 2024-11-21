@@ -1,5 +1,4 @@
 Generar juntas solapadas
-
 Generar juntas en forma de solapas en los perímetros.
 Dichas juntas se solapan diagonalemente por una distancia
 especificada por el usuario.
