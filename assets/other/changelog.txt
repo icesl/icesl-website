@@ -1,23 +1,28 @@
 ---------------------------------
+IceSL version 2.5.4-beta3 2024-12-02
+---------------------------------
+- fixed several critical bugs in curved slicing
+
+---------------------------------
 IceSL version 2.5.4-beta2 2024-11-21
 ---------------------------------
 - fixed a bug that set path colors in previewer all blue
 - disabled debug dumps from curved slicing
-- eliminated some unnecesary curved slicing settings
+- eliminated some unnecessary curved slicing settings
 
 ---------------------------------
 IceSL version 2.5.4-beta1 2024-11-08
 ---------------------------------
-- Added experimental implementation curve slicing
-- Added scarf joints features
-- Added new type of plugin: post processing contours
-- Removed Gyroid infiller and replace with a more configurable TPMS (Triply periodic minimal surface) infiller
-- Added option to calculate fan speed w.r.t overhang angle
-- Improved optizor contrast output by restricting the angle to a half a radian
-- Added brim and raft flow multiplier parameters and extruder selection for brim
-- Added maximal volumetric flow parameter
-- Added support for newline in tooltips for shader infills
-- Fixed bug preventing tooltips from appearing when it's a button setting that has parameters
+- added experimental implementation of curve slicing
+- added feature of scarf joints
+- added new type of plugin: post processing contours
+- removed Gyroid infiller and replaced with a more configurable TPMS infiller (Triply periodic minimal surface)
+- added option to calculate fan speed w.r.t overhang angle
+- improved optizor contrast output by restricting the angle to a half a radian
+- added brim and raft flow multiplier parameters and extruder selection for brim
+- added maximal volumetric flow parameter per extruder
+- added support for newline in tooltips for shader infills
+- fixed bug preventing tooltips from appearing when it's a button setting that has parameters
 
 ---------------------------------
 IceSL version 2.5.3 2024-05-15
