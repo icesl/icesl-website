@@ -22,7 +22,7 @@ Technical documentation of printer profiles in IceSL and their components
   </article>
 
 <article markdown="1">
-## [Plugins system][plugins-doc]
+## [Plugin system][plugins-doc]
 [![]({{ '/assets/img/plugins.png' | prepend: site.baseurl }})][plugins-doc]{:.smaller}{:.image}{:.fit}
 IceSL plugin system specification. Includes how to set up a framework and samples with explanation
   </article>
