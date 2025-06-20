@@ -1,0 +1,6 @@
+Angle maximal de courbure (degrés)
+Angle à ne pas dépaser par les tranches courbes. Il
+est conseillé d'utiliser ce paramètre pour éviter la
+collision entre la buse de déposition et l'impression
+comme telle quand la courbure des couches est trop
+prononcé.

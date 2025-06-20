@@ -1,1 +1,0 @@
-Taille de filtre pour estomper les inclinaisons (ABC)

@@ -1,0 +1,5 @@
+Maximum curving angle (degrees)
+Sets the angle beyond which curving is strictly
+forbidden. This setting should be used to avoid
+collision of the nozzle with the print when the
+slices are steeply curved.

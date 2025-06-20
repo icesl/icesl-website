@@ -1,1 +1,0 @@
-Inclinaison maximale de traits (évitement de collisions)

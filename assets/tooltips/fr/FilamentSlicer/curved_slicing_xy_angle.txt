@@ -1,1 +1,7 @@
-Angle du remplissage du tranchage non planaire
+Orientation de remplissage (Optizor)
+Angle d'orientation du remplissage à l'egard de
+contours des couches. Un angle de 0 veut dire un
+remplissage tangentiel le contour lors qu'angle
+de 90 veut dire un remplissage perpendiculaire.
+Ce paramètre est valide qu'en utilisant le
+remplissage 'Optizor'.

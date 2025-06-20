@@ -1,0 +1,3 @@
+Calculer la direction de remplissage
+Calculer la direction de remplissage pour
+ressembler un champ de rotation.

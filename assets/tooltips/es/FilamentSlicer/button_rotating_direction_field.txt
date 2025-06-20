@@ -1,0 +1,3 @@
+Calcular dirección de relleno
+Calcular dirección de relleno para
+emular un campo de rotación.

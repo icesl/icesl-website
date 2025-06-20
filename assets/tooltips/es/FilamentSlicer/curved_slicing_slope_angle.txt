@@ -1,0 +1,3 @@
+Ángulo de curvatura replicado (grados)
+Las capas se curvan para replicar superficies con una
+curvatura inferior a este ángulo.

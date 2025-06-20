@@ -1,0 +1,5 @@
+Insérer d'espace au-dessus des supports
+Créer un espace de la taille d'épaisseur d'une couche
+entre la géometrie et la structure de supports. Ceci
+facilite l'enlèvement des supports après l'impression
+à un coût insignifiant de la qualité de la surface.

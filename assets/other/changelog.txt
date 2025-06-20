@@ -1,4 +1,19 @@
 ---------------------------------
+IceSL version 2.5.4-beta4 2025-06-20
+---------------------------------
+Curved Slicing:
+	* improved curving output
+	* optimized curving algorithm
+	* reimplemented curved angle specs from normal values (0-1) to proper angles (dreegres)
+	* rewrote tooltips for better clarity
+- fixed bug that used infill extruder in shell tiny gaps
+- fixed bug that crashed IceSL due to lua_get/lua_pop imbalances
+- fixed bug when printing with a flow below 10%
+- added UI button to automatically calcuate the infill direction in the Phasor infiller as a radial progression w.r.t. the center of geometry 
+- added printing setting to create gap between supports and printed part to ease support removal
+Forge:
+
+---------------------------------
 IceSL version 2.5.4-beta3 2024-12-02
 ---------------------------------
 - fixed several critical bugs in curved slicing

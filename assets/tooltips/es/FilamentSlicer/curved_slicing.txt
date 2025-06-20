@@ -1,4 +1,9 @@
-Habilitar el seccionado curvo
-Habilitar las capas no planas cuando se secciona
-la geometría. Esta funcionalidad es todavía
-experimental y debe ser usada con atención.
+Activar capas curvas
+Activar las capas curvas cuando se secciona
+la geometría. La pieza es curvada progresivamente
+desde abajo hacia arriba. Esto quiere decir que
+las capas superiores son encorvadas mientras que
+las inferiores son planas. Todas las capas
+producidas tienen el mismo espesor.
+IMPORTANTE: Esta funcionalidad es todavía experimental
+y debe usarse con atención.

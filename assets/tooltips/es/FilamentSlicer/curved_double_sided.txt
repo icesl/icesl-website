@@ -1,0 +1,11 @@
+Activar capas inferiores curvas
+Por defecto, el seccionado curvo dobla las geometría
+desde abajo hacia arriba, resultando en capas ingeriores
+planas. Este resultado puede no ser óptimo en algunas
+impresiones. Esta opcion activa una transición suave
+entre la curvatura de las capas inferiores y las capas
+superiores. Las capas son producidas con espesor variado.
+Igualmente, esta opción puede reducir la curvatura de las
+capas superiores, resultando en una reducción de calidad
+de impresión. Se aconseja usar esta opción en geometría
+simple.

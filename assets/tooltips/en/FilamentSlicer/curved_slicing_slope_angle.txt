@@ -1,0 +1,3 @@
+Target curving angle (degrees)
+Layers are curved to match surfaces with a curvature
+less than this angle.

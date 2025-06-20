@@ -1,7 +1,0 @@
-Maximum feature slope
-Maximum geometry slope (i.e., angle) curved
-slicing can process. Higher values lead to
-more geometry features being curved sliced.
-This value is normalized where 0 means no
-slope (i.e., horizontal features) and 1
-means maximum slope (i.e., vertical features).

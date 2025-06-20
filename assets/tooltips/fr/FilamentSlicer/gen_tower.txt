@@ -16,4 +16,4 @@ sa position est spécifiée par les variables
 La tour est aussi ajoutée sur les impressions à un seul
 matériau, par exemple lorsqu'un pièce de faible section
 est imprimée, pour permetter un refroidissement entre
-couches (voir aussi enable_min_layer_time)
+couches (voir aussi enable_min_layer_time).

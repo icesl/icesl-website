@@ -1,1 +1,7 @@
-Ángulo del relleno en el seccionado curvo
+Orientación de relleno (Optizor)
+Ángulo de orientación del relleno con respecto al
+contorno de las capas. Un ángulo de 0 significa un
+relleno tangente al contorno mientras que un ángulo
+de 90 significa un relleno perpendicular. Este pará-
+metro es válido solamente cuando el relleno escogido
+es 'Optizor'.
