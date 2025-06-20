@@ -1,4 +1,9 @@
 Activer le tranchage non planaire
-Activer les couches non planaires lors du tranchage de la
-géométrie. Cette fonctionalité est encore expérimentale
-et doit être utilisée avec prudence.
+Activer le couches non planaire lors du tranchage
+de la géometrie. La pièce est courbée progresivement
+de bas en haut, ce qui signifie que les couches supé-
+rieures sont courbes et les couches inférieurs sont
+plates. Toutes les couches produites ont la même
+épaisseur.
+IMPORTANTE: Cette fonctionnalité est expérimentale
+et doit être usée avec attention.

@@ -1,0 +1,3 @@
+Angle de courbure souhaité (degrés)
+Les couches sont courbées pour repliquer les surfaces avec
+une courbure inférieure à cet angle.

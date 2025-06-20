@@ -1,1 +1,7 @@
-Restricción de la orientación sólamente en extremos
+Orientación de relleno en los bordes (Optizor)
+Restringir la orientación de relleno únicamente a
+los bordes de las capas. Este parámetro hace una
+una transición progresiva de la orientación desde
+el borde al interior de la capa. Sólamente es
+válido solamente cuando el relleno escogido es
+'Optizor'.

@@ -1,1 +1,5 @@
-Constrain infill orientation only on boundary (optizor)
+Infill orientation on boundaries (Optizor)
+Constraint the infill orientation only to the slice
+contour boundary. This parameter smooths the orientation
+everywhere else. This parameter only works when
+'Optizor' infiller is selected.

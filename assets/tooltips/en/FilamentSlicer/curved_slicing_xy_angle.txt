@@ -1,1 +1,5 @@
-Infill angle of curved slicing
+Infill orientation (Optizor)
+Angle of infill orientation w.r.t. the slice contour.
+0 means tangent to the contour and 90 means perpendicular.
+This parameter only works when 'Optizor' infiller is
+selected.

@@ -1,0 +1,6 @@
+Máximo ángulo de curvatura (grados)
+Ángulo máximo de curvatura de las capas. Se
+recomienda usar este parámetro para evitar la
+colisión entre la boquilla de deposición y la
+impresión como tal cuando la curvatura de las
+capas es muy pronunciada.

@@ -1,0 +1,4 @@
+Insert gap above supports
+Creates a gap between the geometry and the support
+structure. This makes removing supports easier after
+printing at a minor cost of surface quality

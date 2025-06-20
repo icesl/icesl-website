@@ -1,1 +1,7 @@
-Contraindre l'orientation sur les bords
+Orientation de remplissage sur bords (Optizor)
+Limite l'orientation du remplissage uniquement
+aux bords des couches. Ce paramètre fait une
+transition progressive de l'orientation du
+remplissage dès bordes jusqu'à l'intérieur de la
+couche. Ce paramètre est valide qu'en utilisant
+le remplissage 'Optizor'.

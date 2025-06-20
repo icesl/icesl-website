@@ -1,1 +1,0 @@
-Filter size to snap small features to slice tops

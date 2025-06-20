@@ -1,0 +1,5 @@
+Insertar espacio encima de soportes
+Crear un espacio del tamaño de una capa entre la
+geometría y la estructura de soportes. Esto facilita
+la retirada de los soportes después de la impresión
+a un costo bajo en la calidad de la superficie.

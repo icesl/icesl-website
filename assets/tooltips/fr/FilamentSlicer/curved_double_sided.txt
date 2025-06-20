@@ -1,0 +1,12 @@
+Activer les couches inférieures courbes
+Par defaut, le tranchage non planaie courbe la
+géometrie de bas en haut, ce qui résulte en couches
+inférieures plates. Ce résultat n'est peut-être pas
+optimal en certaines impressions. Cette option active
+une transition progressive de la courbure entre les couches
+inférieures et supérieures. Les couches sont produites
+avec une épaisseur variable. Également, cette option
+peut diminuer la courbure des couches supérieures, et en
+consequence une diminution de la qualité d'impression.
+Il est conseillé d'utiliser cette option avec géometrie
+simple.

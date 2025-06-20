@@ -1,4 +1,8 @@
 Enable curved slicing
 Enable non planar layers when slicing geometry.
-This feature is still experimental and should
-be used with care.
+Curving of geometry happens progressively from
+bottom to top. This means top layers are curved
+while bottom layers are flat. All layers produced
+have the same thickness.
+IMPORTANT: This feature is still experimental and
+should be used with care.

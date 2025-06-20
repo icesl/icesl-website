@@ -1,0 +1,10 @@
+Enable bottom curving
+By default, non planar slicing progressively curves
+the geometry from bottom to top, this means bottom
+layers are flat. This situation might not be desirable
+on some geometry. This option enables a smooth transition
+while simultaneously curving the bottom and top of the
+geometry. Layers are produced with different thickness.
+Additionally, this option might reduce curving in the
+top layers, thus degrading print quality. Prefer this
+option on simple geometry.

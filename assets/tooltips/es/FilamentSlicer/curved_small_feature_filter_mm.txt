@@ -1,1 +1,0 @@
-Filtrar tamaño para anclar los razgos pequeños a las capas superiores
