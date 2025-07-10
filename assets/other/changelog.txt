@@ -1,4 +1,11 @@
 ---------------------------------
+IceSL version 2.5.4-beta5 2025-07-10
+---------------------------------
+Curved slicing:
+	* added space below support structure to improve adhesion
+- fixed longstanding memory leak in the lua scripting module
+
+---------------------------------
 IceSL version 2.5.4-beta4 2025-06-20
 ---------------------------------
 Curved Slicing:
