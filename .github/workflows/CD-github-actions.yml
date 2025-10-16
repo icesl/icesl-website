@@ -1,0 +1,37 @@
+name: IceSL-website CD
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get install rubygems ruby-dev
+      - run: sudo gem install jekyll bundler
+      - run: bundle config set --local path 'vendor/bundle'
+      - run: bundle install
+      - run: bundle exe jekyll build --baseurl "https://icesl.loria.fr"
+      - run: tar -cvf website_files.tar _site
+      - uses: actions/upload-artifact@v4
+        with:
+          name: website-files
+          path: website_files.tar
+          retention-days: 1
+
+  deploy-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: git rm _site
+      - uses: actions/download-artifact@v4
+        with:
+          name: website-files
+      - run: git add _site
+      - run: git commit -am "deploying website"
+      - run: git push
