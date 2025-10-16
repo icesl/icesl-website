@@ -34,5 +34,6 @@ jobs:
         with:
           name: website-files
       - run: git add _site
+      - run: tar -xvf website_files.tar
       - run: git commit -am "deploying website"
       - run: git push
