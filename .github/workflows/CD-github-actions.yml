@@ -29,8 +29,8 @@ jobs:
       - run: bundle exe jekyll build --baseurl "https://icesl.github.io"
       - uses: actions/upload-pages-artifact@v3
         with:
-          id: deployment
           path: _site/
+          retention-days: 1
 
   deploy-linux:
     environment:
@@ -40,5 +40,3 @@ jobs:
     needs: [build-linux]
     steps:
       - uses: actions/deploy-pages@v4
-        with:
-          id: deployment
