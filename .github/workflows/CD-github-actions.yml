@@ -26,7 +26,7 @@ jobs:
       - run: sudo gem install jekyll bundler
       - run: bundle config set --local path 'vendor/bundle'
       - run: bundle install
-      - run: bundle exe jekyll build --baseurl "https://icesl.github.io"
+      - run: bundle exe jekyll build --baseurl "https://icesl.github.io/icesl-website/"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site/
