@@ -22,11 +22,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      # SP 2025-10-20: Get Windows and Linux builds from IceSL's repo and place them on their appropriate folders
+      #    IceSL Windows: ./assets/builds/windows/amd64
+      #    IceSL Linux: ./assets/builds/linux/amd64
+      # SP 2025-10-20: Get the Python bindings builds from PyIceSL's repo and place them on their appropriate folders:
+      #    PyIceSL windows: ./assets/builds/windows/amd64/pyicesl
+      #    PyIceSL Linux: ./assets/builds/linux/amd64/pyicesl
+      # SP 2025-10-20: Get 'Slicecrafter', 'IceSL-online' emscripten latest builds and place them on the appropriate folders
+      #    Slicecrafter: ./slicecrafter
+      #    IceSL-online: ./icesl-online
+      # SP 2025-10-20:
+      #    - Copying the above files might be as simple as detching files with wget using their permalinks (from IceSL's repo)
+      #    - IceSL and PyIceSL's CD needs to commit these files in a separate build folder
       - run: sudo apt-get install rubygems ruby-dev
       - run: sudo gem install jekyll bundler
       - run: bundle config set --local path 'vendor/bundle'
       - run: bundle install
-      - run: bundle exe jekyll build --baseurl "https://icesl.github.io/icesl-website/"
+      - run: bundle exe jekyll build --baseurl "https://icesl.github.io/icesl-website"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site/
