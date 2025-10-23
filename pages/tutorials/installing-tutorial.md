@@ -12,21 +12,11 @@ _Author: Salim Perchy (yamil-salim.perchy at inria dot fr)_
 
 Welcome to the first tutorial of IceSL. Here you will install IceSL, run it, load a pre-made model and slice it. This tutorial is estimated to be completed in _5 minutes._
 
-- Go to the official IceSL website and click on the **download** section. Locate and click on the IceSL windows installer <font face="courier">(i.e. icesl-setup.exe)</font> and open it once it's downloaded:
+- Go to the official IceSL website and click on the **download** section. Locate and click on the IceSL build corresponding to your OS (Windows/Linux). Install/unzip the downloaded file:
 
 <div markdown="1" class="noBorderNoBackground">
 {:.table-center}
 [![][tutorial1-img1]{:.img-small.smaller}][tutorial1-img1]
-
-</div>
-
-<br>
-
-- Proceed with the installation by accepting the end user agreement and selecting the installation directory. Once it's finalized, click on close:
-
-<div markdown="1" class="noBorderNoBackground">
-{:.table-center}
-[![][tutorial1-img2]{:.img-small.smaller}][tutorial1-img2] | [![][tutorial1-img3]{:.img-small.smaller}][tutorial1-img3] | [![][tutorial1-img4]{:.img-small.smaller}][tutorial1-img4]
 
 </div>
 

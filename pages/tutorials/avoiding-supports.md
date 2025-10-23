@@ -33,7 +33,7 @@ Some of these techniques apply only to IceSL while others are sufficiently gener
     * _Pros_: Increases surface quality.
     * _Cons_: Significantly increases printing time.
 
-3. **Optimize layer thickness.** &nbsp; IceSL has an exclusive tool that optimizes layer thickness w.r.t. to geometry complexity. This tool can be configured with a number of parameters such as minimal layer height or total number of layers.
+3. **Optimize layer thickness.** &nbsp; IceSL has an exclusive tool that optimizes layer thickness w.r.t. geometry complexity. This tool can be configured with a number of parameters such as minimal layer height or total number of layers.
 [![][optimize-thickness]{:.img-medium}][optimize-thickness]
     * _Pros_: Increase the surface quality only where needed.
     * _Cons_: Optimization heuristic is geared towards surface quality and not layer overlap, so without further configuration, your mileage may vary.
