@@ -15,7 +15,7 @@ See the [changelog][changelog] for more details on what's new.
 
 The packages bellow contain both IceSL-forge and IceSL-slicer for Windows:
 
-[IceSL Windows 64 bits][icesl-win64-stable]{:.button.fit}{:.button.big}
+[IceSL Windows 64 bits][icesl-win64]{:.button.fit}{:.button.big}
 
 ___
 
@@ -23,7 +23,7 @@ ___
 
 The packages below contain IceSL-slicer for Linux:
 
-[IceSL Linux 64 bits][icesl-linux64-stable]{:.button.fit}{:.button.big}
+[IceSL Linux 64 bits][icesl-linux64]{:.button.fit}{:.button.big}
 
 ___
 
