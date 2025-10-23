@@ -8,7 +8,6 @@ categories: download
 ---
 
 IceSL is available for both Windows and Linux Systems.
-If you want to experiment with the latest features, give the beta release a try !
 
 See the [changelog][changelog] for more details on what's new.
 
@@ -17,6 +16,7 @@ See the [changelog][changelog] for more details on what's new.
 The packages bellow contain both IceSL-forge and IceSL-slicer for Windows:
 
 [IceSL Windows 64 bits][icesl-win64-stable]{:.button.fit}{:.button.big}
+
 ___
 
 ### IceSL for Linux
@@ -24,6 +24,7 @@ ___
 The packages below contain IceSL-slicer for Linux:
 
 [IceSL Linux 64 bits][icesl-linux64-stable]{:.button.fit}{:.button.big}
+
 ___
 
 ### IceSL for Python
