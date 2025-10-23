@@ -14,16 +14,16 @@ The following is a bulleted guide on the assembly of a colorizer printer for col
 
 1. Producing the parts
     - Spare parts to buy:
-        - [[Link]](https://www.reprap-france.com/produit/408-cadre-et-chariot-pour-prusa-i3) One frame kit (includes main and bed frame)
-        - [[Link]](https://www.reprap.me/prusa-i3-diy-3d-printer-rod-kit.html) One rod kit
-        - [[Link]](https://www.reprap-france.com/produit/1234568281-lot-de-2-sets-visecrou-trapezoidales-8mm) Set of two 8mm trapezoidal screw/nut pairs
-        - [[Link]](https://www.reprap-france.com/produit/365-coupleur-souple-5-x-8-mm) Two flexible 5 x 8 mm couplings
-        - [[Link]](https://www.reprap-france.com/produit/394-roulement-a-billes-624zz) Three 624ZZ bearings
-        - [[Link]](https://www.reprap-france.com/produit/378-kit-de-courroies-gt2-pour-prusa-i3-rework) One GT2 belt
-        - [[Link]](https://www.reprap-france.com/produit/323-roulement-lineaire-lm8uu) Eleven LM8UU linear bearings
-        - [[Link]](https://www.reprap-france.com/produit/379-poulie-gt2-20-dents-pour-courroie-de-6mm-axe-5mm) Two GT2 pulleys
-        - [[Link]](https://www.reprap.me/nema17.html) Seven NEMA17-48mm stepper motors
-        - [[Link]](https://www.reprap-france.com/produit/373-kit-cartes-fin-de-courses) One endstop kit
+        - [[Link]](https://reprap.org/wiki/Prusa_i3#Frame_type) One frame kit (includes main and bed frame)
+        - [[Link]](https://reprap.org/wiki/Threaded_rod) One rod kit
+        - [[Link]](https://reprap.eu/produto/?id=80&nome=T8+Trapezoidal+%E2%88%85+8+%28mm%29++8mm+Lead+Screw+%2B+Nut++%28Length+400mm%29) Set of two 8mm trapezoidal screw/nut pairs
+        - [[Link]](https://reprap.eu/produto/?id=1122&nome=Plum+Coupling+Spider++5x8) Two flexible 5 x 8 mm couplings
+        - [[Link]](https://reprap.org/wiki/Ball_bearing) Three 624ZZ bearings
+        - [[Link]](https://reprap.org/wiki/GT2_Timing_Belt) One GT2 belt
+        - [[Link]](https://reprap.org/wiki/Linear_bearing) Eleven LM8UU linear bearings
+        - [[Link]](https://reprap.org/wiki/Belts_and_Pulleys) Two GT2 pulleys
+        - [[Link]](https://reprap.org/wiki/NEMA_17_Stepper_motor) Seven NEMA17-48mm stepper motors
+        - [[Link]](https://reprap.org/wiki/Mechanical_Endstop) One endstop kit
         - Screws:
             - Two M3 x 10mm
             - Thirty six M3 x 14mm
@@ -43,9 +43,9 @@ The following is a bulleted guide on the assembly of a colorizer printer for col
             - Thirty four M10
             - Four M3 x 8mm
             - Thirty four M10
-        - [[Link]](https://www.reprap.me/diamond-hotend.html) One Diamond nozzle kit
-        - [[Link]](https://www.reprap.me/rumba.html) One RUMBA control board
-        - [[Link]](https://www.reprap.me/raps128.html) One Raps 128 stepper motor driver
+        - [[Link]](https://reprap.org/wiki/Diamond_Hotend) One Diamond nozzle kit
+        - [[Link]](https://reprap.org/wiki/RUMBA) One RUMBA control board
+        - [[Link]](https://reprap.org/wiki/RAPS128) One Raps 128 stepper motor driver
     - Spare parts to print:
         - [[Link]](https://drive.google.com/file/d/19A-rV6FNW7hQyqCcxqY_9xBS5Bb9kGUl/view?usp=sharing) We need to print the parts contained in the zip file from the preceeding link. (Note: we do not need to print the parts related to the nozzle, since we use the Diamond nozzle from above. For assembling the printer, refer to the instruction document inside the zip file)
 2.  Setting up the Marlin firmware.

@@ -7,14 +7,6 @@ exclude: false
 categories: download
 ---
 
-{% assign show_past_versions = false %}
-{% assign beta_available = true %}
-
-{% assign beta_version = site.data.version.beta %}
-{% assign stable_version = site.data.version.stable %}
-{% assign pyicesl_version = site.data.version.pyicesl %}
-
-
 IceSL is available for both Windows and Linux Systems.
 If you want to experiment with the latest features, give the beta release a try !
 
@@ -24,35 +16,21 @@ See the [changelog][changelog] for more details on what's new.
 
 The packages bellow contain both IceSL-forge and IceSL-slicer for Windows:
 
-{% if beta_available %}
-[IceSL {{beta_version}} Windows 64 bits][icesl-win64-beta]{:.button.big}{:.button-big}
-
-[IceSL {{stable_version}} Windows 64 bits][icesl-win64-stable]{:.button.big}{:.button-half} [IceSL {{stable_version}} Windows 32 bits][icesl-win32-stable]{:.button.big}{:.button-half}
-{% else %}
-[IceSL {{stable_version}} Windows 64 bits][icesl-win64-stable]{:.button.fit}{:.button.big} [IceSL {{stable_version}} Windows 32 bits][icesl-win32-stable]{:.button.fit}{:.button.small}
-{% endif %}
-
+[IceSL Windows 64 bits][icesl-win64-stable]{:.button.fit}{:.button.big}
 ___
 
 ### IceSL for Linux
 
 The packages below contain IceSL-slicer for Linux:
 
-{% if beta_available %}
-[IceSL {{beta_version}} Linux 64 bits][icesl-linux64-beta]{:.button.big}{:.button-big}
-
-[IceSL {{stable_version}} Linux 64 bits][icesl-linux64-stable]{:.button.big}{:.button-half} [IceSL {{stable_version}} Linux 32 bits][icesl-linux32-stable]{:.button.big}{:.button-half}
-{% else %}
-[IceSL {{stable_version}} Linux 64 bits][icesl-linux64-stable]{:.button.fit}{:.button.big} [IceSL {{stable_version}} Linux 32 bits][icesl-linux32-stable]{:.button.fit}{:.button.small}
-{% endif %}
-
+[IceSL Linux 64 bits][icesl-linux64-stable]{:.button.fit}{:.button.big}
 ___
 
 ### IceSL for Python
 
 The packages below contain _pyicesl_, IceSL's python bindings for Windows and Linux:
 
-[Pyicesl {{pyicesl_version}} Windows 64 bits][pyicesl-win64]{:.button.big}{:.button-half} [Pyicesl {{pyicesl_version}} Linux 64 bits][pyicesl-linux64]{:.button.big}{:.button-half}
+[Pyicesl Windows 64 bits][pyicesl-win64]{:.button.big}{:.button-half} [Pyicesl Linux 64 bits][pyicesl-linux64]{:.button.big}{:.button-half}
 
 ____
 
@@ -95,15 +73,6 @@ How to model on Linux without IceSL-forge ?
 <br>
 What are the differences between the normal and beta version?
 : Beta versions are intended to experiment new features prior to release. Everything in beta is subject to change and new features may be unstable. Normal versions are packing all the features tested during the previous beta.
-
-____
-
-### Known instalation problems
-
-- During installation, if you get the message **_An error occurred while installing system components for IceSL_** [(see example)][install-error], please uninstall **_Microsoft Visual C++ 2017/2019 Redistributable (x64/x86)_**. IceSL will reinstall this package.
-- During installation, the Visual Studio redistributable installation sometimes reboots the computer without a warning prompt or message. This only happens the first time you install IceSL, and only if the Visual Studio redistributable is necessary.
-- We have had reports of Windows Defender rejecting the download of the above installers. We have contacted Microsoft and this has been fixed. If you encounter any problem downloading the file, [please let us know][contact].
-
 ____
 
 ### System Requirements
@@ -121,43 +90,20 @@ It has been tested on the following hardware:
 <sup>Note: Although Intel HD Graphics 4000 does not fully support OpenGL 4.3, it does support the features needed by IceSL through extensions.</sup>
 
 And in the following OS's:
-- Windows 7/10 64 bits
+- Windows 10/11 64 bits
 - Debian stable/testing 64 bits
 - Ubuntu LTS 64 bits
 
 In case you don't meet the system requirements you can opt to use the [online version][slicecrafter] of IceSL.
 
-___
-
-#### IceSL 32 bits versions
-
-{:.text-justify}
-In order to speed up updates to IceSL, we are officially discontinuing 32 bits installers from beta versions of IceSL. If you _really_ need a 32 bits build of the current beta version to run IceSL on your computer, we ask you to [contact us][contact].
-
-{% if show_past_versions %}
-#### IceSL older versions
-
-Older versions are available from our archives:
-
-- [Older releases][icesl-releases]
-{% endif %}
-
 [slicecrafter]:         ../slicecrafter/
 [webprinter]:           ../webprinter/
 [contact]:              ../about/
 [changelog]:            ../assets/other/changelog.txt
-[install-error]:        ../assets/img/install-error.png
 
-[icesl-win64-beta]:     ../assets/other/download.php?build={{beta_version}}&version=beta&os=x64
-[icesl-linux64-beta]:   ../assets/other/download.php?build={{beta_version}}&version=beta&os=amd64
+[icesl-win64]:   ../assets/builds/windows/amd64/icesl_win_amd64.zip
 
-[icesl-win64-stable]:   ../assets/other/download.php?build={{stable_version}}&version=stable&os=x64
-[icesl-win32-stable]:   ../assets/other/download.php?build={{stable_version}}&version=stable&os=x86
+[icesl-linux64]: ../assets/builds/linux/amd64/icesl_linux_amd64.zip
 
-[icesl-releases]:       https://gforge.inria.fr/frs/?group_id=4731
-
-[icesl-linux64-stable]: ../assets/other/download.php?build={{stable_version}}&version=stable&os=amd64
-[icesl-linux32-stable]: ../assets/other/download.php?build={{stable_version}}&version=stable&os=i386
-
-[pyicesl-win64]:        ../assets/other/download.php?build={{pyicesl_version}}&version=pyicesl&os=x64
-[pyicesl-linux64]:      ../assets/other/download.php?build={{pyicesl_version}}&version=pyicesl&os=amd64
+[pyicesl-win64]:        ../assets/builds/windows/amd64/pyicesl/pyicesl_win_amd64.zip
+[pyicesl-linux64]:      ../assets/builds/linux/amd64/pyicesl/pyicesl_linux_amd64.zip

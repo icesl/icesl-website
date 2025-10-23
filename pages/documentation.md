@@ -201,8 +201,8 @@ The following is a video introducing IceSL-slicer as an individual component of 
 
 [cheatsheet]:   ../cheatsheet/
 [parameters]:   ../parameters/
-[script-doc]:   https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Scripting-language
-[profile-doc]:  https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Printer-profile
-[plugins-doc]:  https://gitlab.inria.fr/mfx/icesl-documentation/wikis/Plugin-system
-[pyicesl-doc]:  https://gitlab.inria.fr/mfx/icesl-documentation/-/wikis/Python-module
+[script-doc]:   https://github.com/icesl/icesl-documentation/wiki/Scripting%E2%80%90Language
+[profile-doc]:  https://github.com/icesl/icesl-documentation/wiki/Printer-Profile
+[plugins-doc]:  https://github.com/icesl/icesl-documentation/wiki/Plugin%E2%80%90System
+[pyicesl-doc]:  https://github.com/icesl/icesl-documentation/wiki/Python%E2%80%90Module
 [forum]:        https://groups.google.com/forum/#!forum/{{site.google}}
