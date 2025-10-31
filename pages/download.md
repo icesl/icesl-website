@@ -102,9 +102,8 @@ In case you don't meet the system requirements you can opt to use the [online ve
 [contact]:              ../about/
 [changelog]:            ../assets/other/changelog.txt
 
-[icesl-win64]:   ../assets/builds/windows/amd64/icesl_win_amd64.zip
+[icesl-win64]:   		https://github.com/icesl/icesl-builds/tree/master/icesl/win/amd64
+[icesl-linux64]: 		https://github.com/icesl/icesl-builds/tree/master/icesl/linux/amd64
 
-[icesl-linux64]: ../assets/builds/linux/amd64/icesl_linux_amd64.zip
-
-[pyicesl-win64]:        ../assets/builds/windows/amd64/pyicesl/pyicesl_win_amd64.zip
-[pyicesl-linux64]:      ../assets/builds/linux/amd64/pyicesl/pyicesl_linux_amd64.zip
+[pyicesl-win64]:        https://github.com/icesl/icesl-builds/tree/master/pyicesl/win/amd64
+[pyicesl-linux64]:      https://github.com/icesl/icesl-builds/tree/master/pyicesl/linux/amd64
