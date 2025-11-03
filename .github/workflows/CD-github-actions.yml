@@ -34,6 +34,8 @@ jobs:
       # SP 2025-10-20:
       #    - Copying the above files might be as simple as detching files with wget using their permalinks (from IceSL's repo)
       #    - IceSL and PyIceSL's CD needs to commit these files in a separate build folder
+      - run: wget --header 'Authorization: token ${{ secrets.WGET_TOKEN }}' https://raw.githubusercontent.com/icesl/icesl-builds/master/vrprinter/emscripten/vrprinter.zip
+      - run: unzip vrprinter.zip -d webprinter
       - run: sudo apt-get install rubygems ruby-dev
       - run: sudo gem install jekyll bundler
       - run: bundle config set --local path 'vendor/bundle'
