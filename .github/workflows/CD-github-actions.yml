@@ -22,20 +22,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-      # SP 2025-10-20: Get Windows and Linux builds from IceSL's repo and place them on their appropriate folders
-      #    IceSL Windows: ./assets/builds/windows/amd64
-      #    IceSL Linux: ./assets/builds/linux/amd64
-      # SP 2025-10-20: Get the Python bindings builds from PyIceSL's repo and place them on their appropriate folders:
-      #    PyIceSL windows: ./assets/builds/windows/amd64/pyicesl
-      #    PyIceSL Linux: ./assets/builds/linux/amd64/pyicesl
-      # SP 2025-10-20: Get 'Slicecrafter', 'IceSL-online' emscripten latest builds and place them on the appropriate folders
-      #    Slicecrafter: ./slicecrafter
-      #    IceSL-online: ./icesl-online
-      # SP 2025-10-20:
-      #    - Copying the above files might be as simple as detching files with wget using their permalinks (from IceSL's repo)
-      #    - IceSL and PyIceSL's CD needs to commit these files in a separate build folder
       - run: wget --header 'Authorization'':'' token ${{ secrets.WGET_TOKEN }}' https://raw.githubusercontent.com/icesl/icesl-builds/master/vrprinter/emscripten/vrprinter.zip
       - run: unzip vrprinter.zip -d webprinter
+      - run: wget --header 'Authorization'':'' token ${{ secrets.WGET_TOKEN }}' https://raw.githubusercontent.com/icesl/icesl-builds/master/slicecrafter/emscripten/slicecrafter.zip
+      - run: unzip slicecrafter.zip -d slicecrafter
+      - run: wget --header 'Authorization'':'' token ${{ secrets.WGET_TOKEN }}' https://raw.githubusercontent.com/icesl/icesl-builds/master/webforge/emscripten/webforge.zip
+      - run: unzip webforge.zip -d icesl-online
       - run: sudo apt-get install rubygems ruby-dev
       - run: sudo gem install jekyll bundler
       - run: bundle config set --local path 'vendor/bundle'
