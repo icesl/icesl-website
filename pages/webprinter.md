@@ -6,6 +6,8 @@ permalink: /webprinter/
 exclude: false
 ---
     
+<script src="{{ "fileselect.js" | prepend: assets_dir }}" charset="utf-8"></script>
+
 <style type="text/css">
   /* containers management*/
   #vrprinter{
@@ -94,6 +96,9 @@ exclude: false
   }
 </style>
 
+<a class="button big button-big" id="fileSelect">Load GCODE</a>
+<input type="file" id="fileElem" accept=".gcode" style="display:none;" onchange="handleGCODEFile(this.files[0])">
+
 <div class="align-center" id="loading-text">
   <i>Loading WebPrinter...</i><br>
   <progress id="loading-progress" value="0" max="100"></progress>
@@ -105,7 +110,7 @@ exclude: false
   <canvas class="emscripten" id="canvas" tabindex="1" oncontextmenu="event.preventDefault()"></canvas>
   <div id="editor" tabindex="2"></div>
   
-  <h2 id="report_line"></h2>
+  <h2 id="report_line"></h2>    
   <h2 id="report_msg"></h2>
 </div> 
 
@@ -186,6 +191,8 @@ exclude: false
     editor.clearSelection();
     editor.moveCursorTo(0);
   }
+
+  initialize();
   
   /*
   *****************************
@@ -257,7 +264,7 @@ exclude: false
   var loadingText = document.getElementById("loading-text")
   var loadingProgress = document.getElementById("loading-progress") 
   var xhr = new XMLHttpRequest()
-  xhr.open('GET', "icesl-vrprinter.wasm", true)
+  xhr.open('GET', "{{ "icesl-vrprinter.wasm" | prepend: assets_dir }}", true)
   xhr.responseType = 'arraybuffer'
   xhr.onprogress = function(event)
   {
@@ -269,7 +276,7 @@ exclude: false
   {
     Module.wasmBinary = xhr.response
     var script = document.createElement('script')
-    script.src = "icesl-vrprinter.js"
+    script.src = "{{ "icesl-vrprinter.js" | prepend: assets_dir }}"
     script.onload = function()
     {
     console.log("Emscripten boilerplate loaded.")
@@ -352,6 +359,16 @@ exclude: false
   }
   
   Module['locateFile'] = function(path, prefix) {
-    return path;
+    return "{{ assets_dir }}" + path;
   }
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-80490047-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-80490047-1');
 </script>
