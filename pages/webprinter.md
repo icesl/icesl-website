@@ -276,7 +276,7 @@ exclude: false
   {
     Module.wasmBinary = xhr.response
     var script = document.createElement('script')
-    script.src = "{{ "icesl-vrprinter1.js" | prepend: assets_dir }}"
+    script.src = "{{ "icesl-vrprinter.js" | prepend: assets_dir }}"
     script.onload = function()
     {
     console.log("Emscripten boilerplate loaded.")
