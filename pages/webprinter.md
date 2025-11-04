@@ -6,7 +6,7 @@ permalink: /webprinter/
 exclude: false
 ---
     
-<script src="{{ "fileselect.js" | prepend: assets_dir }}" charset="utf-8"></script>
+<script src="fileselect.js" charset="utf-8"></script>
 
 <style type="text/css">
   /* containers management*/
@@ -110,7 +110,7 @@ exclude: false
   <canvas class="emscripten" id="canvas" tabindex="1" oncontextmenu="event.preventDefault()"></canvas>
   <div id="editor" tabindex="2"></div>
   
-  <h2 id="report_line"></h2>    
+  <h2 id="report_line"></h2>
   <h2 id="report_msg"></h2>
 </div> 
 
@@ -264,7 +264,7 @@ exclude: false
   var loadingText = document.getElementById("loading-text")
   var loadingProgress = document.getElementById("loading-progress") 
   var xhr = new XMLHttpRequest()
-  xhr.open('GET', "{{ "icesl-vrprinter.wasm" | prepend: assets_dir }}", true)
+  xhr.open('GET', "icesl-vrprinter.wasm", true)
   xhr.responseType = 'arraybuffer'
   xhr.onprogress = function(event)
   {
@@ -276,7 +276,7 @@ exclude: false
   {
     Module.wasmBinary = xhr.response
     var script = document.createElement('script')
-    script.src = "{{ "icesl-vrprinter.js" | prepend: assets_dir }}"
+    script.src = "icesl-vrprinter.js"
     script.onload = function()
     {
     console.log("Emscripten boilerplate loaded.")
@@ -359,7 +359,7 @@ exclude: false
   }
   
   Module['locateFile'] = function(path, prefix) {
-    return "{{ assets_dir }}" + path;
+    return path;
   }
 </script>
 
