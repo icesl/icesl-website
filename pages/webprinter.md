@@ -191,8 +191,6 @@ exclude: false
     editor.clearSelection();
     editor.moveCursorTo(0);
   }
-
-  initialize();
   
   /*
   *****************************
