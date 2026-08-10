@@ -1,3 +1,9 @@
+# In order for this CI to automatically deploy the website, configure the repository in the following way
+#   1. Make the visibility of the repository 'public'
+#   2. Once it is public:
+#       a. Go to Settings -> Pages. 
+#       b. Under 'Build and Deployment', change 'Source' to 'GitHub Actions'
+
 name: IceSL-website CD
 
 on:
