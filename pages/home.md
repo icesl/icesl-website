@@ -14,9 +14,12 @@ categories: home
 
 ____
 
-[Source Code][repo]{:.button.fit}{:.button.big}
+IceSL is now open source! Download and contribute:
+
+[Code repository][repo]{:.button.fit}{:.button.big}
 {% else %}
 [Download now][download]{:.button.fit}{:.button.big}
+<br>
 {% endif %}
 
 ___
