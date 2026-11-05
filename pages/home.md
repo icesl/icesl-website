@@ -10,11 +10,7 @@ categories: home
 <br>
 
 {% if true %}
-[Download now][download]{:.button.fit}{:.button.big}
-
-____
-
-[Source Code][repo]{:.button.fit}{:.button.big}
+[Download now][download]{:.button.big}{:.button-half} [Source Code][repo]{:.button.big}{:.button-half}
 {% else %}
 [Download now][download]{:.button.fit}{:.button.big}
 {% endif %}
