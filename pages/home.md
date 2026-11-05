@@ -14,14 +14,14 @@ categories: home
 
 ____
 
-**IceSL is now open source!** Clone the repo and contribute:
+####  ICESL IS NOW OPEN SOURCE!**
+Clone the repo and contribute:
 
 [Code repository][repo]{:.button.fit}{:.button.big}
 {% else %}
 [Download now][download]{:.button.fit}{:.button.big}
 
 {% endif %}
-<br>
 
 ___
 
