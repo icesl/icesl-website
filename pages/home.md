@@ -23,6 +23,11 @@ We also offer browser-based tools and python bindings:
 
 ___
 
+IceSL now is open source. See the source code and contribute!
+
+[Source Code][repo]{:.button.fit}{:.button.big}
+___
+
 <br>
 
 IceSL is a state of the art slicer (STL &rarr; G-code) with advanced modeling capabilities.
@@ -71,3 +76,4 @@ Follow us on [twitter][twitter] to stay tuned about updates, new features, prese
 [acknowledgements]: ./about#acknowledgements
 [forum]:            https://groups.google.com/forum/#!forum/{{site.google}}
 [twitter]:          https://twitter.com/iceslapp
+[repo]:             https://github.com/icesl/icesl

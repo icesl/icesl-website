@@ -35,6 +35,15 @@ The packages below contain _pyicesl_, IceSL's python bindings for Windows and Li
 
 ____
 
+
+### IceSL source code:
+
+Below is the repository of IceSL's source code. If you would like to contribute [please read this][repo-contrib]:
+
+[Source Code Repository][code-repo]{:.button.fit}{:.button.big}
+
+____
+
 ### Overview
 
 {% for page in site.pages %}
@@ -102,8 +111,11 @@ In case you don't meet the system requirements you can opt to use the [online ve
 [contact]:              ../about/
 [changelog]:            ../assets/other/changelog.txt
 
-[icesl-win64]:   		https://github.com/icesl/icesl-builds/tree/master/icesl/win/amd64
-[icesl-linux64]: 		https://github.com/icesl/icesl-builds/tree/master/icesl/linux/amd64
+[icesl-win64]:   	    	https://github.com/icesl/icesl-builds/tree/master/icesl/win/amd64
+[icesl-linux64]: 		    https://github.com/icesl/icesl-builds/tree/master/icesl/linux/amd64
 
 [pyicesl-win64]:        https://github.com/icesl/icesl-builds/tree/master/pyicesl/win/amd64
 [pyicesl-linux64]:      https://github.com/icesl/icesl-builds/tree/master/pyicesl/linux/amd64
+
+[code-repo]:            https://github.com/icesl/icesl
+[repo-contrib]:         https://github.com/icesl/icesl/blob/master/CONTRIBUTING
