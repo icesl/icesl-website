@@ -9,9 +9,16 @@ categories: home
 <br>
 <br>
 
+{% if true %}
 [Download now][download]{:.button.fit}{:.button.big}
-<br>
+
+____
+
 [Source Code][repo]{:.button.fit}{:.button.big}
+{% else %}
+[Download now][download]{:.button.fit}{:.button.big}
+{% endif %}
+
 
 <br>
 

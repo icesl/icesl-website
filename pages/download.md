@@ -35,7 +35,7 @@ The packages below contain _pyicesl_, IceSL's python bindings for Windows and Li
 
 ____
 
-
+{% if false %}
 ### IceSL source code:
 
 IceSL is now open source, below is the repository. If you would like to contribute [please read this][repo-contrib]:
@@ -43,6 +43,7 @@ IceSL is now open source, below is the repository. If you would like to contribu
 [Source Code Repository][code-repo]{:.button.fit}{:.button.big}
 
 ____
+{% endif %}
 
 ### Overview
 
