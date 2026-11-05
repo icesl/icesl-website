@@ -9,9 +9,9 @@ categories: home
 <br>
 <br>
 
-[Download now][download]{:.button.big}{:.button-half}
+[Download now][download]{:.button.fit}{:.button.big}
 <br>
-[See source code][repo]{:.button.fit}{:.button.big}
+[Source Code][repo]{:.button.fit}{:.button.big}
 
 <br>
 
