@@ -38,7 +38,7 @@ ____
 
 ### IceSL source code:
 
-Below is the repository of IceSL's source code. If you would like to contribute [please read this][repo-contrib]:
+IceSL is now open source, below is the repository. If you would like to contribute [please read this][repo-contrib]:
 
 [Source Code Repository][code-repo]{:.button.fit}{:.button.big}
 

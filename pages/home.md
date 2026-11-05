@@ -10,6 +10,7 @@ categories: home
 <br>
 
 [Download now][download]{:.button.fit}{:.button.big}
+[Source Code][repo]{:.button.fit}{:.button.big}
 
 <br>
 
@@ -22,14 +23,6 @@ We also offer browser-based tools and python bindings:
 [Python bindings][pyicesl]{:.button.fit}{:.button.big}
 
 ___
-
-IceSL now is open source. See the source code and contribute!
-
-[Source Code][repo]{:.button.fit}{:.button.big}
-
-___
-
-<br>
 
 IceSL is a state of the art slicer (STL &rarr; G-code) with advanced modeling capabilities.
 
