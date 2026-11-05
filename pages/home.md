@@ -9,7 +9,7 @@ categories: home
 <br>
 <br>
 
-{% if true %}
+{% if false %}
 [Download now][download]{:.button.fit}{:.button.big}
 
 ____
