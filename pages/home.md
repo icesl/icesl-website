@@ -14,7 +14,7 @@ categories: home
 
 ____
 
-####  ICESL IS NOW OPEN SOURCE!**
+####  ICESL IS NOW OPEN SOURCE!
 Clone the repo and contribute:
 
 [Code repository][repo]{:.button.fit}{:.button.big}
