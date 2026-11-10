@@ -83,7 +83,7 @@ ____
 <tr>
   <td class="rightLineCell"></td>
   <td class="rightLineCell"><a href="https://www.instagram.com/pa_hugron/">Pierre-Alexandre Hugron<sup>5</sup></a></td>
-  <td>Haichuan Song</td>
+  <td><a href="https://faculty.ecnu.edu.cn/_s16/shc_en/main.psp">Haichuan Song</a></td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
