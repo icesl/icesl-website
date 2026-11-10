@@ -68,17 +68,22 @@ ____
 <tr>
   <td class="rightLineCell"><a href="https://members.loria.fr/sperchy">Salim Perchy</a><sup>2</sup></td>
   <td class="rightLineCell"><a href="https://members.loria.fr/czanni">Cédric Zanni<sup>3</sup></a></td>
-  <td>Jimmy Etienne</td>
-</tr>
-<tr>
-  <td class="rightLineCell"><a href="https://www.instagram.com/pa_hugron/">Pierre-Alexandre Hugron<sup>5</sup></a></td>
-  <td class="rightLineCell"><a href="https://fr.linkedin.com/in/nathaniel-seyler-1003291b7">Nathaniel Seyler<sup>4</sup></a></td>
-  <td>Haichuan Song</td>
+  <td><a href="https://xavierchermain.github.io">Xavier Chermain</a></td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
-  <td class="rightLineCell">Pierre Bedell<sup>5</sup></td>
+  <td class="rightLineCell"><a href="https://fr.linkedin.com/in/nathaniel-seyler-1003291b7">Nathaniel Seyler<sup>4</sup></a></td>
   <td><a href="https://sites.google.com/site/jonasmartinezbayona">Jonàs Martínez</a></td>
+</tr>
+<tr>
+  <td class="rightLineCell"></td>
+  <td class="rightLineCell"><a href="https://fr.linkedin.com/in/pierre-bedell-667328a0">Pierre Bedell</a><sup>5</sup></td>
+  <td><a href="https://fr.linkedin.com/in/jimmy-etienne">Jimmy Étienne</a></td>
+</tr>
+<tr>
+  <td class="rightLineCell"></td>
+  <td class="rightLineCell"><a href="https://www.instagram.com/pa_hugron/">Pierre-Alexandre Hugron<sup>5</sup></a></td>
+  <td>Haichuan Song</td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
@@ -98,12 +103,22 @@ ____
 <tr>
   <td class="rightLineCell"></td>
   <td class="rightLineCell"></td>
-  <td>Noémie Vennin</td>
+  <td><a href="https://fr.linkedin.com/in/noemievennin">Noémie Vennin</a></td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
   <td class="rightLineCell"></td>
-  <td>Denis Salem</td>
+  <td><a href="https://fr.linkedin.com/in/denis-salem-b0788925">Denis Salem</a></td>
+</tr>
+<tr>
+  <td class="rightLineCell"></td>
+  <td class="rightLineCell"></td>
+  <td><a href="https://www.linkedin.com/in/vincent-belle/">Vincent Belle</a></td>
+</tr>
+<tr>
+  <td class="rightLineCell"></td>
+  <td class="rightLineCell"></td>
+  <td><a href="https://iota97.github.io/">Giovani Cocco</a></td>
 </tr>
 <tr>
   <td class="rightLineCell"></td>
